@@ -1,0 +1,6928 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ARForms v2.7.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-05-09 11:04:20+0000\n"
+"Last-Translator: admin <testrepute123@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: German\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: core/controllers/arfieldcontroller.php:794
+#@ ARForms
+msgid "Option Label"
+msgstr "Wähle eine beschriftung"
+
+#: core/controllers/arfieldcontroller.php:797
+#@ ARForms
+msgid "Saved Value"
+msgstr "Wert speichern"
+
+#: core/helpers/arfieldhelper.php:3601
+#@ ARForms
+msgid "English/Western"
+msgstr "Englisch / Westlich"
+
+#: core/helpers/arfieldhelper.php:3601
+#@ ARForms
+msgid "Afrikaans"
+msgstr "Afrikaans"
+
+#: core/helpers/arfieldhelper.php:3602
+#@ ARForms
+msgid "Albanian"
+msgstr "Albanees"
+
+#: core/helpers/arfieldhelper.php:3602
+#@ ARForms
+msgid "Arabic"
+msgstr "Arabisch"
+
+#: core/helpers/arfieldhelper.php:3603
+#@ ARForms
+msgid "Armenian"
+msgstr "Armeens"
+
+#: core/helpers/arfieldhelper.php:3603
+#@ ARForms
+msgid "Azerbaijani"
+msgstr "Azerbeidzjaans"
+
+#: core/helpers/arfieldhelper.php:3604
+#@ ARForms
+msgid "Basque"
+msgstr "Bask"
+
+#: core/helpers/arfieldhelper.php:3604
+#@ ARForms
+msgid "Bosnian"
+msgstr "Bosnisch"
+
+#: core/helpers/arfieldhelper.php:3605
+#@ ARForms
+msgid "Bulgarian"
+msgstr "Bulgarian"
+
+#: core/helpers/arfieldhelper.php:3605
+#@ ARForms
+msgid "Catalan"
+msgstr "Catalaans"
+
+#: core/helpers/arfieldhelper.php:3606
+#@ ARForms
+msgid "Chinese Hong Kong"
+msgstr "Chinees Hong Kong"
+
+#: core/helpers/arfieldhelper.php:3606
+#@ ARForms
+msgid "Chinese Simplified"
+msgstr "vereenvoudigd Chinees"
+
+#: core/helpers/arfieldhelper.php:3607
+#@ ARForms
+msgid "Chinese Traditional"
+msgstr "Traditioneel Chinees"
+
+#: core/helpers/arfieldhelper.php:3607
+#@ ARForms
+msgid "Croatian"
+msgstr "Kroatisch"
+
+#: core/helpers/arfieldhelper.php:3608
+#@ ARForms
+msgid "Czech"
+msgstr "Tsjechisch"
+
+#: core/helpers/arfieldhelper.php:3608
+#@ ARForms
+msgid "Danish"
+msgstr "Deens"
+
+#: core/helpers/arfieldhelper.php:3609
+#: core/views/settings_form.php:502
+#@ ARForms
+msgid "Dutch"
+msgstr "Nederlands"
+
+#: core/helpers/arfieldhelper.php:3609
+#@ ARForms
+msgid "English/UK"
+msgstr "Engels / UK"
+
+#: core/helpers/arfieldhelper.php:3610
+#@ ARForms
+msgid "Esperanto"
+msgstr "Esperanto"
+
+#: core/helpers/arfieldhelper.php:3610
+#@ ARForms
+msgid "Estonian"
+msgstr "Estlands"
+
+#: core/helpers/arfieldhelper.php:3611
+#@ ARForms
+msgid "Faroese"
+msgstr "Faeröer"
+
+#: core/helpers/arfieldhelper.php:3611
+#@ ARForms
+msgid "Farsi/Persian"
+msgstr "Farsi / Perzisch"
+
+#: core/helpers/arfieldhelper.php:3612
+#@ ARForms
+msgid "Finnish"
+msgstr "Fins"
+
+#: core/helpers/arfieldhelper.php:3612
+#: core/views/settings_form.php:502
+#@ ARForms
+msgid "French"
+msgstr "Frans"
+
+#: core/helpers/arfieldhelper.php:3613
+#@ ARForms
+msgid "French/Swiss"
+msgstr "Frans / Zwitsers"
+
+#: core/helpers/arfieldhelper.php:3613
+#: core/views/settings_form.php:502
+#@ ARForms
+msgid "German"
+msgstr "Deutsch"
+
+#: core/helpers/arfieldhelper.php:3614
+#@ ARForms
+msgid "Greek"
+msgstr "Grieks"
+
+#: core/helpers/arfieldhelper.php:3614
+#@ ARForms
+msgid "Hebrew"
+msgstr "Hebreeuws"
+
+#: core/helpers/arfieldhelper.php:3615
+#@ ARForms
+msgid "Hungarian"
+msgstr "Hongaars"
+
+#: core/helpers/arfieldhelper.php:3615
+#@ ARForms
+msgid "Icelandic"
+msgstr "IJslands"
+
+#: core/helpers/arfieldhelper.php:3616
+#@ ARForms
+msgid "Italian"
+msgstr "Italiaans"
+
+#: core/helpers/arfieldhelper.php:3616
+#@ ARForms
+msgid "Japanese"
+msgstr "Japanse"
+
+#: core/helpers/arfieldhelper.php:3617
+#@ ARForms
+msgid "Korean"
+msgstr "Koreaans"
+
+#: core/helpers/arfieldhelper.php:3617
+#@ ARForms
+msgid "Latvian"
+msgstr "Lets"
+
+#: core/helpers/arfieldhelper.php:3618
+#@ ARForms
+msgid "Lithuanian"
+msgstr "Litouws"
+
+#: core/helpers/arfieldhelper.php:3618
+#@ ARForms
+msgid "Malaysian"
+msgstr "Maleisisch"
+
+#: core/helpers/arfieldhelper.php:3619
+#@ ARForms
+msgid "Norwegian"
+msgstr "Noors"
+
+#: core/helpers/arfieldhelper.php:3619
+#@ ARForms
+msgid "Polish"
+msgstr "Pools"
+
+#: core/helpers/arfieldhelper.php:3620
+#@ ARForms
+msgid "Portuguese/Brazilian"
+msgstr "Portugees / Braziliaans"
+
+#: core/helpers/arfieldhelper.php:3620
+#@ ARForms
+msgid "Romanian"
+msgstr "Roemeense"
+
+#: core/helpers/arfieldhelper.php:3621
+#: core/views/settings_form.php:502
+#@ ARForms
+msgid "Russian"
+msgstr "Russisch"
+
+#: core/helpers/arfieldhelper.php:3621
+#: core/helpers/arfieldhelper.php:3622
+#@ ARForms
+msgid "Serbian"
+msgstr "Servisch"
+
+#: core/helpers/arfieldhelper.php:3622
+#@ ARForms
+msgid "Slovak"
+msgstr "Slowaaks"
+
+#: core/helpers/arfieldhelper.php:3623
+#@ ARForms
+msgid "Slovenian"
+msgstr "Sloveens"
+
+#: core/helpers/arfieldhelper.php:3623
+#: core/views/settings_form.php:502
+#@ ARForms
+msgid "Spanish"
+msgstr "Spaans"
+
+#: core/helpers/arfieldhelper.php:3624
+#@ ARForms
+msgid "Swedish"
+msgstr "Zweedse"
+
+#: core/helpers/arfieldhelper.php:3624
+#@ ARForms
+msgid "Tamil"
+msgstr "tamil"
+
+#: core/helpers/arfieldhelper.php:3625
+#@ ARForms
+msgid "Thai"
+msgstr "Thai"
+
+#: core/helpers/arfieldhelper.php:3625
+#: core/views/settings_form.php:502
+#@ ARForms
+msgid "Turkish"
+msgstr "Turks"
+
+#: core/helpers/arfieldhelper.php:3626
+#@ ARForms
+msgid "Vietnamese"
+msgstr "Vietnamees"
+
+#: core/controllers/arformcontroller.php:135
+#: core/controllers/arrecordcontroller.php:961
+#: core/controllers/arrecordcontroller.php:2615
+#: core/controllers/arrecordcontroller.php:2726
+#@ ARForms
+msgid "Please select one or more records."
+msgstr "Bitte wählen Sie einen oder mehrere Datensätze."
+
+#: core/controllers/arformcontroller.php:171
+#: core/controllers/arformcontroller.php:2578
+#@ ARForms
+msgid "Record is deleted successfully."
+msgstr "Eintrag erfolgreich gelöscht."
+
+#: core/controllers/arformcontroller.php:219
+#@ ARForms
+msgid "Forms"
+msgstr "Formulare"
+
+#: core/controllers/arformcontroller.php:219
+#: core/views/list.php:440
+#@ ARForms
+msgid "Manage Forms"
+msgstr "Formulare verwalten"
+
+#: core/controllers/arformcontroller.php:221
+#: core/controllers/arformcontroller.php:2354
+#: core/views/list.php:465
+#@ ARForms
+msgid "Add New Form"
+msgstr "neues Formular"
+
+#: core/controllers/arformcontroller.php:1145
+#@ ARForms
+msgid "Form is successfully updated"
+msgstr "Formular wurde erfolgreich aktualisiert"
+
+#: core/controllers/arformcontroller.php:1326
+#@ ARForms
+msgid "There is a problem creating new template."
+msgstr "Problem beim erstellen eines neuen Teplates"
+
+#: core/controllers/arformcontroller.php:1553
+#@ ARForms
+msgid "Form is Successfully Deleted"
+msgstr "Formular wurde erfolgreich gelöscht"
+
+#: core/controllers/arformcontroller.php:1568
+#@ ARForms
+msgid "Add ARForms Form"
+msgstr "Erstelle ein (ARForms) Formular"
+
+#: core/controllers/arformcontroller.php:1857
+#@ ARForms
+msgid "Form is Successfully Updated"
+msgstr "Formular wurde erfolgreich aktualisiert"
+
+#: core/controllers/arformcontroller.php:1876
+#@ ARForms
+msgid "Template is Successfully Updated"
+msgstr "Vorlage erfolgreich aktualisiert"
+
+#: core/controllers/arformcontroller.php:1885
+#@ ARForms
+msgid "That template cannot be edited"
+msgstr "Das Template kann nicht bearbeitet werden"
+
+#: core/controllers/arformcontroller.php:2072
+#: core/controllers/arformcontroller.php:2464
+#: core/controllers/arrecordcontroller.php:3015
+#: core/controllers/arrecordcontroller.php:3450
+#: core/controllers/arrecordcontroller.php:3456
+#: core/views/list.php:14
+#: core/views/list.php:576
+#: core/views/view_records.php:107
+#: core/views/view_records.php:854
+#: core/views/view_records.php:858
+#@ ARForms
+msgid "Delete"
+msgstr "löschen"
+
+#: core/controllers/arformcontroller.php:2361
+#: core/controllers/arformcontroller.php:2513
+#: core/controllers/arrecordcontroller.php:3362
+#: core/controllers/arrecordcontroller.php:3489
+#: core/views/list.php:472
+#: core/views/list.php:629
+#: core/views/view_records.php:770
+#: core/views/view_records.php:898
+#@ ARForms
+msgid "Bulk Actions"
+msgstr "bitte wählen"
+
+#: core/controllers/arformcontroller.php:2451
+#: core/views/list.php:562
+#@ ARForms
+msgid "Export To CSV"
+msgstr "Exportieren in CSV"
+
+#: core/views/list.php:659
+#@ ARForms
+msgid "Are you sure you want to delete this form?"
+msgstr "Sind Sie sicher, dass Sie dieses Formular löschen möchten ?"
+
+#: core/views/list.php:661
+#: core/views/list.php:672
+#: core/views/newfield.php:267
+#: core/views/view_records.php:1025
+#: core/views/view_records.php:1036
+#@ ARForms
+msgid "Okay"
+msgstr "OK"
+
+#: core/views/edit.php:992
+#: core/views/list.php:662
+#: core/views/list.php:673
+#: core/views/newfield.php:268
+#: core/views/view_records.php:1026
+#: core/views/view_records.php:1037
+#@ ARForms
+msgid "Cancel"
+msgstr "Löschen"
+
+#: core/controllers/arformcontroller.php:2692
+#: core/views/addcontrols.php:540
+#@ ARForms
+msgid "Form Width"
+msgstr "Formularbreite"
+
+#: core/controllers/arformcontroller.php:2721
+#: core/controllers/arformcontroller.php:2919
+#: core/controllers/arformcontroller.php:2942
+#: core/controllers/arformcontroller.php:3066
+#: core/controllers/arformcontroller.php:3288
+#: core/controllers/arformcontroller.php:3323
+#: core/controllers/arformcontroller.php:3637
+#: core/controllers/arformcontroller.php:3757
+#: core/controllers/arformcontroller.php:3957
+#: core/controllers/arformcontroller.php:4040
+#: core/controllers/arformcontroller.php:4134
+#: core/controllers/arformcontroller.php:4339
+#: core/controllers/arformcontroller.php:4608
+#: core/controllers/arformcontroller.php:4631
+#: core/controllers/arformcontroller.php:4719
+#: core/controllers/arformcontroller.php:4750
+#: core/controllers/arformcontroller.php:4771
+#: core/controllers/arformcontroller.php:5387
+#: core/controllers/arformcontroller.php:5422
+#: core/controllers/arformcontroller.php:5441
+#: core/controllers/arformcontroller.php:5718
+#: core/controllers/arformcontroller.php:5742
+#: core/controllers/arformcontroller.php:5863
+#: core/controllers/arformcontroller.php:6063
+#: core/helpers/arfieldhelper.php:4471
+#: core/vc/class_vc_extend.php:702
+#: core/vc/class_vc_extend.php:703
+#: core/views/addcontrols.php:569
+#: core/views/addcontrols.php:767
+#: core/views/addcontrols.php:790
+#: core/views/addcontrols.php:914
+#: core/views/addcontrols.php:1135
+#: core/views/addcontrols.php:1170
+#: core/views/addcontrols.php:1484
+#: core/views/addcontrols.php:1602
+#: core/views/addcontrols.php:1802
+#: core/views/addcontrols.php:1886
+#: core/views/addcontrols.php:1980
+#: core/views/addcontrols.php:2184
+#: core/views/addcontrols.php:2453
+#: core/views/addcontrols.php:2476
+#: core/views/addcontrols.php:2564
+#: core/views/addcontrols.php:2595
+#: core/views/addcontrols.php:2616
+#: core/views/addcontrols.php:3233
+#: core/views/addcontrols.php:3268
+#: core/views/addcontrols.php:3287
+#: core/views/addcontrols.php:3564
+#: core/views/addcontrols.php:3588
+#: core/views/addcontrols.php:3709
+#: core/views/addcontrols.php:3908
+#: core/views/insert_form_popup.php:719
+#: core/views/insert_form_popup.php:720
+#: core/widgets/ARFwidgetForm.php:99
+#: core/widgets/ARFwidgetForm.php:103
+#@ ARForms
+msgid "px"
+msgstr "px"
+
+#: core/controllers/arformcontroller.php:2722
+#: core/controllers/arformcontroller.php:4135
+#: core/views/addcontrols.php:570
+#: core/views/addcontrols.php:1981
+#@ ARForms
+msgid "%"
+msgstr "%"
+
+#: core/controllers/arformcontroller.php:6084
+#: core/views/addcontrols.php:3929
+#@ ARForms
+msgid "BG Color"
+msgstr "Hintergrundfarbe"
+
+#: core/controllers/arformcontroller.php:3173
+#: core/controllers/arformcontroller.php:3724
+#: core/views/addcontrols.php:1021
+#: core/views/addcontrols.php:1569
+#@ ARForms
+msgid "Text Align"
+msgstr "Text ausrichten"
+
+#: core/controllers/arformcontroller.php:4162
+#: core/views/addcontrols.php:2008
+#@ ARForms
+msgid "Text Direction"
+msgstr "Textrichtung"
+
+#: core/controllers/arformcontroller.php:3059
+#: core/views/addcontrols.php:907
+#@ ARForms
+msgid "Padding"
+msgstr "innenabstand (padding)"
+
+#: core/controllers/arformcontroller.php:2884
+#: core/views/addcontrols.php:732
+#@ ARForms
+msgid "Form Border"
+msgstr "Formular Rand"
+
+#: core/controllers/arformcontroller.php:2967
+#: core/controllers/arformcontroller.php:4484
+#: core/controllers/arformcontroller.php:4559
+#: core/controllers/arformcontroller.php:5778
+#: core/controllers/arformcontroller.php:6126
+#: core/controllers/arformcontroller.php:6296
+#: core/views/addcontrols.php:815
+#: core/views/addcontrols.php:2329
+#: core/views/addcontrols.php:2404
+#: core/views/addcontrols.php:3624
+#: core/views/addcontrols.php:3971
+#: core/views/addcontrols.php:4141
+#@ ARForms
+msgid "Border Color"
+msgstr "Rahmenfarbe"
+
+#: core/controllers/arformcontroller.php:2915
+#: core/controllers/arformcontroller.php:3264
+#: core/controllers/arformcontroller.php:3932
+#: core/controllers/arformcontroller.php:4013
+#: core/controllers/arformcontroller.php:4307
+#: core/controllers/arformcontroller.php:4604
+#: core/controllers/arformcontroller.php:5362
+#: core/controllers/arformcontroller.php:5714
+#: core/controllers/arformcontroller.php:6036
+#: core/helpers/arfieldhelper.php:4809
+#: core/views/addcontrols.php:763
+#: core/views/addcontrols.php:1112
+#: core/views/addcontrols.php:1777
+#: core/views/addcontrols.php:1858
+#: core/views/addcontrols.php:2152
+#: core/views/addcontrols.php:2449
+#: core/views/addcontrols.php:3208
+#: core/views/addcontrols.php:3560
+#: core/views/addcontrols.php:3882
+#@ ARForms
+msgid "Size"
+msgstr "Größe"
+
+#: core/controllers/arformcontroller.php:2938
+#: core/controllers/arformcontroller.php:4627
+#: core/controllers/arformcontroller.php:5738
+#: core/views/addcontrols.php:786
+#: core/views/addcontrols.php:2472
+#: core/views/addcontrols.php:3584
+#@ ARForms
+msgid "Radius"
+msgstr "radius"
+
+#: core/controllers/arformcontroller.php:3139
+#: core/views/addcontrols.php:987
+#@ ARForms
+msgid "Form Title"
+msgstr "Formulartitel"
+
+#: core/controllers/arformcontroller.php:4650
+#: core/controllers/arformcontroller.php:5092
+#: core/models/arfieldmodel.php:167
+#: core/views/addcontrols.php:2495
+#: core/views/addcontrols.php:2938
+#@ ARForms
+msgid "Color"
+msgstr "Farbe"
+
+#: core/controllers/arformcontroller.php:3242
+#: core/controllers/arformcontroller.php:3894
+#: core/controllers/arformcontroller.php:4269
+#: core/controllers/arformcontroller.php:4678
+#: core/controllers/arformcontroller.php:5068
+#: core/controllers/arformcontroller.php:5324
+#: core/helpers/arfieldhelper.php:4657
+#: core/helpers/arfieldhelper.php:4732
+#: core/views/addcontrols.php:1090
+#: core/views/addcontrols.php:1739
+#: core/views/addcontrols.php:2114
+#: core/views/addcontrols.php:2523
+#: core/views/addcontrols.php:2914
+#: core/views/addcontrols.php:3170
+#@ ARForms
+msgid "Style"
+msgstr "Entwurf"
+
+#: core/controllers/arformcontroller.php:3252
+#: core/controllers/arformcontroller.php:3904
+#: core/controllers/arformcontroller.php:4279
+#: core/controllers/arformcontroller.php:5335
+#: core/helpers/arfieldhelper.php:4499
+#: core/views/addcontrols.php:1100
+#: core/views/addcontrols.php:1749
+#: core/views/addcontrols.php:2124
+#: core/views/addcontrols.php:3181
+#@ ARForms
+msgid "normal"
+msgstr "normal"
+
+#: core/controllers/arformcontroller.php:3253
+#: core/controllers/arformcontroller.php:3905
+#: core/controllers/arformcontroller.php:4280
+#: core/controllers/arformcontroller.php:5336
+#: core/helpers/arfieldhelper.php:4500
+#: core/views/addcontrols.php:1101
+#: core/views/addcontrols.php:1750
+#: core/views/addcontrols.php:2125
+#: core/views/addcontrols.php:3182
+#@ ARForms
+msgid "bold"
+msgstr "fett"
+
+#: core/controllers/arformcontroller.php:3254
+#: core/controllers/arformcontroller.php:3906
+#: core/controllers/arformcontroller.php:4281
+#: core/controllers/arformcontroller.php:5337
+#: core/helpers/arfieldhelper.php:4501
+#: core/views/addcontrols.php:1102
+#: core/views/addcontrols.php:1751
+#: core/views/addcontrols.php:2126
+#: core/views/addcontrols.php:3183
+#@ ARForms
+msgid "italic"
+msgstr "kursiv"
+
+#: core/views/newfield.php:90
+#@ ARForms
+msgid "30"
+msgstr "30"
+
+#: core/controllers/arformcontroller.php:3708
+#: core/views/addcontrols.php:1553
+#@ ARForms
+msgid "Label Position"
+msgstr "Formular Position"
+
+#: core/controllers/arformcontroller.php:3751
+#: core/views/addcontrols.php:1596
+#@ ARForms
+msgid "Label Width"
+msgstr "Formular breite"
+
+#: core/controllers/arformcontroller.php:3979
+#: core/views/addcontrols.php:1824
+#@ ARForms
+msgid "Hide Labels"
+msgstr "Feldbeschriftungen verbergen"
+
+#: core/controllers/arformcontroller.php:3183
+#: core/controllers/arformcontroller.php:3811
+#: core/controllers/arformcontroller.php:4190
+#: core/controllers/arformcontroller.php:5238
+#: core/controllers/arformcontroller.php:5950
+#: core/views/addcontrols.php:1031
+#: core/views/addcontrols.php:1656
+#: core/views/addcontrols.php:2036
+#: core/views/addcontrols.php:3084
+#: core/views/addcontrols.php:3796
+#@ ARForms
+msgid "Font Settings"
+msgstr "Schrifteinstellungen"
+
+#: core/controllers/arformcontroller.php:3202
+#: core/controllers/arformcontroller.php:3838
+#: core/controllers/arformcontroller.php:4217
+#: core/controllers/arformcontroller.php:5266
+#: core/controllers/arformcontroller.php:5976
+#: core/views/addcontrols.php:1050
+#: core/views/addcontrols.php:1683
+#: core/views/addcontrols.php:2063
+#: core/views/addcontrols.php:3112
+#: core/views/addcontrols.php:3822
+#@ ARForms
+msgid "Family"
+msgstr "familie"
+
+#: core/controllers/arformcontroller.php:4006
+#: core/views/addcontrols.php:1851
+#@ ARForms
+msgid "Field description settings"
+msgstr "Feldbeschreibung Einstellungen"
+
+#: core/controllers/arformcontroller.php:4118
+#: core/views/addcontrols.php:1964
+#@ ARForms
+msgid "Field Width"
+msgstr "Feldbreite"
+
+#: core/controllers/arformcontroller.php:4716
+#: core/views/addcontrols.php:2561
+#@ ARForms
+msgid "Field Spacing"
+msgstr "Feldabstand"
+
+#: core/controllers/arformcontroller.php:4375
+#: core/views/addcontrols.php:2220
+#@ ARForms
+msgid "Text color"
+msgstr "Textfarbe"
+
+#: core/controllers/arformcontroller.php:4597
+#: core/controllers/arformcontroller.php:5704
+#: core/views/addcontrols.php:2442
+#: core/views/addcontrols.php:3550
+#@ ARForms
+msgid "Border Settings"
+msgstr "Randeinstellungen"
+
+#: core/helpers/arfieldhelper.php:529
+#@ ARForms
+msgid "Radio Buttons"
+msgstr "Radio Buttons"
+
+#: core/controllers/arformcontroller.php:5418
+#: core/views/addcontrols.php:3264
+#@ ARForms
+msgid "Button Width"
+msgstr "Button-Breite"
+
+#: core/controllers/arformcontroller.php:5437
+#: core/views/addcontrols.php:3283
+#@ ARForms
+msgid " Button Height"
+msgstr "Button-Höhe"
+
+#: core/controllers/arformcontroller.php:3316
+#: core/controllers/arformcontroller.php:5856
+#: core/views/addcontrols.php:1163
+#: core/views/addcontrols.php:3702
+#@ ARForms
+msgid "Margin"
+msgstr "Button randhöhe"
+
+#: core/controllers/arformcontroller.php:3450
+#: core/controllers/arformcontroller.php:3778
+#: core/controllers/arformcontroller.php:5498
+#: core/controllers/arformcontroller.php:6107
+#: core/controllers/arformcontroller.php:6328
+#: core/views/addcontrols.php:1297
+#: core/views/addcontrols.php:1623
+#: core/views/addcontrols.php:3344
+#: core/views/addcontrols.php:3952
+#: core/views/addcontrols.php:4173
+#: core/widgets/ARFwidgetForm.php:94
+#@ ARForms
+msgid "Text Color"
+msgstr "Textfarbe"
+
+#: core/controllers/arformcontroller.php:2895
+#: core/controllers/arformcontroller.php:3027
+#: core/controllers/arformcontroller.php:5817
+#: core/views/addcontrols.php:743
+#: core/views/addcontrols.php:875
+#: core/views/addcontrols.php:3663
+#@ ARForms
+msgid "Shadow"
+msgstr "Schatten"
+
+#: core/controllers/arformcontroller.php:6076
+#: core/views/addcontrols.php:3921
+#@ ARForms
+msgid "Error Settings"
+msgstr "Fehlereinstellungen"
+
+#: core/controllers/arformcontroller.php:2673
+#: core/views/addcontrols.php:521
+#@ ARForms
+msgid "Form Settings"
+msgstr "Formulareinstellungen"
+
+#: core/controllers/arformcontroller.php:2892
+#: core/controllers/arformcontroller.php:6168
+#: core/views/addcontrols.php:740
+#: core/views/addcontrols.php:4013
+#@ ARForms
+msgid "Type"
+msgstr "typ"
+
+#: core/controllers/arformcontroller.php:3681
+#: core/views/addcontrols.php:1526
+#@ ARForms
+msgid "Label Settings"
+msgstr "Beschriftung einstellungen"
+
+#: core/controllers/arformcontroller.php:2748
+#: core/controllers/arformcontroller.php:4057
+#: core/views/addcontrols.php:596
+#: core/views/addcontrols.php:1903
+#@ ARForms
+msgid "Align"
+msgstr "ausrichten"
+
+#: core/controllers/arformcontroller.php:4089
+#: core/views/addcontrols.php:1935
+#@ ARForms
+msgid "Input Field Settings"
+msgstr "Eingabefeld Einstellungen"
+
+#: core/controllers/arformcontroller.php:4444
+#: core/views/addcontrols.php:2289
+#@ ARForms
+msgid "Active State"
+msgstr "Zustand aktiv"
+
+#: core/controllers/arformcontroller.php:4520
+#: core/views/addcontrols.php:2365
+#@ ARForms
+msgid "Error State"
+msgstr "Fehler zustand"
+
+#: core/controllers/arformcontroller.php:4838
+#: core/views/addcontrols.php:2683
+#@ ARForms
+msgid "Theme"
+msgstr "thema"
+
+#: core/controllers/arformcontroller.php:5187
+#: core/views/addcontrols.php:3033
+#@ ARForms
+msgid "Submit Button Settings"
+msgstr "Senden Button - einstellungen"
+
+#: core/controllers/arformcontroller.php:2371
+#: core/controllers/arformcontroller.php:2523
+#: core/controllers/arrecordcontroller.php:3372
+#: core/controllers/arrecordcontroller.php:3499
+#: core/views/list.php:482
+#: core/views/list.php:639
+#: core/views/newfield.php:505
+#: core/views/newfield.php:621
+#: core/views/view_records.php:779
+#: core/views/view_records.php:908
+#@ ARForms
+msgid "Apply"
+msgstr "Anwenden"
+
+#: core/controllers/maincontroller.php:679
+#: core/controllers/maincontroller_07may2015.php:679
+#: core/views/edit.php:942
+#: core/views/edit.php:961
+#: core/views/edit_form.php:152
+#@ ARForms
+msgid "Settings"
+msgstr "Settings"
+
+#: core/controllers/maincontroller.php:1218
+#: core/controllers/maincontroller_07may2015.php:1218
+#@ ARForms
+msgid "Type-in or bookmark"
+msgstr "ein- aus Lesezeichen"
+
+#: core/controllers/arrecordcontroller.php:91
+#: core/controllers/arrecordcontroller.php:99
+#: core/controllers/arrecordcontroller.php:1082
+#: core/controllers/arrecordcontroller.php:1089
+#@ ARForms
+msgid "Please select a valid form"
+msgstr "Bitte wählen Sie ein gültiges Formular"
+
+#: core/controllers/arrecordcontroller.php:104
+#: core/controllers/arrecordcontroller.php:1094
+#@ ARForms
+msgid "This form is currently not active, please try again later."
+msgstr "Diese Formular ist zur Zeit nicht aktiv, bitte versuchen Sie es später erneut."
+
+#: core/controllers/arrecordcontroller.php:457
+#: core/views/view_records.php:666
+#@ ARForms
+msgid "Form Entries"
+msgstr "Formular-Einträge"
+
+#: core/controllers/arrecordcontroller.php:797
+#@ ARForms
+msgid "Entry is Successfully Created"
+msgstr "Eintrag erfolgreich erstellt"
+
+#: core/controllers/arrecordcontroller.php:844
+#@ ARForms
+msgid "Entry is Successfully Deleted"
+msgstr "Der Eintrag wurde erfolgreich gelöscht"
+
+#: core/controllers/arrecordcontroller.php:895
+#@ ARForms
+msgid "Entries were Successfully Destroyed"
+msgstr "Die Einträge wurden erfolgreich gelöscht"
+
+#: core/controllers/arrecordcontroller.php:904
+#@ ARForms
+msgid "No entries were specified"
+msgstr "Es wurden keine Einträge makiert"
+
+#: core/controllers/arrecordcontroller.php:1039
+#: core/controllers/arrecordcontroller.php:2696
+#@ ARForms
+msgid "No form is found"
+msgstr "Kein Formular gefunden"
+
+#: core/controllers/arrecordcontroller.php:1379
+#: core/views/formsubmission.php:260
+#: core/views/view-modal.php:617
+#@ ARForms
+msgid "Please wait while you are redirected."
+msgstr "Bitte warten Sie, Sie werden weitergeleitet"
+
+#: core/views/footer.php:1415
+#@ ARForms
+msgid "Loading..."
+msgstr "Laden..."
+
+#: core/controllers/arrecordcontroller.php:2428
+#@ ARForms
+msgid "Your entry is successfully deleted"
+msgstr "Ihr Eintrag wurde erfolgreich gelöscht"
+
+#: core/controllers/arrecordcontroller.php:2389
+#@ ARForms
+msgid "There is an error deleting that entry"
+msgstr "Beim löschen des Eintrages trat ein Fehler auf !"
+
+#: core/controllers/arrecordcontroller.php:2488
+#@ ARForms
+msgid "No one! You do not have permission"
+msgstr "Sie haben keine Berechtigung !"
+
+#: core/controllers/arrecordcontroller.php:2647
+#@ ARForms
+msgid "Entries deleted successfully"
+msgstr "Die Einträge wurden erfolgreich gelöscht"
+
+#: core/controllers/arrecordcontroller.php:3017
+#: core/views/view_records.php:109
+#@ ARForms
+msgid "Export to CSV"
+msgstr "Export nach CSV"
+
+#: core/controllers/arrecordcontroller.php:3298
+#: core/views/graph.php:213
+#: core/views/view_records.php:707
+#@ ARForms
+msgid "Select Form"
+msgstr "Formular auswählen"
+
+#: core/views/view_records.php:1023
+#@ ARForms
+msgid "Are you sure you want to delete this entry?"
+msgstr "Sind Sie sicher, dass Sie diesen Eintrag löschen möchten?"
+
+#: core/controllers/arrecordcontroller.php:3663
+#@ ARForms
+msgid "Created at"
+msgstr "Erstellt am"
+
+#: core/controllers/arrecordcontroller.php:3698
+#@ ARForms
+msgid "Entry deleted successfully"
+msgstr "Eintrag erfolgreich gelöscht"
+
+#: core/controllers/arsettingcontroller.php:125
+#: core/views/settings_form.php:95
+#@ ARForms
+msgid "Global Settings"
+msgstr "Globale Einstellungen"
+
+#: core/controllers/arsettingcontroller.php:559
+#@ ARForms
+msgid "General setting changes saved successfully."
+msgstr "Allgemeine Einstellungen erfolgreich gespeichert."
+
+#: core/controllers/arsettingcontroller.php:567
+#@ ARForms
+msgid "Settings Saved."
+msgstr "Einstellungen gespeichert."
+
+#: core/views/edit.php:1202
+#: core/views/edit.php:1215
+#: core/views/edit.php:3000
+#: core/views/edit.php:3013
+#@ ARForms
+msgid "Select Field"
+msgstr "Wählen Sie ein Feld"
+
+#: core/helpers/arfieldhelper.php:526
+#@ ARForms
+msgid "Single Line Text"
+msgstr "einzelne Zeile"
+
+#: core/helpers/arfieldhelper.php:528
+#@ ARForms
+msgid "Checkboxes"
+msgstr "Checkboxen"
+
+#: core/helpers/arfieldhelper.php:561
+#@ ARForms
+msgid "Email Address"
+msgstr "e-mail adresse"
+
+#: core/helpers/arfieldhelper.php:567
+#@ ARForms
+msgid "Website/URL"
+msgstr "Website / URL"
+
+#: core/helpers/arfieldhelper.php:531
+#@ ARForms
+msgid "File Upload"
+msgstr "Datei-Upload"
+
+#: core/helpers/arfieldhelper.php:563
+#: core/models/arfieldmodel.php:57
+#@ ARForms
+msgid "Number"
+msgstr "Nummerierung"
+
+#: core/helpers/arfieldhelper.php:564
+#@ ARForms
+msgid "Phone Number"
+msgstr "Telefonnummer"
+
+#: core/helpers/arfieldhelper.php:565
+#: core/models/arfieldmodel.php:79
+#@ ARForms
+msgid "Date"
+msgstr "Datum"
+
+#: core/helpers/arfieldhelper.php:566
+#: core/models/arfieldmodel.php:91
+#@ ARForms
+msgid "Time"
+msgstr "Uhrzeit"
+
+#: core/helpers/arfieldhelper.php:568
+#: core/helpers/arfieldhelper.php:5360
+#@ ARForms
+msgid "Image URL"
+msgstr "Bild-URL"
+
+#: core/helpers/arfieldhelper.php:569
+#@ ARForms
+msgid "Hidden Field"
+msgstr "Verstecktes Feld"
+
+#: core/helpers/arfieldhelper.php:570
+#: core/models/arfieldmodel.php:133
+#: core/views/settings_form.php:1216
+#@ ARForms
+msgid "Password"
+msgstr "Passwort"
+
+#: core/helpers/arfieldhelper.php:571
+#: core/models/arfieldmodel.php:142
+#@ ARForms
+msgid "HTML"
+msgstr "HTML"
+
+#: core/helpers/arfieldhelper.php:573
+#@ ARForms
+msgid "Page Break"
+msgstr "Seitenwechsel"
+
+#: core/helpers/arfieldhelper.php:574
+#@ ARForms
+msgid "Star Rating"
+msgstr "star Rating"
+
+#: core/helpers/arfieldhelper.php:778
+#@ ARForms
+msgid "Checkbox 1"
+msgstr "Checkbox 1"
+
+#: core/helpers/arfieldhelper.php:778
+#@ ARForms
+msgid "Checkbox 2"
+msgstr "Checkbox 2"
+
+#: core/helpers/arfieldhelper.php:782
+#@ ARForms
+msgid "Radio 1"
+msgstr "Radio 1"
+
+#: core/helpers/arfieldhelper.php:782
+#@ ARForms
+msgid "Radio 2"
+msgstr "Radio 2"
+
+#: core/helpers/arfieldhelper.php:786
+#@ ARForms
+msgid "Select 1"
+msgstr "auswahl 1"
+
+#: core/helpers/arfieldhelper.php:1331
+#@ ARForms
+msgid "Untitled"
+msgstr "ohne Titel (umbenand)"
+
+#: core/helpers/arfieldhelper.php:1335
+#@ ARForms
+msgid "This field is invalid"
+msgstr "Dieses Feld ist ungültig"
+
+#: core/helpers/arfieldhelper.php:2109
+#@ ARForms
+msgid "Select a value to insert into the box below"
+msgstr "Fügen Sie einen Wert in das Feld unten ein"
+
+#: core/helpers/arformhelper.php:387
+#@ ARForms
+msgid "Untitled Form"
+msgstr "Formular ist nicht Beschriftet"
+
+#: core/helpers/armainhelper.php:385
+#@ ARForms
+msgid "is invalid"
+msgstr "ist ungültig"
+
+#: core/helpers/armainhelper.php:688
+#@ ARForms
+msgid "Afghanistan"
+msgstr "Afghanistan"
+
+#: core/helpers/armainhelper.php:688
+#@ ARForms
+msgid "Albania"
+msgstr "Albanië"
+
+#: core/helpers/armainhelper.php:688
+#@ ARForms
+msgid "Algeria"
+msgstr "Algerije"
+
+#: core/helpers/armainhelper.php:691
+#@ ARForms
+msgid "American Samoa"
+msgstr "Amerikaans Samoa"
+
+#: core/helpers/armainhelper.php:691
+#@ ARForms
+msgid "Andorra"
+msgstr "Andorra"
+
+#: core/helpers/armainhelper.php:691
+#@ ARForms
+msgid "Angola"
+msgstr "Angola"
+
+#: core/helpers/armainhelper.php:694
+#@ ARForms
+msgid "Anguilla"
+msgstr "Anguilla"
+
+#: core/helpers/armainhelper.php:694
+#@ ARForms
+msgid "Antarctica"
+msgstr "antarctica"
+
+#: core/helpers/armainhelper.php:694
+#@ ARForms
+msgid "Antigua and Barbuda"
+msgstr "Antigua en Barbuda"
+
+#: core/helpers/armainhelper.php:697
+#@ ARForms
+msgid "Argentina"
+msgstr "Argentinië"
+
+#: core/helpers/armainhelper.php:697
+#@ ARForms
+msgid "Armenia"
+msgstr "Armenië"
+
+#: core/helpers/armainhelper.php:697
+#@ ARForms
+msgid "Aruba"
+msgstr "Aruba"
+
+#: core/helpers/armainhelper.php:700
+#@ ARForms
+msgid "Australia"
+msgstr "Australië"
+
+#: core/helpers/armainhelper.php:700
+#@ ARForms
+msgid "Austria"
+msgstr "Oostenrijk"
+
+#: core/helpers/armainhelper.php:700
+#@ ARForms
+msgid "Azerbaijan"
+msgstr "Azerbeidzjan"
+
+#: core/helpers/armainhelper.php:703
+#@ ARForms
+msgid "Bahamas"
+msgstr "Bahamas"
+
+#: core/helpers/armainhelper.php:703
+#@ ARForms
+msgid "Bahrain"
+msgstr "Bahrein"
+
+#: core/helpers/armainhelper.php:703
+#@ ARForms
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+#: core/helpers/armainhelper.php:706
+#@ ARForms
+msgid "Barbados"
+msgstr "Barbados"
+
+#: core/helpers/armainhelper.php:706
+#@ ARForms
+msgid "Belarus"
+msgstr "Wit-Rusland"
+
+#: core/helpers/armainhelper.php:706
+#@ ARForms
+msgid "Belgium"
+msgstr "België"
+
+#: core/helpers/armainhelper.php:709
+#@ ARForms
+msgid "Belize"
+msgstr "Belize"
+
+#: core/helpers/armainhelper.php:709
+#@ ARForms
+msgid "Benin"
+msgstr "Benin"
+
+#: core/helpers/armainhelper.php:709
+#@ ARForms
+msgid "Bermuda"
+msgstr "Bermuda"
+
+#: core/helpers/armainhelper.php:712
+#@ ARForms
+msgid "Bhutan"
+msgstr "Bhutan"
+
+#: core/helpers/armainhelper.php:712
+#@ ARForms
+msgid "Bolivia"
+msgstr "Bolivia"
+
+#: core/helpers/armainhelper.php:712
+#@ ARForms
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnië en Herzegovina"
+
+#: core/helpers/armainhelper.php:715
+#@ ARForms
+msgid "Botswana"
+msgstr "Botswana"
+
+#: core/helpers/armainhelper.php:715
+#@ ARForms
+msgid "Brazil"
+msgstr "Brazilië"
+
+#: core/helpers/armainhelper.php:715
+#@ ARForms
+msgid "Brunei"
+msgstr "Brunei"
+
+#: core/helpers/armainhelper.php:718
+#@ ARForms
+msgid "Bulgaria"
+msgstr "Bulgarije"
+
+#: core/helpers/armainhelper.php:718
+#@ ARForms
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: core/helpers/armainhelper.php:718
+#@ ARForms
+msgid "Burundi"
+msgstr "Boeroendi"
+
+#: core/helpers/armainhelper.php:721
+#@ ARForms
+msgid "Cambodia"
+msgstr "Cambodja"
+
+#: core/helpers/armainhelper.php:721
+#@ ARForms
+msgid "Cameroon"
+msgstr "Cameroon"
+
+#: core/helpers/armainhelper.php:721
+#@ ARForms
+msgid "Canada"
+msgstr "Canada"
+
+#: core/helpers/armainhelper.php:724
+#@ ARForms
+msgid "Cape Verde"
+msgstr "Cape Verde"
+
+#: core/helpers/armainhelper.php:724
+#@ ARForms
+msgid "Cayman Islands"
+msgstr "Cayman Islands"
+
+#: core/helpers/armainhelper.php:724
+#@ ARForms
+msgid "Central African Republic"
+msgstr "Centraal-Afrikaanse Republiek"
+
+#: core/helpers/armainhelper.php:727
+#@ ARForms
+msgid "Chad"
+msgstr "Tsjaad"
+
+#: core/helpers/armainhelper.php:727
+#@ ARForms
+msgid "Chile"
+msgstr "Chili"
+
+#: core/helpers/armainhelper.php:727
+#@ ARForms
+msgid "China"
+msgstr "China"
+
+#: core/helpers/armainhelper.php:730
+#@ ARForms
+msgid "Colombia"
+msgstr "Colombia"
+
+#: core/helpers/armainhelper.php:730
+#@ ARForms
+msgid "Comoros"
+msgstr "Comoren"
+
+#: core/helpers/armainhelper.php:730
+#@ ARForms
+msgid "Congo"
+msgstr "Congo"
+
+#: core/helpers/armainhelper.php:733
+#@ ARForms
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: core/helpers/armainhelper.php:733
+#@ ARForms
+msgid "Croatia"
+msgstr "Kroatië"
+
+#: core/helpers/armainhelper.php:736
+#@ ARForms
+msgid "Cuba"
+msgstr "Cuba"
+
+#: core/helpers/armainhelper.php:736
+#@ ARForms
+msgid "Cyprus"
+msgstr "Cyprus"
+
+#: core/helpers/armainhelper.php:736
+#@ ARForms
+msgid "Czech Republic"
+msgstr "Tsjechische Republiek"
+
+#: core/helpers/armainhelper.php:739
+#@ ARForms
+msgid "Denmark"
+msgstr "Denemarken"
+
+#: core/helpers/armainhelper.php:739
+#@ ARForms
+msgid "Djibouti"
+msgstr "Djibouti"
+
+#: core/helpers/armainhelper.php:739
+#@ ARForms
+msgid "Dominica"
+msgstr "Dominica"
+
+#: core/helpers/armainhelper.php:742
+#@ ARForms
+msgid "Dominican Republic"
+msgstr "Dominicaanse Republiek"
+
+#: core/helpers/armainhelper.php:742
+#@ ARForms
+msgid "East Timor"
+msgstr "Oost-Timor"
+
+#: core/helpers/armainhelper.php:742
+#@ ARForms
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#: core/helpers/armainhelper.php:745
+#@ ARForms
+msgid "Egypt"
+msgstr "Egypte"
+
+#: core/helpers/armainhelper.php:745
+#@ ARForms
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: core/helpers/armainhelper.php:745
+#@ ARForms
+msgid "Equatorial Guinea"
+msgstr "Equatoriaal-Guinea"
+
+#: core/helpers/armainhelper.php:748
+#@ ARForms
+msgid "Eritrea"
+msgstr "Eritrea"
+
+#: core/helpers/armainhelper.php:748
+#@ ARForms
+msgid "Estonia"
+msgstr "Estland"
+
+#: core/helpers/armainhelper.php:748
+#@ ARForms
+msgid "Ethiopia"
+msgstr "Ethiopië"
+
+#: core/helpers/armainhelper.php:751
+#@ ARForms
+msgid "Fiji"
+msgstr "Fiji"
+
+#: core/helpers/armainhelper.php:751
+#@ ARForms
+msgid "Finland"
+msgstr "Finland"
+
+#: core/helpers/armainhelper.php:751
+#@ ARForms
+msgid "France"
+msgstr "Frankrijk"
+
+#: core/helpers/armainhelper.php:754
+#@ ARForms
+msgid "French Guiana"
+msgstr "Frans-Guyana"
+
+#: core/helpers/armainhelper.php:754
+#@ ARForms
+msgid "French Polynesia"
+msgstr "Frans-Polynesië"
+
+#: core/helpers/armainhelper.php:754
+#@ ARForms
+msgid "Gabon"
+msgstr "Gabon"
+
+#: core/helpers/armainhelper.php:757
+#@ ARForms
+msgid "Gambia"
+msgstr "Gambia"
+
+#: core/helpers/armainhelper.php:757
+#@ ARForms
+msgid "Georgia"
+msgstr "Georgië"
+
+#: core/helpers/armainhelper.php:757
+#@ ARForms
+msgid "Germany"
+msgstr "Duitsland"
+
+#: core/helpers/armainhelper.php:760
+#@ ARForms
+msgid "Ghana"
+msgstr "Ghana"
+
+#: core/helpers/armainhelper.php:760
+#@ ARForms
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: core/helpers/armainhelper.php:760
+#@ ARForms
+msgid "Greece"
+msgstr "Griekenland"
+
+#: core/helpers/armainhelper.php:763
+#@ ARForms
+msgid "Greenland"
+msgstr "GroenlandGroenland"
+
+#: core/helpers/armainhelper.php:763
+#@ ARForms
+msgid "Grenada"
+msgstr "Grenada"
+
+#: core/helpers/armainhelper.php:763
+#@ ARForms
+msgid "Guam"
+msgstr "Guam"
+
+#: core/helpers/armainhelper.php:766
+#@ ARForms
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: core/helpers/armainhelper.php:766
+#@ ARForms
+msgid "Guinea"
+msgstr "Guinea"
+
+#: core/helpers/armainhelper.php:766
+#@ ARForms
+msgid "Guinea-Bissau"
+msgstr "Guinee-Bissau"
+
+#: core/helpers/armainhelper.php:769
+#@ ARForms
+msgid "Guyana"
+msgstr "Guyana"
+
+#: core/helpers/armainhelper.php:769
+#@ ARForms
+msgid "Haiti"
+msgstr "Haïti"
+
+#: core/helpers/armainhelper.php:769
+#@ ARForms
+msgid "Honduras"
+msgstr "Honduras"
+
+#: core/helpers/armainhelper.php:772
+#@ ARForms
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: core/helpers/armainhelper.php:772
+#@ ARForms
+msgid "Hungary"
+msgstr "Hongarije"
+
+#: core/helpers/armainhelper.php:772
+#@ ARForms
+msgid "Iceland"
+msgstr "IJsland"
+
+#: core/helpers/armainhelper.php:775
+#@ ARForms
+msgid "India"
+msgstr "India"
+
+#: core/helpers/armainhelper.php:775
+#@ ARForms
+msgid "Indonesia"
+msgstr "Indonesië"
+
+#: core/helpers/armainhelper.php:775
+#@ ARForms
+msgid "Iran"
+msgstr "Iran"
+
+#: core/helpers/armainhelper.php:778
+#@ ARForms
+msgid "Iraq"
+msgstr "Irak"
+
+#: core/helpers/armainhelper.php:778
+#@ ARForms
+msgid "Ireland"
+msgstr "Ierland"
+
+#: core/helpers/armainhelper.php:778
+#@ ARForms
+msgid "Israel"
+msgstr "Israël"
+
+#: core/helpers/armainhelper.php:781
+#@ ARForms
+msgid "Italy"
+msgstr "Italië"
+
+#: core/helpers/armainhelper.php:781
+#@ ARForms
+msgid "Jamaica"
+msgstr "Jamaica"
+
+#: core/helpers/armainhelper.php:781
+#@ ARForms
+msgid "Japan"
+msgstr "Japan"
+
+#: core/helpers/armainhelper.php:784
+#@ ARForms
+msgid "Jordan"
+msgstr "Jordanië"
+
+#: core/helpers/armainhelper.php:784
+#@ ARForms
+msgid "Kazakhstan"
+msgstr "Kazachstan"
+
+#: core/helpers/armainhelper.php:784
+#@ ARForms
+msgid "Kenya"
+msgstr "Kenia"
+
+#: core/helpers/armainhelper.php:787
+#@ ARForms
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: core/helpers/armainhelper.php:787
+#@ ARForms
+msgid "North Korea"
+msgstr "Noord-Korea"
+
+#: core/helpers/armainhelper.php:787
+#@ ARForms
+msgid "South Korea"
+msgstr "Zuid-Korea"
+
+#: core/helpers/armainhelper.php:790
+#@ ARForms
+msgid "Kuwait"
+msgstr "Koeweit"
+
+#: core/helpers/armainhelper.php:790
+#@ ARForms
+msgid "Kyrgyzstan"
+msgstr "Kirgizië"
+
+#: core/helpers/armainhelper.php:790
+#@ ARForms
+msgid "Laos"
+msgstr "Laos"
+
+#: core/helpers/armainhelper.php:793
+#@ ARForms
+msgid "Latvia"
+msgstr "Letland"
+
+#: core/helpers/armainhelper.php:793
+#@ ARForms
+msgid "Lebanon"
+msgstr "Libanon"
+
+#: core/helpers/armainhelper.php:793
+#@ ARForms
+msgid "Lesotho"
+msgstr "Lesotho"
+
+#: core/helpers/armainhelper.php:796
+#@ ARForms
+msgid "Liberia"
+msgstr "Liberia"
+
+#: core/helpers/armainhelper.php:796
+#@ ARForms
+msgid "Libya"
+msgstr "Libië"
+
+#: core/helpers/armainhelper.php:796
+#@ ARForms
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: core/helpers/armainhelper.php:799
+#@ ARForms
+msgid "Lithuania"
+msgstr "Litouwen"
+
+#: core/helpers/armainhelper.php:799
+#@ ARForms
+msgid "Luxembourg"
+msgstr "Luxemburg"
+
+#: core/helpers/armainhelper.php:799
+#@ ARForms
+msgid "Macedonia"
+msgstr "Macedonië"
+
+#: core/helpers/armainhelper.php:802
+#@ ARForms
+msgid "Madagascar"
+msgstr "Madagascar"
+
+#: core/helpers/armainhelper.php:802
+#@ ARForms
+msgid "Malawi"
+msgstr "Malawi"
+
+#: core/helpers/armainhelper.php:802
+#@ ARForms
+msgid "Malaysia"
+msgstr "Maleisië"
+
+#: core/helpers/armainhelper.php:805
+#@ ARForms
+msgid "Maldives"
+msgstr "Maldiven"
+
+#: core/helpers/armainhelper.php:805
+#@ ARForms
+msgid "Mali"
+msgstr "Mali"
+
+#: core/helpers/armainhelper.php:805
+#@ ARForms
+msgid "Malta"
+msgstr "Malta"
+
+#: core/helpers/armainhelper.php:808
+#@ ARForms
+msgid "Marshall Islands"
+msgstr "Marshall Eilanden"
+
+#: core/helpers/armainhelper.php:808
+#@ ARForms
+msgid "Mauritania"
+msgstr "Mauritanië"
+
+#: core/helpers/armainhelper.php:808
+#@ ARForms
+msgid "Mauritius"
+msgstr "Mauritius"
+
+#: core/helpers/armainhelper.php:811
+#@ ARForms
+msgid "Mexico"
+msgstr "Mexico"
+
+#: core/helpers/armainhelper.php:811
+#@ ARForms
+msgid "Micronesia"
+msgstr "Micronesië"
+
+#: core/helpers/armainhelper.php:811
+#@ ARForms
+msgid "Moldova"
+msgstr "Moldavië"
+
+#: core/helpers/armainhelper.php:814
+#@ ARForms
+msgid "Monaco"
+msgstr "Monaco"
+
+#: core/helpers/armainhelper.php:814
+#@ ARForms
+msgid "Mongolia"
+msgstr "Mongolië"
+
+#: core/helpers/armainhelper.php:814
+#@ ARForms
+msgid "Montenegro"
+msgstr "Montenegro"
+
+#: core/helpers/armainhelper.php:817
+#@ ARForms
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: core/helpers/armainhelper.php:817
+#@ ARForms
+msgid "Morocco"
+msgstr "Marokko"
+
+#: core/helpers/armainhelper.php:817
+#@ ARForms
+msgid "Mozambique"
+msgstr "Mozambique"
+
+#: core/helpers/armainhelper.php:820
+#@ ARForms
+msgid "Myanmar"
+msgstr "Myanmar"
+
+#: core/helpers/armainhelper.php:820
+#@ ARForms
+msgid "Namibia"
+msgstr "Namibië"
+
+#: core/helpers/armainhelper.php:820
+#@ ARForms
+msgid "Nauru"
+msgstr "Nauru"
+
+#: core/helpers/armainhelper.php:823
+#@ ARForms
+msgid "Nepal"
+msgstr "Nepal"
+
+#: core/helpers/armainhelper.php:823
+#@ ARForms
+msgid "Netherlands"
+msgstr "Nederland"
+
+#: core/helpers/armainhelper.php:823
+#@ ARForms
+msgid "New Zealand"
+msgstr "nieuw-Zeeland"
+
+#: core/helpers/armainhelper.php:826
+#@ ARForms
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+#: core/helpers/armainhelper.php:826
+#@ ARForms
+msgid "Niger"
+msgstr "Niger"
+
+#: core/helpers/armainhelper.php:826
+#@ ARForms
+msgid "Nigeria"
+msgstr "Nigeria"
+
+#: core/helpers/armainhelper.php:829
+#@ ARForms
+msgid "Norway"
+msgstr "Noorwegen"
+
+#: core/helpers/armainhelper.php:829
+#@ ARForms
+msgid "Northern Mariana Islands"
+msgstr "Noordelijke Marianen"
+
+#: core/helpers/armainhelper.php:829
+#@ ARForms
+msgid "Oman"
+msgstr "Oman"
+
+#: core/helpers/armainhelper.php:832
+#@ ARForms
+msgid "Pakistan"
+msgstr "Pakistan"
+
+#: core/helpers/armainhelper.php:832
+#@ ARForms
+msgid "Palau"
+msgstr "Palau"
+
+#: core/helpers/armainhelper.php:832
+#@ ARForms
+msgid "Palestine"
+msgstr "Palestina"
+
+#: core/helpers/armainhelper.php:835
+#@ ARForms
+msgid "Panama"
+msgstr "Panama"
+
+#: core/helpers/armainhelper.php:835
+#@ ARForms
+msgid "Papua New Guinea"
+msgstr "Papoea-Nieuw-Guinea"
+
+#: core/helpers/armainhelper.php:835
+#@ ARForms
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: core/helpers/armainhelper.php:838
+#@ ARForms
+msgid "Peru"
+msgstr "Peru"
+
+#: core/helpers/armainhelper.php:838
+#@ ARForms
+msgid "Philippines"
+msgstr "Filippijnen"
+
+#: core/helpers/armainhelper.php:838
+#@ ARForms
+msgid "Poland"
+msgstr "Polen"
+
+#: core/helpers/armainhelper.php:841
+#@ ARForms
+msgid "Portugal"
+msgstr "Portugal"
+
+#: core/helpers/armainhelper.php:841
+#@ ARForms
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#: core/helpers/armainhelper.php:841
+#@ ARForms
+msgid "Qatar"
+msgstr "Katar"
+
+#: core/helpers/armainhelper.php:844
+#@ ARForms
+msgid "Romania"
+msgstr "Roemenië"
+
+#: core/helpers/armainhelper.php:844
+#@ ARForms
+msgid "Russia"
+msgstr "Rusland"
+
+#: core/helpers/armainhelper.php:844
+#@ ARForms
+msgid "Rwanda"
+msgstr "Rwanda"
+
+#: core/helpers/armainhelper.php:847
+#@ ARForms
+msgid "Saint Kitts and Nevis"
+msgstr "Saint Kitts en Nevis"
+
+#: core/helpers/armainhelper.php:847
+#@ ARForms
+msgid "Saint Lucia"
+msgstr "Saint Lucia"
+
+#: core/helpers/armainhelper.php:850
+#@ ARForms
+msgid "Saint Vincent and the Grenadines"
+msgstr "Saint Vincent en de Grenadines"
+
+#: core/helpers/armainhelper.php:850
+#@ ARForms
+msgid "Samoa"
+msgstr "Samoa"
+
+#: core/helpers/armainhelper.php:853
+#@ ARForms
+msgid "San Marino"
+msgstr "San Marino"
+
+#: core/helpers/armainhelper.php:853
+#@ ARForms
+msgid "Sao Tome and Principe"
+msgstr "Sao Tome en Principe"
+
+#: core/helpers/armainhelper.php:853
+#@ ARForms
+msgid "Saudi Arabia"
+msgstr "Saudi-Arabië"
+
+#: core/helpers/armainhelper.php:856
+#@ ARForms
+msgid "Senegal"
+msgstr "Senegal"
+
+#: core/helpers/armainhelper.php:856
+#@ ARForms
+msgid "Serbia and Montenegro"
+msgstr "Servië en Montenegro"
+
+#: core/helpers/armainhelper.php:856
+#@ ARForms
+msgid "Seychelles"
+msgstr "Seychellen"
+
+#: core/helpers/armainhelper.php:859
+#@ ARForms
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+#: core/helpers/armainhelper.php:859
+#@ ARForms
+msgid "Singapore"
+msgstr "Singapore"
+
+#: core/helpers/armainhelper.php:859
+#@ ARForms
+msgid "Slovakia"
+msgstr "Slowakije"
+
+#: core/helpers/armainhelper.php:862
+#@ ARForms
+msgid "Slovenia"
+msgstr "Slovenië"
+
+#: core/helpers/armainhelper.php:862
+#@ ARForms
+msgid "Solomon Islands"
+msgstr "Solomon Islands"
+
+#: core/helpers/armainhelper.php:862
+#@ ARForms
+msgid "Somalia"
+msgstr "Somalië"
+
+#: core/helpers/armainhelper.php:865
+#@ ARForms
+msgid "South Africa"
+msgstr "Zuid-Afrika"
+
+#: core/helpers/armainhelper.php:865
+#@ ARForms
+msgid "Spain"
+msgstr "Spanje"
+
+#: core/helpers/armainhelper.php:865
+#@ ARForms
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#: core/helpers/armainhelper.php:868
+#@ ARForms
+msgid "Sudan"
+msgstr "Soedan"
+
+#: core/helpers/armainhelper.php:868
+#@ ARForms
+msgid "Suriname"
+msgstr "Suriname"
+
+#: core/helpers/armainhelper.php:868
+#@ ARForms
+msgid "Swaziland"
+msgstr "Swaziland"
+
+#: core/helpers/armainhelper.php:871
+#@ ARForms
+msgid "Sweden"
+msgstr "Zweden"
+
+#: core/helpers/armainhelper.php:871
+#@ ARForms
+msgid "Switzerland"
+msgstr "Zwitserland"
+
+#: core/helpers/armainhelper.php:871
+#@ ARForms
+msgid "Syria"
+msgstr "Syrië"
+
+#: core/helpers/armainhelper.php:874
+#@ ARForms
+msgid "Taiwan"
+msgstr "Taiwan"
+
+#: core/helpers/armainhelper.php:874
+#@ ARForms
+msgid "Tajikistan"
+msgstr "Tadzjikistan"
+
+#: core/helpers/armainhelper.php:874
+#@ ARForms
+msgid "Tanzania"
+msgstr "Tanzania"
+
+#: core/helpers/armainhelper.php:877
+#@ ARForms
+msgid "Thailand"
+msgstr "Thailand"
+
+#: core/helpers/armainhelper.php:877
+#@ ARForms
+msgid "Togo"
+msgstr "Togo"
+
+#: core/helpers/armainhelper.php:877
+#@ ARForms
+msgid "Tonga"
+msgstr "Tonga"
+
+#: core/helpers/armainhelper.php:880
+#@ ARForms
+msgid "Trinidad and Tobago"
+msgstr "Trinidad en Tobago"
+
+#: core/helpers/armainhelper.php:880
+#@ ARForms
+msgid "Tunisia"
+msgstr "Tunesië"
+
+#: core/helpers/armainhelper.php:880
+#@ ARForms
+msgid "Turkey"
+msgstr "Turkije"
+
+#: core/helpers/armainhelper.php:883
+#@ ARForms
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+#: core/helpers/armainhelper.php:883
+#@ ARForms
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: core/helpers/armainhelper.php:883
+#@ ARForms
+msgid "Uganda"
+msgstr "Oeganda"
+
+#: core/helpers/armainhelper.php:886
+#@ ARForms
+msgid "Ukraine"
+msgstr "Oekraïne"
+
+#: core/helpers/armainhelper.php:886
+#@ ARForms
+msgid "United Arab Emirates"
+msgstr "Verenigde Arabische Emiraten"
+
+#: core/helpers/armainhelper.php:886
+#@ ARForms
+msgid "United Kingdom"
+msgstr "Verenigd Koninkrijk"
+
+#: core/helpers/armainhelper.php:889
+#@ ARForms
+msgid "United States"
+msgstr "Verenigde Staten van Amerika"
+
+#: core/helpers/armainhelper.php:889
+#@ ARForms
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: core/helpers/armainhelper.php:889
+#@ ARForms
+msgid "Uzbekistan"
+msgstr "Oezbekistan"
+
+#: core/helpers/armainhelper.php:892
+#@ ARForms
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: core/helpers/armainhelper.php:892
+#@ ARForms
+msgid "Vatican City"
+msgstr "Vaticaanstad"
+
+#: core/helpers/armainhelper.php:892
+#@ ARForms
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: core/helpers/armainhelper.php:895
+#@ ARForms
+msgid "Vietnam"
+msgstr "Vietnam"
+
+#: core/helpers/armainhelper.php:895
+#@ ARForms
+msgid "Virgin Islands, British"
+msgstr "Britse Maagdeneilanden"
+
+#: core/helpers/armainhelper.php:898
+#@ ARForms
+msgid "Virgin Islands, U.S."
+msgstr "Virgin Islands, US"
+
+#: core/helpers/armainhelper.php:898
+#@ ARForms
+msgid "Yemen"
+msgstr "Jemen"
+
+#: core/helpers/armainhelper.php:898
+#@ ARForms
+msgid "Zambia"
+msgstr "Zambia"
+
+#: core/helpers/armainhelper.php:901
+#@ ARForms
+msgid "Zimbabwe"
+msgstr "Zimbabwe"
+
+#: core/controllers/arrecordcontroller.php:3387
+#: core/views/view_records.php:793
+#@ ARForms
+msgid "Entry creation date"
+msgstr "Eingetragen am"
+
+#: core/controllers/arformcontroller.php:2499
+#: core/controllers/arrecordcontroller.php:3345
+#: core/views/list.php:614
+#: core/views/view_records.php:753
+#@ ARForms
+msgid "Search"
+msgstr "suchen"
+
+#: core/controllers/arformcontroller.php:6366
+#: core/views/addcontrols.php:4211
+#@ ARForms
+msgid "Reset"
+msgstr "Original"
+
+#: core/helpers/armainhelper.php:1822
+#@ ARForms
+msgid "at"
+msgstr "bei"
+
+#: core/helpers/armainhelper.php:1979
+#@ ARForms
+msgid "year"
+msgstr "Jahr"
+
+#: core/helpers/armainhelper.php:1979
+#@ ARForms
+msgid "years"
+msgstr "Jahren"
+
+#: core/helpers/armainhelper.php:1982
+#@ ARForms
+msgid "month"
+msgstr "Monat"
+
+#: core/helpers/armainhelper.php:1982
+#@ ARForms
+msgid "months"
+msgstr "Monate"
+
+#: core/helpers/armainhelper.php:1985
+#@ ARForms
+msgid "week"
+msgstr "Woche"
+
+#: core/helpers/armainhelper.php:1985
+#@ ARForms
+msgid "weeks"
+msgstr "Wochen"
+
+#: core/helpers/armainhelper.php:1988
+#@ ARForms
+msgid "day"
+msgstr "Tag"
+
+#: core/helpers/armainhelper.php:1988
+#@ ARForms
+msgid "days"
+msgstr "Tage"
+
+#: core/helpers/arfieldhelper.php:4228
+#: core/helpers/armainhelper.php:1991
+#@ ARForms
+msgid "hour"
+msgstr "Stunde"
+
+#: core/helpers/armainhelper.php:1991
+#@ ARForms
+msgid "hours"
+msgstr "Stunden"
+
+#: core/helpers/arfieldhelper.php:4296
+#: core/helpers/armainhelper.php:1994
+#@ ARForms
+msgid "minute"
+msgstr "Minute"
+
+#: core/helpers/armainhelper.php:1994
+#@ ARForms
+msgid "minutes"
+msgstr "Minuten"
+
+#: core/helpers/armainhelper.php:1997
+#@ ARForms
+msgid "second"
+msgstr "sekunde"
+
+#: core/helpers/armainhelper.php:1997
+#: core/helpers/armainhelper.php:2033
+#: core/views/settings_form.php:816
+#@ ARForms
+msgid "seconds"
+msgstr "Sekunden"
+
+#: core/helpers/armainhelper.php:2199
+#@ ARForms
+msgid "View Forms and Templates"
+msgstr "Formulare und Vorlagen anzeigen"
+
+#: core/helpers/armainhelper.php:2202
+#@ ARForms
+msgid "Add/Edit Forms and Templates"
+msgstr "Formulare und Vorlagen hinzufügen / bearbeiten"
+
+#: core/helpers/armainhelper.php:2205
+#@ ARForms
+msgid "Delete Forms and Templates"
+msgstr "Formulare und Vorlagen löschen"
+
+#: core/helpers/armainhelper.php:2208
+#: core/helpers/armainhelper.php:2211
+#@ ARForms
+msgid "Access this Settings Page"
+msgstr "Schütze diese Einstellungsseite"
+
+#: core/helpers/armainhelper.php:2218
+#@ ARForms
+msgid "View Entries from Admin Area"
+msgstr "Siehe Einträge von Admin-Bereich"
+
+#: core/helpers/armainhelper.php:2221
+#@ ARForms
+msgid "Add Entries from Admin Area"
+msgstr "Einträge hinzufügen von Admin-Bereich"
+
+#: core/helpers/armainhelper.php:2224
+#@ ARForms
+msgid "Edit Entries from Admin Area"
+msgstr "Einträge bearbeiten von Admin-Bereich"
+
+#: core/helpers/armainhelper.php:2227
+#@ ARForms
+msgid "Delete Entries from Admin Area"
+msgstr "Löschen von Einträgen aus dem Admin-Bereich"
+
+#: core/helpers/armainhelper.php:2230
+#@ ARForms
+msgid "View Reports"
+msgstr "Berichte anzeigen"
+
+#: core/helpers/armainhelper.php:2233
+#@ ARForms
+msgid "Add/Edit Custom Displays"
+msgstr "Hinzufügen / Bearbeiten (Custom Displays)"
+
+#: core/helpers/arupload_media.php:24
+#@ ARForms
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini."
+msgstr "Die hochgeladene Datei überschreitet die upload_max_filesize in der php.ini."
+
+#: core/helpers/arupload_media.php:25
+#@ ARForms
+msgid "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form."
+msgstr "Die hochgeladene Datei überschreitet die MAX_FILE_SIZE Richtlinie, die im HTML-Formular angegeben wurde."
+
+#: core/helpers/arupload_media.php:26
+#@ ARForms
+msgid "The uploaded file was only partially uploaded."
+msgstr "Die Datei wurde nur teilweise hochgeladen."
+
+#: core/helpers/arupload_media.php:27
+#@ ARForms
+msgid "No file was uploaded."
+msgstr "Es wurde keine Datei hochgeladen."
+
+#: core/helpers/arupload_media.php:29
+#@ ARForms
+msgid "Missing a temporary folder."
+msgstr "Es fehlt ein temporärer Ordner."
+
+#: core/helpers/arupload_media.php:30
+#@ ARForms
+msgid "Failed to write file to disk."
+msgstr "Konnte die Datei nicht schreiben/speichern."
+
+#: core/helpers/arupload_media.php:31
+#@ ARForms
+msgid "File upload stopped by extension."
+msgstr "Datei-Upload durch falsche Datei-Erweiterung gestoppt."
+
+#: core/helpers/arupload_media.php:44
+#@ ARForms
+msgid "Invalid form submission."
+msgstr "Ungültige Formular-Vorlage"
+
+#: core/helpers/arupload_media.php:51
+#@ ARForms
+msgid "File is empty. Please upload something more substantial."
+msgstr "Die Datei ist leer. Bitte laden Sie etwas mehr wesentliches."
+
+#: core/helpers/arupload_media.php:53
+#@ ARForms
+msgid "File is empty. Please upload something more substantial. This error could also be caused by uploads being disabled in your php.ini or by post_max_size being defined as smaller than upload_max_filesize in php.ini."
+msgstr "Die Datei ist leer. Bitte laden Sie etwas mehr wesentlich. Dieser Fehler könnte auch durch Uploads in der php.ini oder durch post_max_size als kleiner als upload_max_filesize in der php.ini definiert, deaktiviert, verursacht werden."
+
+#: core/helpers/arupload_media.php:58
+#@ ARForms
+msgid "Specified file failed upload test."
+msgstr "Der Test für die angegebene Upload-Datei ist fehlgeschlagen."
+
+#: core/helpers/arupload_media.php:69
+#: core/helpers/arupload_media.php:81
+#: core/helpers/arupload_media.php:84
+#: core/views/common.php:113
+#@ ARForms
+msgid "Sorry, this file type is not permitted for security reasons."
+msgstr "Entschuldigung, der Dateityp wird aus Sicherheitsgründen nicht gestattet."
+
+#: core/helpers/arupload_media.php:97
+#, php-format
+#@ ARForms
+msgid "The uploaded file could not be moved to %s."
+msgstr "Die hochgeladene Datei konnte nicht verschoben werden% s. (Dateirechte?)"
+
+#: core/models/arfieldmodel.php:103
+#@ ARForms
+msgid "Phone"
+msgstr "Telefon"
+
+#: core/models/arfieldmodel.php:115
+#: core/models/artemplate.php:389
+#: core/views/upgrade_latest_data.php:929
+#@ ARForms
+msgid "Website"
+msgstr "website"
+
+#: core/models/arfieldmodel.php:124
+#: core/models/artemplate.php:380
+#: core/models/artemplate.php:1058
+#: core/views/upgrade_latest_data.php:920
+#: core/views/upgrade_latest_data.php:1395
+#@ ARForms
+msgid "Email"
+msgstr "e-mail"
+
+#: core/models/arfieldmodel.php:151
+#@ ARForms
+msgid "Heading"
+msgstr "Überschrift"
+
+#: core/models/arfieldmodel.php:180
+#@ ARForms
+msgid "Page"
+msgstr "Seite"
+
+#: core/models/arformmodel.php:234
+#@ ARForms
+msgid "User ID"
+msgstr "Benutzer-ID"
+
+#: core/models/arformmodel.php:253
+#: core/models/arformmodel.php:268
+#@ ARForms
+msgid "Please insert a message for your auto responder."
+msgstr "Bitte geben Sie eine Nachricht für Ihren Auto-Responder ein."
+
+#: core/models/arformmodel.php:259
+#@ ARForms
+msgid "That is not a valid reply-to email address for your auto responder."
+msgstr "Das ist keine gültige Antwort-E-Mail-Adresse für Ihren Auto-Responder."
+
+#: core/models/arnotifymodel.php:68
+#, php-format
+#@ ARForms
+msgid "%1$s form has been submitted on %2$s."
+msgstr "%1$s Formular wurde am eingereicht % 2 $ s."
+
+#: core/controllers/arrecordcontroller.php:3389
+#: core/views/view_records.php:795
+#@ ARForms
+msgid "IP Address"
+msgstr "IP-Adresse"
+
+#: core/models/arnotifymodel.php:124
+#: core/models/arnotifymodel.php:1183
+#, php-format
+#@ ARForms
+msgid "%1$s Form submitted on %2$s"
+msgstr "%1$s Formular eingereicht am %2$s"
+
+#: core/models/arsettingmodel.php:79
+#@ ARForms
+msgid "You have already submitted that form"
+msgstr "Sie haben bereits dieses Formular abgesendet."
+
+#: core/models/arsettingmodel.php:100
+#@ ARForms
+msgid "Form is successfully submitted. Thank you!"
+msgstr "Das Formular wurde erfolgreich übertragen. Danke!"
+
+#: core/models/arsettingmodel.php:103
+#: core/views/edit.php:1086
+#: core/views/edit.php:1096
+#: core/views/edit.php:1106
+#: core/views/edit.php:1437
+#: core/views/edit.php:1709
+#: core/views/settings_form.php:297
+#: core/views/settings_form.php:335
+#: core/views/settings_form.php:547
+#: core/views/settings_form.php:570
+#: core/views/settings_form.php:595
+#: core/views/settings_form.php:619
+#: core/views/settings_form.php:640
+#: core/views/settings_form.php:666
+#: core/views/settings_form.php:684
+#: core/views/settings_form.php:868
+#: core/views/settings_form.php:877
+#: core/views/settings_form.php:1020
+#: core/views/settings_form.php:1111
+#: core/views/settings_form.php:1199
+#: core/views/settings_form.php:1209
+#: core/views/settings_form.php:1223
+#: core/views/settings_form.php:1307
+#: core/views/settings_form.php:1322
+#@ ARForms
+msgid "This field cannot be blank."
+msgstr "Dieses Feld darf nicht leer sein."
+
+#: core/models/arsettingmodel.php:106
+#@ ARForms
+msgid "This value must be unique."
+msgstr "Dieser Wert muss eindeutig sein."
+
+#: core/models/arsettingmodel.php:109
+#@ ARForms
+msgid "Problem in submission. Errors are marked below."
+msgstr "Problem beim versenden. Fehler sind unten markiert."
+
+#: core/controllers/arrecordcontroller.php:3323
+#: core/models/arsettingmodel.php:115
+#: core/views/view_records.php:732
+#@ ARForms
+msgid "Submit"
+msgstr "Senden"
+
+#: core/models/arsettingmodel.php:118
+#@ ARForms
+msgid "You do not have permission to view this form."
+msgstr "Sie haben keine Berechtigung, dieses Formular zu sehen."
+
+#: core/helpers/arfieldhelper.php:1283
+#: core/models/arsettingmodel.php:230
+#@ ARForms
+msgid "The reCAPTCHA was not entered correctly"
+msgstr "Das reCAPTCHA wurde nicht korrekt eingegeben"
+
+#: core/models/arstylemodel.php:837
+#@ ARForms
+msgid "Your submission was successfully saved."
+msgstr "Ihre Vorlage wurde erfolgreich gespeichert."
+
+#: core/models/arstylemodel.php:840
+#@ ARForms
+msgid "Update"
+msgstr "Aktualisierung"
+
+#: core/models/artemplate.php:282
+#@ ARForms
+msgid "Contact Us"
+msgstr "Kontaktieren Sie uns"
+
+#: core/models/artemplate.php:283
+#@ ARForms
+msgid "We would like to hear from you. Please send us a message by filling out the form below and we will get back with you shortly."
+msgstr "Wir würden gerne von Ihnen hören. Bitte senden Sie uns eine Nachricht über das folgende Formular und wir werden uns kurzfristig mit Ihnen in verbindung setzen."
+
+#: core/models/artemplate.php:382
+#: core/views/upgrade_latest_data.php:922
+#@ ARForms
+msgid "Please enter a valid email address"
+msgstr "Bitte geben Sie eine gültige E-Mail-Adresse ein"
+
+#: core/models/artemplate.php:390
+#: core/views/upgrade_latest_data.php:930
+#@ ARForms
+msgid "Please enter a valid website"
+msgstr "Bitte geben Sie eine gültige Website ein"
+
+#: core/models/artemplate.php:397
+#: core/views/edit.php:1234
+#: core/views/edit.php:1593
+#: core/views/upgrade_latest_data.php:937
+#@ ARForms
+msgid "Subject"
+msgstr "Thema"
+
+#: core/models/artemplate.php:405
+#: core/views/edit.php:1371
+#: core/views/upgrade_latest_data.php:945
+#@ ARForms
+msgid "Message"
+msgstr "Nachricht"
+
+#: core/models/artemplate.php:413
+#: core/views/upgrade_latest_data.php:953
+#@ ARForms
+msgid "Captcha"
+msgstr "Captcha"
+
+#: core/controllers/arformcontroller.php:2489
+#: core/views/edit.php:994
+#: core/views/list.php:601
+#@ ARForms
+msgid "Preview"
+msgstr "Vorschau"
+
+#: core/controllers/arformcontroller.php:5209
+#: core/views/addcontrols.php:3055
+#@ ARForms
+msgid "Submit align"
+msgstr "Senden/ausrichten"
+
+#: core/controllers/arformcontroller.php:5213
+#: core/views/addcontrols.php:3059
+#@ ARForms
+msgid "Fixed"
+msgstr "fest"
+
+#: core/views/addfieldjs.php:27
+#: core/views/addoptionjs.php:17
+#: core/views/addoptionjs.php:26
+#@ ARForms
+msgid "(Blank)"
+msgstr "(leer)"
+
+#: core/views/addfieldjs.php:68
+#@ ARForms
+msgid "Click here to add optional description or instructions"
+msgstr "Klicken Sie hier, um optionale Beschreibung oder Anweisungen hinzufügen"
+
+#: core/views/displayfield.php:48
+#@ ARForms
+msgid "Note: This field will not show in the form. Enter the value to be hidden."
+msgstr "Hinweis: Dieses Feld wird nicht im Formular angezeigt. Der eingegebene Wert bleibt unsichtbar."
+
+#: core/vc/class_vc_extend.php:569
+#: core/views/edit_form.php:40
+#: core/views/insert_form_popup.php:631
+#: core/views/new-selection-modal.php:28
+#@ ARForms
+msgid "Please enter form name"
+msgstr "Bitte vergeben Sie einen Formular-Namen"
+
+#: core/views/edit.php:990
+#: core/views/edit.php:3264
+#@ ARForms
+msgid "Save"
+msgstr "Speichern"
+
+#: core/views/export_data.php:98
+#: core/views/export_data.php:230
+#@ ARForms
+msgid "Timestamp"
+msgstr "Zeitstempel"
+
+#: core/views/edit.php:1102
+#@ ARForms
+msgid "Use Content from Page"
+msgstr "Verwenden Sie Inhalte aus Ihrer Seite"
+
+#: core/views/footer.php:52
+#@ ARForms
+msgid "(Click here to add description or instructions)"
+msgstr "(Klicken Sie hier, um einen Beschreibungstext einzugeben)"
+
+#: core/controllers/arrecordcontroller.php:3386
+#: core/views/view_records.php:792
+#@ ARForms
+msgid "Entry Key"
+msgstr "Eintragen des Key"
+
+#: core/views/settings_form.php:653
+#@ ARForms
+msgid "Email Settings"
+msgstr "E-Mail-Einstellungen"
+
+#: core/views/settings_form.php:125
+#@ ARForms
+msgid "General Settings"
+msgstr "GENERAL SETTINGS"
+
+#: core/views/edit.php:2022
+#: core/views/edit.php:2036
+#@ ARForms
+msgid "Aweber"
+msgstr "Aweber"
+
+#: core/views/edit.php:1866
+#: core/views/edit.php:1880
+#@ ARForms
+msgid "Mailchimp"
+msgstr "MailChimp"
+
+#: core/views/edit.php:2540
+#: core/views/edit.php:2554
+#@ ARForms
+msgid "Getresponse"
+msgstr "GetResponse"
+
+#: core/views/edit.php:2213
+#: core/views/edit.php:2227
+#@ ARForms
+msgid "Icontact"
+msgstr "icontact"
+
+#: core/views/edit.php:2376
+#: core/views/edit.php:2390
+#@ ARForms
+msgid "Constant Contact"
+msgstr "constant Contact"
+
+#: core/views/edit.php:2699
+#: core/views/edit.php:2717
+#@ ARForms
+msgid "GVO"
+msgstr "GVO"
+
+#: core/views/edit.php:2772
+#: core/views/edit.php:2790
+#@ ARForms
+msgid "eBizac"
+msgstr "eBizac"
+
+#: core/views/edit.php:2967
+#@ ARForms
+msgid "Email field mapping"
+msgstr "Zuordnung Email-Feld"
+
+#: core/views/edit.php:1446
+#@ ARForms
+msgid "Send an automatic response to admin after submitting the form"
+msgstr "Sendet eine automatische Antwort an den Admin nach dem Absenden des Formulars"
+
+#: core/controllers/arformcontroller.php:2381
+#: core/views/list.php:492
+#@ ARForms
+msgid "Name"
+msgstr "Name"
+
+#: core/views/edit.php:1069
+#@ ARForms
+msgid "Display a Message"
+msgstr "Zeigen Sie eine Nachricht"
+
+#: core/views/edit.php:1071
+#: core/views/edit.php:1092
+#@ ARForms
+msgid "Redirect to URL"
+msgstr "Redirect zu URL"
+
+#: core/views/edit.php:1073
+#@ ARForms
+msgid "Display content from another page"
+msgstr "Zeige-Inhalt von einer anderen Seite"
+
+#: core/views/edit.php:1082
+#@ ARForms
+msgid "Confirmation Message"
+msgstr "Bestätigungsmeldung"
+
+#: core/helpers/arfieldhelper.php:3805
+#@ ARForms
+msgid "Alignment"
+msgstr "Ausrichtung"
+
+#: core/helpers/arfieldhelper.php:3827
+#: core/helpers/arfieldhelper.php:3834
+#: core/helpers/arfieldhelper.php:3840
+#@ ARForms
+msgid "Multiple Rows"
+msgstr "Mehrere Reihen"
+
+#: core/helpers/arfieldhelper.php:3825
+#: core/helpers/arfieldhelper.php:3832
+#: core/helpers/arfieldhelper.php:3841
+#@ ARForms
+msgid "Single Row"
+msgstr "einreihig"
+
+#: core/helpers/arfieldhelper.php:3857
+#: core/views/newfield.php:452
+#: core/views/newfield.php:563
+#@ ARForms
+msgid "Use separate values"
+msgstr "Verwenden Sie getrennte Werte"
+
+#: core/helpers/arfieldhelper.php:3860
+#: core/views/newfield.php:452
+#: core/views/newfield.php:563
+#@ ARForms
+msgid "Add a separate value to use for calculations, email routing, saving to the database, and many other uses. The option values are saved while the option labels are shown in the form."
+msgstr "Geben Sie einen bestimmten Wert ein. dieser wird in der datenbank gespeichert für zukünftige Formulare."
+
+#: core/helpers/arfieldhelper.php:4120
+#@ ARForms
+msgid "Calendar Localization"
+msgstr "Kalender-Lokalisierung"
+
+#: core/helpers/arfieldhelper.php:4184
+#@ ARForms
+msgid "Year Range"
+msgstr "Geburtsdatum"
+
+#: core/helpers/arfieldhelper.php:4185
+#@ ARForms
+msgid "Start Year"
+msgstr "Beginn Jahr"
+
+#: core/helpers/arfieldhelper.php:4185
+#@ ARForms
+msgid "End Year"
+msgstr "Ende Jahr"
+
+#: core/helpers/arfieldhelper.php:4193
+#@ ARForms
+msgid "Clock Settings"
+msgstr "Uhr Einstellungen"
+
+#: core/helpers/arfieldhelper.php:3873
+#@ ARForms
+msgid "Allowed file types"
+msgstr "Erlaubte Dateitypen"
+
+#: core/helpers/arfieldhelper.php:3874
+#@ ARForms
+msgid "All types"
+msgstr "Alle Arten"
+
+#: core/helpers/arfieldhelper.php:4110
+#@ ARForms
+msgid "Number Range"
+msgstr "Nummernbereich"
+
+#: core/helpers/arfieldhelper.php:4111
+#@ ARForms
+msgid "minimum"
+msgstr "Minimum"
+
+#: core/helpers/arfieldhelper.php:4111
+#@ ARForms
+msgid "maximum"
+msgstr "Maximum"
+
+#: core/helpers/arfieldhelper.php:4309
+#: core/vc/class_vc_extend.php:80
+#@ ARForms
+msgid "Content"
+msgstr "Inhalt"
+
+#: core/helpers/arfieldhelper.php:4717
+#@ ARForms
+msgid "Range"
+msgstr "Angebot"
+
+#: core/controllers/arrecordcontroller.php:3326
+#: core/vc/class_vc_extend.php:570
+#: core/views/insert_form_popup.php:46
+#: core/views/view_records.php:735
+#@ ARForms
+msgid "Please select a form"
+msgstr "Bitte wählen Sie ein Formular"
+
+#: core/views/insert_form_popup.php:114
+#@ ARForms
+msgid "Please select a custom display"
+msgstr "Bitte wählen Sie eine benutzerdefinierte Anzeige"
+
+#: core/views/insert_form_popup.php:746
+#@ ARForms
+msgid "Add to page"
+msgstr "Auf Seite hinzufügen"
+
+#: core/views/new-selection-modal.php:63
+#: core/views/settings_form.php:885
+#@ ARForms
+msgid "Continue"
+msgstr "fortsetzen"
+
+#: core/views/newfield.php:35
+#@ ARForms
+msgid "Countries"
+msgstr "Länder"
+
+#: core/views/newfield.php:40
+#@ ARForms
+msgid "U.S. States"
+msgstr "US-Bundesstaaten"
+
+#: core/views/newfield.php:43
+#@ ARForms
+msgid "U.S. State Abbreviations"
+msgstr "U.S. abkürzung"
+
+#: core/views/newfield.php:49
+#@ ARForms
+msgid "Age Group"
+msgstr "Altersgruppe"
+
+#: core/views/newfield.php:52
+#@ ARForms
+msgid "Under 18"
+msgstr "Unter 18"
+
+#: core/views/newfield.php:52
+#@ ARForms
+msgid "18-24"
+msgstr "18-24"
+
+#: core/views/newfield.php:52
+#@ ARForms
+msgid "25-34"
+msgstr "25-34"
+
+#: core/views/newfield.php:55
+#@ ARForms
+msgid "35-44"
+msgstr "35-44"
+
+#: core/views/newfield.php:55
+#@ ARForms
+msgid "45-54"
+msgstr "45-54"
+
+#: core/views/newfield.php:55
+#@ ARForms
+msgid "55-64"
+msgstr "55-64"
+
+#: core/views/newfield.php:58
+#@ ARForms
+msgid "65 or Above"
+msgstr "65 oder älter"
+
+#: core/views/newfield.php:58
+#@ ARForms
+msgid "Prefer Not to Answer"
+msgstr "Möchte nicht Antworten"
+
+#: core/views/newfield.php:67
+#@ ARForms
+msgid "Satisfaction"
+msgstr "Zufriedenheit"
+
+#: core/views/newfield.php:70
+#@ ARForms
+msgid "Very Satisfied"
+msgstr "sehr zufrieden"
+
+#: core/views/newfield.php:70
+#@ ARForms
+msgid "Satisfied"
+msgstr "zufrieden"
+
+#: core/views/newfield.php:70
+#@ ARForms
+msgid "Neutral"
+msgstr "Neutral"
+
+#: core/views/newfield.php:73
+#@ ARForms
+msgid "Unsatisfied"
+msgstr "unbefriedigend"
+
+#: core/views/newfield.php:73
+#@ ARForms
+msgid "Very Unsatisfied"
+msgstr "sehr unzufrieden"
+
+#: core/views/newfield.php:73
+#@ ARForms
+msgid "N/A"
+msgstr "N / A"
+
+#: core/views/newfield.php:79
+#@ ARForms
+msgid "Days"
+msgstr "Tage"
+
+#: core/controllers/arformcontroller.php:3600
+#: core/views/addcontrols.php:1447
+#: core/views/newfield.php:82
+#@ ARForms
+msgid "1"
+msgstr "1"
+
+#: core/views/newfield.php:82
+#@ ARForms
+msgid "2"
+msgstr "2"
+
+#: core/views/newfield.php:82
+#@ ARForms
+msgid "3"
+msgstr "3"
+
+#: core/views/newfield.php:82
+#@ ARForms
+msgid "4"
+msgstr "4"
+
+#: core/views/newfield.php:82
+#@ ARForms
+msgid "5"
+msgstr "5"
+
+#: core/views/newfield.php:82
+#@ ARForms
+msgid "6"
+msgstr "6"
+
+#: core/views/newfield.php:84
+#@ ARForms
+msgid "7"
+msgstr "7"
+
+#: core/views/newfield.php:84
+#@ ARForms
+msgid "8"
+msgstr "8"
+
+#: core/views/newfield.php:84
+#@ ARForms
+msgid "9"
+msgstr "9"
+
+#: core/views/newfield.php:84
+#@ ARForms
+msgid "10"
+msgstr "10"
+
+#: core/views/newfield.php:84
+#@ ARForms
+msgid "11"
+msgstr "11"
+
+#: core/views/newfield.php:84
+#@ ARForms
+msgid "12"
+msgstr "12"
+
+#: core/views/newfield.php:86
+#@ ARForms
+msgid "13"
+msgstr "13"
+
+#: core/views/newfield.php:86
+#@ ARForms
+msgid "14"
+msgstr "14"
+
+#: core/views/newfield.php:86
+#@ ARForms
+msgid "15"
+msgstr "15"
+
+#: core/views/newfield.php:86
+#@ ARForms
+msgid "16"
+msgstr "16"
+
+#: core/views/newfield.php:86
+#@ ARForms
+msgid "17"
+msgstr "17"
+
+#: core/views/newfield.php:86
+#@ ARForms
+msgid "18"
+msgstr "18"
+
+#: core/views/newfield.php:88
+#@ ARForms
+msgid "19"
+msgstr "19"
+
+#: core/views/newfield.php:88
+#@ ARForms
+msgid "20"
+msgstr "20"
+
+#: core/views/newfield.php:88
+#@ ARForms
+msgid "21"
+msgstr "21"
+
+#: core/views/newfield.php:88
+#@ ARForms
+msgid "22"
+msgstr "22"
+
+#: core/views/newfield.php:88
+#@ ARForms
+msgid "23"
+msgstr "23"
+
+#: core/views/newfield.php:88
+#@ ARForms
+msgid "24"
+msgstr "24"
+
+#: core/views/newfield.php:90
+#@ ARForms
+msgid "25"
+msgstr "25"
+
+#: core/views/newfield.php:90
+#@ ARForms
+msgid "26"
+msgstr "26"
+
+#: core/views/newfield.php:90
+#@ ARForms
+msgid "27"
+msgstr "27"
+
+#: core/views/newfield.php:90
+#@ ARForms
+msgid "28"
+msgstr "28"
+
+#: core/views/newfield.php:90
+#@ ARForms
+msgid "29"
+msgstr "29"
+
+#: core/views/newfield.php:92
+#@ ARForms
+msgid "31"
+msgstr "31"
+
+#: core/views/newfield.php:98
+#@ ARForms
+msgid "Week Days"
+msgstr "Wochentage"
+
+#: core/views/newfield.php:101
+#@ ARForms
+msgid "Sunday"
+msgstr "Samstag"
+
+#: core/views/newfield.php:101
+#@ ARForms
+msgid "Monday"
+msgstr "Montag"
+
+#: core/views/newfield.php:101
+#@ ARForms
+msgid "Tuesday"
+msgstr "Dienstag"
+
+#: core/views/newfield.php:104
+#@ ARForms
+msgid "Wednesday"
+msgstr "Mittwoch"
+
+#: core/views/newfield.php:104
+#@ ARForms
+msgid "Friday"
+msgstr "Freitag"
+
+#: core/views/newfield.php:107
+#@ ARForms
+msgid "Saturday"
+msgstr "Samstag"
+
+#: core/views/newfield.php:113
+#@ ARForms
+msgid "Months"
+msgstr "Monate"
+
+#: core/views/newfield.php:116
+#@ ARForms
+msgid "January"
+msgstr "Januar"
+
+#: core/views/newfield.php:116
+#@ ARForms
+msgid "February"
+msgstr "Februar"
+
+#: core/views/newfield.php:116
+#@ ARForms
+msgid "March"
+msgstr "März"
+
+#: core/views/newfield.php:116
+#@ ARForms
+msgid "April"
+msgstr "April"
+
+#: core/views/newfield.php:118
+#@ ARForms
+msgid "May"
+msgstr "Mai"
+
+#: core/views/newfield.php:118
+#@ ARForms
+msgid "June"
+msgstr "Juni"
+
+#: core/views/newfield.php:118
+#@ ARForms
+msgid "July"
+msgstr "Juli"
+
+#: core/views/newfield.php:118
+#@ ARForms
+msgid "August"
+msgstr "August"
+
+#: core/views/newfield.php:118
+#@ ARForms
+msgid "September"
+msgstr "September"
+
+#: core/views/newfield.php:120
+#@ ARForms
+msgid "October"
+msgstr "Oktober"
+
+#: core/views/newfield.php:120
+#@ ARForms
+msgid "November"
+msgstr "November"
+
+#: core/views/newfield.php:120
+#@ ARForms
+msgid "December"
+msgstr "Dezember"
+
+#: core/views/newfield.php:135
+#@ ARForms
+msgid "Years"
+msgstr "Jahre"
+
+#: core/helpers/arfieldhelper.php:5540
+#: core/views/newfield.php:140
+#: core/views/newfield.php:1046
+#@ ARForms
+msgid "Prefix"
+msgstr "Vorwahl"
+
+#: core/views/newfield.php:143
+#@ ARForms
+msgid "Mr"
+msgstr "Herr"
+
+#: core/views/newfield.php:143
+#@ ARForms
+msgid "Mrs"
+msgstr "Frau"
+
+#: core/views/newfield.php:143
+#@ ARForms
+msgid "Ms"
+msgstr "Fräulein"
+
+#: core/views/newfield.php:143
+#@ ARForms
+msgid "Miss"
+msgstr "Fräulein"
+
+#: core/views/newfield.php:145
+#@ ARForms
+msgid "Sr"
+msgstr "Senior"
+
+#: core/views/newfield.php:325
+#@ ARForms
+msgid "Delete Field"
+msgstr "Feld löschen"
+
+#: core/views/newfield.php:265
+#@ ARForms
+msgid "Are you sure you want to delete this field?"
+msgstr "Sind Sie sicher, dass Sie dieses Feld löschen möchten?"
+
+#: core/views/newfield.php:469
+#: core/views/newfield.php:587
+#@ ARForms
+msgid "Add an Option"
+msgstr "Option hinzufügen"
+
+#: core/views/newfield.php:474
+#: core/views/newfield.php:594
+#@ ARForms
+msgid "Preset Field Choices"
+msgstr "Feld-Auswahl voreinstellungen"
+
+#: core/helpers/arfieldhelper.php:3697
+#@ ARForms
+msgid "Message for blank field"
+msgstr "Nachricht für leeres Feld"
+
+#: core/helpers/arfieldhelper.php:3712
+#@ ARForms
+msgid "automatic width"
+msgstr "automatische Breite"
+
+#: core/helpers/arfieldhelper.php:3726
+#@ ARForms
+msgid "Number of rows"
+msgstr "Anzahl der Reihen"
+
+#: core/helpers/arfieldhelper.php:3965
+#@ ARForms
+msgid "Message for invalid submission"
+msgstr "Nachricht für ungültige Vorlage"
+
+#: core/views/edit.php:1136
+#@ ARForms
+msgid "Send an automatic response to users after submitting the form"
+msgstr "Senden Sie eine automatische Nachricht/Mitteilung an den Empfänger nach dem Absenden des Formulars"
+
+#: core/views/edit.php:1161
+#@ ARForms
+msgid "Select field to send mail"
+msgstr "Wählen Sie das Feld \\\"E-Mails\\\" um zu senden"
+
+#: core/views/edit.php:1223
+#@ ARForms
+msgid "Please map desired email field from the list of fields used in your form. And system will send response email to this address."
+msgstr "Bitte wählen Sie ein E-mail feld um eine Antwort an diese Mailadresse senden zu können."
+
+#: core/views/settings_form.php:391
+#@ ARForms
+msgid "RECAPTCHA Configuration"
+msgstr "reCAPTCHA konfigurieren"
+
+#: core/views/settings_form.php:419
+#@ ARForms
+msgid "Public Key"
+msgstr "Öffentlicher Schlüssel"
+
+#: core/views/settings_form.php:437
+#@ ARForms
+msgid "Private Key"
+msgstr "Privater Schlüssel"
+
+#: core/views/settings_form.php:461
+#@ ARForms
+msgid "reCAPTCHA Theme"
+msgstr "reCAPTCHA Themenvorlage (Design)"
+
+#: core/helpers/arfieldhelper.php:4786
+#: core/views/settings_form.php:472
+#@ ARForms
+msgid "Red"
+msgstr "Rot"
+
+#: core/views/settings_form.php:472
+#@ ARForms
+msgid "White"
+msgstr "Weiß"
+
+#: core/views/settings_form.php:472
+#@ ARForms
+msgid "Black Glass"
+msgstr "schwarzes Glas"
+
+#: core/views/settings_form.php:472
+#@ ARForms
+msgid "Clean"
+msgstr "Neutral (Standard)"
+
+#: core/views/settings_form.php:492
+#@ ARForms
+msgid "reCAPTCHA Language"
+msgstr "reCAPTCHA Sprache"
+
+#: core/views/settings_form.php:502
+#@ ARForms
+msgid "English"
+msgstr "Englisch"
+
+#: core/views/settings_form.php:502
+#@ ARForms
+msgid "Portuguese"
+msgstr "Portugees"
+
+#: core/views/settings_form.php:535
+#@ ARForms
+msgid "Default Messages On Form"
+msgstr "Standard Nachrichten an das Formular"
+
+#: core/views/settings_form.php:540
+#@ ARForms
+msgid "Blank Field"
+msgstr "wenn das Feld leer ist"
+
+#: core/views/settings_form.php:545
+#@ ARForms
+msgid "Message will be displayed when required fields is left blank."
+msgstr "Die Nachricht wird angezeigt, wenn Pflichtfelder leer gelassen werden."
+
+#: core/views/settings_form.php:561
+#@ ARForms
+msgid "Incorrect Field"
+msgstr "Falsche oder Fehlende eingabe im Feld"
+
+#: core/views/settings_form.php:568
+#@ ARForms
+msgid "Message will be displayed when incorrect data is inserted of missing."
+msgstr "Diese Nachricht wird angezeigt wenn falsche oder fehlende Daten im Feld eingegeben wurden."
+
+#: core/views/settings_form.php:586
+#: core/views/settings_form.php:803
+#@ ARForms
+msgid "Success Message"
+msgstr "Mitteilung erfolgreich gesendet"
+
+#: core/views/settings_form.php:592
+#@ ARForms
+msgid "Default message displayed after form is submitted."
+msgstr "Diese Nachricht wird angezeigt wenn das Formular versendet wurde."
+
+#: core/views/settings_form.php:610
+#@ ARForms
+msgid "Submission Failed Message"
+msgstr "Das Senden der Nachricht ist fehlgeschlagen."
+
+#: core/views/settings_form.php:616
+#@ ARForms
+msgid "Message will be displayed when form is submitted but Duplicate entry exists."
+msgstr "Nachricht wird angezeigt, wenn das Formular eingereicht, aber doppelte Eintrag vorhanden ist."
+
+#: core/views/settings_form.php:634
+#@ ARForms
+msgid "Default Submit Button"
+msgstr "Standard-Senden-Schaltfläche"
+
+#: core/views/settings_form.php:742
+#@ ARForms
+msgid "Other Settings"
+msgstr "Andere Einstellungen"
+
+#: core/views/settings_form.php:751
+#@ ARForms
+msgid "Rebranding"
+msgstr "keine Werbung"
+
+#: core/views/settings_form.php:757
+#@ ARForms
+msgid "Remove rebranding link"
+msgstr "Werbungslink entfernen (Wir würden uns aber sehr freuen, wenn dieser Link erscheinen würde)"
+
+#: core/views/settings_form.php:786
+#@ ARForms
+msgid "Form Submission Method"
+msgstr "Übertragungsmethode"
+
+#: core/views/settings_form.php:865
+#@ ARForms
+msgid "Enter consumer key"
+msgstr "Geben Sie Ihren Schlüssel ein."
+
+#: core/views/settings_form.php:874
+#@ ARForms
+msgid "Enter consumer secret"
+msgstr "Geben Sie Ihre Geheimfrage ein."
+
+#: core/views/settings_form.php:891
+#@ ARForms
+msgid "Webform code from Aweber"
+msgstr "Webformulier code von Aweber"
+
+#: core/views/settings_form.php:1012
+#: core/views/settings_form.php:1101
+#: core/views/settings_form.php:1304
+#@ ARForms
+msgid "API Key"
+msgstr "API-Schlüssel"
+
+#: core/views/settings_form.php:1017
+#: core/views/settings_form.php:1108
+#: core/views/settings_form.php:1220
+#: core/views/settings_form.php:1319
+#@ ARForms
+msgid "Verified"
+msgstr "Verifiziert"
+
+#: core/views/settings_form.php:1018
+#: core/views/settings_form.php:1109
+#: core/views/settings_form.php:1221
+#: core/views/settings_form.php:1320
+#@ ARForms
+msgid "Not Verified"
+msgstr "nicht Verifiziert"
+
+#: core/views/settings_form.php:1027
+#@ ARForms
+msgid "List ID"
+msgstr "Zeige ID"
+
+#: core/views/settings_form.php:1061
+#@ ARForms
+msgid "Webform code from Mailchimp"
+msgstr "Webform Code aus Mailchimp"
+
+#: core/views/settings_form.php:1120
+#@ ARForms
+msgid "Campaign Name"
+msgstr "Kampagnenname"
+
+#: core/views/settings_form.php:1156
+#@ ARForms
+msgid "Webform code from Getresponse"
+msgstr "Webform-Code von GetResponse"
+
+#: core/views/settings_form.php:1196
+#@ ARForms
+msgid "APP ID"
+msgstr "APP ID"
+
+#: core/views/settings_form.php:1206
+#@ ARForms
+msgid "Username"
+msgstr "Benutzername"
+
+#: core/views/settings_form.php:1230
+#: core/views/settings_form.php:1328
+#@ ARForms
+msgid "List Name"
+msgstr "zeige Namen"
+
+#: core/views/settings_form.php:1265
+#@ ARForms
+msgid "Webform code from Icontact"
+msgstr "Webform Code aus IContact"
+
+#: core/views/settings_form.php:1313
+#@ ARForms
+msgid "Access Token"
+msgstr "Zugriffszeichen"
+
+#: core/views/settings_form.php:1363
+#@ ARForms
+msgid "Webform code from Constant Contact"
+msgstr "Webform-Code von Constant Contact"
+
+#: core/views/settings_form.php:1398
+#@ ARForms
+msgid "Webform code from GVO Campaign"
+msgstr "Webform-Code von GVO-Kampagne"
+
+#: core/views/settings_form.php:1433
+#@ ARForms
+msgid "Webform code from eBizac"
+msgstr "Webform Code aus eBizac"
+
+#: core/views/settings_form.php:1485
+#@ ARForms
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: core/views/view_records.php:676
+#@ ARForms
+msgid "Entries List"
+msgstr "Liste Einträge"
+
+#: core/views/view_records.php:677
+#@ ARForms
+msgid "Analytics"
+msgstr "Analyse (Statistik)"
+
+#: core/views/view_records.php:928
+#@ ARForms
+msgid "All Forms"
+msgstr "Alle Formulare"
+
+#: core/widgets/ARFwidgetForm.php:14
+#@ ARForms
+msgid "Display Form of ARForms"
+msgstr "Zeige Formulare von ARForms"
+
+#: core/widgets/ARFwidgetForm.php:15
+#@ ARForms
+msgid "ARForms Form"
+msgstr "ARForms Formulare"
+
+#: core/widgets/ARFwidgetForm.php:35
+#@ ARForms
+msgid "Title"
+msgstr "Titel"
+
+#: core/widgets/ARFwidgetForm.php:38
+#@ ARForms
+msgid "Form"
+msgstr "Formular"
+
+#: core/helpers/arfieldhelper.php:3626
+#@ ARForms
+msgid "Ukrainian"
+msgstr "Oekraïens"
+
+#: core/controllers/arformcontroller.php:2380
+#: core/controllers/arrecordcontroller.php:3382
+#: core/views/list.php:491
+#: core/views/view_records.php:788
+#@ ARForms
+msgid "ID"
+msgstr "ID"
+
+#: core/controllers/arformcontroller.php:2382
+#: core/views/list.php:493
+#@ ARForms
+msgid "Key"
+msgstr "Schlüssel"
+
+#: core/controllers/arformcontroller.php:2383
+#: core/controllers/arformcontroller.php:2414
+#: core/views/graph_ajax.php:230
+#: core/views/graph_ajax.php:372
+#: core/views/graph_ajax.php:634
+#: core/views/list.php:494
+#: core/views/list.php:525
+#@ ARForms
+msgid "Entries"
+msgstr "Einträge"
+
+#: core/controllers/arformcontroller.php:2384
+#: core/views/list.php:495
+#@ ARForms
+msgid "Shortcodes"
+msgstr "shortcodes"
+
+#: core/controllers/arformcontroller.php:2385
+#: core/views/list.php:496
+#@ ARForms
+msgid "Create Date"
+msgstr "Erstellungsdatum"
+
+#: core/controllers/arformcontroller.php:2386
+#: core/controllers/arrecordcontroller.php:3391
+#: core/views/list.php:497
+#: core/views/view_records.php:797
+#@ ARForms
+msgid "Action"
+msgstr "Aktion"
+
+#: core/controllers/arformcontroller.php:2439
+#: core/views/list.php:550
+#@ ARForms
+msgid "Edit Form"
+msgstr "Formular bearbeiten"
+
+#: core/controllers/arformcontroller.php:2447
+#: core/views/list.php:558
+#@ ARForms
+msgid "Form Entry"
+msgstr "Formulareingabe"
+
+#: core/controllers/arformcontroller.php:2449
+#: core/views/list.php:560
+#@ ARForms
+msgid "Duplicate Form"
+msgstr "Dupliziere Formular"
+
+#: core/controllers/arformcontroller.php:4166
+#: core/views/addcontrols.php:2012
+#@ ARForms
+msgid "Left to Right"
+msgstr "Von links nach rechts"
+
+#: core/controllers/arformcontroller.php:4166
+#: core/views/addcontrols.php:2012
+#@ ARForms
+msgid "Right to Left"
+msgstr "Von rechts nach links"
+
+#: core/controllers/arformcontroller.php:2895
+#: core/views/addcontrols.php:743
+#@ ARForms
+msgid "Flat"
+msgstr "flach"
+
+#: core/controllers/arformcontroller.php:2762
+#: core/controllers/arformcontroller.php:3065
+#: core/controllers/arformcontroller.php:3177
+#: core/controllers/arformcontroller.php:3322
+#: core/controllers/arformcontroller.php:3636
+#: core/controllers/arformcontroller.php:3712
+#: core/controllers/arformcontroller.php:3729
+#: core/controllers/arformcontroller.php:4061
+#: core/controllers/arformcontroller.php:5862
+#: core/controllers/arformcontroller.php:6227
+#: core/helpers/arfieldhelper.php:5378
+#: core/vc/class_vc_extend.php:647
+#: core/vc/class_vc_extend.php:665
+#: core/vc/class_vc_extend.php:733
+#: core/views/addcontrols.php:610
+#: core/views/addcontrols.php:913
+#: core/views/addcontrols.php:1025
+#: core/views/addcontrols.php:1169
+#: core/views/addcontrols.php:1483
+#: core/views/addcontrols.php:1557
+#: core/views/addcontrols.php:1574
+#: core/views/addcontrols.php:1907
+#: core/views/addcontrols.php:3708
+#: core/views/addcontrols.php:4072
+#: core/views/insert_form_popup.php:670
+#: core/views/insert_form_popup.php:682
+#: core/widgets/ARFwidgetForm.php:68
+#: core/widgets/ARFwidgetForm.php:75
+#@ ARForms
+msgid "Left"
+msgstr "Links"
+
+#: core/controllers/arformcontroller.php:2762
+#: core/controllers/arformcontroller.php:3063
+#: core/controllers/arformcontroller.php:3177
+#: core/controllers/arformcontroller.php:3320
+#: core/controllers/arformcontroller.php:3634
+#: core/controllers/arformcontroller.php:3712
+#: core/controllers/arformcontroller.php:3729
+#: core/controllers/arformcontroller.php:4061
+#: core/controllers/arformcontroller.php:5860
+#: core/controllers/arformcontroller.php:6228
+#: core/vc/class_vc_extend.php:648
+#: core/vc/class_vc_extend.php:666
+#: core/vc/class_vc_extend.php:734
+#: core/views/addcontrols.php:610
+#: core/views/addcontrols.php:911
+#: core/views/addcontrols.php:1025
+#: core/views/addcontrols.php:1167
+#: core/views/addcontrols.php:1481
+#: core/views/addcontrols.php:1557
+#: core/views/addcontrols.php:1574
+#: core/views/addcontrols.php:1907
+#: core/views/addcontrols.php:3706
+#: core/views/addcontrols.php:4073
+#: core/views/insert_form_popup.php:671
+#: core/views/insert_form_popup.php:683
+#: core/widgets/ARFwidgetForm.php:69
+#: core/widgets/ARFwidgetForm.php:76
+#@ ARForms
+msgid "Right"
+msgstr "rechts"
+
+#: core/controllers/arformcontroller.php:4893
+#: core/views/addcontrols.php:2738
+#@ ARForms
+msgid "Date Format"
+msgstr "Datumsformat"
+
+#: core/controllers/arformcontroller.php:5418
+#: core/controllers/arformcontroller.php:5437
+#: core/views/addcontrols.php:3264
+#: core/views/addcontrols.php:3283
+#@ ARForms
+msgid "Optional"
+msgstr "freiwillig"
+
+#: core/controllers/arformcontroller.php:5424
+#: core/controllers/arformcontroller.php:5443
+#: core/views/addcontrols.php:3270
+#: core/views/addcontrols.php:3289
+#@ ARForms
+msgid "If not provided anything it will be auto"
+msgstr "Wenn kein Wert eingetragen wird, passt sich der Button automatisch an"
+
+#: core/controllers/arrecordcontroller.php:3297
+#: core/views/view_records.php:706
+#: core/views/view_records.php:926
+#@ ARForms
+msgid "Select form"
+msgstr "Wählen Sie ein Formular"
+
+#: core/controllers/arrecordcontroller.php:3315
+#: core/views/view_records.php:724
+#@ ARForms
+msgid "Select date From"
+msgstr "Wählen Sie ein Datum aus"
+
+#: core/controllers/arrecordcontroller.php:3317
+#: core/views/view_records.php:726
+#@ ARForms
+msgid "To"
+msgstr "bis"
+
+#: core/controllers/arrecordcontroller.php:3315
+#: core/views/view_records.php:724
+#@ ARForms
+msgid "optional"
+msgstr "freiwillig"
+
+#: core/controllers/arrecordcontroller.php:3388
+#: core/views/view_records.php:794
+#@ ARForms
+msgid "Browser Name"
+msgstr "Browsernamen"
+
+#: core/controllers/arrecordcontroller.php:3390
+#: core/views/view_records.php:796
+#@ ARForms
+msgid "Country"
+msgstr "Land"
+
+#: core/controllers/arrecordcontroller.php:3431
+#: core/controllers/arrecordcontroller.php:3435
+#: core/views/view_records.php:835
+#: core/views/view_records.php:839
+#@ ARForms
+msgid "View Entry"
+msgstr "Eintrag ansehen"
+
+#: core/controllers/arrecordcontroller.php:3472
+#: core/views/view_records.php:874
+#@ ARForms
+msgid "Close"
+msgstr "schließen"
+
+#: core/views/form.php:666
+#@ ARForms
+msgid "Powered by"
+msgstr "Präsentiert von"
+
+#: core/views/edit.php:1900
+#: core/views/edit.php:1945
+#: core/views/edit.php:2062
+#: core/views/edit.php:2115
+#: core/views/edit.php:2248
+#: core/views/edit.php:2289
+#: core/views/edit.php:2411
+#: core/views/edit.php:2454
+#@ ARForms
+msgid "LIST NAME"
+msgstr "Zeige Namen"
+
+#: core/models/artemplate.php:1040
+#: core/views/upgrade_latest_data.php:1377
+#@ ARForms
+msgid "First Name"
+msgstr "Vorname"
+
+#: core/views/edit.php:1463
+#@ ARForms
+msgid "Admin Email"
+msgstr "admin E-mail"
+
+#: core/views/edit.php:3311
+#@ ARForms
+msgid "Please use any of the following shortcode to add form into post / page / widget"
+msgstr "Bitte nutzen Sie eine der folgenden Kurzwahllinks, um das Formular in Beiträgen / Seiten und Widget hinzufügen"
+
+#: core/views/graph_ajax.php:372
+#@ ARForms
+msgid "Day"
+msgstr "Tag"
+
+#: core/views/graph_ajax.php:230
+#: core/views/graph_ajax.php:372
+#: core/views/graph_ajax.php:634
+#@ ARForms
+msgid "Views"
+msgstr "Ansichten"
+
+#: core/views/import_export_form.php:184
+#: core/views/list.php:706
+#: core/views/settings_form.php:1506
+#: core/views/view_records.php:1015
+#@ ARForms
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: core/views/import_export_form.php:186
+#: core/views/list.php:706
+#: core/views/settings_form.php:1506
+#: core/views/view_records.php:1015
+#@ ARForms
+msgid "Support"
+msgstr "Support (Unterstützung)"
+
+#: core/views/newfield.php:104
+#@ ARForms
+msgid "Thursday"
+msgstr "Donnerstag"
+
+#: core/helpers/arfieldhelper.php:3789
+#@ ARForms
+msgid "Columns"
+msgstr "Spalten"
+
+#: core/views/settings_form.php:403
+#@ ARForms
+msgid "reCAPTCHA requires an API key, consisting of a \"public\" and a \"private\" key. You can sign up for a"
+msgstr "reCAPTCHA benötigt einen API-Schlüssel, bestehend aus einem \\\"öffentlichen\\\" und \\\"privaten\\\" -Schlüssel. Sie bekommen diesen kostenlos unter: "
+
+#: core/views/settings_form.php:403
+#@ ARForms
+msgid "free reCAPTCHA key"
+msgstr "gratis reCAPTCHA key"
+
+#: core/views/settings_form.php:792
+#@ ARForms
+msgid "Ajax based submission"
+msgstr "Ajax-basierte Vorlage"
+
+#: core/views/settings_form.php:793
+#@ ARForms
+msgid "Normal submission"
+msgstr "Normale Vorlage"
+
+#: core/views/settings_form.php:968
+#: core/views/settings_form.php:1049
+#: core/views/settings_form.php:1143
+#: core/views/settings_form.php:1252
+#: core/views/settings_form.php:1351
+#@ ARForms
+msgid "Refresh List"
+msgstr "Lijst vernieuwen"
+
+#: core/views/settings_form.php:970
+#: core/views/settings_form.php:1051
+#: core/views/settings_form.php:1145
+#: core/views/settings_form.php:1254
+#: core/views/settings_form.php:1353
+#@ ARForms
+msgid "Delete Configuration"
+msgstr "verwijderen Configuration"
+
+#: core/views/settings_form.php:1015
+#: core/views/settings_form.php:1106
+#: core/views/settings_form.php:1219
+#: core/views/settings_form.php:1317
+#@ ARForms
+msgid "Verify"
+msgstr "controleren"
+
+#: core/vc/class_vc_extend.php:578
+#: core/views/insert_form_popup.php:634
+#@ ARForms
+msgid "How you want to include this form into page?"
+msgstr "Hoe wilt u dit formulier naar pagina bevatten?"
+
+#: core/vc/class_vc_extend.php:588
+#: core/views/insert_form_popup.php:635
+#: core/widgets/ARFwidgetForm.php:45
+#@ ARForms
+msgid "Internal"
+msgstr "intern"
+
+#: core/vc/class_vc_extend.php:598
+#: core/views/insert_form_popup.php:637
+#: core/widgets/ARFwidgetForm.php:47
+#@ ARForms
+msgid "External popup window"
+msgstr "Externe popup venster"
+
+#: core/helpers/arfieldhelper.php:4311
+#@ ARForms
+msgid "Embedded tags for youtube, map etc are supported."
+msgstr "Embedded-Tags für youtube, Karte etc. werden unterstützt."
+
+#: core/views/settings_form.php:909
+#@ ARForms
+msgid "AWEBER LIST"
+msgstr "Aweber LIJST"
+
+#: core/views/view_records.php:941
+#: core/views/view_records.php:942
+#@ ARForms
+msgid "Yearly"
+msgstr "Jahr"
+
+#: core/views/view_records.php:946
+#: core/views/view_records.php:947
+#@ ARForms
+msgid "Monthly"
+msgstr "Monat"
+
+#: core/views/view_records.php:951
+#: core/views/view_records.php:952
+#@ ARForms
+msgid "Daily"
+msgstr "Tag"
+
+#: core/controllers/arformcontroller.php:2498
+#: core/controllers/arrecordcontroller.php:3344
+#: core/views/list.php:613
+#: core/views/view_records.php:752
+#@ ARForms
+msgid "Show / Hide columns"
+msgstr "Infos anzeigen (wählen)"
+
+#: core/controllers/arformcontroller.php:2500
+#: core/controllers/arrecordcontroller.php:3346
+#: core/views/list.php:615
+#: core/views/view_records.php:754
+#@ ARForms
+msgid "entries"
+msgstr "einträgen"
+
+#: core/controllers/arformcontroller.php:2501
+#: core/controllers/arrecordcontroller.php:3347
+#: core/views/list.php:616
+#: core/views/newfield.php:946
+#: core/views/newfield.php:947
+#: core/views/newfield.php:951
+#: core/views/view_records.php:755
+#@ ARForms
+msgid "Show"
+msgstr "zeige"
+
+#: core/controllers/arformcontroller.php:2502
+#: core/controllers/arrecordcontroller.php:3348
+#: core/views/list.php:617
+#: core/views/view_records.php:756
+#@ ARForms
+msgid "Showing"
+msgstr "Toont"
+
+#: core/controllers/arformcontroller.php:2503
+#: core/controllers/arrecordcontroller.php:3349
+#: core/views/list.php:618
+#: core/views/view_records.php:757
+#@ ARForms
+msgid "to"
+msgstr "zu"
+
+#: core/controllers/arformcontroller.php:2504
+#: core/controllers/arrecordcontroller.php:3350
+#: core/views/form.php:160
+#: core/views/list.php:619
+#: core/views/newfield.php:437
+#: core/views/view_records.php:758
+#@ ARForms
+msgid "of"
+msgstr "von"
+
+#: core/controllers/arformcontroller.php:2505
+#: core/controllers/arrecordcontroller.php:3351
+#: core/views/list.php:620
+#: core/views/view_records.php:759
+#@ ARForms
+msgid "No matching records found"
+msgstr "Keine passenden Datensätze gefunden"
+
+#: core/controllers/arformcontroller.php:2506
+#: core/controllers/arrecordcontroller.php:3352
+#: core/views/list.php:621
+#: core/views/view_records.php:760
+#@ ARForms
+msgid "No data available in table"
+msgstr "Keine Daten in der Tabelle verfügbar"
+
+#: core/controllers/arformcontroller.php:2507
+#: core/controllers/arrecordcontroller.php:3353
+#: core/views/list.php:622
+#: core/views/view_records.php:761
+#@ ARForms
+msgid "filtered from"
+msgstr "von gefilterten"
+
+#: core/controllers/arformcontroller.php:2508
+#: core/controllers/arrecordcontroller.php:3354
+#: core/views/list.php:623
+#: core/views/view_records.php:762
+#@ ARForms
+msgid "total"
+msgstr "totaal"
+
+#: core/views/edit.php:1808
+#@ ARForms
+msgid "Email Marketers"
+msgstr "automatische Antwort"
+
+#: core/views/settings_form.php:134
+#@ ARForms
+msgid "Email Marketing Tools"
+msgstr "E-mail Marketing Tools"
+
+#: core/controllers/arformcontroller.php:5064
+#: core/views/addcontrols.php:2910
+#@ ARForms
+msgid "Checkbox & Radio Style"
+msgstr "Checkbox und Radio-Stil"
+
+#: core/controllers/arformcontroller.php:5463
+#: core/vc/class_vc_extend.php:685
+#: core/views/addcontrols.php:3309
+#: core/views/insert_form_popup.php:702
+#@ ARForms
+msgid "Text"
+msgstr "Text auf Schaltfläche"
+
+#: core/views/edit.php:3331
+#@ ARForms
+msgid "Note : Possible argument for type argument 1.) type=\"link\"  2.) type=\"button\"."
+msgstr "Hinweis:.. Mögliche Argumente für den Typ Argument  1) Typ = \\ \\\"Link \" 2) type = \\ \\\"-Taste \"."
+
+#: core/views/edit.php:3332
+#@ ARForms
+msgid ": You can adjust height and width of modal box"
+msgstr ": Sie können Höhe und Breite der modalen Box einstellen"
+
+#: core/helpers/arfieldhelper.php:4565
+#: core/helpers/arfieldhelper.php:4578
+#@ ARForms
+msgid "First Page Label"
+msgstr "Erste Seite festlegen"
+
+#: core/helpers/arfieldhelper.php:4609
+#@ ARForms
+msgid "Previous Button Text"
+msgstr "vorhergehend Button-Text"
+
+#: core/helpers/arfieldhelper.php:4631
+#@ ARForms
+msgid "Next Button Text"
+msgstr "Nächster Button-Text"
+
+#: core/helpers/arfieldhelper.php:4683
+#: core/helpers/arfieldhelper.php:4690
+#: core/helpers/arfieldhelper.php:4698
+#@ ARForms
+msgid "Wizard"
+msgstr "Zauberer"
+
+#: core/helpers/arfieldhelper.php:4681
+#: core/helpers/arfieldhelper.php:4688
+#: core/helpers/arfieldhelper.php:4699
+#@ ARForms
+msgid "Survey"
+msgstr "Umfrage"
+
+#: core/views/inputelements.php:246
+#@ ARForms
+msgid "Please select"
+msgstr "Bitte wählen Sie"
+
+#: core/vc/class_vc_extend.php:606
+#: core/views/insert_form_popup.php:642
+#@ ARForms
+msgid "Link Type?"
+msgstr "Link-Type?"
+
+#: core/vc/class_vc_extend.php:617
+#: core/views/insert_form_popup.php:646
+#: core/widgets/ARFwidgetForm.php:56
+#@ ARForms
+msgid "Link"
+msgstr "Link"
+
+#: core/helpers/arfieldhelper.php:3998
+#: core/vc/class_vc_extend.php:618
+#: core/views/insert_form_popup.php:647
+#: core/widgets/ARFwidgetForm.php:57
+#@ ARForms
+msgid "Button"
+msgstr "Button"
+
+#: core/widgets/ARFwidgetForm.php:99
+#@ ARForms
+msgid "Height :"
+msgstr "Höhe:"
+
+#: core/widgets/ARFwidgetForm.php:103
+#@ ARForms
+msgid "Width :"
+msgstr "Breite:"
+
+#: core/controllers/arformcontroller.php:4798
+#: core/views/addcontrols.php:2643
+#@ ARForms
+msgid "Field Transparency"
+msgstr "Feld Transparents"
+
+#: core/helpers/arfieldhelper.php:562
+#@ ARForms
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+#: core/helpers/arfieldhelper.php:1285
+#@ ARForms
+msgid "Email is invalid"
+msgstr "E-mail ist ungültig"
+
+#: core/helpers/arfieldhelper.php:1287
+#@ ARForms
+msgid "File is invalid"
+msgstr "Datei oder Format ist üngültig"
+
+#: core/helpers/arfieldhelper.php:1291
+#@ ARForms
+msgid "Phone is invalid"
+msgstr "Die Telefonnummer ist ungültig"
+
+#: core/helpers/arfieldhelper.php:1293
+#@ ARForms
+msgid "Image is invalid"
+msgstr "Die Bilddatei ist ungültig"
+
+#: core/helpers/arfieldhelper.php:1295
+#@ ARForms
+msgid "Date is invalid"
+msgstr "Das Datum ist ungültig"
+
+#: core/helpers/arfieldhelper.php:1297
+#@ ARForms
+msgid "Website is invalid"
+msgstr "Die Website ist ungültig"
+
+#: core/helpers/arfieldhelper.php:2810
+#: core/views/footer.php:62
+#@ ARForms
+msgid "equals"
+msgstr "gleich"
+
+#: core/helpers/arfieldhelper.php:2811
+#: core/views/footer.php:63
+#@ ARForms
+msgid "not equals"
+msgstr "nicht gleich"
+
+#: core/helpers/arfieldhelper.php:2812
+#: core/views/footer.php:64
+#@ ARForms
+msgid "greater than"
+msgstr "größer als"
+
+#: core/helpers/arfieldhelper.php:2813
+#: core/views/footer.php:65
+#@ ARForms
+msgid "less than"
+msgstr "weniger als"
+
+#: core/helpers/arfieldhelper.php:2814
+#: core/views/footer.php:66
+#@ ARForms
+msgid "contains"
+msgstr "enthält"
+
+#: core/models/arsettingmodel.php:112
+#@ ARForms
+msgid "We're sorry. Form is not submitted successfully."
+msgstr "Entschuldigung, dass Formular wurde leider nicht richtig versendet."
+
+#: core/models/arsettingmodel.php:121
+#@ ARForms
+msgid "You do not have permission to perform this action"
+msgstr "Sie haben keine Berechtigung, um diese Aktion durchzuführen"
+
+#: core/views/edit.php:1313
+#@ ARForms
+msgid "From/Reply to Email"
+msgstr "Von / Antworten auf diese E-Mail"
+
+#: core/views/edit.php:3047
+#: core/views/edit.php:3084
+#@ ARForms
+msgid "Form outer wrapper"
+msgstr "Formular Deckblatt/Hintergrund"
+
+#: core/views/edit.php:3048
+#: core/views/edit.php:3090
+#@ ARForms
+msgid "Form inner wrapper"
+msgstr "Formular innenseite"
+
+#: core/views/edit.php:3049
+#: core/views/edit.php:3096
+#@ ARForms
+msgid "Form title"
+msgstr "Formular Titel"
+
+#: core/views/edit.php:3050
+#: core/views/edit.php:3102
+#@ ARForms
+msgid "Form description"
+msgstr "Formular Beschreibung"
+
+#: core/views/edit.php:3055
+#: core/views/edit.php:3138
+#@ ARForms
+msgid "Submit button"
+msgstr "Senden Schaltfläche"
+
+#: core/views/edit.php:3058
+#: core/views/edit.php:3156
+#@ ARForms
+msgid "Success message"
+msgstr "Erfolgreich-Meldung"
+
+#: core/views/edit.php:3356
+#@ ARForms
+msgid "Please use any of the following shortcode to add form into template"
+msgstr "Bitte verwenden Sie einer der folgenden shortcodeum Ihr Formular in den Seiten einzubinden."
+
+#: core/views/list.php:16
+#@ ARForms
+msgid "This form is already deleted."
+msgstr "Das Formular wurde gelöscht."
+
+#: core/views/newfield.php:747
+#@ ARForms
+msgid "Basic Options"
+msgstr "Basis-Einstellungen"
+
+#: core/views/edit_form.php:171
+#: core/views/newfield.php:749
+#@ ARForms
+msgid "Conditional Law"
+msgstr "Bedingungen"
+
+#: core/views/edit.php:1044
+#: core/views/edit.php:3040
+#: core/views/newfield.php:853
+#@ ARForms
+msgid "Custom CSS"
+msgstr "aangepaste CSS"
+
+#: core/views/newfield.php:865
+#: core/widgets/ARFwidgetForm.php:50
+#@ ARForms
+msgid "Label"
+msgstr "etiket"
+
+#: core/views/newfield.php:866
+#@ ARForms
+msgid "Input element"
+msgstr "Input element"
+
+#: core/views/edit_form.php:184
+#: core/views/newfield.php:930
+#@ ARForms
+msgid "Enable Conditional Law"
+msgstr "Enable Voorwaardelijke Law"
+
+#: core/views/newfield.php:946
+#: core/views/newfield.php:947
+#: core/views/newfield.php:952
+#@ ARForms
+msgid "Hide"
+msgstr "verberge"
+
+#: core/views/newfield.php:959
+#@ ARForms
+msgid "this field if"
+msgstr "dieses Feld, wenn"
+
+#: core/views/edit_form.php:197
+#: core/views/newfield.php:969
+#: core/views/newfield.php:970
+#: core/views/newfield.php:974
+#@ ARForms
+msgid "All"
+msgstr "alle"
+
+#: core/views/edit_form.php:198
+#: core/views/newfield.php:969
+#: core/views/newfield.php:970
+#: core/views/newfield.php:975
+#@ ARForms
+msgid "Any"
+msgstr "eine"
+
+#: core/views/edit_form.php:200
+#: core/views/newfield.php:982
+#@ ARForms
+msgid "of the following match:"
+msgstr "von den folgenden Regeln übereinstimmen:"
+
+#: core/views/edit.php:1226
+#@ ARForms
+msgid "Select <strong>Single Line Text field</strong> or <strong>Email field</strong> to send autoresponse email to that address. First you need to create that field in form itself."
+msgstr "Wählen Sie ein <strong> einzeiliges Textfeld </ strong> oder <strong> E-Mail - Feld</ strong>, um eine  automatische Antwort E-Mail an diese Adresse zu senden. Zuerst müssen Sie das Feld in Formular selbst erstellen."
+
+#: core/views/edit.php:1292
+#: core/views/settings_form.php:659
+#@ ARForms
+msgid "From/Replyto Name"
+msgstr "Von / Antwort Name"
+
+#: core/views/edit.php:1523
+#: core/views/settings_form.php:677
+#@ ARForms
+msgid "From/Replyto Email"
+msgstr "Von / Rückantwort an folgende Email-Adresse"
+
+#: core/views/settings_form.php:827
+#@ ARForms
+msgid "Form Global CSS"
+msgstr "Formular Global CSS"
+
+#: core/controllers/arformcontroller.php:2925
+#: core/controllers/arformcontroller.php:2948
+#: core/controllers/arformcontroller.php:4615
+#: core/controllers/arformcontroller.php:4638
+#: core/controllers/arformcontroller.php:4758
+#: core/controllers/arformcontroller.php:4779
+#: core/controllers/arformcontroller.php:5725
+#: core/controllers/arformcontroller.php:5749
+#: core/views/addcontrols.php:773
+#: core/views/addcontrols.php:796
+#: core/views/addcontrols.php:2460
+#: core/views/addcontrols.php:2483
+#: core/views/addcontrols.php:2603
+#: core/views/addcontrols.php:2624
+#: core/views/addcontrols.php:3571
+#: core/views/addcontrols.php:3595
+#@ ARForms
+msgid "0 px"
+msgstr "0 px"
+
+#: core/controllers/arformcontroller.php:2926
+#: core/controllers/arformcontroller.php:4639
+#: core/controllers/arformcontroller.php:5750
+#: core/views/addcontrols.php:774
+#: core/views/addcontrols.php:2484
+#: core/views/addcontrols.php:3596
+#@ ARForms
+msgid "50 px"
+msgstr "50 px"
+
+#: core/controllers/arformcontroller.php:2949
+#: core/views/addcontrols.php:797
+#@ ARForms
+msgid "100 px"
+msgstr "100 px"
+
+#: core/controllers/arformcontroller.php:4616
+#: core/controllers/arformcontroller.php:5726
+#: core/views/addcontrols.php:2461
+#: core/views/addcontrols.php:3572
+#@ ARForms
+msgid "20 px"
+msgstr "20 px"
+
+#: core/controllers/arformcontroller.php:7518
+#@ ARForms
+msgid "Form Imported Successfully"
+msgstr "Formular erfolgreich Importiert"
+
+#: core/controllers/arformcontroller.php:7522
+#@ ARForms
+msgid "File is not proper."
+msgstr "Die Datei ist nicht richtig."
+
+#: core/helpers/arfieldhelper.php:527
+#@ ARForms
+msgid "Multiline Text"
+msgstr "Multiline Text"
+
+#: core/views/edit.php:3342
+#@ ARForms
+msgid "Note : Possible argument for position argument 1.) position=\"left\"  2.) position=\"right\"."
+msgstr "Hinweis:.. Möglicheauswahl für die Position 1) Position = \\ \\\"links \" 2) Position = \\ \\\"rechts \"."
+
+#: core/views/edit.php:3353
+#@ ARForms
+msgid "Note : Possible argument for position argument 1.) position=\"top\"  2.) position=\"bottom\"."
+msgstr "Hinweis:. Mögliche auswahl für die Position 1) Position = \\ \\\"oben \" 2) Position = \\ \\\"unten \".."
+
+#: core/views/common.php:1119
+#: core/views/common.php:1603
+#: core/views/formfields.php:469
+#@ ARForms
+msgid "No file selected"
+msgstr "Keine Datei ausgewählt"
+
+#: core/helpers/arfieldhelper.php:4320
+#: core/views/edit.php:1259
+#: core/views/edit.php:1330
+#: core/views/edit.php:1415
+#: core/views/edit.php:1492
+#: core/views/edit.php:1552
+#: core/views/edit.php:1622
+#: core/views/edit.php:1695
+#@ ARForms
+msgid "Add Field"
+msgstr "Feld anlegen"
+
+#: core/views/edit.php:3051
+#: core/views/edit.php:3108
+#@ ARForms
+msgid "Field wrapper"
+msgstr "Feld eigenschaften"
+
+#: core/views/edit.php:3052
+#: core/views/edit.php:3114
+#@ ARForms
+msgid "Field label"
+msgstr "Feld Beschriftung"
+
+#: core/views/edit.php:3053
+#: core/views/edit.php:3120
+#@ ARForms
+msgid "Input elements"
+msgstr "Eingabeelemente"
+
+#: core/views/edit.php:3054
+#: core/views/edit.php:3132
+#@ ARForms
+msgid "Submit wrapper"
+msgstr "Email senden"
+
+#: core/views/edit.php:3056
+#: core/views/edit.php:3144
+#@ ARForms
+msgid "Next button"
+msgstr "nächster Button"
+
+#: core/views/edit.php:3057
+#: core/views/edit.php:3150
+#@ ARForms
+msgid "Previous button"
+msgstr "Zurück-Button"
+
+#: core/views/edit.php:3060
+#: core/views/edit.php:3126
+#@ ARForms
+msgid "Page break"
+msgstr "Seitenumbruch"
+
+#: core/views/edit.php:3084
+#: core/views/edit.php:3090
+#: core/views/edit.php:3096
+#: core/views/edit.php:3102
+#: core/views/edit.php:3108
+#: core/views/edit.php:3114
+#: core/views/edit.php:3120
+#: core/views/edit.php:3126
+#: core/views/edit.php:3132
+#: core/views/edit.php:3138
+#: core/views/edit.php:3144
+#: core/views/edit.php:3150
+#: core/views/edit.php:3156
+#: core/views/edit.php:3162
+#: core/views/edit.php:3168
+#: core/views/edit.php:3174
+#: core/views/edit.php:3179
+#: core/views/edit.php:3184
+#: core/views/edit.php:3189
+#: core/views/edit.php:3194
+#: core/views/import_export_form.php:140
+#@ ARForms
+msgid "Remove"
+msgstr "entfernen"
+
+#: core/helpers/arfieldhelper.php:3975
+#@ ARForms
+msgid "Attach file with email"
+msgstr "Datei an E-mail anhängen"
+
+#: core/helpers/arfieldhelper.php:3874
+#@ ARForms
+msgid "Specify types"
+msgstr "Bestimmer Typ"
+
+#: core/helpers/arfieldhelper.php:4039
+#@ ARForms
+msgid "Upload button text"
+msgstr "Upload Buttontext"
+
+#: core/helpers/arfieldhelper.php:4050
+#@ ARForms
+msgid "Remove Button text"
+msgstr "Löschbutton Text"
+
+#: core/controllers/arformcontroller.php:2827
+#: core/controllers/arformcontroller.php:2854
+#: core/controllers/arformcontroller.php:5611
+#: core/controllers/arformcontroller.php:5633
+#: core/controllers/arformcontroller.php:5652
+#: core/controllers/arformcontroller.php:5674
+#: core/controllers/arsettingcontroller.php:991
+#: core/controllers/arsettingcontroller.php:1035
+#: core/controllers/arsettingcontroller.php:1088
+#: core/views/addcontrols.php:675
+#: core/views/addcontrols.php:702
+#: core/views/addcontrols.php:3457
+#: core/views/addcontrols.php:3479
+#: core/views/addcontrols.php:3498
+#: core/views/addcontrols.php:3520
+#: core/views/import_export_form.php:134
+#@ ARForms
+msgid "Upload"
+msgstr "laden"
+
+#: core/views/import_export_form.php:170
+#@ ARForms
+msgid "Import"
+msgstr "Import"
+
+#: core/views/import_export_form.php:102
+#@ ARForms
+msgid "Export"
+msgstr "Export"
+
+#: core/vc/class_vc_extend.php:619
+#: core/views/insert_form_popup.php:648
+#: core/widgets/ARFwidgetForm.php:58
+#@ ARForms
+msgid "Sticky"
+msgstr "verankert"
+
+#: core/vc/class_vc_extend.php:620
+#: core/views/insert_form_popup.php:649
+#: core/widgets/ARFwidgetForm.php:59
+#@ ARForms
+msgid "Fly"
+msgstr "fliegen"
+
+#: core/vc/class_vc_extend.php:635
+#: core/vc/class_vc_extend.php:655
+#: core/views/insert_form_popup.php:664
+#: core/views/insert_form_popup.php:678
+#: core/widgets/ARFwidgetForm.php:64
+#: core/widgets/ARFwidgetForm.php:73
+#@ ARForms
+msgid "Link Position?"
+msgstr "Link Position?"
+
+#: core/controllers/arformcontroller.php:3062
+#: core/controllers/arformcontroller.php:3319
+#: core/controllers/arformcontroller.php:3633
+#: core/controllers/arformcontroller.php:3712
+#: core/controllers/arformcontroller.php:5859
+#: core/controllers/arformcontroller.php:6225
+#: core/helpers/arfieldhelper.php:5391
+#: core/vc/class_vc_extend.php:645
+#: core/vc/class_vc_extend.php:731
+#: core/views/addcontrols.php:910
+#: core/views/addcontrols.php:1166
+#: core/views/addcontrols.php:1480
+#: core/views/addcontrols.php:1557
+#: core/views/addcontrols.php:3705
+#: core/views/addcontrols.php:4070
+#: core/views/insert_form_popup.php:668
+#: core/widgets/ARFwidgetForm.php:66
+#@ ARForms
+msgid "Top"
+msgstr "top"
+
+#: core/controllers/arformcontroller.php:3064
+#: core/controllers/arformcontroller.php:3321
+#: core/controllers/arformcontroller.php:3635
+#: core/controllers/arformcontroller.php:5861
+#: core/controllers/arformcontroller.php:6226
+#: core/vc/class_vc_extend.php:646
+#: core/vc/class_vc_extend.php:732
+#: core/views/addcontrols.php:912
+#: core/views/addcontrols.php:1168
+#: core/views/addcontrols.php:1482
+#: core/views/addcontrols.php:3707
+#: core/views/addcontrols.php:4071
+#: core/views/insert_form_popup.php:669
+#: core/widgets/ARFwidgetForm.php:67
+#@ ARForms
+msgid "Bottom"
+msgstr "Button"
+
+#: core/views/newfield.php:860
+#: core/views/newfield.php:864
+#@ ARForms
+msgid "Wrapper"
+msgstr "Aussehen"
+
+#: core/helpers/arfieldhelper.php:3681
+#@ ARForms
+msgid "Required field"
+msgstr "Pflichtfeld"
+
+#: core/helpers/arfieldhelper.php:3754
+#@ ARForms
+msgid "Clear Default Text on Focus"
+msgstr "Standardtext löschen"
+
+#: core/views/newfield.php:867
+#@ ARForms
+msgid "Description"
+msgstr "Beschreibung"
+
+#: core/views/edit_form.php:206
+#: core/views/newfield.php:988
+#@ ARForms
+msgid "Add New Law"
+msgstr "Regel hinzufügen"
+
+#: core/widgets/ARFwidgetForm.php:44
+#@ ARForms
+msgid "Form Type"
+msgstr "Formular-Typ"
+
+#: core/widgets/ARFwidgetForm.php:54
+#@ ARForms
+msgid "Link Type ?"
+msgstr "Link-Typ?"
+
+#: core/controllers/arformcontroller.php:3599
+#: core/views/addcontrols.php:1446
+#@ ARForms
+msgid "0"
+msgstr "0"
+
+#: core/controllers/arsettingcontroller.php:127
+#@ ARForms
+msgid "Import Export"
+msgstr "Import Export"
+
+#: core/controllers/arsettingcontroller.php:127
+#@ ARForms
+msgid "Import / Export"
+msgstr "Import / Export"
+
+#: core/helpers/arfieldhelper.php:530
+#@ ARForms
+msgid "Dropdown"
+msgstr "Dropdown"
+
+#: core/views/edit.php:3062
+#: core/views/edit.php:3174
+#@ ARForms
+msgid "Modal"
+msgstr "Modal"
+
+#: core/views/import_export_form.php:20
+#@ ARForms
+msgid "Import / Export Forms"
+msgstr "Import / Export Formulare"
+
+#: core/views/import_export_form.php:28
+#@ ARForms
+msgid "Form Imported Successfully."
+msgstr "Formular-Import Erfolgreich"
+
+#: core/views/import_export_form.php:59
+#: core/views/import_export_form.php:74
+#@ ARForms
+msgid "Export Form(s)"
+msgstr "Formulare sichern und Exportieren"
+
+#: core/views/import_export_form.php:59
+#: core/views/import_export_form.php:80
+#@ ARForms
+msgid "Export Entries"
+msgstr "Einträge sichern"
+
+#: core/views/import_export_form.php:88
+#@ ARForms
+msgid "Please Select Form(s)"
+msgstr "Wählen Sie die Formulare zum sichern."
+
+#: core/views/import_export_form.php:94
+#@ ARForms
+msgid "Please Select Form"
+msgstr "Bitte wählen Sie ein Formular"
+
+#: core/views/import_export_form.php:115
+#@ ARForms
+msgid "Import Form(s)"
+msgstr "Import-Formular"
+
+#: core/views/import_export_form.php:142
+#@ ARForms
+msgid "Please select valid file"
+msgstr "Bitte wählen Sie eine gültige Datei"
+
+#: core/helpers/arfieldhelper.php:4357
+#@ ARForms
+msgid "Font Family"
+msgstr "Schrift-Familie"
+
+#: core/helpers/arfieldhelper.php:4434
+#@ ARForms
+msgid "Font Size"
+msgstr "Schriftgröße"
+
+#: core/helpers/arfieldhelper.php:4482
+#@ ARForms
+msgid "Font Style"
+msgstr "Schriftart"
+
+#: core/helpers/arfieldhelper.php:3771
+#@ ARForms
+msgid "Validate default value"
+msgstr "Bestätigen Sie den Standardwert"
+
+#: core/helpers/arfieldhelper.php:572
+#@ ARForms
+msgid "Section"
+msgstr "Abschnitt"
+
+#: core/helpers/arfieldhelper.php:2815
+#: core/views/footer.php:67
+#@ ARForms
+msgid "not contains"
+msgstr "enthält nicht"
+
+#: core/views/addfieldjs.php:53
+#: core/views/footer.php:54
+#@ ARForms
+msgid "(Blank Section)"
+msgstr "(Leerer Abschnitt)"
+
+#: core/views/edit.php:3233
+#@ ARForms
+msgid "You can enter classes not directly properties."
+msgstr "Sie können Eigenschaften von Klassen nicht direkt eingeben."
+
+#: core/views/import_export_form.php:143
+#@ ARForms
+msgid "Please select file"
+msgstr "Bitte wählen Sie eine Datei"
+
+#: core/views/inputelements.php:420
+#@ ARForms
+msgid "Can't read the above security code?"
+msgstr "Kann den oberen Sicherheitscode nicht lesen?"
+
+#: core/views/inputelements.php:420
+#@ ARForms
+msgid "Refresh"
+msgstr "Aktualisieren"
+
+#: core/views/settings_form.php:237
+#: core/views/settings_form.php:276
+#@ ARForms
+msgid "Product License"
+msgstr "Produktlizenz"
+
+#: core/views/settings_form.php:246
+#@ ARForms
+msgid "License Status"
+msgstr "Lizenzstatus"
+
+#: core/views/settings_form.php:253
+#@ ARForms
+msgid "Deactivate License"
+msgstr "Deaktiviere Lizenz"
+
+#: core/views/settings_form.php:291
+#@ ARForms
+msgid "Customer Name"
+msgstr "Kundenname"
+
+#: core/views/settings_form.php:311
+#@ ARForms
+msgid "Customer Email"
+msgstr "Kunde E-Mail"
+
+#: core/views/settings_form.php:347
+#@ ARForms
+msgid "Domain Name"
+msgstr "Domain Name"
+
+#: core/views/settings_form.php:373
+#@ ARForms
+msgid "License Activated Successfully."
+msgstr "Lizenz erfolgreich aktiviert."
+
+#: core/views/settings_form.php:259
+#@ ARForms
+msgid "License Deactivated Successfully."
+msgstr "Lizenz erfolgreich deaktiviert."
+
+#: core/controllers/arformcontroller.php:6869
+#@ ARForms
+msgid "There is any error while uncompressing zip."
+msgstr "Es ist ein Fehler während Dekomprimieren Reißverschluss."
+
+#: core/controllers/arformcontroller.php:6874
+#: core/controllers/arformcontroller.php:6880
+#@ ARForms
+msgid "Please upload only zip files."
+msgstr "Bitte laden Sie nur Zip-Dateien."
+
+#: core/views/edit.php:3059
+#: core/views/edit.php:3162
+#@ ARForms
+msgid "Validation (Error)"
+msgstr "Validation (Error)"
+
+#: core/views/import_export_form.php:124
+#@ ARForms
+msgid "Please upload zip file exported from ARForms plugin."
+msgstr "Laden Sie hier die BackUp-Zip-Datei von ARForms hoch und Importieren sie diese wieder ins ARForms PlugIn."
+
+#: core/controllers/arformcontroller.php:2794
+#: core/controllers/arformcontroller.php:4451
+#: core/controllers/arformcontroller.php:4527
+#: core/controllers/arformcontroller.php:6178
+#: core/controllers/arformcontroller.php:6261
+#: core/helpers/arfieldhelper.php:4521
+#: core/views/addcontrols.php:642
+#: core/views/addcontrols.php:2296
+#: core/views/addcontrols.php:2372
+#: core/views/addcontrols.php:4023
+#: core/views/addcontrols.php:4106
+#: core/widgets/ARFwidgetForm.php:85
+#@ ARForms
+msgid "Background Color"
+msgstr "Hintergrundfarbe"
+
+#: core/views/formsubmission.php:102
+#@ ARForms
+msgid "Success"
+msgstr "erfolgreich"
+
+#: core/views/edit.php:3061
+#: core/views/edit.php:3168
+#@ ARForms
+msgid "Fly / Sticky Button"
+msgstr "Ajax oder Eingebetteter Button"
+
+#: core/views/settings_form.php:280
+#@ ARForms
+msgid "A valid license key entitles you to support and enables automatic upgrades. Also you can remove Rebradning link only after activate your license. A license key only be used for one installation of WordPress at a time."
+msgstr "Ein gültiger Lizenzschlüssel berechtigt Sie zu unserem Support und ermöglicht Upgrades & Updates kommender Versionen. Sie können erst nach Aktivierung der Lizenz den Werbe-Link entfernen. Der Lizenzschlüssel berechtigt Sie nur für eine  Installation pro Domain in einer WordPress-Installation."
+
+#: core/views/settings_form.php:328
+#@ ARForms
+msgid "Purchase Code"
+msgstr "Lizenzschlüssel"
+
+#: core/views/graph_ajax.php:230
+#@ ARForms
+msgid "Month"
+msgstr "Monat"
+
+#: core/views/graph_ajax.php:634
+#@ ARForms
+msgid "Hour"
+msgstr "Stunde"
+
+#: core/views/newfield.php:321
+#@ ARForms
+msgid "Move"
+msgstr "Bewegung"
+
+#: core/views/newfield.php:664
+#@ ARForms
+msgid "Please setup public and private key in Global Settings otherwise recaptcha will not appear"
+msgstr "Bitte Setup öffentlichen und privaten Schlüssel in Globale Einstellungen sonst recaptcha wird nicht angezeigt"
+
+#: core/controllers/arformcontroller.php:2762
+#: core/controllers/arformcontroller.php:3177
+#: core/controllers/arformcontroller.php:4061
+#: core/views/addcontrols.php:610
+#: core/views/addcontrols.php:1025
+#: core/views/addcontrols.php:1907
+#@ ARForms
+msgid "Center"
+msgstr "Zentrum"
+
+#: core/controllers/arformcontroller.php:2787
+#: core/views/addcontrols.php:635
+#@ ARForms
+msgid "Form Background"
+msgstr "Form-Hintergrund"
+
+#: core/controllers/arformcontroller.php:2824
+#: core/controllers/arformcontroller.php:5608
+#: core/views/addcontrols.php:672
+#: core/views/addcontrols.php:3454
+#@ ARForms
+msgid "Background Image"
+msgstr "Hintergrundbild"
+
+#: core/controllers/arformcontroller.php:3145
+#: core/controllers/arformcontroller.php:3549
+#: core/views/addcontrols.php:993
+#: core/views/addcontrols.php:1396
+#@ ARForms
+msgid "Title Color"
+msgstr "Titel Farbe"
+
+#: core/controllers/arformcontroller.php:6171
+#: core/views/addcontrols.php:4016
+#@ ARForms
+msgid "Normal"
+msgstr "normal"
+
+#: core/controllers/arformcontroller.php:4691
+#: core/views/addcontrols.php:2536
+#@ ARForms
+msgid "Solid"
+msgstr "solide"
+
+#: core/controllers/arformcontroller.php:4693
+#: core/views/addcontrols.php:2538
+#@ ARForms
+msgid "Dotted"
+msgstr "Gepunktete"
+
+#: core/controllers/arformcontroller.php:4695
+#: core/views/addcontrols.php:2540
+#@ ARForms
+msgid "Dashed"
+msgstr "Eine gestrichelte"
+
+#: core/controllers/arformcontroller.php:4746
+#: core/views/addcontrols.php:2591
+#@ ARForms
+msgid "Vertical"
+msgstr "vertikal"
+
+#: core/controllers/arformcontroller.php:4759
+#: core/controllers/arformcontroller.php:4780
+#: core/views/addcontrols.php:2604
+#: core/views/addcontrols.php:2625
+#@ ARForms
+msgid "25 px"
+msgstr "25 px"
+
+#: core/controllers/arformcontroller.php:4767
+#: core/views/addcontrols.php:2612
+#@ ARForms
+msgid "Horizontal"
+msgstr "horizontal"
+
+#: core/controllers/arformcontroller.php:5213
+#: core/views/addcontrols.php:3059
+#@ ARForms
+msgid "Auto"
+msgstr "Auto"
+
+#: core/controllers/arformcontroller.php:6171
+#: core/views/addcontrols.php:4016
+#@ ARForms
+msgid "Advance"
+msgstr "Fortschritt"
+
+#: core/controllers/arformcontroller.php:6222
+#: core/views/addcontrols.php:4067
+#@ ARForms
+msgid "Position"
+msgstr "Position"
+
+#: core/helpers/arfieldhelper.php:575
+#@ ARForms
+msgid "Like button"
+msgstr "Like-Button"
+
+#: core/helpers/arfieldhelper.php:576
+#@ ARForms
+msgid "Slider"
+msgstr "Slider"
+
+#: core/helpers/arfieldhelper.php:1272
+#: core/helpers/arfieldhelper.php:5290
+#: core/views/upgrade_latest_data.php:703
+#@ ARForms
+msgid "Confirm Password does not match with password"
+msgstr "Passwort bestätigen nicht mit Kennwort übereinstimmen"
+
+#: core/helpers/arformhelper.php:244
+#: core/helpers/arformhelper.php:549
+#: core/models/arnotifymodel.php:676
+#: core/views/upgrade_latest_data.php:459
+#@ ARForms
+msgid "Form submitted on"
+msgstr "Formular eingereicht am"
+
+#: core/controllers/arformcontroller.php:4739
+#: core/views/addcontrols.php:2584
+#@ ARForms
+msgid "Field Inner Spacing"
+msgstr "Feldinnenabstand"
+
+#: core/views/common.php:117
+#: core/views/formfields.php:303
+#@ ARForms
+msgid "Strength indicator"
+msgstr "Stärke-Indikator"
+
+#: core/views/common.php:119
+#@ ARForms
+msgid "Short"
+msgstr "kurz"
+
+#: core/views/common.php:121
+#@ ARForms
+msgid "Bad"
+msgstr "schlecht"
+
+#: core/views/common.php:123
+#@ ARForms
+msgid "Good"
+msgstr "gut"
+
+#: core/views/common.php:125
+#@ ARForms
+msgid "Strong"
+msgstr "stark"
+
+#: core/helpers/arfieldhelper.php:4020
+#@ ARForms
+msgid "Upload font color"
+msgstr "Schriftfarbe Galerie"
+
+#: core/helpers/arfieldhelper.php:4876
+#@ ARForms
+msgid "Like Title"
+msgstr "Wie Titel"
+
+#: core/helpers/arfieldhelper.php:4892
+#@ ARForms
+msgid "Dislike Title"
+msgstr "Dislike Titel"
+
+#: core/helpers/arfieldhelper.php:4907
+#@ ARForms
+msgid "Active color"
+msgstr "Aktive Farbe"
+
+#: core/helpers/arfieldhelper.php:1268
+#: core/helpers/arfieldhelper.php:4917
+#: core/views/upgrade_latest_data.php:690
+#@ ARForms
+msgid "Like"
+msgstr "wie"
+
+#: core/helpers/arfieldhelper.php:1268
+#: core/helpers/arfieldhelper.php:4928
+#: core/views/upgrade_latest_data.php:691
+#@ ARForms
+msgid "Dislike"
+msgstr "Dislike"
+
+#: core/helpers/arfieldhelper.php:4939
+#@ ARForms
+msgid "Handle type"
+msgstr "Griff-Typ"
+
+#: core/helpers/arfieldhelper.php:4961
+#: core/helpers/arfieldhelper.php:4976
+#@ ARForms
+msgid "Round"
+msgstr "Runde"
+
+#: core/helpers/arfieldhelper.php:4959
+#: core/helpers/arfieldhelper.php:4977
+#@ ARForms
+msgid "Square"
+msgstr "Platz"
+
+#: core/helpers/arfieldhelper.php:4957
+#: core/helpers/arfieldhelper.php:4978
+#@ ARForms
+msgid "Triangle"
+msgstr "Dreieck"
+
+#: core/helpers/arfieldhelper.php:4995
+#: core/views/form.php:160
+#@ ARForms
+msgid "Step"
+msgstr "Schritt"
+
+#: core/helpers/arfieldhelper.php:5008
+#@ ARForms
+msgid "Default value"
+msgstr "Standardwert"
+
+#: core/helpers/arfieldhelper.php:5021
+#@ ARForms
+msgid "Track BG color"
+msgstr "Verfolgen BG Farbe"
+
+#: core/helpers/arfieldhelper.php:5031
+#@ ARForms
+msgid "Left side"
+msgstr "Linke Seite"
+
+#: core/helpers/arfieldhelper.php:5040
+#@ ARForms
+msgid "Right side"
+msgstr "Rechte Seite"
+
+#: core/helpers/arfieldhelper.php:5051
+#@ ARForms
+msgid "Handle color"
+msgstr "Grifffarbe"
+
+#: core/helpers/arfieldhelper.php:1273
+#: core/helpers/arfieldhelper.php:5189
+#: core/helpers/arfieldhelper.php:5198
+#: core/views/upgrade_latest_data.php:706
+#@ ARForms
+msgid "Confirm Password"
+msgstr "Passwort bestätigen"
+
+#: core/helpers/arfieldhelper.php:5293
+#@ ARForms
+msgid "Message for invalid Password"
+msgstr "Nachricht für ungültig Passwort"
+
+#: core/views/list.php:670
+#@ ARForms
+msgid "Are you sure you want to delete this form(s)?"
+msgstr "Sind Sie sicher, dass Sie dieses Formular (n) löschen wollen?"
+
+#: core/views/newfield.php:317
+#@ ARForms
+msgid "Duplicate"
+msgstr "Duplikat"
+
+#: core/views/newfield.php:748
+#@ ARForms
+msgid "CSS Property"
+msgstr "CSS-Eigenschaft"
+
+#: core/views/view_records.php:1034
+#@ ARForms
+msgid "Are you sure you want to delete this entries?"
+msgstr "Sind Sie sicher, dass Sie diese Einträge löschen?"
+
+#: core/controllers/arformcontroller.php:2985
+#: core/controllers/arformcontroller.php:5786
+#: core/views/addcontrols.php:833
+#: core/views/addcontrols.php:3632
+#@ ARForms
+msgid "Line"
+msgstr "Linie"
+
+#: core/controllers/arformcontroller.php:3397
+#: core/views/addcontrols.php:1244
+#@ ARForms
+msgid "Page Break Tab Background Color"
+msgstr "Seitenumbruch Tab Hintergrundfarbe"
+
+#: core/controllers/arformcontroller.php:3403
+#: core/views/addcontrols.php:1250
+#@ ARForms
+msgid "Active"
+msgstr "aktiv"
+
+#: core/controllers/arformcontroller.php:3419
+#: core/views/addcontrols.php:1266
+#@ ARForms
+msgid "Inactive"
+msgstr "inaktiv"
+
+#: core/controllers/arformcontroller.php:4368
+#: core/views/addcontrols.php:2213
+#@ ARForms
+msgid "Normal State"
+msgstr "Normalzustand"
+
+#: core/controllers/arformcontroller.php:4409
+#: core/views/addcontrols.php:2254
+#@ ARForms
+msgid "Background color"
+msgstr "Hintergrundfarbe"
+
+#: core/controllers/arformcontroller.php:4820
+#: core/views/addcontrols.php:2665
+#@ ARForms
+msgid "Calendar Style"
+msgstr "Kalenderstil"
+
+#: core/controllers/arformcontroller.php:3518
+#: core/controllers/arformcontroller.php:5142
+#: core/controllers/arformcontroller.php:5532
+#: core/vc/class_vc_extend.php:676
+#: core/views/addcontrols.php:1365
+#: core/views/addcontrols.php:2988
+#: core/views/addcontrols.php:3378
+#: core/views/insert_form_popup.php:693
+#@ ARForms
+msgid "Background"
+msgstr "Hintergrund"
+
+#: core/controllers/arformcontroller.php:5539
+#: core/views/addcontrols.php:3385
+#@ ARForms
+msgid "Default Color"
+msgstr "Standardfarbe"
+
+#: core/controllers/arformcontroller.php:5573
+#: core/views/addcontrols.php:3419
+#@ ARForms
+msgid "Hover Color"
+msgstr "Hover Farbe"
+
+#: core/controllers/arformcontroller.php:5922
+#: core/views/addcontrols.php:3768
+#@ ARForms
+msgid "Validation Style Settings"
+msgstr "Validation Style Einstellungen"
+
+#: core/controllers/arformcontroller.php:6162
+#: core/views/addcontrols.php:4007
+#@ ARForms
+msgid "Validation error settings"
+msgstr "Validierung Fehler Einstellungen"
+
+#: core/controllers/arformcontroller.php:6252
+#: core/views/addcontrols.php:4097
+#@ ARForms
+msgid "Success Message Settings"
+msgstr "Erfolgsmeldung Einstellungen"
+
+#: core/controllers/arrecordcontroller.php:3465
+#: core/views/view_records.php:867
+#@ ARForms
+msgid "VIEW ENTRY"
+msgstr "Beitrag ansehen"
+
+#: core/controllers/maincontroller.php:188
+#: core/controllers/maincontroller.php:271
+#: core/controllers/maincontroller_07may2015.php:188
+#: core/controllers/maincontroller_07may2015.php:271
+#@ ARForms
+msgid "Contact us"
+msgstr "kontaktieren Sie uns"
+
+#: core/controllers/maincontroller.php:190
+#: core/controllers/maincontroller.php:273
+#: core/controllers/maincontroller_07may2015.php:190
+#: core/controllers/maincontroller_07may2015.php:273
+#@ ARForms
+msgid "Feedback Form"
+msgstr "Feedback-Formular"
+
+#: core/controllers/maincontroller.php:192
+#: core/controllers/maincontroller.php:275
+#: core/controllers/maincontroller_07may2015.php:192
+#: core/controllers/maincontroller_07may2015.php:275
+#@ ARForms
+msgid "Registration Form"
+msgstr "Anmeldung"
+
+#: core/controllers/maincontroller.php:191
+#: core/controllers/maincontroller.php:274
+#: core/controllers/maincontroller_07may2015.php:191
+#: core/controllers/maincontroller_07may2015.php:274
+#@ ARForms
+msgid "RSVP Form"
+msgstr "RSVP-Formular"
+
+#: core/controllers/maincontroller.php:189
+#: core/controllers/maincontroller.php:272
+#: core/controllers/maincontroller_07may2015.php:189
+#: core/controllers/maincontroller_07may2015.php:272
+#@ ARForms
+msgid "Subscription Form"
+msgstr "Abonnement"
+
+#: core/controllers/maincontroller.php:193
+#: core/controllers/maincontroller.php:276
+#: core/controllers/maincontroller_07may2015.php:193
+#: core/controllers/maincontroller_07may2015.php:276
+#@ ARForms
+msgid "Survey Form"
+msgstr "Sichtsformular"
+
+#: core/models/artemplate.php:928
+#: core/views/upgrade_latest_data.php:1263
+#@ ARForms
+msgid "Job Application Form"
+msgstr "Bewerbungsformular"
+
+#: core/helpers/arfieldhelper.php:3743
+#@ ARForms
+msgid "Field custom width"
+msgstr "Feld benutzerdefinierte Breite"
+
+#: core/helpers/arfieldhelper.php:3986
+#@ ARForms
+msgid "Upload color"
+msgstr "Farbgalerie"
+
+#: core/helpers/arfieldhelper.php:4008
+#@ ARForms
+msgid "Font"
+msgstr "Schriftart"
+
+#: core/helpers/arfieldhelper.php:4062
+#@ ARForms
+msgid "Select captcha"
+msgstr "Wählen captcha"
+
+#: core/helpers/arfieldhelper.php:5072
+#@ ARForms
+msgid "Placeholder Text"
+msgstr "Platzhaltertext"
+
+#: core/helpers/arfieldhelper.php:5085
+#@ ARForms
+msgid "Field Description"
+msgstr "Feld Beschreibung"
+
+#: core/helpers/arfieldhelper.php:5098
+#@ ARForms
+msgid "Label Name"
+msgstr "Nummer Name"
+
+#: core/helpers/arfieldhelper.php:5113
+#@ ARForms
+msgid "Phone Number Format"
+msgstr "Telefonnummer Format"
+
+#: core/helpers/arfieldhelper.php:5179
+#@ ARForms
+msgid "Password Strength Meter"
+msgstr "Passwort Stärkemesser"
+
+#: core/helpers/arfieldhelper.php:5201
+#@ ARForms
+msgid "Confirm Password Label"
+msgstr "Passwort bestätigen Etiketten"
+
+#: core/models/artemplate.php:1049
+#: core/views/upgrade_latest_data.php:1386
+#@ ARForms
+msgid "Last name"
+msgstr "nachname"
+
+#: core/models/artemplate.php:1067
+#: core/views/upgrade_latest_data.php:1404
+#@ ARForms
+msgid "Contact No"
+msgstr "Kontakt Nein"
+
+#: core/models/artemplate.php:1076
+#: core/views/upgrade_latest_data.php:1413
+#@ ARForms
+msgid "Address"
+msgstr "Adresse"
+
+#: core/models/artemplate.php:1085
+#: core/views/upgrade_latest_data.php:1422
+#@ ARForms
+msgid "Position apply for?"
+msgstr "Position beantragen?"
+
+#: core/models/artemplate.php:1088
+#: core/views/upgrade_latest_data.php:1425
+#@ ARForms
+msgid "Developer"
+msgstr "Entwickler"
+
+#: core/models/artemplate.php:1088
+#: core/views/upgrade_latest_data.php:1425
+#@ ARForms
+msgid "Manager"
+msgstr "Manager"
+
+#: core/models/artemplate.php:1088
+#: core/views/upgrade_latest_data.php:1425
+#@ ARForms
+msgid "Clerk"
+msgstr "Schreiber"
+
+#: core/models/artemplate.php:1088
+#: core/views/upgrade_latest_data.php:1425
+#@ ARForms
+msgid "Representative"
+msgstr "Vertreter"
+
+#: core/models/artemplate.php:1094
+#: core/views/upgrade_latest_data.php:1431
+#@ ARForms
+msgid "Are you applying for?"
+msgstr "Beantragen Sie?"
+
+#: core/models/artemplate.php:1097
+#: core/views/upgrade_latest_data.php:1434
+#@ ARForms
+msgid "Full Time"
+msgstr "Vollzeit"
+
+#: core/models/artemplate.php:1097
+#: core/views/upgrade_latest_data.php:1434
+#@ ARForms
+msgid "Part Time"
+msgstr "Teilzeit"
+
+#: core/models/artemplate.php:1103
+#: core/views/upgrade_latest_data.php:1440
+#@ ARForms
+msgid "Education and Experience Details"
+msgstr "Bildung und Erfahrung Details"
+
+#: core/models/artemplate.php:1114
+#: core/views/upgrade_latest_data.php:1451
+#@ ARForms
+msgid "Diploma / Degree Name"
+msgstr "Diplom / Degree Name"
+
+#: core/models/artemplate.php:1122
+#: core/views/upgrade_latest_data.php:1459
+#@ ARForms
+msgid "College / University Name"
+msgstr "Hochschule / University Name"
+
+#: core/models/artemplate.php:1130
+#: core/views/upgrade_latest_data.php:1467
+#@ ARForms
+msgid "Graduation Year"
+msgstr "Abschlussjahr"
+
+#: core/models/artemplate.php:1138
+#: core/views/upgrade_latest_data.php:1475
+#@ ARForms
+msgid "Percentage"
+msgstr "Prozentsatz"
+
+#: core/models/artemplate.php:1146
+#: core/views/upgrade_latest_data.php:1483
+#@ ARForms
+msgid "Skills & Qualification"
+msgstr "Skills & Qualifikation"
+
+#: core/models/artemplate.php:1163
+#: core/views/upgrade_latest_data.php:1500
+#@ ARForms
+msgid "Fresher / Experienced"
+msgstr "Frischer / Erfahrene"
+
+#: core/models/artemplate.php:1165
+#: core/views/upgrade_latest_data.php:1502
+#@ ARForms
+msgid "Fresher"
+msgstr "frischere"
+
+#: core/models/artemplate.php:1165
+#: core/models/artemplate.php:1182
+#: core/models/artemplate.php:1206
+#: core/models/artemplate.php:1230
+#: core/views/upgrade_latest_data.php:1502
+#: core/views/upgrade_latest_data.php:1519
+#: core/views/upgrade_latest_data.php:1543
+#: core/views/upgrade_latest_data.php:1567
+#@ ARForms
+msgid "Experienced"
+msgstr "erfahren"
+
+#: core/models/artemplate.php:1155
+#: core/views/upgrade_latest_data.php:1492
+#@ ARForms
+msgid "Desired Salary"
+msgstr "Wunsch Gehalt"
+
+#: core/models/artemplate.php:1173
+#: core/views/upgrade_latest_data.php:1510
+#@ ARForms
+msgid "Experience"
+msgstr "Erfahrung"
+
+#: core/models/artemplate.php:1174
+#: core/views/upgrade_latest_data.php:1511
+#@ ARForms
+msgid "(e.g. 3 months, 2 years etc)"
+msgstr "(z. B. 3 Monate, 2 Jahre usw.)"
+
+#: core/models/artemplate.php:1198
+#: core/views/upgrade_latest_data.php:1535
+#@ ARForms
+msgid "Current Salary"
+msgstr "Aktuelle Gehalts"
+
+#: core/models/artemplate.php:1222
+#: core/views/upgrade_latest_data.php:1559
+#@ ARForms
+msgid "Current Company Detail"
+msgstr "Aktuelle Firmendetail"
+
+#: core/models/artemplate.php:1246
+#: core/views/upgrade_latest_data.php:1583
+#@ ARForms
+msgid "Upload Resume"
+msgstr "Lebenslauf hochladen"
+
+#: core/views/addcontrols.php:92
+#@ ARForms
+msgid "Basic Form Elements"
+msgstr "Basic Form Elemente"
+
+#: core/views/addcontrols.php:310
+#@ ARForms
+msgid "Advanced Form Elements"
+msgstr "Erweiterte Formularelemente"
+
+#: core/views/displayfield.php:110
+#@ ARForms
+msgid "Note: Set your custom html content"
+msgstr "Hinweis: Stellen Sie Ihre eigenen HTML Inhalt"
+
+#: core/views/edit.php:946
+#: core/views/edit.php:957
+#@ ARForms
+msgid "Field Editor"
+msgstr "Feldeditor"
+
+#: core/views/edit.php:944
+#: core/views/edit.php:959
+#@ ARForms
+msgid "Styling"
+msgstr "Styling"
+
+#: core/views/edit.php:940
+#: core/views/edit.php:963
+#@ ARForms
+msgid "Add To Site"
+msgstr "Ihre Webseite"
+
+#: core/views/edit.php:1035
+#: core/views/edit.php:1060
+#@ ARForms
+msgid "On Submit"
+msgstr "auf abschicken"
+
+#: core/views/edit.php:1038
+#@ ARForms
+msgid "Auto response email"
+msgstr "Auto-Antwort per E-Mail"
+
+#: core/views/edit.php:1041
+#@ ARForms
+msgid "Email marketers"
+msgstr "E-Mail-Vermarkter"
+
+#: core/views/edit.php:1124
+#@ ARForms
+msgid "Auto Response Email"
+msgstr "Auto Response E-Mail"
+
+#: core/helpers/arfieldhelper.php:4336
+#: core/views/edit.php:1273
+#: core/views/edit.php:1345
+#: core/views/edit.php:1430
+#: core/views/edit.php:1507
+#: core/views/edit.php:1567
+#: core/views/edit.php:1637
+#: core/views/edit.php:1702
+#@ ARForms
+msgid "Fields"
+msgstr "Felder"
+
+#: core/views/edit.php:1645
+#@ ARForms
+msgid "This will be replaced with form name."
+msgstr "Dies wird mit Formularnamen ersetzt werden."
+
+#: core/views/edit.php:1646
+#@ ARForms
+msgid "This will be replaced with name of site."
+msgstr "Diese wird mit dem Namen der Website ersetzt werden."
+
+#: core/views/edit.php:2837
+#@ ARForms
+msgid "First name mapping"
+msgstr "Vorname Mapping"
+
+#: core/views/edit.php:2838
+#@ ARForms
+msgid "Last name mapping"
+msgstr "Name Mapping"
+
+#: core/views/edit.php:2876
+#: core/views/edit.php:2889
+#@ ARForms
+msgid "Select First Name"
+msgstr "Wählen Vorname"
+
+#: core/views/edit.php:2933
+#: core/views/edit.php:2946
+#@ ARForms
+msgid "Select Last Name"
+msgstr "Wählen Nachname"
+
+#: core/views/edit.php:3077
+#@ ARForms
+msgid "Custom Styling Properties"
+msgstr "Individuelle Styling-Eigenschaften"
+
+#: core/views/edit.php:3228
+#@ ARForms
+msgid "Other CSS"
+msgstr "Andere CSS"
+
+#: core/views/edit.php:3263
+#@ ARForms
+msgid "Have you saved your form already ?"
+msgstr "Haben Sie Ihr Formular bereits gespeichert?"
+
+#: core/views/edit.php:3265
+#@ ARForms
+msgid "You should save your latest changes before publishing form to the page."
+msgstr "Sie sollten Ihre letzten Änderungen vor der Veröffentlichung Formular an die Seite zu speichern."
+
+#: core/views/edit.php:3270
+#@ ARForms
+msgid "Ways to publish your form"
+msgstr "Möglichkeiten, um Ihre Form zu veröffentlichen"
+
+#: core/views/edit.php:3272
+#@ ARForms
+msgid "Follow these steps to add the form into page:"
+msgstr "Befolgen Sie diese Schritte, um die Form zu Seite hinzufügen:"
+
+#: core/views/edit.php:3276
+#@ ARForms
+msgid "Selecting"
+msgstr "Auswählen"
+
+#: core/views/edit.php:3276
+#@ ARForms
+msgid "LINK TYPE"
+msgstr "Linktyp"
+
+#: core/views/edit.php:3276
+#@ ARForms
+msgid "in the popup box:"
+msgstr "im Popup-Fenster:"
+
+#: core/views/edit.php:3280
+#@ ARForms
+msgid "Insert form into widget:"
+msgstr "Legen Form in-Widget:"
+
+#: core/views/edit.php:3310
+#@ ARForms
+msgid "SHORTCODES"
+msgstr "Shortcodes"
+
+#: core/views/edit.php:3313
+#: core/views/edit.php:3358
+#@ ARForms
+msgid "Normal View"
+msgstr "Normalansicht"
+
+#: core/views/edit.php:3323
+#: core/views/edit.php:3367
+#@ ARForms
+msgid "Pop-up View"
+msgstr "Pop-up anzeigen"
+
+#: core/views/edit.php:3334
+#: core/views/edit.php:3376
+#@ ARForms
+msgid "Fly View"
+msgstr "Fly anzeigen"
+
+#: core/views/edit.php:3345
+#: core/views/edit.php:3385
+#@ ARForms
+msgid "Sticky view"
+msgstr "Sticky Blick"
+
+#: core/views/edit.php:3458
+#: core/views/list.php:681
+#@ ARForms
+msgid "Computer View"
+msgstr "Computer-Ansicht"
+
+#: core/views/edit.php:3459
+#: core/views/list.php:682
+#@ ARForms
+msgid "Tablet View"
+msgstr "Tablet anzeigen"
+
+#: core/views/edit.php:3460
+#: core/views/list.php:683
+#@ ARForms
+msgid "Mobile View"
+msgstr "Mobile Ansicht"
+
+#: core/views/import_export_form.php:131
+#@ ARForms
+msgid "Please Select File :"
+msgstr "Bitte wählen Datei:"
+
+#: core/vc/class_vc_extend.php:559
+#: core/views/insert_form_popup.php:621
+#@ ARForms
+msgid "ADD ARFORMS FORM"
+msgstr "ARFORMS Formular fügen"
+
+#: core/vc/class_vc_extend.php:621
+#: core/views/insert_form_popup.php:650
+#: core/widgets/ARFwidgetForm.php:60
+#@ ARForms
+msgid "On Page Load"
+msgstr "Beim Laden der Seite"
+
+#: core/views/like_field.php:13
+#@ ARForms
+msgid "Reset default value"
+msgstr "Standardwert zurücksetzen"
+
+#: core/views/list.php:658
+#: core/views/list.php:669
+#@ ARForms
+msgid "DELETE FORM"
+msgstr "DELETE FORM"
+
+#: core/views/new-selection-modal.php:23
+#@ ARForms
+msgid "NEW FORM"
+msgstr "NEUE FORM"
+
+#: core/views/new-selection-modal.php:27
+#@ ARForms
+msgid "Form Name"
+msgstr "Formular Name"
+
+#: core/views/new-selection-modal.php:30
+#@ ARForms
+msgid "Form Description"
+msgstr "Formular Beschreibung"
+
+#: core/views/new-selection-modal.php:33
+#@ ARForms
+msgid "Template"
+msgstr "Schablone"
+
+#: core/views/new-selection-modal.php:39
+#@ ARForms
+msgid "Blank Form"
+msgstr "Leeres Formular"
+
+#: core/views/newfield.php:264
+#@ ARForms
+msgid "DELETE FIELD"
+msgstr "DELETE FIELD"
+
+#: core/views/newfield.php:282
+#@ ARForms
+msgid "Click to mark as"
+msgstr "Klicken Sie hier um zu kennzeichnen, wie"
+
+#: core/views/newfield.php:282
+#@ ARForms
+msgid "compulsory field."
+msgstr "Pflichtfeld."
+
+#: core/views/newfield.php:437
+#@ ARForms
+msgid "options shown. Click \"Edit options\" Button to view all"
+msgstr "gezeigten Optionen. Klicken Sie auf \\ \\\"Optionen bearbeiten \", um alle zu sehen"
+
+#: core/views/newfield.php:439
+#: core/views/newfield.php:448
+#: core/views/newfield.php:550
+#: core/views/newfield.php:559
+#@ ARForms
+msgid "Edit Options"
+msgstr "Optionen bearbeiten"
+
+#: core/views/newfield.php:488
+#: core/views/newfield.php:493
+#: core/views/newfield.php:607
+#: core/views/newfield.php:612
+#@ ARForms
+msgid "Select"
+msgstr "wählen"
+
+#: core/views/newfield.php:507
+#: core/views/newfield.php:623
+#@ ARForms
+msgid "Saving"
+msgstr "Rettung"
+
+#: core/views/newfield.php:312
+#: core/views/newfield.php:739
+#@ ARForms
+msgid "Field Options"
+msgstr "Feld-Optionen"
+
+#: core/views/settings_form.php:856
+#: core/views/settings_form.php:1004
+#: core/views/settings_form.php:1092
+#: core/views/settings_form.php:1188
+#: core/views/settings_form.php:1296
+#@ ARForms
+msgid "Using API"
+msgstr "Mit API"
+
+#: core/views/settings_form.php:857
+#: core/views/settings_form.php:1005
+#: core/views/settings_form.php:1093
+#: core/views/settings_form.php:1189
+#: core/views/settings_form.php:1297
+#: core/views/settings_form.php:1391
+#: core/views/settings_form.php:1426
+#@ ARForms
+msgid "Using Web-form"
+msgstr "Mit Web-Formular"
+
+#: core/views/view_records.php:1022
+#: core/views/view_records.php:1033
+#@ ARForms
+msgid "DELETE ENTRY"
+msgstr "LÖSCHEN"
+
+#: core/controllers/maincontroller.php:194
+#: core/controllers/maincontroller.php:277
+#: core/controllers/maincontroller_07may2015.php:194
+#: core/controllers/maincontroller_07may2015.php:277
+#@ ARForms
+msgid "Job Application"
+msgstr "Bewerbung"
+
+#: core/views/edit_form.php:247
+#: core/views/newfield.php:512
+#: core/views/newfield.php:629
+#: core/views/newfield.php:1030
+#: core/views/newfield.php:1109
+#@ ARForms
+msgid "Done"
+msgstr "Fertig"
+
+#: core/controllers/arformcontroller.php:3113
+#: core/views/addcontrols.php:961
+#@ ARForms
+msgid "Form title & description"
+msgstr "Form-Titel und Beschreibung"
+
+#: core/controllers/arsettingcontroller.php:563
+#@ ARForms
+msgid "Email Marketing Tools setting saved successfully."
+msgstr "E-Mail-Marketing-Tools Einstellung erfolgreich gespeichert."
+
+#: core/vc/class_vc_extend.php:565
+#: core/views/insert_form_popup.php:627
+#@ ARForms
+msgid "Select a form to insert into page"
+msgstr "Wählen Sie ein Formular, in Seite einfügen"
+
+#: core/views/edit_form.php:151
+#@ ARForms
+msgid "Edit Text"
+msgstr "Text bearbeiten"
+
+#: core/views/edit_form.php:165
+#@ ARForms
+msgid "Submit Button Options"
+msgstr "Senden-Schaltfläche Optionen"
+
+#: core/views/edit_form.php:191
+#: core/views/edit_form.php:196
+#: core/views/footer.php:68
+#: core/views/newfield.php:937
+#: core/views/newfield.php:960
+#@ ARForms
+msgid "Please add one or more rules"
+msgstr "Bitte fügen Sie eine oder mehrere Regeln"
+
+#: core/views/edit_form.php:192
+#@ ARForms
+msgid "Enable"
+msgstr "ermöglichen"
+
+#: core/views/edit_form.php:193
+#@ ARForms
+msgid "Disable"
+msgstr "deaktivieren"
+
+#: core/views/edit_form.php:195
+#@ ARForms
+msgid "this button if"
+msgstr "diese Schaltfläche, wenn"
+
+#: core/views/newfield.php:155
+#@ ARForms
+msgid "Telephone Country Codes"
+msgstr "Telefon-Ländercodes"
+
+#: core/controllers/arformcontroller.php:3496
+#: core/views/addcontrols.php:1343
+#@ ARForms
+msgid "Survey Bar Colors"
+msgstr "Umfrage Bar Farben"
+
+#: core/controllers/arformcontroller.php:3502
+#: core/views/addcontrols.php:1349
+#@ ARForms
+msgid "Bar Color"
+msgstr "Balkenfarbe"
+
+#: core/helpers/arfieldhelper.php:577
+#@ ARForms
+msgid "Color Picker"
+msgstr "color Picker"
+
+#: core/helpers/arfieldhelper.php:578
+#: core/models/arfieldmodel.php:161
+#@ ARForms
+msgid "Image"
+msgstr "Bild"
+
+#: core/helpers/arfieldhelper.php:3873
+#@ ARForms
+msgid "Here 'All Types' means all the file types supported by your wordpress installation."
+msgstr "Hier Alle Typen \\\"die Gesamtheit der von Ihrem Wordpress-Installation unterstützten Dateitypen."
+
+#: core/helpers/arfieldhelper.php:4312
+#@ ARForms
+msgid "Enable Running Total"
+msgstr "Aktivieren Sie Laufende Summe"
+
+#: core/helpers/arfieldhelper.php:4318
+#@ ARForms
+msgid "For Running Total you need to add formula inside"
+msgstr "Laufende Summe für Sie innerhalb Formel hinzufügen müssen"
+
+#: core/helpers/arfieldhelper.php:4331
+#@ ARForms
+msgid "Validate Formula"
+msgstr "Validate Formel"
+
+#: core/helpers/arfieldhelper.php:5179
+#@ ARForms
+msgid "Strength Indicator will be indicate password as a strong, only when password contains alpha numeric value and special characters."
+msgstr "Strength Indicator wird vergessen anzugeben, als starke, nur, wenn das Kennwort enthält alpha numerischen Wert und Sonderzeichen."
+
+#: core/helpers/arfieldhelper.php:5310
+#@ ARForms
+msgid "Colorpicker Type"
+msgstr "Colorpicker-Typ"
+
+#: core/helpers/arfieldhelper.php:5330
+#: core/helpers/arfieldhelper.php:5345
+#@ ARForms
+msgid "Advanced"
+msgstr "fortgeschritten"
+
+#: core/helpers/arfieldhelper.php:5328
+#: core/helpers/arfieldhelper.php:5346
+#@ ARForms
+msgid "Basic"
+msgstr "Basic"
+
+#: core/helpers/arfieldhelper.php:5404
+#: core/vc/class_vc_extend.php:702
+#: core/views/insert_form_popup.php:719
+#@ ARForms
+msgid "Height"
+msgstr "Höhe"
+
+#: core/helpers/arfieldhelper.php:5417
+#: core/vc/class_vc_extend.php:703
+#: core/views/insert_form_popup.php:720
+#@ ARForms
+msgid "Width"
+msgstr "Breite"
+
+#: core/helpers/arfieldhelper.php:5432
+#@ ARForms
+msgid "Horizontal Center"
+msgstr "horizontale Mittel"
+
+#: core/helpers/arfieldhelper.php:5435
+#@ ARForms
+msgid "No"
+msgstr "nicht"
+
+#: core/helpers/arfieldhelper.php:5435
+#@ ARForms
+msgid "Yes"
+msgstr "ja"
+
+#: core/helpers/arfieldhelper.php:5447
+#@ ARForms
+msgid "Default Value"
+msgstr "Standardwert"
+
+#: core/helpers/arformhelper.php:206
+#: core/helpers/arformhelper.php:545
+#@ ARForms
+msgid "Thank you for subscription with us. We will contact you soon."
+msgstr "Vielen Dank für die Zeichnung mit uns. Wir werden Sie in Kürze kontaktieren."
+
+#: core/views/footer.php:50
+#@ ARForms
+msgid "(Click here to add text)"
+msgstr "(Klicken Sie hier, um Text hinzuzufügen)"
+
+#: core/views/newfield.php:739
+#@ ARForms
+msgid "Field ID"
+msgstr "Feld ID"
+
+#: core/views/settings_form.php:691
+#@ ARForms
+msgid "Send Email SMTP"
+msgstr "SMTP-E-Mail senden"
+
+#: core/views/settings_form.php:693
+#@ ARForms
+msgid "Wordpress Server"
+msgstr "Wordpress-Server"
+
+#: core/views/settings_form.php:694
+#@ ARForms
+msgid "SMTP Server"
+msgstr "SMTP-Server"
+
+#: core/views/settings_form.php:699
+#@ ARForms
+msgid "SMTP Host"
+msgstr "SMTP-Host"
+
+#: core/views/settings_form.php:706
+#@ ARForms
+msgid "SMTP Port"
+msgstr "SMTP-Port"
+
+#: core/views/settings_form.php:713
+#@ ARForms
+msgid "SMTP Username"
+msgstr "SMTP-Benutzername"
+
+#: core/views/settings_form.php:720
+#@ ARForms
+msgid "SMTP Encription"
+msgstr "SMTP Encription"
+
+#: core/views/settings_form.php:722
+#@ ARForms
+msgid "None"
+msgstr "keiner"
+
+#: core/views/settings_form.php:723
+#@ ARForms
+msgid "SSL"
+msgstr "SSL"
+
+#: core/views/settings_form.php:724
+#@ ARForms
+msgid "TLS"
+msgstr "TLS"
+
+#: core/views/settings_form.php:729
+#@ ARForms
+msgid "SMTP Password"
+msgstr "SMTP-Passwort"
+
+#: core/helpers/arfieldhelper.php:5461
+#@ ARForms
+msgid "Show Year/Month Dropdown"
+msgstr "Show Jahr / Monat Dropdown"
+
+#: core/views/edit.php:1868
+#: core/views/edit.php:1882
+#@ ARForms
+msgid "&nbsp;&nbsp;&nbsp;(Please Activate your license to configure Mailchip with this form.)"
+msgstr "&nbsp;&nbsp;&nbsp;(Bitte aktivieren Sie Ihre Lizenz für Mailchip mit dieser Form konfigurieren.)"
+
+#: core/views/edit.php:2024
+#: core/views/edit.php:2038
+#@ ARForms
+msgid "&nbsp;&nbsp;&nbsp;(Please Activate your license to configure Aweber with this form.)"
+msgstr "&nbsp;&nbsp;&nbsp;(Bitte aktivieren Sie Ihre Lizenz für Aweber mit dieser Form konfigurieren.)"
+
+#: core/views/edit.php:2215
+#: core/views/edit.php:2229
+#@ ARForms
+msgid "&nbsp;&nbsp;&nbsp;(Please Activate your license to configure Icontact with this form.)"
+msgstr "&nbsp;&nbsp;&nbsp;(Bitte aktivieren Sie Ihre Lizenz für IContact mit dieser Form konfigurieren.)"
+
+#: core/views/edit.php:2378
+#: core/views/edit.php:2392
+#@ ARForms
+msgid "&nbsp;&nbsp;&nbsp;(Please Activate your license to configure Constant Contact with this form.)"
+msgstr "&nbsp;&nbsp;&nbsp;(Bitte aktivieren Sie Ihre Lizenz zu konfigurieren ständigem Kontakt mit diesem Formular.)"
+
+#: core/views/edit.php:2542
+#: core/views/edit.php:2556
+#@ ARForms
+msgid "&nbsp;&nbsp;&nbsp;(Please Activate your license to configure Getresponse with this form.)"
+msgstr "&nbsp;&nbsp;&nbsp;Bitte aktivieren Sie Ihre Lizenz für Getresponse mit dieser Form konfigurieren.)"
+
+#: core/views/edit.php:2701
+#: core/views/edit.php:2719
+#@ ARForms
+msgid "&nbsp;&nbsp;&nbsp;(Please Activate your license to configure GVO with this form.)"
+msgstr "&nbsp;&nbsp;&nbsp;(Bitte aktivieren Sie Ihre Lizenz für GVO mit dieser Form konfigurieren.)"
+
+#: core/views/edit.php:2774
+#: core/views/edit.php:2792
+#@ ARForms
+msgid "&nbsp;&nbsp;&nbsp;(Please Activate your license to configure eBizac with this form.)"
+msgstr "&nbsp;&nbsp;&nbsp;(Bitte aktivieren Sie Ihre Lizenz für eBizac mit dieser Form konfigurieren.)"
+
+#: core/views/form.php:683
+#@ ARForms
+msgid "&nbsp;&nbsp;"
+msgstr "&nbsp;&nbsp;"
+
+#: core/helpers/arfieldhelper.php:3707
+#@ ARForms
+msgid "Field Size ( Characters) "
+msgstr "Feldgröße (Characters)"
+
+#: core/helpers/arfieldhelper.php:3726
+#@ ARForms
+msgid "Maximum"
+msgstr "Maximum"
+
+#: core/helpers/arfieldhelper.php:3729
+#@ ARForms
+msgid "Minimum"
+msgstr "Minimum"
+
+#: core/helpers/arfieldhelper.php:4112
+#@ ARForms
+msgid "(Give 0 (Zero) value for unlimited maximum range)"
+msgstr "(Geben Sie 0 (Null) Wert für unbegrenzte maximale Reichweite)"
+
+#: core/helpers/arfieldhelper.php:5364
+#@ ARForms
+msgid "Add File"
+msgstr "Datei hinzufügen"
+
+#: core/helpers/arfieldhelper.php:5495
+#@ ARForms
+msgid "Minimum Length"
+msgstr "Mindestlänge"
+
+#: core/helpers/arfieldhelper.php:5506
+#@ ARForms
+msgid "Message for minimum length"
+msgstr "Nachricht hinsichtlich der Mindestzugehörigkeit"
+
+#: core/views/edit_form.php:73
+#@ ARForms
+msgid "Choose File"
+msgstr "Wählen Sie Datei"
+
+#: core/vc/class_vc_extend.php:628
+#: core/views/insert_form_popup.php:657
+#@ ARForms
+msgid "Caption :"
+msgstr "Bildunterschrift:"
+
+#: core/vc/class_vc_extend.php:699
+#: core/views/insert_form_popup.php:716
+#@ ARForms
+msgid "Size :"
+msgstr "Größe:"
+
+#: core/vc/class_vc_extend.php:708
+#: core/views/insert_form_popup.php:726
+#@ ARForms
+msgid "Button angle :"
+msgstr "Button Winkel:"
+
+#: core/widgets/ARFwidgetForm.php:106
+#@ ARForms
+msgid "Button Angle"
+msgstr "Taste Angle"
+
+#: core/controllers/arformcontroller.php:3247
+#: core/controllers/arformcontroller.php:3248
+#: core/views/addcontrols.php:1095
+#: core/views/addcontrols.php:1096
+#@ ARForms
+msgid "check_weight_form_title"
+msgstr "check_weight_form_title"
+
+#: core/controllers/arformcontroller.php:3586
+#: core/views/addcontrols.php:1433
+#@ ARForms
+msgid "Window Opacity"
+msgstr "Fenster Opazität"
+
+#: core/controllers/arformcontroller.php:3899
+#: core/controllers/arformcontroller.php:3900
+#: core/views/addcontrols.php:1744
+#: core/views/addcontrols.php:1745
+#@ ARForms
+msgid "weight"
+msgstr "Gewicht"
+
+#: core/controllers/arformcontroller.php:4274
+#: core/controllers/arformcontroller.php:4275
+#: core/views/addcontrols.php:2119
+#: core/views/addcontrols.php:2120
+#@ ARForms
+msgid "check_weight"
+msgstr "check_weight"
+
+#: core/controllers/arformcontroller.php:5139
+#: core/views/addcontrols.php:2985
+#@ ARForms
+msgid "Prefix & Suffix Style"
+msgstr "Präfix und Suffix Stil"
+
+#: core/controllers/arformcontroller.php:5157
+#: core/views/addcontrols.php:3003
+#@ ARForms
+msgid "Icon Color"
+msgstr "Symbol Farbe"
+
+#: core/controllers/arformcontroller.php:5330
+#: core/controllers/arformcontroller.php:5331
+#: core/views/addcontrols.php:3176
+#: core/views/addcontrols.php:3177
+#@ ARForms
+msgid "arfsubmitweightsetting"
+msgstr "arfsubmitweightsetting"
+
+#: core/controllers/arformcontroller.php:5649
+#: core/views/addcontrols.php:3495
+#@ ARForms
+msgid "Background Hover Image"
+msgstr "Hintergrund Hover Bild"
+
+#: core/controllers/arsettingcontroller.php:129
+#@ ARForms
+msgid "Addons"
+msgstr "Addons"
+
+#: core/helpers/arfieldhelper.php:1277
+#: core/helpers/arfieldhelper.php:5222
+#: core/helpers/arfieldhelper.php:5229
+#@ ARForms
+msgid "Confirm Email"
+msgstr "Bestätigungs-E-Mail"
+
+#: core/helpers/arfieldhelper.php:1277
+#: core/helpers/arfieldhelper.php:5247
+#@ ARForms
+msgid "Confirm Email does not match with email"
+msgstr "Bestätigen Sie E-Mail nicht mit Email übereinstimmt"
+
+#: core/helpers/arfieldhelper.php:1289
+#@ ARForms
+msgid "Number is out of range"
+msgstr "Nummer außerhalb des Bereichs"
+
+#: core/helpers/arfieldhelper.php:4494
+#: core/helpers/arfieldhelper.php:4495
+#@ ARForms
+msgid "arf_divider_font_style"
+msgstr "arf_divider_font_style"
+
+#: core/helpers/arfieldhelper.php:4784
+#@ ARForms
+msgid "Yellow"
+msgstr "gelb"
+
+#: core/helpers/arfieldhelper.php:4787
+#@ ARForms
+msgid "Orange"
+msgstr "orange"
+
+#: core/helpers/arfieldhelper.php:4788
+#@ ARForms
+msgid "Blue"
+msgstr "blau"
+
+#: core/helpers/arfieldhelper.php:4789
+#@ ARForms
+msgid "Green"
+msgstr "grün"
+
+#: core/helpers/arfieldhelper.php:4790
+#@ ARForms
+msgid "Black"
+msgstr "schwarz"
+
+#: core/helpers/arfieldhelper.php:4847
+#@ ARForms
+msgid "Big"
+msgstr "groß"
+
+#: core/helpers/arfieldhelper.php:4849
+#@ ARForms
+msgid "Small"
+msgstr "klein"
+
+#: core/helpers/arfieldhelper.php:5232
+#@ ARForms
+msgid "Confirm Email Label"
+msgstr "Bestätigen Sie die Email-Aufkleber"
+
+#: core/helpers/arfieldhelper.php:5250
+#@ ARForms
+msgid "Message for invalid Email"
+msgstr "Meldung für ungültige E-Mail"
+
+#: core/helpers/arfieldhelper.php:5266
+#@ ARForms
+msgid "Confirm Email Placeholder"
+msgstr "Bestätigen Sie die Email-Platzhalter"
+
+#: core/helpers/arfieldhelper.php:5478
+#@ ARForms
+msgid "Confirm Password Placeholder"
+msgstr "Kennwort bestätigen Platzhalter"
+
+#: core/helpers/arfieldhelper.php:5516
+#@ ARForms
+msgid "Add Icon (Bootstrap Style)"
+msgstr "Add Icon (Bootstrap Style)"
+
+#: core/helpers/arfieldhelper.php:5528
+#: core/helpers/arfieldhelper.php:5552
+#: core/views/arf_font_awesome.php:1
+#: core/views/arf_font_awesome.php:4
+#@ ARForms
+msgid "No Icon"
+msgstr "Kein Icon"
+
+#: core/helpers/arfieldhelper.php:5533
+#: core/helpers/arfieldhelper.php:5558
+#@ ARForms
+msgid "Change Icon"
+msgstr "Symbol ändern"
+
+#: core/helpers/arfieldhelper.php:5564
+#: core/views/newfield.php:1047
+#@ ARForms
+msgid "Suffix"
+msgstr "Suffix"
+
+#: core/helpers/arformhelper.php:218
+#: core/helpers/arformhelper.php:547
+#@ ARForms
+msgid "[ARF_form_all_values]"
+msgstr "[ARF_form_all_values]"
+
+#: core/vc/class_vc_extend.php:77
+#@ ARForms
+msgid "ARForms"
+msgstr "ARForms"
+
+#: core/vc/class_vc_extend.php:78
+#@ ARForms
+msgid "Exclusive Wordpress Form Builder Plugin"
+msgstr "Exklusive Wordpress Form Builder Plugin"
+
+#: core/vc/class_vc_extend.php:93
+#: core/vc/class_vc_extend.php:101
+#: core/vc/class_vc_extend.php:109
+#: core/vc/class_vc_extend.php:117
+#: core/vc/class_vc_extend.php:125
+#: core/vc/class_vc_extend.php:133
+#: core/vc/class_vc_extend.php:141
+#: core/vc/class_vc_extend.php:149
+#: core/vc/class_vc_extend.php:157
+#: core/vc/class_vc_extend.php:165
+#@ ARForms
+msgid "&nbsp;"
+msgstr "&nbsp;"
+
+#: core/views/addon_lists.php:87
+#@ ARForms
+msgid "ARForms Add-Ons"
+msgstr "ARForms Add-Ons"
+
+#: core/views/arf_font_awesome.php:7
+#@ ARForms
+msgid "File Type Icons"
+msgstr "Dateityp-Icons"
+
+#: core/views/arf_font_awesome.php:26
+#@ ARForms
+msgid "Spinner Icons"
+msgstr "Spinner Icons"
+
+#: core/views/arf_font_awesome.php:35
+#@ ARForms
+msgid "Form Control Icons"
+msgstr "Bilden Steuerungssymbole"
+
+#: core/views/arf_font_awesome.php:50
+#@ ARForms
+msgid "Payment Icons"
+msgstr "Payment Icons"
+
+#: core/views/arf_font_awesome.php:64
+#@ ARForms
+msgid "Chart Icons"
+msgstr "Chart Icons"
+
+#: core/views/arf_font_awesome.php:73
+#@ ARForms
+msgid "Currency Icons"
+msgstr "Währungssymbole"
+
+#: core/views/arf_font_awesome.php:89
+#@ ARForms
+msgid "Text Editor Icons"
+msgstr "Text Editor Icons"
+
+#: core/views/arf_font_awesome.php:133
+#@ ARForms
+msgid "Directional icons"
+msgstr "Directional Symbole"
+
+#: core/views/arf_font_awesome.php:186
+#@ ARForms
+msgid "Video Player icons"
+msgstr "Video Player Icons"
+
+#: core/views/arf_font_awesome.php:206
+#@ ARForms
+msgid "Brand Icons"
+msgstr "Marke Icons"
+
+#: core/views/arf_font_awesome.php:309
+#@ ARForms
+msgid "Medical icons"
+msgstr "Medizinische Symbole"
+
+#: core/views/arf_font_awesome.php:322
+#@ ARForms
+msgid "Transportation Icons"
+msgstr "Transportation Icons"
+
+#: core/views/arf_font_awesome.php:341
+#@ ARForms
+msgid "Gender Icons"
+msgstr "Geschlecht Symbole"
+
+#: core/views/arf_font_awesome.php:359
+#@ ARForms
+msgid "General icons"
+msgstr "Allgemeine Symbole"
+
+#: core/views/edit.php:273
+#: core/views/edit.php:395
+#: core/views/edit.php:715
+#@ ARForms
+msgid "Ajax error while saving form"
+msgstr "Ajax Fehler beim Speichern Form"
+
+#: core/views/edit.php:1405
+#: core/views/edit.php:1685
+#@ ARForms
+msgid "This will be replaced with form's all fields & labels."
+msgstr "Dies wird mit allen Feldern und Etiketten der Form ersetzt werden."
+
+#: core/views/edit.php:1406
+#: core/views/edit.php:1686
+#@ ARForms
+msgid "This will be replaced with entry referer."
+msgstr "Dies wird mit dem Eintrag referer ersetzt."
+
+#: core/views/edit.php:1407
+#: core/views/edit.php:1687
+#@ ARForms
+msgid "This will be replaced with entry added time."
+msgstr "Dies wird mit dem Eintrag zugegeben Zeit ersetzt werden."
+
+#: core/views/edit.php:1408
+#: core/views/edit.php:1688
+#@ ARForms
+msgid "This will be replaced with IP Address."
+msgstr "Dies wird mit der IP-Adresse ersetzt werden."
+
+#: core/views/edit.php:1409
+#: core/views/edit.php:1689
+#@ ARForms
+msgid "This will be replaced with user browser name."
+msgstr "Dies wird mit der Benutzer von Browser-Namen ersetzt werden."
+
+#: core/views/edit.php:1410
+#: core/views/edit.php:1690
+#@ ARForms
+msgid "This will be replaced with Entry ID."
+msgstr "Dies wird mit der Beitrags-ID ersetzt werden."
+
+#: core/views/edit.php:1660
+#@ ARForms
+msgid "Admin Message"
+msgstr "Admin Nachricht"
+
+#: core/views/edit.php:3040
+#@ ARForms
+msgid "( Click on cloud buttons given below to copy your relevant css properties. Apply properties directly. Do not define class )"
+msgstr "(Klicken Sie auf Cloud-Tasten unten gegeben, um Ihren entsprechenden CSS-Eigenschaften zu kopieren. Direkt Bewerben Eigenschaften. Definieren Sie keine Klasse)"
+
+#: core/views/edit.php:3063
+#: core/views/edit.php:3179
+#@ ARForms
+msgid "Link (Popup)"
+msgstr "Link (Popup)"
+
+#: core/views/edit.php:3064
+#: core/views/edit.php:3189
+#@ ARForms
+msgid "Button (Popup)"
+msgstr "Button (Popup)"
+
+#: core/views/edit.php:3065
+#: core/views/edit.php:3184
+#@ ARForms
+msgid "Link Hover (Popup)"
+msgstr "Link Hover (Popup)"
+
+#: core/views/edit.php:3066
+#: core/views/edit.php:3194
+#@ ARForms
+msgid "Button Hover (Popup)"
+msgstr "Hover Button (Popup)"
+
+#: core/views/edit.php:3472
+#@ ARForms
+msgid "Choose Icon"
+msgstr "Wählen Sie Symbol"
+
+#: core/views/footer.php:15
+#@ ARForms
+msgid "Page Label"
+msgstr "Seite Etiketten"
+
+#: core/views/footer.php:16
+#@ ARForms
+msgid "Second Page Label"
+msgstr "Zweite Seite Etiketten"
+
+#: core/views/footer.php:17
+#@ ARForms
+msgid "First"
+msgstr "Als Erstes"
+
+#: core/views/footer.php:17
+#@ ARForms
+msgid "Second"
+msgstr "zweite"
+
+#: core/views/footer.php:18
+#@ ARForms
+msgid "Third"
+msgstr "dritte"
+
+#: core/views/footer.php:18
+#@ ARForms
+msgid "Fourth"
+msgstr "vierte"
+
+#: core/views/footer.php:19
+#@ ARForms
+msgid "Fifth"
+msgstr "fünfte"
+
+#: core/views/footer.php:19
+#@ ARForms
+msgid "Sixth"
+msgstr "sechste"
+
+#: core/views/footer.php:20
+#@ ARForms
+msgid "Seventh"
+msgstr "siebte"
+
+#: core/views/footer.php:20
+#@ ARForms
+msgid "Eighth"
+msgstr "achte"
+
+#: core/views/footer.php:21
+#@ ARForms
+msgid "Ninth"
+msgstr "neunte"
+
+#: core/views/footer.php:21
+#@ ARForms
+msgid "Tenth"
+msgstr "Zehntel"
+
+#: core/views/footer.php:23
+#@ ARForms
+msgid "Eleventh"
+msgstr "elfte"
+
+#: core/views/footer.php:24
+#@ ARForms
+msgid "Thirteenth"
+msgstr "dreizehnte"
+
+#: core/views/footer.php:24
+#@ ARForms
+msgid "Fourteenth"
+msgstr "vierzehnte"
+
+#: core/views/footer.php:25
+#@ ARForms
+msgid "Fifteenth"
+msgstr "fünfzehnte"
+
+#: core/views/footer.php:25
+#@ ARForms
+msgid "Sixteenth"
+msgstr "sechzehnte"
+
+#: core/views/footer.php:26
+#@ ARForms
+msgid "Seventeenth"
+msgstr "siebzehnte"
+
+#: core/views/footer.php:26
+#@ ARForms
+msgid "Eighteenth"
+msgstr "achtzehnte"
+
+#: core/views/footer.php:27
+#@ ARForms
+msgid "Nineteenth"
+msgstr "neunzehnte"
+
+#: core/views/footer.php:27
+#@ ARForms
+msgid "Twentieth"
+msgstr "zwanzigste"
+
+#: core/views/footer.php:29
+#@ ARForms
+msgid "Twenty First"
+msgstr "Twenty First"
+
+#: core/views/footer.php:29
+#@ ARForms
+msgid "Twenty Second"
+msgstr "Twenty Second"
+
+#: core/views/footer.php:30
+#@ ARForms
+msgid "Twenty Third"
+msgstr "Twenty Third"
+
+#: core/views/footer.php:30
+#@ ARForms
+msgid "Twenty Fourth"
+msgstr "zwanzig Vierte"
+
+#: core/views/footer.php:31
+#@ ARForms
+msgid "Twenty Fifth"
+msgstr "Twenty Fifth"
+
+#: core/views/footer.php:31
+#@ ARForms
+msgid "Twenty Sixth"
+msgstr "Twenty Sixth"
+
+#: core/views/footer.php:32
+#@ ARForms
+msgid "Twenty Seventh"
+msgstr "zwanzig Seventh"
+
+#: core/views/footer.php:32
+#@ ARForms
+msgid "Twenty Eighth"
+msgstr "heiß"
+
+#: core/views/footer.php:33
+#@ ARForms
+msgid "Twenty Ninth"
+msgstr "Twenty Ninth"
+
+#: core/views/footer.php:33
+#@ ARForms
+msgid "Thirtieth"
+msgstr "dreißigste"
+
+#: core/views/footer.php:35
+#@ ARForms
+msgid "Thirty First"
+msgstr "dreißig Zuerst"
+
+#: core/views/footer.php:35
+#@ ARForms
+msgid "Thirty Second"
+msgstr "Thirty Second"
+
+#: core/views/footer.php:36
+#@ ARForms
+msgid "Thirty Third"
+msgstr "Thirty Third"
+
+#: core/views/footer.php:36
+#@ ARForms
+msgid "Thirty Fourth"
+msgstr "dreißig Vierte"
+
+#: core/views/footer.php:37
+#@ ARForms
+msgid "Thirty Fifth"
+msgstr "Thirty Fifth"
+
+#: core/views/footer.php:37
+#@ ARForms
+msgid "Thirty Sixth"
+msgstr "dreißig Sechste"
+
+#: core/views/footer.php:38
+#@ ARForms
+msgid "Thirty Seventh"
+msgstr "Thirty Seventh"
+
+#: core/views/footer.php:38
+#@ ARForms
+msgid "Thirty Eighth"
+msgstr "Thirty Eighth"
+
+#: core/views/footer.php:39
+#@ ARForms
+msgid "Thirty Ninth"
+msgstr "Thirty Ninth"
+
+#: core/views/footer.php:39
+#@ ARForms
+msgid "Fortieth"
+msgstr "vierzigste"
+
+#: core/views/footer.php:41
+#@ ARForms
+msgid "Forty First"
+msgstr "einundvierzigsten"
+
+#: core/views/footer.php:41
+#@ ARForms
+msgid "Forty Second"
+msgstr "vierzig Zweite"
+
+#: core/views/footer.php:42
+#@ ARForms
+msgid "Forty Third"
+msgstr "vierzig Dritte"
+
+#: core/views/footer.php:42
+#@ ARForms
+msgid "Forty Fourth"
+msgstr "vierzig Vierter"
+
+#: core/views/footer.php:43
+#@ ARForms
+msgid "Forty Fifth"
+msgstr "Forty Fifth"
+
+#: core/views/footer.php:43
+#@ ARForms
+msgid "Forty Sixth"
+msgstr "vierzig Sechste"
+
+#: core/views/footer.php:44
+#@ ARForms
+msgid "Forty Seventh"
+msgstr "Forty Seventh"
+
+#: core/views/footer.php:44
+#@ ARForms
+msgid "Forty Eighth"
+msgstr "vierzig Eighth"
+
+#: core/views/footer.php:45
+#@ ARForms
+msgid "Forty Ninth"
+msgstr "vierzig Ninth"
+
+#: core/views/footer.php:45
+#@ ARForms
+msgid "Fiftieth"
+msgstr "fünfzigste"
+
+#: core/views/import_export_form.php:39
+#@ ARForms
+msgid "Please Enable Zip extension on your server."
+msgstr "Bitte aktivieren Zip-Erweiterung auf dem Server."
+
+#: core/views/newfield.php:849
+#@ ARForms
+msgid "CSS Custom Property"
+msgstr "CSS Benutzerdefinierte Eigenschaft"
+
+#: core/views/newfield.php:875
+#: core/views/newfield.php:876
+#@ ARForms
+msgid "Icon"
+msgstr "Symbol"
+
+#: core/views/newfield.php:922
+#@ ARForms
+msgid "Set conditional logic to show / hide this field by applying rules which will depend on the user's input. You can add as many conditions as you needed to match your criteria."
+msgstr "Stellen Sie bedingte Logik zum Ein- / Ausblenden dieses Feld durch Anwendung von Regeln, die auf die Eingabe des Benutzers abhängt. Sie können so viele Bedingungen, wie Sie Ihren Kriterien entsprechen Bedarf hinzufügen."
+
+#: core/views/newfield.php:1039
+#@ ARForms
+msgid "Select Prefix / Suffix"
+msgstr "Wählen Sie Präfix / Suffix"
+
+#: core/views/settings_form.php:255
+#@ ARForms
+msgid "Remove License"
+msgstr "entfernen Lizenz"
+
+#: core/views/settings_form.php:258
+#@ ARForms
+msgid "There is some error while processing your request"
+msgstr "Es ist ein Fehler bei der Verarbeitung Ihrer Anfrage"
+
+#: core/views/settings_form.php:370
+#@ ARForms
+msgid "Activate License"
+msgstr "Lizenz aktivieren"
+
+#: core/views/footer.php:23
+#@ ARForms
+msgid "Twelfth"
+msgstr "zwölfte"
+
+#: core/controllers/arformcontroller.php:3630
+#: core/views/addcontrols.php:1477
+#@ ARForms
+msgid "Section Padding"
+msgstr "Abschnitt Padding"
+
+#: core/controllers/arsettingcontroller.php:367
+#@ ARForms
+msgid "Add-On listing is currently unavailable. Please try again later."
+msgstr "Add-On-Liste ist derzeit nicht verfügbar. Bitte versuchen Sie es später noch einmal."
+
+#: core/helpers/arfieldhelper.php:4548
+#@ ARForms
+msgid "Inherit"
+msgstr "erben"
+
+#: core/views/addon_lists.php:88
+#@ ARForms
+msgid "Add more features to ARForms using Add-Ons"
+msgstr "Fügen Sie weitere Funktionen, um ARForms mit Add-Ons"
+
+#: core/views/newfield.php:850
+#@ ARForms
+msgid "Click on cloud buttons given below to copy your relevant css properties. Apply properties directly. Do not define class."
+msgstr "Klicken Sie auf Cloud-Tasten unten gegeben, um Ihren entsprechenden CSS-Eigenschaften zu kopieren. Bewerben Eigenschaften direkt. Definieren Sie keine Klasse."
+
+#: core/views/settings_form.php:770
+#@ ARForms
+msgid "Affiliate Code"
+msgstr "Affiliate-Code"
+
+#: core/vc/class_vc_extend.php:673
+#: core/views/insert_form_popup.php:690
+#@ ARForms
+msgid "Colors :"
+msgstr "Farben:"
+
+#: core/views/settings_form.php:814
+#@ ARForms
+msgid "Hide success message after"
+msgstr "Ausblenden Erfolgsmeldung nach"
+
+#: core/views/settings_form.php:817
+#@ ARForms
+msgid "Note : 0 ( zero ) means it will never hide success message"
+msgstr "Hinweis: 0 (Null) bedeutet, es wird nie Erfolgsmeldung auszublenden"
+

@@ -1,0 +1,6928 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ARForms v2.7.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-10-02 17:58+0400\n"
+"PO-Revision-Date: 2015-05-09 11:14:28+0000\n"
+"Last-Translator: Ivan Dyakov <imdyakov@mac.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: core/controllers/arfieldcontroller.php:794
+#@ ARForms
+msgid "Option Label"
+msgstr "Ярлык"
+
+#: core/controllers/arfieldcontroller.php:797
+#@ ARForms
+msgid "Saved Value"
+msgstr "Сохраненные значения"
+
+#: core/controllers/arformcontroller.php:135
+#: core/controllers/arrecordcontroller.php:961
+#: core/controllers/arrecordcontroller.php:2615
+#: core/controllers/arrecordcontroller.php:2726
+#@ ARForms
+msgid "Please select one or more records."
+msgstr "Пожалуйста, выберите одну или несколько записей."
+
+#: core/controllers/arformcontroller.php:171
+#: core/controllers/arformcontroller.php:2578
+#@ ARForms
+msgid "Record is deleted successfully."
+msgstr "Запись удалена успешно."
+
+#: core/controllers/arformcontroller.php:219
+#@ ARForms
+msgid "Forms"
+msgstr "Формы"
+
+#: core/controllers/arformcontroller.php:219
+#: core/views/list.php:440
+#@ ARForms
+msgid "Manage Forms"
+msgstr "Конструктор форм"
+
+#: core/controllers/arformcontroller.php:221
+#: core/controllers/arformcontroller.php:2354
+#: core/views/list.php:465
+#@ ARForms
+msgid "Add New Form"
+msgstr "Создать форму"
+
+#: core/controllers/arformcontroller.php:1145
+#@ ARForms
+msgid "Form is successfully updated"
+msgstr "Форма успешно обновлена"
+
+#: core/controllers/arformcontroller.php:1326
+#@ ARForms
+msgid "There is a problem creating new template."
+msgstr "Существует проблема создания нового шаблона."
+
+#: core/controllers/arformcontroller.php:1553
+#@ ARForms
+msgid "Form is Successfully Deleted"
+msgstr "Форма успешно удалена"
+
+#: core/controllers/arformcontroller.php:1568
+#@ ARForms
+msgid "Add ARForms Form"
+msgstr "Добавить форму"
+
+#: core/controllers/arformcontroller.php:1857
+#@ ARForms
+msgid "Form is Successfully Updated"
+msgstr "Форма успешно обновлен"
+
+#: core/controllers/arformcontroller.php:1876
+#@ ARForms
+msgid "Template is Successfully Updated"
+msgstr "Шаблон успешного обновления"
+
+#: core/controllers/arformcontroller.php:1885
+#@ ARForms
+msgid "That template cannot be edited"
+msgstr "Этот шаблон не может быть изменен"
+
+#: core/controllers/arformcontroller.php:2072
+#: core/controllers/arformcontroller.php:2464
+#: core/controllers/arrecordcontroller.php:3015
+#: core/controllers/arrecordcontroller.php:3450
+#: core/controllers/arrecordcontroller.php:3456
+#: core/views/list.php:14
+#: core/views/list.php:576
+#: core/views/view_records.php:107
+#: core/views/view_records.php:854
+#: core/views/view_records.php:858
+#@ ARForms
+msgid "Delete"
+msgstr "Удалить"
+
+#: core/controllers/arformcontroller.php:2361
+#: core/controllers/arformcontroller.php:2513
+#: core/controllers/arrecordcontroller.php:3362
+#: core/controllers/arrecordcontroller.php:3489
+#: core/views/list.php:472
+#: core/views/list.php:629
+#: core/views/view_records.php:770
+#: core/views/view_records.php:898
+#@ ARForms
+msgid "Bulk Actions"
+msgstr "Действия"
+
+#: core/controllers/arformcontroller.php:2371
+#: core/controllers/arformcontroller.php:2523
+#: core/controllers/arrecordcontroller.php:3372
+#: core/controllers/arrecordcontroller.php:3499
+#: core/views/list.php:482
+#: core/views/list.php:639
+#: core/views/newfield.php:505
+#: core/views/newfield.php:621
+#: core/views/view_records.php:779
+#: core/views/view_records.php:908
+#@ ARForms
+msgid "Apply"
+msgstr "Применить"
+
+#: core/controllers/arformcontroller.php:2380
+#: core/controllers/arrecordcontroller.php:3382
+#: core/views/list.php:491
+#: core/views/view_records.php:788
+#@ ARForms
+msgid "ID"
+msgstr "Идентификатор"
+
+#: core/controllers/arformcontroller.php:2381
+#: core/views/list.php:492
+#@ ARForms
+msgid "Name"
+msgstr "Название"
+
+#: core/controllers/arformcontroller.php:2382
+#: core/views/list.php:493
+#@ ARForms
+msgid "Key"
+msgstr "Ключ"
+
+#: core/controllers/arformcontroller.php:2383
+#: core/controllers/arformcontroller.php:2414
+#: core/views/graph_ajax.php:230
+#: core/views/graph_ajax.php:372
+#: core/views/graph_ajax.php:634
+#: core/views/list.php:494
+#: core/views/list.php:525
+#@ ARForms
+msgid "Entries"
+msgstr "Данные"
+
+#: core/controllers/arformcontroller.php:2384
+#: core/views/list.php:495
+#@ ARForms
+msgid "Shortcodes"
+msgstr "Короткий код"
+
+#: core/controllers/arformcontroller.php:2385
+#: core/views/list.php:496
+#@ ARForms
+msgid "Create Date"
+msgstr "Создана"
+
+#: core/controllers/arformcontroller.php:2386
+#: core/controllers/arrecordcontroller.php:3391
+#: core/views/list.php:497
+#: core/views/view_records.php:797
+#@ ARForms
+msgid "Action"
+msgstr "Действие"
+
+#: core/controllers/arformcontroller.php:2439
+#: core/views/list.php:550
+#@ ARForms
+msgid "Edit Form"
+msgstr "Редактировать форму"
+
+#: core/controllers/arformcontroller.php:2447
+#: core/views/list.php:558
+#@ ARForms
+msgid "Form Entry"
+msgstr "Ввод данных"
+
+#: core/controllers/arformcontroller.php:2449
+#: core/views/list.php:560
+#@ ARForms
+msgid "Duplicate Form"
+msgstr "Дублировать форму"
+
+#: core/controllers/arformcontroller.php:2451
+#: core/views/list.php:562
+#@ ARForms
+msgid "Export To CSV"
+msgstr "Экспорт в CSV"
+
+#: core/controllers/arformcontroller.php:2489
+#: core/views/edit.php:994
+#: core/views/list.php:601
+#@ ARForms
+msgid "Preview"
+msgstr "Aнонс"
+
+#: core/controllers/arformcontroller.php:2498
+#: core/controllers/arrecordcontroller.php:3344
+#: core/views/list.php:613
+#: core/views/view_records.php:752
+#@ ARForms
+msgid "Show / Hide columns"
+msgstr "Показать / скрыть столбцы"
+
+#: core/controllers/arformcontroller.php:2499
+#: core/controllers/arrecordcontroller.php:3345
+#: core/views/list.php:614
+#: core/views/view_records.php:753
+#@ ARForms
+msgid "Search"
+msgstr "Поиск"
+
+#: core/controllers/arformcontroller.php:2500
+#: core/controllers/arrecordcontroller.php:3346
+#: core/views/list.php:615
+#: core/views/view_records.php:754
+#@ ARForms
+msgid "entries"
+msgstr "записей"
+
+#: core/controllers/arformcontroller.php:2501
+#: core/controllers/arrecordcontroller.php:3347
+#: core/views/list.php:616
+#: core/views/newfield.php:946
+#: core/views/newfield.php:947
+#: core/views/newfield.php:951
+#: core/views/view_records.php:755
+#@ ARForms
+msgid "Show"
+msgstr "Показ."
+
+#: core/controllers/arformcontroller.php:2502
+#: core/controllers/arrecordcontroller.php:3348
+#: core/views/list.php:617
+#: core/views/view_records.php:756
+#@ ARForms
+msgid "Showing"
+msgstr "Показываю"
+
+#: core/controllers/arformcontroller.php:2503
+#: core/controllers/arrecordcontroller.php:3349
+#: core/views/list.php:618
+#: core/views/view_records.php:757
+#@ ARForms
+msgid "to"
+msgstr "по"
+
+#: core/controllers/arformcontroller.php:2504
+#: core/controllers/arrecordcontroller.php:3350
+#: core/views/form.php:160
+#: core/views/list.php:619
+#: core/views/newfield.php:437
+#: core/views/view_records.php:758
+#@ ARForms
+msgid "of"
+msgstr "из"
+
+#: core/controllers/arformcontroller.php:2505
+#: core/controllers/arrecordcontroller.php:3351
+#: core/views/list.php:620
+#: core/views/view_records.php:759
+#@ ARForms
+msgid "No matching records found"
+msgstr "Не найдено ни одной записи"
+
+#: core/controllers/arformcontroller.php:2506
+#: core/controllers/arrecordcontroller.php:3352
+#: core/views/list.php:621
+#: core/views/view_records.php:760
+#@ ARForms
+msgid "No data available in table"
+msgstr "Данные отсутствуют в таблице"
+
+#: core/controllers/arformcontroller.php:2507
+#: core/controllers/arrecordcontroller.php:3353
+#: core/views/list.php:622
+#: core/views/view_records.php:761
+#@ ARForms
+msgid "filtered from"
+msgstr "отфильтровывают от"
+
+#: core/controllers/arformcontroller.php:2508
+#: core/controllers/arrecordcontroller.php:3354
+#: core/views/list.php:623
+#: core/views/view_records.php:762
+#@ ARForms
+msgid "total"
+msgstr "общий"
+
+#: core/controllers/arformcontroller.php:2673
+#: core/views/addcontrols.php:521
+#@ ARForms
+msgid "Form Settings"
+msgstr "Параметры формы"
+
+#: core/controllers/arformcontroller.php:2692
+#: core/views/addcontrols.php:540
+#@ ARForms
+msgid "Form Width"
+msgstr "Ширина формы"
+
+#: core/controllers/arformcontroller.php:2721
+#: core/controllers/arformcontroller.php:2919
+#: core/controllers/arformcontroller.php:2942
+#: core/controllers/arformcontroller.php:3066
+#: core/controllers/arformcontroller.php:3288
+#: core/controllers/arformcontroller.php:3323
+#: core/controllers/arformcontroller.php:3637
+#: core/controllers/arformcontroller.php:3757
+#: core/controllers/arformcontroller.php:3957
+#: core/controllers/arformcontroller.php:4040
+#: core/controllers/arformcontroller.php:4134
+#: core/controllers/arformcontroller.php:4339
+#: core/controllers/arformcontroller.php:4608
+#: core/controllers/arformcontroller.php:4631
+#: core/controllers/arformcontroller.php:4719
+#: core/controllers/arformcontroller.php:4750
+#: core/controllers/arformcontroller.php:4771
+#: core/controllers/arformcontroller.php:5387
+#: core/controllers/arformcontroller.php:5422
+#: core/controllers/arformcontroller.php:5441
+#: core/controllers/arformcontroller.php:5718
+#: core/controllers/arformcontroller.php:5742
+#: core/controllers/arformcontroller.php:5863
+#: core/controllers/arformcontroller.php:6063
+#: core/helpers/arfieldhelper.php:4471
+#: core/vc/class_vc_extend.php:702
+#: core/vc/class_vc_extend.php:703
+#: core/views/addcontrols.php:569
+#: core/views/addcontrols.php:767
+#: core/views/addcontrols.php:790
+#: core/views/addcontrols.php:914
+#: core/views/addcontrols.php:1135
+#: core/views/addcontrols.php:1170
+#: core/views/addcontrols.php:1484
+#: core/views/addcontrols.php:1602
+#: core/views/addcontrols.php:1802
+#: core/views/addcontrols.php:1886
+#: core/views/addcontrols.php:1980
+#: core/views/addcontrols.php:2184
+#: core/views/addcontrols.php:2453
+#: core/views/addcontrols.php:2476
+#: core/views/addcontrols.php:2564
+#: core/views/addcontrols.php:2595
+#: core/views/addcontrols.php:2616
+#: core/views/addcontrols.php:3233
+#: core/views/addcontrols.php:3268
+#: core/views/addcontrols.php:3287
+#: core/views/addcontrols.php:3564
+#: core/views/addcontrols.php:3588
+#: core/views/addcontrols.php:3709
+#: core/views/addcontrols.php:3908
+#: core/views/insert_form_popup.php:719
+#: core/views/insert_form_popup.php:720
+#: core/widgets/ARFwidgetForm.php:99
+#: core/widgets/ARFwidgetForm.php:103
+#@ ARForms
+msgid "px"
+msgstr "точек"
+
+#: core/controllers/arformcontroller.php:2722
+#: core/controllers/arformcontroller.php:4135
+#: core/views/addcontrols.php:570
+#: core/views/addcontrols.php:1981
+#@ ARForms
+msgid "%"
+msgstr "%"
+
+#: core/controllers/arformcontroller.php:2748
+#: core/controllers/arformcontroller.php:4057
+#: core/views/addcontrols.php:596
+#: core/views/addcontrols.php:1903
+#@ ARForms
+msgid "Align"
+msgstr "Выровнить"
+
+#: core/controllers/arformcontroller.php:2762
+#: core/controllers/arformcontroller.php:3065
+#: core/controllers/arformcontroller.php:3177
+#: core/controllers/arformcontroller.php:3322
+#: core/controllers/arformcontroller.php:3636
+#: core/controllers/arformcontroller.php:3712
+#: core/controllers/arformcontroller.php:3729
+#: core/controllers/arformcontroller.php:4061
+#: core/controllers/arformcontroller.php:5862
+#: core/controllers/arformcontroller.php:6227
+#: core/helpers/arfieldhelper.php:5378
+#: core/vc/class_vc_extend.php:647
+#: core/vc/class_vc_extend.php:665
+#: core/vc/class_vc_extend.php:733
+#: core/views/addcontrols.php:610
+#: core/views/addcontrols.php:913
+#: core/views/addcontrols.php:1025
+#: core/views/addcontrols.php:1169
+#: core/views/addcontrols.php:1483
+#: core/views/addcontrols.php:1557
+#: core/views/addcontrols.php:1574
+#: core/views/addcontrols.php:1907
+#: core/views/addcontrols.php:3708
+#: core/views/addcontrols.php:4072
+#: core/views/insert_form_popup.php:670
+#: core/views/insert_form_popup.php:682
+#: core/widgets/ARFwidgetForm.php:68
+#: core/widgets/ARFwidgetForm.php:75
+#@ ARForms
+msgid "Left"
+msgstr "Слева"
+
+#: core/controllers/arformcontroller.php:2762
+#: core/controllers/arformcontroller.php:3177
+#: core/controllers/arformcontroller.php:4061
+#: core/views/addcontrols.php:610
+#: core/views/addcontrols.php:1025
+#: core/views/addcontrols.php:1907
+#@ ARForms
+msgid "Center"
+msgstr "Центр"
+
+#: core/controllers/arformcontroller.php:2762
+#: core/controllers/arformcontroller.php:3063
+#: core/controllers/arformcontroller.php:3177
+#: core/controllers/arformcontroller.php:3320
+#: core/controllers/arformcontroller.php:3634
+#: core/controllers/arformcontroller.php:3712
+#: core/controllers/arformcontroller.php:3729
+#: core/controllers/arformcontroller.php:4061
+#: core/controllers/arformcontroller.php:5860
+#: core/controllers/arformcontroller.php:6228
+#: core/vc/class_vc_extend.php:648
+#: core/vc/class_vc_extend.php:666
+#: core/vc/class_vc_extend.php:734
+#: core/views/addcontrols.php:610
+#: core/views/addcontrols.php:911
+#: core/views/addcontrols.php:1025
+#: core/views/addcontrols.php:1167
+#: core/views/addcontrols.php:1481
+#: core/views/addcontrols.php:1557
+#: core/views/addcontrols.php:1574
+#: core/views/addcontrols.php:1907
+#: core/views/addcontrols.php:3706
+#: core/views/addcontrols.php:4073
+#: core/views/insert_form_popup.php:671
+#: core/views/insert_form_popup.php:683
+#: core/widgets/ARFwidgetForm.php:69
+#: core/widgets/ARFwidgetForm.php:76
+#@ ARForms
+msgid "Right"
+msgstr "Справа"
+
+#: core/controllers/arformcontroller.php:2787
+#: core/views/addcontrols.php:635
+#@ ARForms
+msgid "Form Background"
+msgstr "Форма фона"
+
+#: core/controllers/arformcontroller.php:2794
+#: core/controllers/arformcontroller.php:4451
+#: core/controllers/arformcontroller.php:4527
+#: core/controllers/arformcontroller.php:6178
+#: core/controllers/arformcontroller.php:6261
+#: core/helpers/arfieldhelper.php:4521
+#: core/views/addcontrols.php:642
+#: core/views/addcontrols.php:2296
+#: core/views/addcontrols.php:2372
+#: core/views/addcontrols.php:4023
+#: core/views/addcontrols.php:4106
+#: core/widgets/ARFwidgetForm.php:85
+#@ ARForms
+msgid "Background Color"
+msgstr "Цвет фона"
+
+#: core/controllers/arformcontroller.php:2824
+#: core/controllers/arformcontroller.php:5608
+#: core/views/addcontrols.php:672
+#: core/views/addcontrols.php:3454
+#@ ARForms
+msgid "Background Image"
+msgstr "Фоновое изображение"
+
+#: core/controllers/arformcontroller.php:2884
+#: core/views/addcontrols.php:732
+#@ ARForms
+msgid "Form Border"
+msgstr "Рамка формы"
+
+#: core/controllers/arformcontroller.php:2892
+#: core/controllers/arformcontroller.php:6168
+#: core/views/addcontrols.php:740
+#: core/views/addcontrols.php:4013
+#@ ARForms
+msgid "Type"
+msgstr "Тип"
+
+#: core/controllers/arformcontroller.php:2895
+#: core/controllers/arformcontroller.php:3027
+#: core/controllers/arformcontroller.php:5817
+#: core/views/addcontrols.php:743
+#: core/views/addcontrols.php:875
+#: core/views/addcontrols.php:3663
+#@ ARForms
+msgid "Shadow"
+msgstr "Тень"
+
+#: core/controllers/arformcontroller.php:2895
+#: core/views/addcontrols.php:743
+#@ ARForms
+msgid "Flat"
+msgstr "Плоский"
+
+#: core/controllers/arformcontroller.php:2915
+#: core/controllers/arformcontroller.php:3264
+#: core/controllers/arformcontroller.php:3932
+#: core/controllers/arformcontroller.php:4013
+#: core/controllers/arformcontroller.php:4307
+#: core/controllers/arformcontroller.php:4604
+#: core/controllers/arformcontroller.php:5362
+#: core/controllers/arformcontroller.php:5714
+#: core/controllers/arformcontroller.php:6036
+#: core/helpers/arfieldhelper.php:4809
+#: core/views/addcontrols.php:763
+#: core/views/addcontrols.php:1112
+#: core/views/addcontrols.php:1777
+#: core/views/addcontrols.php:1858
+#: core/views/addcontrols.php:2152
+#: core/views/addcontrols.php:2449
+#: core/views/addcontrols.php:3208
+#: core/views/addcontrols.php:3560
+#: core/views/addcontrols.php:3882
+#@ ARForms
+msgid "Size"
+msgstr "Размер"
+
+#: core/controllers/arformcontroller.php:2925
+#: core/controllers/arformcontroller.php:2948
+#: core/controllers/arformcontroller.php:4615
+#: core/controllers/arformcontroller.php:4638
+#: core/controllers/arformcontroller.php:4758
+#: core/controllers/arformcontroller.php:4779
+#: core/controllers/arformcontroller.php:5725
+#: core/controllers/arformcontroller.php:5749
+#: core/views/addcontrols.php:773
+#: core/views/addcontrols.php:796
+#: core/views/addcontrols.php:2460
+#: core/views/addcontrols.php:2483
+#: core/views/addcontrols.php:2603
+#: core/views/addcontrols.php:2624
+#: core/views/addcontrols.php:3571
+#: core/views/addcontrols.php:3595
+#@ ARForms
+msgid "0 px"
+msgstr "0 px"
+
+#: core/controllers/arformcontroller.php:2926
+#: core/controllers/arformcontroller.php:4639
+#: core/controllers/arformcontroller.php:5750
+#: core/views/addcontrols.php:774
+#: core/views/addcontrols.php:2484
+#: core/views/addcontrols.php:3596
+#@ ARForms
+msgid "50 px"
+msgstr "50 px"
+
+#: core/controllers/arformcontroller.php:2938
+#: core/controllers/arformcontroller.php:4627
+#: core/controllers/arformcontroller.php:5738
+#: core/views/addcontrols.php:786
+#: core/views/addcontrols.php:2472
+#: core/views/addcontrols.php:3584
+#@ ARForms
+msgid "Radius"
+msgstr "Закругление"
+
+#: core/controllers/arformcontroller.php:2949
+#: core/views/addcontrols.php:797
+#@ ARForms
+msgid "100 px"
+msgstr "100 px"
+
+#: core/controllers/arformcontroller.php:2967
+#: core/controllers/arformcontroller.php:4484
+#: core/controllers/arformcontroller.php:4559
+#: core/controllers/arformcontroller.php:5778
+#: core/controllers/arformcontroller.php:6126
+#: core/controllers/arformcontroller.php:6296
+#: core/views/addcontrols.php:815
+#: core/views/addcontrols.php:2329
+#: core/views/addcontrols.php:2404
+#: core/views/addcontrols.php:3624
+#: core/views/addcontrols.php:3971
+#: core/views/addcontrols.php:4141
+#@ ARForms
+msgid "Border Color"
+msgstr "Цвет рамки"
+
+#: core/controllers/arformcontroller.php:2985
+#: core/controllers/arformcontroller.php:5786
+#: core/views/addcontrols.php:833
+#: core/views/addcontrols.php:3632
+#@ ARForms
+msgid "Line"
+msgstr "Граница"
+
+#: core/controllers/arformcontroller.php:3059
+#: core/views/addcontrols.php:907
+#@ ARForms
+msgid "Padding"
+msgstr "Отступ"
+
+#: core/controllers/arformcontroller.php:3062
+#: core/controllers/arformcontroller.php:3319
+#: core/controllers/arformcontroller.php:3633
+#: core/controllers/arformcontroller.php:3712
+#: core/controllers/arformcontroller.php:5859
+#: core/controllers/arformcontroller.php:6225
+#: core/helpers/arfieldhelper.php:5391
+#: core/vc/class_vc_extend.php:645
+#: core/vc/class_vc_extend.php:731
+#: core/views/addcontrols.php:910
+#: core/views/addcontrols.php:1166
+#: core/views/addcontrols.php:1480
+#: core/views/addcontrols.php:1557
+#: core/views/addcontrols.php:3705
+#: core/views/addcontrols.php:4070
+#: core/views/insert_form_popup.php:668
+#: core/widgets/ARFwidgetForm.php:66
+#@ ARForms
+msgid "Top"
+msgstr "Сверху"
+
+#: core/controllers/arformcontroller.php:3064
+#: core/controllers/arformcontroller.php:3321
+#: core/controllers/arformcontroller.php:3635
+#: core/controllers/arformcontroller.php:5861
+#: core/controllers/arformcontroller.php:6226
+#: core/vc/class_vc_extend.php:646
+#: core/vc/class_vc_extend.php:732
+#: core/views/addcontrols.php:912
+#: core/views/addcontrols.php:1168
+#: core/views/addcontrols.php:1482
+#: core/views/addcontrols.php:3707
+#: core/views/addcontrols.php:4071
+#: core/views/insert_form_popup.php:669
+#: core/widgets/ARFwidgetForm.php:67
+#@ ARForms
+msgid "Bottom"
+msgstr "Снизу"
+
+#: core/controllers/arformcontroller.php:3113
+#: core/views/addcontrols.php:961
+#@ ARForms
+msgid "Form title & description"
+msgstr "Название и описание"
+
+#: core/controllers/arformcontroller.php:3139
+#: core/views/addcontrols.php:987
+#@ ARForms
+msgid "Form Title"
+msgstr "Название формы"
+
+#: core/controllers/arformcontroller.php:3145
+#: core/controllers/arformcontroller.php:3549
+#: core/views/addcontrols.php:993
+#: core/views/addcontrols.php:1396
+#@ ARForms
+msgid "Title Color"
+msgstr "Цвет"
+
+#: core/controllers/arformcontroller.php:3173
+#: core/controllers/arformcontroller.php:3724
+#: core/views/addcontrols.php:1021
+#: core/views/addcontrols.php:1569
+#@ ARForms
+msgid "Text Align"
+msgstr "Выравнивание"
+
+#: core/controllers/arformcontroller.php:3183
+#: core/controllers/arformcontroller.php:3811
+#: core/controllers/arformcontroller.php:4190
+#: core/controllers/arformcontroller.php:5238
+#: core/controllers/arformcontroller.php:5950
+#: core/views/addcontrols.php:1031
+#: core/views/addcontrols.php:1656
+#: core/views/addcontrols.php:2036
+#: core/views/addcontrols.php:3084
+#: core/views/addcontrols.php:3796
+#@ ARForms
+msgid "Font Settings"
+msgstr "Настройки шрифта"
+
+#: core/controllers/arformcontroller.php:3202
+#: core/controllers/arformcontroller.php:3838
+#: core/controllers/arformcontroller.php:4217
+#: core/controllers/arformcontroller.php:5266
+#: core/controllers/arformcontroller.php:5976
+#: core/views/addcontrols.php:1050
+#: core/views/addcontrols.php:1683
+#: core/views/addcontrols.php:2063
+#: core/views/addcontrols.php:3112
+#: core/views/addcontrols.php:3822
+#@ ARForms
+msgid "Family"
+msgstr "Семейство"
+
+#: core/controllers/arformcontroller.php:3242
+#: core/controllers/arformcontroller.php:3894
+#: core/controllers/arformcontroller.php:4269
+#: core/controllers/arformcontroller.php:4678
+#: core/controllers/arformcontroller.php:5068
+#: core/controllers/arformcontroller.php:5324
+#: core/helpers/arfieldhelper.php:4657
+#: core/helpers/arfieldhelper.php:4732
+#: core/views/addcontrols.php:1090
+#: core/views/addcontrols.php:1739
+#: core/views/addcontrols.php:2114
+#: core/views/addcontrols.php:2523
+#: core/views/addcontrols.php:2914
+#: core/views/addcontrols.php:3170
+#@ ARForms
+msgid "Style"
+msgstr "Стиль"
+
+#: core/controllers/arformcontroller.php:3252
+#: core/controllers/arformcontroller.php:3904
+#: core/controllers/arformcontroller.php:4279
+#: core/controllers/arformcontroller.php:5335
+#: core/helpers/arfieldhelper.php:4499
+#: core/views/addcontrols.php:1100
+#: core/views/addcontrols.php:1749
+#: core/views/addcontrols.php:2124
+#: core/views/addcontrols.php:3181
+#@ ARForms
+msgid "normal"
+msgstr "нормальный"
+
+#: core/controllers/arformcontroller.php:3253
+#: core/controllers/arformcontroller.php:3905
+#: core/controllers/arformcontroller.php:4280
+#: core/controllers/arformcontroller.php:5336
+#: core/helpers/arfieldhelper.php:4500
+#: core/views/addcontrols.php:1101
+#: core/views/addcontrols.php:1750
+#: core/views/addcontrols.php:2125
+#: core/views/addcontrols.php:3182
+#@ ARForms
+msgid "bold"
+msgstr "жирный"
+
+#: core/controllers/arformcontroller.php:3254
+#: core/controllers/arformcontroller.php:3906
+#: core/controllers/arformcontroller.php:4281
+#: core/controllers/arformcontroller.php:5337
+#: core/helpers/arfieldhelper.php:4501
+#: core/views/addcontrols.php:1102
+#: core/views/addcontrols.php:1751
+#: core/views/addcontrols.php:2126
+#: core/views/addcontrols.php:3183
+#@ ARForms
+msgid "italic"
+msgstr "курсив"
+
+#: core/controllers/arformcontroller.php:3316
+#: core/controllers/arformcontroller.php:5856
+#: core/views/addcontrols.php:1163
+#: core/views/addcontrols.php:3702
+#@ ARForms
+msgid "Margin"
+msgstr "Отступы"
+
+#: core/controllers/arformcontroller.php:3397
+#: core/views/addcontrols.php:1244
+#@ ARForms
+msgid "Page Break Tab Background Color"
+msgstr "Фон закладки страницы"
+
+#: core/controllers/arformcontroller.php:3403
+#: core/views/addcontrols.php:1250
+#@ ARForms
+msgid "Active"
+msgstr "Активна"
+
+#: core/controllers/arformcontroller.php:3419
+#: core/views/addcontrols.php:1266
+#@ ARForms
+msgid "Inactive"
+msgstr "Неактивна"
+
+#: core/controllers/arformcontroller.php:3450
+#: core/controllers/arformcontroller.php:3778
+#: core/controllers/arformcontroller.php:5498
+#: core/controllers/arformcontroller.php:6107
+#: core/controllers/arformcontroller.php:6328
+#: core/views/addcontrols.php:1297
+#: core/views/addcontrols.php:1623
+#: core/views/addcontrols.php:3344
+#: core/views/addcontrols.php:3952
+#: core/views/addcontrols.php:4173
+#: core/widgets/ARFwidgetForm.php:94
+#@ ARForms
+msgid "Text Color"
+msgstr "Цвет текста"
+
+#: core/controllers/arformcontroller.php:3496
+#: core/views/addcontrols.php:1343
+#@ ARForms
+msgid "Survey Bar Colors"
+msgstr "Цвет индикатора заполнения"
+
+#: core/controllers/arformcontroller.php:3502
+#: core/views/addcontrols.php:1349
+#@ ARForms
+msgid "Bar Color"
+msgstr "Цвет индикатора"
+
+#: core/controllers/arformcontroller.php:3518
+#: core/controllers/arformcontroller.php:5142
+#: core/controllers/arformcontroller.php:5532
+#: core/vc/class_vc_extend.php:676
+#: core/views/addcontrols.php:1365
+#: core/views/addcontrols.php:2988
+#: core/views/addcontrols.php:3378
+#: core/views/insert_form_popup.php:693
+#@ ARForms
+msgid "Background"
+msgstr "Фон"
+
+#: core/controllers/arformcontroller.php:3599
+#: core/views/addcontrols.php:1446
+#@ ARForms
+msgid "0"
+msgstr "0"
+
+#: core/controllers/arformcontroller.php:3600
+#: core/views/addcontrols.php:1447
+#: core/views/newfield.php:82
+#@ ARForms
+msgid "1"
+msgstr "1"
+
+#: core/controllers/arformcontroller.php:3681
+#: core/views/addcontrols.php:1526
+#@ ARForms
+msgid "Label Settings"
+msgstr "Настройки ярлыков"
+
+#: core/controllers/arformcontroller.php:3708
+#: core/views/addcontrols.php:1553
+#@ ARForms
+msgid "Label Position"
+msgstr "Положение ярлыка"
+
+#: core/controllers/arformcontroller.php:3751
+#: core/views/addcontrols.php:1596
+#@ ARForms
+msgid "Label Width"
+msgstr "Ширина ярлыка"
+
+#: core/controllers/arformcontroller.php:3979
+#: core/views/addcontrols.php:1824
+#@ ARForms
+msgid "Hide Labels"
+msgstr "Скрыть ярлыки"
+
+#: core/controllers/arformcontroller.php:4006
+#: core/views/addcontrols.php:1851
+#@ ARForms
+msgid "Field description settings"
+msgstr "Настройки описания поля"
+
+#: core/controllers/arformcontroller.php:4089
+#: core/views/addcontrols.php:1935
+#@ ARForms
+msgid "Input Field Settings"
+msgstr "Настройки поля ввода"
+
+#: core/controllers/arformcontroller.php:4118
+#: core/views/addcontrols.php:1964
+#@ ARForms
+msgid "Field Width"
+msgstr "Ширина поля"
+
+#: core/controllers/arformcontroller.php:4162
+#: core/views/addcontrols.php:2008
+#@ ARForms
+msgid "Text Direction"
+msgstr "Направление текста"
+
+#: core/controllers/arformcontroller.php:4166
+#: core/views/addcontrols.php:2012
+#@ ARForms
+msgid "Left to Right"
+msgstr "Слева направо"
+
+#: core/controllers/arformcontroller.php:4166
+#: core/views/addcontrols.php:2012
+#@ ARForms
+msgid "Right to Left"
+msgstr "Справа налево"
+
+#: core/controllers/arformcontroller.php:4368
+#: core/views/addcontrols.php:2213
+#@ ARForms
+msgid "Normal State"
+msgstr "Обычное состояние"
+
+#: core/controllers/arformcontroller.php:4375
+#: core/views/addcontrols.php:2220
+#@ ARForms
+msgid "Text color"
+msgstr "Цвет текста"
+
+#: core/controllers/arformcontroller.php:4409
+#: core/views/addcontrols.php:2254
+#@ ARForms
+msgid "Background color"
+msgstr "Цвет фона"
+
+#: core/controllers/arformcontroller.php:4444
+#: core/views/addcontrols.php:2289
+#@ ARForms
+msgid "Active State"
+msgstr "Активный режим"
+
+#: core/controllers/arformcontroller.php:4520
+#: core/views/addcontrols.php:2365
+#@ ARForms
+msgid "Error State"
+msgstr "Режим ошибки"
+
+#: core/controllers/arformcontroller.php:4597
+#: core/controllers/arformcontroller.php:5704
+#: core/views/addcontrols.php:2442
+#: core/views/addcontrols.php:3550
+#@ ARForms
+msgid "Border Settings"
+msgstr "Настройки границ"
+
+#: core/controllers/arformcontroller.php:4616
+#: core/controllers/arformcontroller.php:5726
+#: core/views/addcontrols.php:2461
+#: core/views/addcontrols.php:3572
+#@ ARForms
+msgid "20 px"
+msgstr "20 px"
+
+#: core/controllers/arformcontroller.php:4650
+#: core/controllers/arformcontroller.php:5092
+#: core/models/arfieldmodel.php:167
+#: core/views/addcontrols.php:2495
+#: core/views/addcontrols.php:2938
+#@ ARForms
+msgid "Color"
+msgstr "Цвет"
+
+#: core/controllers/arformcontroller.php:4691
+#: core/views/addcontrols.php:2536
+#@ ARForms
+msgid "Solid"
+msgstr "Линия"
+
+#: core/controllers/arformcontroller.php:4693
+#: core/views/addcontrols.php:2538
+#@ ARForms
+msgid "Dotted"
+msgstr "Пунктир"
+
+#: core/controllers/arformcontroller.php:4695
+#: core/views/addcontrols.php:2540
+#@ ARForms
+msgid "Dashed"
+msgstr "Тире"
+
+#: core/controllers/arformcontroller.php:4716
+#: core/views/addcontrols.php:2561
+#@ ARForms
+msgid "Field Spacing"
+msgstr "Промежутки"
+
+#: core/controllers/arformcontroller.php:4739
+#: core/views/addcontrols.php:2584
+#@ ARForms
+msgid "Field Inner Spacing"
+msgstr "Межстрочный интервал"
+
+#: core/controllers/arformcontroller.php:4746
+#: core/views/addcontrols.php:2591
+#@ ARForms
+msgid "Vertical"
+msgstr "Вертикально"
+
+#: core/controllers/arformcontroller.php:4759
+#: core/controllers/arformcontroller.php:4780
+#: core/views/addcontrols.php:2604
+#: core/views/addcontrols.php:2625
+#@ ARForms
+msgid "25 px"
+msgstr "25 точек"
+
+#: core/controllers/arformcontroller.php:4767
+#: core/views/addcontrols.php:2612
+#@ ARForms
+msgid "Horizontal"
+msgstr "Горизонтально"
+
+#: core/controllers/arformcontroller.php:4798
+#: core/views/addcontrols.php:2643
+#@ ARForms
+msgid "Field Transparency"
+msgstr "Прозрачность поля"
+
+#: core/controllers/arformcontroller.php:4820
+#: core/views/addcontrols.php:2665
+#@ ARForms
+msgid "Calendar Style"
+msgstr "Формат календаря"
+
+#: core/controllers/arformcontroller.php:4838
+#: core/views/addcontrols.php:2683
+#@ ARForms
+msgid "Theme"
+msgstr "Тема"
+
+#: core/controllers/arformcontroller.php:4893
+#: core/views/addcontrols.php:2738
+#@ ARForms
+msgid "Date Format"
+msgstr "Формат даты"
+
+#: core/controllers/arformcontroller.php:5064
+#: core/views/addcontrols.php:2910
+#@ ARForms
+msgid "Checkbox & Radio Style"
+msgstr " Стиль флажка/перекл."
+
+#: core/controllers/arformcontroller.php:5187
+#: core/views/addcontrols.php:3033
+#@ ARForms
+msgid "Submit Button Settings"
+msgstr "Настройки кнопки Отправить"
+
+#: core/controllers/arformcontroller.php:5209
+#: core/views/addcontrols.php:3055
+#@ ARForms
+msgid "Submit align"
+msgstr "Выровнить"
+
+#: core/controllers/arformcontroller.php:5213
+#: core/views/addcontrols.php:3059
+#@ ARForms
+msgid "Fixed"
+msgstr "Фикс"
+
+#: core/controllers/arformcontroller.php:5213
+#: core/views/addcontrols.php:3059
+#@ ARForms
+msgid "Auto"
+msgstr "Авто"
+
+#: core/controllers/arformcontroller.php:5418
+#: core/views/addcontrols.php:3264
+#@ ARForms
+msgid "Button Width"
+msgstr "Ширина кнопки"
+
+#: core/controllers/arformcontroller.php:5418
+#: core/controllers/arformcontroller.php:5437
+#: core/views/addcontrols.php:3264
+#: core/views/addcontrols.php:3283
+#@ ARForms
+msgid "Optional"
+msgstr "Необязательное"
+
+#: core/controllers/arformcontroller.php:5424
+#: core/controllers/arformcontroller.php:5443
+#: core/views/addcontrols.php:3270
+#: core/views/addcontrols.php:3289
+#@ ARForms
+msgid "If not provided anything it will be auto"
+msgstr "Если не указано, будет выравниваться автоматически"
+
+#: core/controllers/arformcontroller.php:5437
+#: core/views/addcontrols.php:3283
+#@ ARForms
+msgid " Button Height"
+msgstr "Высота кнопки"
+
+#: core/controllers/arformcontroller.php:5463
+#: core/vc/class_vc_extend.php:685
+#: core/views/addcontrols.php:3309
+#: core/views/insert_form_popup.php:702
+#@ ARForms
+msgid "Text"
+msgstr "Текст"
+
+#: core/controllers/arformcontroller.php:5539
+#: core/views/addcontrols.php:3385
+#@ ARForms
+msgid "Default Color"
+msgstr "Цвет по умолчанию"
+
+#: core/controllers/arformcontroller.php:5573
+#: core/views/addcontrols.php:3419
+#@ ARForms
+msgid "Hover Color"
+msgstr "Цвет при наведении"
+
+#: core/controllers/arformcontroller.php:5922
+#: core/views/addcontrols.php:3768
+#@ ARForms
+msgid "Validation Style Settings"
+msgstr "Настройки стиля проверки полей"
+
+#: core/controllers/arformcontroller.php:6076
+#: core/views/addcontrols.php:3921
+#@ ARForms
+msgid "Error Settings"
+msgstr "Настройки ошибок"
+
+#: core/controllers/arformcontroller.php:6084
+#: core/views/addcontrols.php:3929
+#@ ARForms
+msgid "BG Color"
+msgstr "BG код цвета"
+
+#: core/controllers/arformcontroller.php:6162
+#: core/views/addcontrols.php:4007
+#@ ARForms
+msgid "Validation error settings"
+msgstr "Настройки наличия ошибок"
+
+#: core/controllers/arformcontroller.php:6171
+#: core/views/addcontrols.php:4016
+#@ ARForms
+msgid "Advance"
+msgstr "Особый"
+
+#: core/controllers/arformcontroller.php:6171
+#: core/views/addcontrols.php:4016
+#@ ARForms
+msgid "Normal"
+msgstr "Обычный"
+
+#: core/controllers/arformcontroller.php:6222
+#: core/views/addcontrols.php:4067
+#@ ARForms
+msgid "Position"
+msgstr "Положение"
+
+#: core/controllers/arformcontroller.php:6252
+#: core/views/addcontrols.php:4097
+#@ ARForms
+msgid "Success Message Settings"
+msgstr "Настройки корректного заполнения"
+
+#: core/controllers/arformcontroller.php:6366
+#: core/views/addcontrols.php:4211
+#@ ARForms
+msgid "Reset"
+msgstr "сброс"
+
+#: core/controllers/arformcontroller.php:6869
+#@ ARForms
+msgid "There is any error while uncompressing zip."
+msgstr "Возникает ошибка при распаковке архива ZIP."
+
+#: core/controllers/arformcontroller.php:6874
+#: core/controllers/arformcontroller.php:6880
+#@ ARForms
+msgid "Please upload only zip files."
+msgstr "Пожалуйста, загрузите только архивный файл формата ZIP."
+
+#: core/controllers/arformcontroller.php:7518
+#@ ARForms
+msgid "Form Imported Successfully"
+msgstr "Форма успешно импортирована"
+
+#: core/controllers/arformcontroller.php:7522
+#@ ARForms
+msgid "File is not proper."
+msgstr "Неверный файл."
+
+#: core/controllers/arrecordcontroller.php:91
+#: core/controllers/arrecordcontroller.php:99
+#: core/controllers/arrecordcontroller.php:1082
+#: core/controllers/arrecordcontroller.php:1089
+#@ ARForms
+msgid "Please select a valid form"
+msgstr "Пожалуйста, выберите корректную форму"
+
+#: core/controllers/arrecordcontroller.php:104
+#: core/controllers/arrecordcontroller.php:1094
+#@ ARForms
+msgid "This form is currently not active, please try again later."
+msgstr "Эта форма в настоящее время неактивна, повторите попытку позже."
+
+#: core/controllers/arrecordcontroller.php:457
+#: core/views/view_records.php:666
+#@ ARForms
+msgid "Form Entries"
+msgstr "Отправки форм"
+
+#: core/controllers/arrecordcontroller.php:797
+#@ ARForms
+msgid "Entry is Successfully Created"
+msgstr "Запись успешно создана"
+
+#: core/controllers/arrecordcontroller.php:844
+#@ ARForms
+msgid "Entry is Successfully Deleted"
+msgstr "Запись успешно удалена"
+
+#: core/controllers/arrecordcontroller.php:895
+#@ ARForms
+msgid "Entries were Successfully Destroyed"
+msgstr "Записи успешно удалены"
+
+#: core/controllers/arrecordcontroller.php:904
+#@ ARForms
+msgid "No entries were specified"
+msgstr "Не выбрано ни одной записи"
+
+#: core/controllers/arrecordcontroller.php:1039
+#: core/controllers/arrecordcontroller.php:2696
+#@ ARForms
+msgid "No form is found"
+msgstr "Формы не найдены"
+
+#: core/controllers/arrecordcontroller.php:1379
+#: core/views/formsubmission.php:260
+#: core/views/view-modal.php:617
+#@ ARForms
+msgid "Please wait while you are redirected."
+msgstr "Подождите, пока вы будете перенаправлены."
+
+#: core/controllers/arrecordcontroller.php:2428
+#@ ARForms
+msgid "Your entry is successfully deleted"
+msgstr "Ваша запись успешно удалена"
+
+#: core/controllers/arrecordcontroller.php:2389
+#@ ARForms
+msgid "There is an error deleting that entry"
+msgstr "Существует ошибка при удалении этой записи"
+
+#: core/controllers/arrecordcontroller.php:2488
+#@ ARForms
+msgid "No one! You do not have permission"
+msgstr "Нет одного! У вас нет разрешения"
+
+#: core/controllers/arrecordcontroller.php:2647
+#@ ARForms
+msgid "Entries deleted successfully"
+msgstr "Записи успешно удалены"
+
+#: core/controllers/arrecordcontroller.php:3017
+#: core/views/view_records.php:109
+#@ ARForms
+msgid "Export to CSV"
+msgstr "Экспорт в CSV"
+
+#: core/controllers/arrecordcontroller.php:3297
+#: core/views/view_records.php:706
+#: core/views/view_records.php:926
+#@ ARForms
+msgid "Select form"
+msgstr "Выберите форму"
+
+#: core/controllers/arrecordcontroller.php:3298
+#: core/views/graph.php:213
+#: core/views/view_records.php:707
+#@ ARForms
+msgid "Select Form"
+msgstr "Для формы"
+
+#: core/controllers/arrecordcontroller.php:3315
+#: core/views/view_records.php:724
+#@ ARForms
+msgid "Select date From"
+msgstr "Выбор даты с"
+
+#: core/controllers/arrecordcontroller.php:3315
+#: core/views/view_records.php:724
+#@ ARForms
+msgid "optional"
+msgstr "необязательно"
+
+#: core/controllers/arrecordcontroller.php:3317
+#: core/views/view_records.php:726
+#@ ARForms
+msgid "To"
+msgstr " по"
+
+#: core/controllers/arrecordcontroller.php:3323
+#: core/models/arsettingmodel.php:115
+#: core/views/view_records.php:732
+#@ ARForms
+msgid "Submit"
+msgstr "Отправить"
+
+#: core/controllers/arrecordcontroller.php:3326
+#: core/vc/class_vc_extend.php:570
+#: core/views/insert_form_popup.php:46
+#: core/views/view_records.php:735
+#@ ARForms
+msgid "Please select a form"
+msgstr "Пожалуйста, выберите форму"
+
+#: core/controllers/arrecordcontroller.php:3386
+#: core/views/view_records.php:792
+#@ ARForms
+msgid "Entry Key"
+msgstr "Ключ записи"
+
+#: core/controllers/arrecordcontroller.php:3387
+#: core/views/view_records.php:793
+#@ ARForms
+msgid "Entry creation date"
+msgstr "Дата создания записи"
+
+#: core/controllers/arrecordcontroller.php:3388
+#: core/views/view_records.php:794
+#@ ARForms
+msgid "Browser Name"
+msgstr "браузер Название"
+
+#: core/controllers/arrecordcontroller.php:3389
+#: core/views/view_records.php:795
+#@ ARForms
+msgid "IP Address"
+msgstr "IP-адрес"
+
+#: core/controllers/arrecordcontroller.php:3390
+#: core/views/view_records.php:796
+#@ ARForms
+msgid "Country"
+msgstr "страна"
+
+#: core/controllers/arrecordcontroller.php:3431
+#: core/controllers/arrecordcontroller.php:3435
+#: core/views/view_records.php:835
+#: core/views/view_records.php:839
+#@ ARForms
+msgid "View Entry"
+msgstr "Посмотреть запись"
+
+#: core/controllers/arrecordcontroller.php:3465
+#: core/views/view_records.php:867
+#@ ARForms
+msgid "VIEW ENTRY"
+msgstr "Просмотр Вступление"
+
+#: core/controllers/arrecordcontroller.php:3472
+#: core/views/view_records.php:874
+#@ ARForms
+msgid "Close"
+msgstr "близко"
+
+#: core/controllers/arrecordcontroller.php:3663
+#@ ARForms
+msgid "Created at"
+msgstr "Создано в"
+
+#: core/controllers/arrecordcontroller.php:3698
+#@ ARForms
+msgid "Entry deleted successfully"
+msgstr "Вступление успешно удален"
+
+#: core/controllers/arsettingcontroller.php:125
+#: core/views/settings_form.php:95
+#@ ARForms
+msgid "Global Settings"
+msgstr "Общие настройки"
+
+#: core/controllers/arsettingcontroller.php:127
+#@ ARForms
+msgid "Import Export"
+msgstr "Импорт Экспорт"
+
+#: core/controllers/arsettingcontroller.php:127
+#@ ARForms
+msgid "Import / Export"
+msgstr "Импорт / Экспорт"
+
+#: core/controllers/arsettingcontroller.php:559
+#@ ARForms
+msgid "General setting changes saved successfully."
+msgstr "Общие настройки успешно сохранены."
+
+#: core/controllers/arsettingcontroller.php:563
+#@ ARForms
+msgid "Email Marketing Tools setting saved successfully."
+msgstr "Настройки инструментов email-рассылок успешно сохранены."
+
+#: core/controllers/arsettingcontroller.php:567
+#@ ARForms
+msgid "Settings Saved."
+msgstr "Настройки сохранены."
+
+#: core/controllers/maincontroller.php:188
+#: core/controllers/maincontroller.php:271
+#: core/controllers/maincontroller_07may2015.php:188
+#: core/controllers/maincontroller_07may2015.php:271
+#@ ARForms
+msgid "Contact us"
+msgstr "связаться с нами"
+
+#: core/controllers/maincontroller.php:189
+#: core/controllers/maincontroller.php:272
+#: core/controllers/maincontroller_07may2015.php:189
+#: core/controllers/maincontroller_07may2015.php:272
+#@ ARForms
+msgid "Subscription Form"
+msgstr "Форма подписки"
+
+#: core/controllers/maincontroller.php:190
+#: core/controllers/maincontroller.php:273
+#: core/controllers/maincontroller_07may2015.php:190
+#: core/controllers/maincontroller_07may2015.php:273
+#@ ARForms
+msgid "Feedback Form"
+msgstr "Форма обратной"
+
+#: core/controllers/maincontroller.php:191
+#: core/controllers/maincontroller.php:274
+#: core/controllers/maincontroller_07may2015.php:191
+#: core/controllers/maincontroller_07may2015.php:274
+#@ ARForms
+msgid "RSVP Form"
+msgstr "RSVP форма"
+
+#: core/controllers/maincontroller.php:192
+#: core/controllers/maincontroller.php:275
+#: core/controllers/maincontroller_07may2015.php:192
+#: core/controllers/maincontroller_07may2015.php:275
+#@ ARForms
+msgid "Registration Form"
+msgstr "Форма регистрации"
+
+#: core/controllers/maincontroller.php:193
+#: core/controllers/maincontroller.php:276
+#: core/controllers/maincontroller_07may2015.php:193
+#: core/controllers/maincontroller_07may2015.php:276
+#@ ARForms
+msgid "Survey Form"
+msgstr "Форма опросник"
+
+#: core/controllers/maincontroller.php:194
+#: core/controllers/maincontroller.php:277
+#: core/controllers/maincontroller_07may2015.php:194
+#: core/controllers/maincontroller_07may2015.php:277
+#@ ARForms
+msgid "Job Application"
+msgstr "Поиск вакансий"
+
+#: core/controllers/maincontroller.php:679
+#: core/controllers/maincontroller_07may2015.php:679
+#: core/views/edit.php:942
+#: core/views/edit.php:961
+#: core/views/edit_form.php:152
+#@ ARForms
+msgid "Settings"
+msgstr "Настройки"
+
+#: core/controllers/maincontroller.php:1218
+#: core/controllers/maincontroller_07may2015.php:1218
+#@ ARForms
+msgid "Type-in or bookmark"
+msgstr "Type-In или закладки"
+
+#: core/helpers/arfieldhelper.php:526
+#@ ARForms
+msgid "Single Line Text"
+msgstr "Строка текста"
+
+#: core/helpers/arfieldhelper.php:527
+#@ ARForms
+msgid "Multiline Text"
+msgstr "Строки текста"
+
+#: core/helpers/arfieldhelper.php:528
+#@ ARForms
+msgid "Checkboxes"
+msgstr "Флажки"
+
+#: core/helpers/arfieldhelper.php:529
+#@ ARForms
+msgid "Radio Buttons"
+msgstr "Переключатели"
+
+#: core/helpers/arfieldhelper.php:530
+#@ ARForms
+msgid "Dropdown"
+msgstr "Выпадающее"
+
+#: core/helpers/arfieldhelper.php:531
+#@ ARForms
+msgid "File Upload"
+msgstr "Загрузить файл"
+
+#: core/helpers/arfieldhelper.php:561
+#@ ARForms
+msgid "Email Address"
+msgstr "E-mail адрес"
+
+#: core/helpers/arfieldhelper.php:562
+#@ ARForms
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+#: core/helpers/arfieldhelper.php:563
+#: core/models/arfieldmodel.php:57
+#@ ARForms
+msgid "Number"
+msgstr "Число"
+
+#: core/helpers/arfieldhelper.php:564
+#@ ARForms
+msgid "Phone Number"
+msgstr "Телефон"
+
+#: core/helpers/arfieldhelper.php:565
+#: core/models/arfieldmodel.php:79
+#@ ARForms
+msgid "Date"
+msgstr "Дата"
+
+#: core/helpers/arfieldhelper.php:566
+#: core/models/arfieldmodel.php:91
+#@ ARForms
+msgid "Time"
+msgstr "Время"
+
+#: core/helpers/arfieldhelper.php:567
+#@ ARForms
+msgid "Website/URL"
+msgstr "Сайт / URL"
+
+#: core/helpers/arfieldhelper.php:568
+#: core/helpers/arfieldhelper.php:5360
+#@ ARForms
+msgid "Image URL"
+msgstr "URL картинки"
+
+#: core/helpers/arfieldhelper.php:569
+#@ ARForms
+msgid "Hidden Field"
+msgstr "Скрытое поле"
+
+#: core/helpers/arfieldhelper.php:570
+#: core/models/arfieldmodel.php:133
+#: core/views/settings_form.php:1216
+#@ ARForms
+msgid "Password"
+msgstr "Пароль"
+
+#: core/helpers/arfieldhelper.php:571
+#: core/models/arfieldmodel.php:142
+#@ ARForms
+msgid "HTML"
+msgstr "HTML"
+
+#: core/helpers/arfieldhelper.php:572
+#@ ARForms
+msgid "Section"
+msgstr "Раздел"
+
+#: core/helpers/arfieldhelper.php:573
+#@ ARForms
+msgid "Page Break"
+msgstr "Страница"
+
+#: core/helpers/arfieldhelper.php:574
+#@ ARForms
+msgid "Star Rating"
+msgstr "Рейтинг"
+
+#: core/helpers/arfieldhelper.php:575
+#@ ARForms
+msgid "Like button"
+msgstr "Нравится"
+
+#: core/helpers/arfieldhelper.php:576
+#@ ARForms
+msgid "Slider"
+msgstr "Ползунок"
+
+#: core/helpers/arfieldhelper.php:577
+#@ ARForms
+msgid "Color Picker"
+msgstr "Выбор цвета"
+
+#: core/helpers/arfieldhelper.php:578
+#: core/models/arfieldmodel.php:161
+#@ ARForms
+msgid "Image"
+msgstr "Изображение"
+
+#: core/helpers/arfieldhelper.php:778
+#@ ARForms
+msgid "Checkbox 1"
+msgstr "Флажок 1"
+
+#: core/helpers/arfieldhelper.php:778
+#@ ARForms
+msgid "Checkbox 2"
+msgstr "Флажок 2"
+
+#: core/helpers/arfieldhelper.php:782
+#@ ARForms
+msgid "Radio 1"
+msgstr "Radio 1"
+
+#: core/helpers/arfieldhelper.php:782
+#@ ARForms
+msgid "Radio 2"
+msgstr "Radio 2"
+
+#: core/helpers/arfieldhelper.php:786
+#@ ARForms
+msgid "Select 1"
+msgstr "Выберите 1"
+
+#: core/helpers/arfieldhelper.php:1268
+#: core/helpers/arfieldhelper.php:4917
+#: core/views/upgrade_latest_data.php:690
+#@ ARForms
+msgid "Like"
+msgstr "подобно"
+
+#: core/helpers/arfieldhelper.php:1268
+#: core/helpers/arfieldhelper.php:4928
+#: core/views/upgrade_latest_data.php:691
+#@ ARForms
+msgid "Dislike"
+msgstr "неприязнь"
+
+#: core/helpers/arfieldhelper.php:1272
+#: core/helpers/arfieldhelper.php:5290
+#: core/views/upgrade_latest_data.php:703
+#@ ARForms
+msgid "Confirm Password does not match with password"
+msgstr "Подтвердите пароль не соответствует с паролем"
+
+#: core/helpers/arfieldhelper.php:1273
+#: core/helpers/arfieldhelper.php:5189
+#: core/helpers/arfieldhelper.php:5198
+#: core/views/upgrade_latest_data.php:706
+#@ ARForms
+msgid "Confirm Password"
+msgstr "Подтвердите пароль"
+
+#: core/helpers/arfieldhelper.php:1283
+#: core/models/arsettingmodel.php:230
+#@ ARForms
+msgid "The reCAPTCHA was not entered correctly"
+msgstr "Рекапчи был введен не правильно"
+
+#: core/helpers/arfieldhelper.php:1285
+#@ ARForms
+msgid "Email is invalid"
+msgstr "Неверный формат email"
+
+#: core/helpers/arfieldhelper.php:1287
+#@ ARForms
+msgid "File is invalid"
+msgstr "Недопустимый формат файл"
+
+#: core/helpers/arfieldhelper.php:1291
+#@ ARForms
+msgid "Phone is invalid"
+msgstr "Некорректный формат номера"
+
+#: core/helpers/arfieldhelper.php:1293
+#@ ARForms
+msgid "Image is invalid"
+msgstr "Некорректный формат изображения"
+
+#: core/helpers/arfieldhelper.php:1295
+#@ ARForms
+msgid "Date is invalid"
+msgstr "Недопустимый формат даты"
+
+#: core/helpers/arfieldhelper.php:1297
+#@ ARForms
+msgid "Website is invalid"
+msgstr "Недопустимый адрес сайта"
+
+#: core/helpers/arfieldhelper.php:1331
+#@ ARForms
+msgid "Untitled"
+msgstr "Без названия"
+
+#: core/helpers/arfieldhelper.php:1335
+#@ ARForms
+msgid "This field is invalid"
+msgstr "Это поле является недействительным"
+
+#: core/helpers/arfieldhelper.php:2109
+#@ ARForms
+msgid "Select a value to insert into the box below"
+msgstr "Выберите значение для вставки в поле ниже"
+
+#: core/helpers/arfieldhelper.php:2810
+#: core/views/footer.php:62
+#@ ARForms
+msgid "equals"
+msgstr " равно"
+
+#: core/helpers/arfieldhelper.php:2811
+#: core/views/footer.php:63
+#@ ARForms
+msgid "not equals"
+msgstr " не равно"
+
+#: core/helpers/arfieldhelper.php:2812
+#: core/views/footer.php:64
+#@ ARForms
+msgid "greater than"
+msgstr " больше, чем"
+
+#: core/helpers/arfieldhelper.php:2813
+#: core/views/footer.php:65
+#@ ARForms
+msgid "less than"
+msgstr " меньше, чем"
+
+#: core/helpers/arfieldhelper.php:2814
+#: core/views/footer.php:66
+#@ ARForms
+msgid "contains"
+msgstr " содержит"
+
+#: core/helpers/arfieldhelper.php:2815
+#: core/views/footer.php:67
+#@ ARForms
+msgid "not contains"
+msgstr "не содержит"
+
+#: core/helpers/arfieldhelper.php:3601
+#@ ARForms
+msgid "English/Western"
+msgstr "Английский / Западные"
+
+#: core/helpers/arfieldhelper.php:3601
+#@ ARForms
+msgid "Afrikaans"
+msgstr "африкаанс"
+
+#: core/helpers/arfieldhelper.php:3602
+#@ ARForms
+msgid "Albanian"
+msgstr "албанский"
+
+#: core/helpers/arfieldhelper.php:3602
+#@ ARForms
+msgid "Arabic"
+msgstr "арабский"
+
+#: core/helpers/arfieldhelper.php:3603
+#@ ARForms
+msgid "Armenian"
+msgstr "армянский"
+
+#: core/helpers/arfieldhelper.php:3603
+#@ ARForms
+msgid "Azerbaijani"
+msgstr "азербайджанский"
+
+#: core/helpers/arfieldhelper.php:3604
+#@ ARForms
+msgid "Basque"
+msgstr "баск"
+
+#: core/helpers/arfieldhelper.php:3604
+#@ ARForms
+msgid "Bosnian"
+msgstr "боснийский"
+
+#: core/helpers/arfieldhelper.php:3605
+#@ ARForms
+msgid "Bulgarian"
+msgstr "болгарский"
+
+#: core/helpers/arfieldhelper.php:3605
+#@ ARForms
+msgid "Catalan"
+msgstr "каталонский"
+
+#: core/helpers/arfieldhelper.php:3606
+#@ ARForms
+msgid "Chinese Hong Kong"
+msgstr "Китайского Гонконга"
+
+#: core/helpers/arfieldhelper.php:3606
+#@ ARForms
+msgid "Chinese Simplified"
+msgstr "Китайский упрощенный"
+
+#: core/helpers/arfieldhelper.php:3607
+#@ ARForms
+msgid "Chinese Traditional"
+msgstr "Китайский традиционный"
+
+#: core/helpers/arfieldhelper.php:3607
+#@ ARForms
+msgid "Croatian"
+msgstr "хорватский"
+
+#: core/helpers/arfieldhelper.php:3608
+#@ ARForms
+msgid "Czech"
+msgstr "чешский"
+
+#: core/helpers/arfieldhelper.php:3608
+#@ ARForms
+msgid "Danish"
+msgstr "датский"
+
+#: core/helpers/arfieldhelper.php:3609
+#: core/views/settings_form.php:502
+#@ ARForms
+msgid "Dutch"
+msgstr "Голландский"
+
+#: core/helpers/arfieldhelper.php:3609
+#@ ARForms
+msgid "English/UK"
+msgstr "Английский / Великобритания"
+
+#: core/helpers/arfieldhelper.php:3610
+#@ ARForms
+msgid "Esperanto"
+msgstr "Эсперанто"
+
+#: core/helpers/arfieldhelper.php:3610
+#@ ARForms
+msgid "Estonian"
+msgstr "Эстонский"
+
+#: core/helpers/arfieldhelper.php:3611
+#@ ARForms
+msgid "Faroese"
+msgstr "Фарерский"
+
+#: core/helpers/arfieldhelper.php:3611
+#@ ARForms
+msgid "Farsi/Persian"
+msgstr "Фарси / Персидский"
+
+#: core/helpers/arfieldhelper.php:3612
+#@ ARForms
+msgid "Finnish"
+msgstr "Финский"
+
+#: core/helpers/arfieldhelper.php:3612
+#: core/views/settings_form.php:502
+#@ ARForms
+msgid "French"
+msgstr "Французский"
+
+#: core/helpers/arfieldhelper.php:3613
+#@ ARForms
+msgid "French/Swiss"
+msgstr "Французский / Швейцарский"
+
+#: core/helpers/arfieldhelper.php:3613
+#: core/views/settings_form.php:502
+#@ ARForms
+msgid "German"
+msgstr "Немецкий"
+
+#: core/helpers/arfieldhelper.php:3614
+#@ ARForms
+msgid "Greek"
+msgstr "Греческий"
+
+#: core/helpers/arfieldhelper.php:3614
+#@ ARForms
+msgid "Hebrew"
+msgstr "Иврит"
+
+#: core/helpers/arfieldhelper.php:3615
+#@ ARForms
+msgid "Hungarian"
+msgstr "Венгерский"
+
+#: core/helpers/arfieldhelper.php:3615
+#@ ARForms
+msgid "Icelandic"
+msgstr "Исландский"
+
+#: core/helpers/arfieldhelper.php:3616
+#@ ARForms
+msgid "Italian"
+msgstr "Итальянский"
+
+#: core/helpers/arfieldhelper.php:3616
+#@ ARForms
+msgid "Japanese"
+msgstr "Японский"
+
+#: core/helpers/arfieldhelper.php:3617
+#@ ARForms
+msgid "Korean"
+msgstr "Корейский"
+
+#: core/helpers/arfieldhelper.php:3617
+#@ ARForms
+msgid "Latvian"
+msgstr "Латвийский"
+
+#: core/helpers/arfieldhelper.php:3618
+#@ ARForms
+msgid "Lithuanian"
+msgstr "Литовский"
+
+#: core/helpers/arfieldhelper.php:3618
+#@ ARForms
+msgid "Malaysian"
+msgstr "Малазийский"
+
+#: core/helpers/arfieldhelper.php:3619
+#@ ARForms
+msgid "Norwegian"
+msgstr "Норвежский"
+
+#: core/helpers/arfieldhelper.php:3619
+#@ ARForms
+msgid "Polish"
+msgstr "Польский"
+
+#: core/helpers/arfieldhelper.php:3620
+#@ ARForms
+msgid "Portuguese/Brazilian"
+msgstr "Португальский / Бразильский"
+
+#: core/helpers/arfieldhelper.php:3620
+#@ ARForms
+msgid "Romanian"
+msgstr "Румынский"
+
+#: core/helpers/arfieldhelper.php:3621
+#: core/views/settings_form.php:502
+#@ ARForms
+msgid "Russian"
+msgstr "Русский"
+
+#: core/helpers/arfieldhelper.php:3621
+#: core/helpers/arfieldhelper.php:3622
+#@ ARForms
+msgid "Serbian"
+msgstr "Сербский"
+
+#: core/helpers/arfieldhelper.php:3622
+#@ ARForms
+msgid "Slovak"
+msgstr "Словацкий"
+
+#: core/helpers/arfieldhelper.php:3623
+#@ ARForms
+msgid "Slovenian"
+msgstr "Словенский"
+
+#: core/helpers/arfieldhelper.php:3623
+#: core/views/settings_form.php:502
+#@ ARForms
+msgid "Spanish"
+msgstr "Испанский"
+
+#: core/helpers/arfieldhelper.php:3624
+#@ ARForms
+msgid "Swedish"
+msgstr "Шведский"
+
+#: core/helpers/arfieldhelper.php:3624
+#@ ARForms
+msgid "Tamil"
+msgstr "Тамильский"
+
+#: core/helpers/arfieldhelper.php:3625
+#@ ARForms
+msgid "Thai"
+msgstr "Тайский"
+
+#: core/helpers/arfieldhelper.php:3625
+#: core/views/settings_form.php:502
+#@ ARForms
+msgid "Turkish"
+msgstr "Турецкий"
+
+#: core/helpers/arfieldhelper.php:3626
+#@ ARForms
+msgid "Ukrainian"
+msgstr "украинский"
+
+#: core/helpers/arfieldhelper.php:3626
+#@ ARForms
+msgid "Vietnamese"
+msgstr "Вьетнамский"
+
+#: core/helpers/arfieldhelper.php:3681
+#@ ARForms
+msgid "Required field"
+msgstr "Обязательное поле"
+
+#: core/helpers/arfieldhelper.php:3697
+#@ ARForms
+msgid "Message for blank field"
+msgstr "Сообщение о незаполенном поле"
+
+#: core/helpers/arfieldhelper.php:3712
+#@ ARForms
+msgid "automatic width"
+msgstr "автоматическая ширина"
+
+#: core/helpers/arfieldhelper.php:3726
+#@ ARForms
+msgid "Number of rows"
+msgstr "Количество рядов"
+
+#: core/helpers/arfieldhelper.php:3743
+#@ ARForms
+msgid "Field custom width"
+msgstr "Настройка ширины"
+
+#: core/helpers/arfieldhelper.php:3754
+#@ ARForms
+msgid "Clear Default Text on Focus"
+msgstr "Очистить текст поля при выборе"
+
+#: core/helpers/arfieldhelper.php:3771
+#@ ARForms
+msgid "Validate default value"
+msgstr "Подтвердить значение по умолчанию"
+
+#: core/helpers/arfieldhelper.php:3789
+#@ ARForms
+msgid "Columns"
+msgstr "Колонки"
+
+#: core/helpers/arfieldhelper.php:3805
+#@ ARForms
+msgid "Alignment"
+msgstr "Выравнивание"
+
+#: core/helpers/arfieldhelper.php:3827
+#: core/helpers/arfieldhelper.php:3834
+#: core/helpers/arfieldhelper.php:3840
+#@ ARForms
+msgid "Multiple Rows"
+msgstr "Построчно"
+
+#: core/helpers/arfieldhelper.php:3825
+#: core/helpers/arfieldhelper.php:3832
+#: core/helpers/arfieldhelper.php:3841
+#@ ARForms
+msgid "Single Row"
+msgstr "В один ряд"
+
+#: core/helpers/arfieldhelper.php:3857
+#: core/views/newfield.php:452
+#: core/views/newfield.php:563
+#@ ARForms
+msgid "Use separate values"
+msgstr "Использовать отдельные значения"
+
+#: core/helpers/arfieldhelper.php:3860
+#: core/views/newfield.php:452
+#: core/views/newfield.php:563
+#@ ARForms
+msgid "Add a separate value to use for calculations, email routing, saving to the database, and many other uses. The option values are saved while the option labels are shown in the form."
+msgstr "Добавить отдельное значение для использования в расчетах, маршрутизации электронной почты, сохранении в базу данных и т.п. Значения сделанного выбора во время заполнения поля формы."
+
+#: core/helpers/arfieldhelper.php:3873
+#@ ARForms
+msgid "Allowed file types"
+msgstr "Разрешённые типы файлов"
+
+#: core/helpers/arfieldhelper.php:3873
+#@ ARForms
+msgid "Here 'All Types' means all the file types supported by your wordpress installation."
+msgstr "Здесь 'Все типы' означает все типы поддерживаемых файлов в WordPress."
+
+#: core/helpers/arfieldhelper.php:3874
+#@ ARForms
+msgid "All types"
+msgstr "Все типы"
+
+#: core/helpers/arfieldhelper.php:3874
+#@ ARForms
+msgid "Specify types"
+msgstr "Укажите типы"
+
+#: core/helpers/arfieldhelper.php:3965
+#@ ARForms
+msgid "Message for invalid submission"
+msgstr "Сообщение при проблеме отправки"
+
+#: core/helpers/arfieldhelper.php:3975
+#@ ARForms
+msgid "Attach file with email"
+msgstr "Прикрепить файл с электронной почтой"
+
+#: core/helpers/arfieldhelper.php:3986
+#@ ARForms
+msgid "Upload color"
+msgstr "Добавить цвет"
+
+#: core/helpers/arfieldhelper.php:3998
+#: core/vc/class_vc_extend.php:618
+#: core/views/insert_form_popup.php:647
+#: core/widgets/ARFwidgetForm.php:57
+#@ ARForms
+msgid "Button"
+msgstr "Button"
+
+#: core/helpers/arfieldhelper.php:4008
+#@ ARForms
+msgid "Font"
+msgstr "шрифт"
+
+#: core/helpers/arfieldhelper.php:4020
+#@ ARForms
+msgid "Upload font color"
+msgstr "Добавить цвет шрифта"
+
+#: core/helpers/arfieldhelper.php:4039
+#@ ARForms
+msgid "Upload button text"
+msgstr "Добавить текст кнопки"
+
+#: core/helpers/arfieldhelper.php:4050
+#@ ARForms
+msgid "Remove Button text"
+msgstr "Удалить текст кнопки"
+
+#: core/helpers/arfieldhelper.php:4062
+#@ ARForms
+msgid "Select captcha"
+msgstr "Выберите ЗАЩИТНЫЙ КОД"
+
+#: core/helpers/arfieldhelper.php:4110
+#@ ARForms
+msgid "Number Range"
+msgstr "Числовой диапазон"
+
+#: core/helpers/arfieldhelper.php:4111
+#@ ARForms
+msgid "minimum"
+msgstr "минимум"
+
+#: core/helpers/arfieldhelper.php:4111
+#@ ARForms
+msgid "maximum"
+msgstr "максимум"
+
+#: core/helpers/arfieldhelper.php:4120
+#@ ARForms
+msgid "Calendar Localization"
+msgstr "Календарь Локализация"
+
+#: core/helpers/arfieldhelper.php:4184
+#@ ARForms
+msgid "Year Range"
+msgstr "Период"
+
+#: core/helpers/arfieldhelper.php:4185
+#@ ARForms
+msgid "Start Year"
+msgstr "Год начала"
+
+#: core/helpers/arfieldhelper.php:4185
+#@ ARForms
+msgid "End Year"
+msgstr "Год окончания"
+
+#: core/helpers/arfieldhelper.php:4193
+#@ ARForms
+msgid "Clock Settings"
+msgstr "Настройки часов"
+
+#: core/helpers/arfieldhelper.php:4228
+#: core/helpers/armainhelper.php:1991
+#@ ARForms
+msgid "hour"
+msgstr "час"
+
+#: core/helpers/arfieldhelper.php:4296
+#: core/helpers/armainhelper.php:1994
+#@ ARForms
+msgid "minute"
+msgstr "минута"
+
+#: core/helpers/arfieldhelper.php:4309
+#: core/vc/class_vc_extend.php:80
+#@ ARForms
+msgid "Content"
+msgstr "Содержание"
+
+#: core/helpers/arfieldhelper.php:4311
+#@ ARForms
+msgid "Embedded tags for youtube, map etc are supported."
+msgstr "Допускаются встроенные теги для YouTube, карты и т.д."
+
+#: core/helpers/arfieldhelper.php:4312
+#@ ARForms
+msgid "Enable Running Total"
+msgstr "Включить промежуточную сумму"
+
+#: core/helpers/arfieldhelper.php:4318
+#@ ARForms
+msgid "For Running Total you need to add formula inside"
+msgstr "Для использования промежуточной суммы необходимо добавить формулу"
+
+#: core/helpers/arfieldhelper.php:4320
+#: core/views/edit.php:1259
+#: core/views/edit.php:1330
+#: core/views/edit.php:1415
+#: core/views/edit.php:1492
+#: core/views/edit.php:1552
+#: core/views/edit.php:1622
+#: core/views/edit.php:1695
+#@ ARForms
+msgid "Add Field"
+msgstr "Добавить поле"
+
+#: core/helpers/arfieldhelper.php:4331
+#@ ARForms
+msgid "Validate Formula"
+msgstr "Проверить формулу"
+
+#: core/helpers/arfieldhelper.php:4336
+#: core/views/edit.php:1273
+#: core/views/edit.php:1345
+#: core/views/edit.php:1430
+#: core/views/edit.php:1507
+#: core/views/edit.php:1567
+#: core/views/edit.php:1637
+#: core/views/edit.php:1702
+#@ ARForms
+msgid "Fields"
+msgstr "Поля"
+
+#: core/helpers/arfieldhelper.php:4357
+#@ ARForms
+msgid "Font Family"
+msgstr "Семейство шрифтов"
+
+#: core/helpers/arfieldhelper.php:4434
+#@ ARForms
+msgid "Font Size"
+msgstr "Размер шрифта"
+
+#: core/helpers/arfieldhelper.php:4482
+#@ ARForms
+msgid "Font Style"
+msgstr "Стиль шрифта"
+
+#: core/helpers/arfieldhelper.php:4565
+#: core/helpers/arfieldhelper.php:4578
+#@ ARForms
+msgid "First Page Label"
+msgstr "Первая страница Этикетка"
+
+#: core/helpers/arfieldhelper.php:4609
+#@ ARForms
+msgid "Previous Button Text"
+msgstr "Предыдущий текст кнопки"
+
+#: core/helpers/arfieldhelper.php:4631
+#@ ARForms
+msgid "Next Button Text"
+msgstr "Следующая текста кнопки"
+
+#: core/helpers/arfieldhelper.php:4683
+#: core/helpers/arfieldhelper.php:4690
+#: core/helpers/arfieldhelper.php:4698
+#@ ARForms
+msgid "Wizard"
+msgstr "Закладки"
+
+#: core/helpers/arfieldhelper.php:4681
+#: core/helpers/arfieldhelper.php:4688
+#: core/helpers/arfieldhelper.php:4699
+#@ ARForms
+msgid "Survey"
+msgstr "Индикатор"
+
+#: core/helpers/arfieldhelper.php:4717
+#@ ARForms
+msgid "Range"
+msgstr "Диапазон"
+
+#: core/helpers/arfieldhelper.php:4876
+#@ ARForms
+msgid "Like Title"
+msgstr "Как Заголовок"
+
+#: core/helpers/arfieldhelper.php:4892
+#@ ARForms
+msgid "Dislike Title"
+msgstr "не нравится Заголовок"
+
+#: core/helpers/arfieldhelper.php:4907
+#@ ARForms
+msgid "Active color"
+msgstr "Активный цвет"
+
+#: core/helpers/arfieldhelper.php:4939
+#@ ARForms
+msgid "Handle type"
+msgstr "тип ручки"
+
+#: core/helpers/arfieldhelper.php:4961
+#: core/helpers/arfieldhelper.php:4976
+#@ ARForms
+msgid "Round"
+msgstr "круглый"
+
+#: core/helpers/arfieldhelper.php:4959
+#: core/helpers/arfieldhelper.php:4977
+#@ ARForms
+msgid "Square"
+msgstr "площадь"
+
+#: core/helpers/arfieldhelper.php:4957
+#: core/helpers/arfieldhelper.php:4978
+#@ ARForms
+msgid "Triangle"
+msgstr "треугольник"
+
+#: core/helpers/arfieldhelper.php:4995
+#: core/views/form.php:160
+#@ ARForms
+msgid "Step"
+msgstr "Шаг"
+
+#: core/helpers/arfieldhelper.php:5008
+#@ ARForms
+msgid "Default value"
+msgstr "значение по умолчанию"
+
+#: core/helpers/arfieldhelper.php:5021
+#@ ARForms
+msgid "Track BG color"
+msgstr "Трек цвет BG"
+
+#: core/helpers/arfieldhelper.php:5031
+#@ ARForms
+msgid "Left side"
+msgstr "Левая сторона"
+
+#: core/helpers/arfieldhelper.php:5040
+#@ ARForms
+msgid "Right side"
+msgstr "правая сторона"
+
+#: core/helpers/arfieldhelper.php:5051
+#@ ARForms
+msgid "Handle color"
+msgstr "Ручка цвет"
+
+#: core/helpers/arfieldhelper.php:5072
+#@ ARForms
+msgid "Placeholder Text"
+msgstr "Текст поля"
+
+#: core/helpers/arfieldhelper.php:5085
+#@ ARForms
+msgid "Field Description"
+msgstr "Описание поля"
+
+#: core/helpers/arfieldhelper.php:5098
+#@ ARForms
+msgid "Label Name"
+msgstr "Ярлык поля"
+
+#: core/helpers/arfieldhelper.php:5113
+#@ ARForms
+msgid "Phone Number Format"
+msgstr "Номер телефона Формат"
+
+#: core/helpers/arfieldhelper.php:5179
+#@ ARForms
+msgid "Password Strength Meter"
+msgstr "Индикатор надёжности пароля"
+
+#: core/helpers/arfieldhelper.php:5179
+#@ ARForms
+msgid "Strength Indicator will be indicate password as a strong, only when password contains alpha numeric value and special characters."
+msgstr "Индикатор надежности пароля идентифицирует высокую степень его защиты только тогда, когда он содержит буквенно-цифровой набор со специальными символами."
+
+#: core/helpers/arfieldhelper.php:5201
+#@ ARForms
+msgid "Confirm Password Label"
+msgstr "Ярлык подтверждения пароля"
+
+#: core/helpers/arfieldhelper.php:5293
+#@ ARForms
+msgid "Message for invalid Password"
+msgstr "Сообщение в случае ошибки"
+
+#: core/helpers/arfieldhelper.php:5310
+#@ ARForms
+msgid "Colorpicker Type"
+msgstr "Тип выбора цвета"
+
+#: core/helpers/arfieldhelper.php:5330
+#: core/helpers/arfieldhelper.php:5345
+#@ ARForms
+msgid "Advanced"
+msgstr "Дополнительно"
+
+#: core/helpers/arfieldhelper.php:5328
+#: core/helpers/arfieldhelper.php:5346
+#@ ARForms
+msgid "Basic"
+msgstr "Обычный"
+
+#: core/helpers/arfieldhelper.php:5404
+#: core/vc/class_vc_extend.php:702
+#: core/views/insert_form_popup.php:719
+#@ ARForms
+msgid "Height"
+msgstr "Высота"
+
+#: core/helpers/arfieldhelper.php:5417
+#: core/vc/class_vc_extend.php:703
+#: core/views/insert_form_popup.php:720
+#@ ARForms
+msgid "Width"
+msgstr "Ширина"
+
+#: core/helpers/arfieldhelper.php:5432
+#@ ARForms
+msgid "Horizontal Center"
+msgstr "По центру горизонтали"
+
+#: core/helpers/arfieldhelper.php:5435
+#@ ARForms
+msgid "No"
+msgstr "Нет"
+
+#: core/helpers/arfieldhelper.php:5435
+#@ ARForms
+msgid "Yes"
+msgstr "Да"
+
+#: core/helpers/arfieldhelper.php:5447
+#@ ARForms
+msgid "Default Value"
+msgstr "Значение по умолчанию"
+
+#: core/helpers/arfieldhelper.php:5461
+#@ ARForms
+msgid "Show Year/Month Dropdown"
+msgstr "Ниспадающий список Год/Месяц"
+
+#: core/helpers/arformhelper.php:206
+#: core/helpers/arformhelper.php:545
+#@ ARForms
+msgid "Thank you for subscription with us. We will contact you soon."
+msgstr "Спасибо за подписку! Мы свяжемся с Вами в ближайшее время."
+
+#: core/helpers/arformhelper.php:244
+#: core/helpers/arformhelper.php:549
+#: core/models/arnotifymodel.php:676
+#: core/views/upgrade_latest_data.php:459
+#@ ARForms
+msgid "Form submitted on"
+msgstr "Форма отправлена"
+
+#: core/helpers/arformhelper.php:387
+#@ ARForms
+msgid "Untitled Form"
+msgstr "Без названия формы"
+
+#: core/helpers/armainhelper.php:385
+#@ ARForms
+msgid "is invalid"
+msgstr "является недействительным"
+
+#: core/helpers/armainhelper.php:688
+#@ ARForms
+msgid "Afghanistan"
+msgstr "Афганистан"
+
+#: core/helpers/armainhelper.php:688
+#@ ARForms
+msgid "Albania"
+msgstr "Албания"
+
+#: core/helpers/armainhelper.php:688
+#@ ARForms
+msgid "Algeria"
+msgstr "Алжир"
+
+#: core/helpers/armainhelper.php:691
+#@ ARForms
+msgid "American Samoa"
+msgstr "Американское Самоа"
+
+#: core/helpers/armainhelper.php:691
+#@ ARForms
+msgid "Andorra"
+msgstr "андорра"
+
+#: core/helpers/armainhelper.php:691
+#@ ARForms
+msgid "Angola"
+msgstr "Ангола"
+
+#: core/helpers/armainhelper.php:694
+#@ ARForms
+msgid "Anguilla"
+msgstr "Ангилья"
+
+#: core/helpers/armainhelper.php:694
+#@ ARForms
+msgid "Antarctica"
+msgstr "Антарктида"
+
+#: core/helpers/armainhelper.php:694
+#@ ARForms
+msgid "Antigua and Barbuda"
+msgstr "Антигуа и Барбуда"
+
+#: core/helpers/armainhelper.php:697
+#@ ARForms
+msgid "Argentina"
+msgstr "Аргентина"
+
+#: core/helpers/armainhelper.php:697
+#@ ARForms
+msgid "Armenia"
+msgstr "Армения"
+
+#: core/helpers/armainhelper.php:697
+#@ ARForms
+msgid "Aruba"
+msgstr "Аруба"
+
+#: core/helpers/armainhelper.php:700
+#@ ARForms
+msgid "Australia"
+msgstr "Австралия"
+
+#: core/helpers/armainhelper.php:700
+#@ ARForms
+msgid "Austria"
+msgstr "Австрия"
+
+#: core/helpers/armainhelper.php:700
+#@ ARForms
+msgid "Azerbaijan"
+msgstr "Азербайджан"
+
+#: core/helpers/armainhelper.php:703
+#@ ARForms
+msgid "Bahamas"
+msgstr "Багамские острова"
+
+#: core/helpers/armainhelper.php:703
+#@ ARForms
+msgid "Bahrain"
+msgstr "Бахрейн"
+
+#: core/helpers/armainhelper.php:703
+#@ ARForms
+msgid "Bangladesh"
+msgstr "Бангладеш"
+
+#: core/helpers/armainhelper.php:706
+#@ ARForms
+msgid "Barbados"
+msgstr "Барбадос"
+
+#: core/helpers/armainhelper.php:706
+#@ ARForms
+msgid "Belarus"
+msgstr "Беларусь"
+
+#: core/helpers/armainhelper.php:706
+#@ ARForms
+msgid "Belgium"
+msgstr "Бельгия"
+
+#: core/helpers/armainhelper.php:709
+#@ ARForms
+msgid "Belize"
+msgstr "Белиз"
+
+#: core/helpers/armainhelper.php:709
+#@ ARForms
+msgid "Benin"
+msgstr "Бенин"
+
+#: core/helpers/armainhelper.php:709
+#@ ARForms
+msgid "Bermuda"
+msgstr "Бермудские острова"
+
+#: core/helpers/armainhelper.php:712
+#@ ARForms
+msgid "Bhutan"
+msgstr "Бутан"
+
+#: core/helpers/armainhelper.php:712
+#@ ARForms
+msgid "Bolivia"
+msgstr "Боливия"
+
+#: core/helpers/armainhelper.php:712
+#@ ARForms
+msgid "Bosnia and Herzegovina"
+msgstr "Босния и Герцеговина"
+
+#: core/helpers/armainhelper.php:715
+#@ ARForms
+msgid "Botswana"
+msgstr "Ботсвана"
+
+#: core/helpers/armainhelper.php:715
+#@ ARForms
+msgid "Brazil"
+msgstr "Бразилия"
+
+#: core/helpers/armainhelper.php:715
+#@ ARForms
+msgid "Brunei"
+msgstr "Бруней"
+
+#: core/helpers/armainhelper.php:718
+#@ ARForms
+msgid "Bulgaria"
+msgstr "Болгария"
+
+#: core/helpers/armainhelper.php:718
+#@ ARForms
+msgid "Burkina Faso"
+msgstr "Буркина-Фасо"
+
+#: core/helpers/armainhelper.php:718
+#@ ARForms
+msgid "Burundi"
+msgstr "Бурунди"
+
+#: core/helpers/armainhelper.php:721
+#@ ARForms
+msgid "Cambodia"
+msgstr "Камбоджа"
+
+#: core/helpers/armainhelper.php:721
+#@ ARForms
+msgid "Cameroon"
+msgstr "Камерун"
+
+#: core/helpers/armainhelper.php:721
+#@ ARForms
+msgid "Canada"
+msgstr "Канада"
+
+#: core/helpers/armainhelper.php:724
+#@ ARForms
+msgid "Cape Verde"
+msgstr "Кабо-Верде"
+
+#: core/helpers/armainhelper.php:724
+#@ ARForms
+msgid "Cayman Islands"
+msgstr "Каймановы острова"
+
+#: core/helpers/armainhelper.php:724
+#@ ARForms
+msgid "Central African Republic"
+msgstr "Центрально-Африканская Республика"
+
+#: core/helpers/armainhelper.php:727
+#@ ARForms
+msgid "Chad"
+msgstr "Чад"
+
+#: core/helpers/armainhelper.php:727
+#@ ARForms
+msgid "Chile"
+msgstr "Чили"
+
+#: core/helpers/armainhelper.php:727
+#@ ARForms
+msgid "China"
+msgstr "Китай"
+
+#: core/helpers/armainhelper.php:730
+#@ ARForms
+msgid "Colombia"
+msgstr "Колумбия"
+
+#: core/helpers/armainhelper.php:730
+#@ ARForms
+msgid "Comoros"
+msgstr "Коморские острова"
+
+#: core/helpers/armainhelper.php:730
+#@ ARForms
+msgid "Congo"
+msgstr "Конго"
+
+#: core/helpers/armainhelper.php:733
+#@ ARForms
+msgid "Costa Rica"
+msgstr "Коста-Рика"
+
+#: core/helpers/armainhelper.php:733
+#@ ARForms
+msgid "Croatia"
+msgstr "Хорватия"
+
+#: core/helpers/armainhelper.php:736
+#@ ARForms
+msgid "Cuba"
+msgstr "Куба"
+
+#: core/helpers/armainhelper.php:736
+#@ ARForms
+msgid "Cyprus"
+msgstr "Кипр"
+
+#: core/helpers/armainhelper.php:736
+#@ ARForms
+msgid "Czech Republic"
+msgstr "Чешская республика"
+
+#: core/helpers/armainhelper.php:739
+#@ ARForms
+msgid "Denmark"
+msgstr "Дания"
+
+#: core/helpers/armainhelper.php:739
+#@ ARForms
+msgid "Djibouti"
+msgstr "Джибути"
+
+#: core/helpers/armainhelper.php:739
+#@ ARForms
+msgid "Dominica"
+msgstr "Доминика"
+
+#: core/helpers/armainhelper.php:742
+#@ ARForms
+msgid "Dominican Republic"
+msgstr "Доминиканская Республика"
+
+#: core/helpers/armainhelper.php:742
+#@ ARForms
+msgid "East Timor"
+msgstr "Восточный Тимор"
+
+#: core/helpers/armainhelper.php:742
+#@ ARForms
+msgid "Ecuador"
+msgstr "Эквадор"
+
+#: core/helpers/armainhelper.php:745
+#@ ARForms
+msgid "Egypt"
+msgstr "Египет"
+
+#: core/helpers/armainhelper.php:745
+#@ ARForms
+msgid "El Salvador"
+msgstr "Сальвадор"
+
+#: core/helpers/armainhelper.php:745
+#@ ARForms
+msgid "Equatorial Guinea"
+msgstr "Экваториальная Гвинея"
+
+#: core/helpers/armainhelper.php:748
+#@ ARForms
+msgid "Eritrea"
+msgstr "Эритрее"
+
+#: core/helpers/armainhelper.php:748
+#@ ARForms
+msgid "Estonia"
+msgstr "Эстония"
+
+#: core/helpers/armainhelper.php:748
+#@ ARForms
+msgid "Ethiopia"
+msgstr "Эфиопия"
+
+#: core/helpers/armainhelper.php:751
+#@ ARForms
+msgid "Fiji"
+msgstr "Фиджи"
+
+#: core/helpers/armainhelper.php:751
+#@ ARForms
+msgid "Finland"
+msgstr "Финляндия"
+
+#: core/helpers/armainhelper.php:751
+#@ ARForms
+msgid "France"
+msgstr "Франция"
+
+#: core/helpers/armainhelper.php:754
+#@ ARForms
+msgid "French Guiana"
+msgstr "Французская Гвиана"
+
+#: core/helpers/armainhelper.php:754
+#@ ARForms
+msgid "French Polynesia"
+msgstr "Французская Полинезия"
+
+#: core/helpers/armainhelper.php:754
+#@ ARForms
+msgid "Gabon"
+msgstr "Габон"
+
+#: core/helpers/armainhelper.php:757
+#@ ARForms
+msgid "Gambia"
+msgstr "Гамбия"
+
+#: core/helpers/armainhelper.php:757
+#@ ARForms
+msgid "Georgia"
+msgstr "Грузия"
+
+#: core/helpers/armainhelper.php:757
+#@ ARForms
+msgid "Germany"
+msgstr "Германия"
+
+#: core/helpers/armainhelper.php:760
+#@ ARForms
+msgid "Ghana"
+msgstr "Гана"
+
+#: core/helpers/armainhelper.php:760
+#@ ARForms
+msgid "Gibraltar"
+msgstr "Гибралтар"
+
+#: core/helpers/armainhelper.php:760
+#@ ARForms
+msgid "Greece"
+msgstr "Греция"
+
+#: core/helpers/armainhelper.php:763
+#@ ARForms
+msgid "Greenland"
+msgstr "Гренландия"
+
+#: core/helpers/armainhelper.php:763
+#@ ARForms
+msgid "Grenada"
+msgstr "Гренада"
+
+#: core/helpers/armainhelper.php:763
+#@ ARForms
+msgid "Guam"
+msgstr "Гуам"
+
+#: core/helpers/armainhelper.php:766
+#@ ARForms
+msgid "Guatemala"
+msgstr "Гватемала"
+
+#: core/helpers/armainhelper.php:766
+#@ ARForms
+msgid "Guinea"
+msgstr "Гвинея"
+
+#: core/helpers/armainhelper.php:766
+#@ ARForms
+msgid "Guinea-Bissau"
+msgstr "Гвинея-Бисау"
+
+#: core/helpers/armainhelper.php:769
+#@ ARForms
+msgid "Guyana"
+msgstr "Гайана"
+
+#: core/helpers/armainhelper.php:769
+#@ ARForms
+msgid "Haiti"
+msgstr "Гаити"
+
+#: core/helpers/armainhelper.php:769
+#@ ARForms
+msgid "Honduras"
+msgstr "Гондурас"
+
+#: core/helpers/armainhelper.php:772
+#@ ARForms
+msgid "Hong Kong"
+msgstr "Гонконг"
+
+#: core/helpers/armainhelper.php:772
+#@ ARForms
+msgid "Hungary"
+msgstr "Венгрия"
+
+#: core/helpers/armainhelper.php:772
+#@ ARForms
+msgid "Iceland"
+msgstr "Исландия"
+
+#: core/helpers/armainhelper.php:775
+#@ ARForms
+msgid "India"
+msgstr "Индия"
+
+#: core/helpers/armainhelper.php:775
+#@ ARForms
+msgid "Indonesia"
+msgstr "Индонезия"
+
+#: core/helpers/armainhelper.php:775
+#@ ARForms
+msgid "Iran"
+msgstr "Иран"
+
+#: core/helpers/armainhelper.php:778
+#@ ARForms
+msgid "Iraq"
+msgstr "Ирак"
+
+#: core/helpers/armainhelper.php:778
+#@ ARForms
+msgid "Ireland"
+msgstr "Ирландия"
+
+#: core/helpers/armainhelper.php:778
+#@ ARForms
+msgid "Israel"
+msgstr "Израиль"
+
+#: core/helpers/armainhelper.php:781
+#@ ARForms
+msgid "Italy"
+msgstr "Италия"
+
+#: core/helpers/armainhelper.php:781
+#@ ARForms
+msgid "Jamaica"
+msgstr "Ямайка"
+
+#: core/helpers/armainhelper.php:781
+#@ ARForms
+msgid "Japan"
+msgstr "Япония"
+
+#: core/helpers/armainhelper.php:784
+#@ ARForms
+msgid "Jordan"
+msgstr "Иордания"
+
+#: core/helpers/armainhelper.php:784
+#@ ARForms
+msgid "Kazakhstan"
+msgstr "Казахстан"
+
+#: core/helpers/armainhelper.php:784
+#@ ARForms
+msgid "Kenya"
+msgstr "Кения"
+
+#: core/helpers/armainhelper.php:787
+#@ ARForms
+msgid "Kiribati"
+msgstr "Кирибати"
+
+#: core/helpers/armainhelper.php:787
+#@ ARForms
+msgid "North Korea"
+msgstr "Северная Корея"
+
+#: core/helpers/armainhelper.php:787
+#@ ARForms
+msgid "South Korea"
+msgstr "Южная Корея"
+
+#: core/helpers/armainhelper.php:790
+#@ ARForms
+msgid "Kuwait"
+msgstr "Кувейт"
+
+#: core/helpers/armainhelper.php:790
+#@ ARForms
+msgid "Kyrgyzstan"
+msgstr "Киргизия"
+
+#: core/helpers/armainhelper.php:790
+#@ ARForms
+msgid "Laos"
+msgstr "Лаос"
+
+#: core/helpers/armainhelper.php:793
+#@ ARForms
+msgid "Latvia"
+msgstr "Латвия"
+
+#: core/helpers/armainhelper.php:793
+#@ ARForms
+msgid "Lebanon"
+msgstr "Ливан"
+
+#: core/helpers/armainhelper.php:793
+#@ ARForms
+msgid "Lesotho"
+msgstr "Лесото"
+
+#: core/helpers/armainhelper.php:796
+#@ ARForms
+msgid "Liberia"
+msgstr "Либерия"
+
+#: core/helpers/armainhelper.php:796
+#@ ARForms
+msgid "Libya"
+msgstr "Ливия"
+
+#: core/helpers/armainhelper.php:796
+#@ ARForms
+msgid "Liechtenstein"
+msgstr "Лихтенштейн"
+
+#: core/helpers/armainhelper.php:799
+#@ ARForms
+msgid "Lithuania"
+msgstr "Литва"
+
+#: core/helpers/armainhelper.php:799
+#@ ARForms
+msgid "Luxembourg"
+msgstr "Люксембург"
+
+#: core/helpers/armainhelper.php:799
+#@ ARForms
+msgid "Macedonia"
+msgstr "Македония"
+
+#: core/helpers/armainhelper.php:802
+#@ ARForms
+msgid "Madagascar"
+msgstr "Мадагаскар"
+
+#: core/helpers/armainhelper.php:802
+#@ ARForms
+msgid "Malawi"
+msgstr "Малави"
+
+#: core/helpers/armainhelper.php:802
+#@ ARForms
+msgid "Malaysia"
+msgstr "Малайзия"
+
+#: core/helpers/armainhelper.php:805
+#@ ARForms
+msgid "Maldives"
+msgstr "Мальдивы"
+
+#: core/helpers/armainhelper.php:805
+#@ ARForms
+msgid "Mali"
+msgstr "Мали"
+
+#: core/helpers/armainhelper.php:805
+#@ ARForms
+msgid "Malta"
+msgstr "Мальта"
+
+#: core/helpers/armainhelper.php:808
+#@ ARForms
+msgid "Marshall Islands"
+msgstr "Маршалловы острова"
+
+#: core/helpers/armainhelper.php:808
+#@ ARForms
+msgid "Mauritania"
+msgstr "Мавритания"
+
+#: core/helpers/armainhelper.php:808
+#@ ARForms
+msgid "Mauritius"
+msgstr "Маврикий"
+
+#: core/helpers/armainhelper.php:811
+#@ ARForms
+msgid "Mexico"
+msgstr "Мексика"
+
+#: core/helpers/armainhelper.php:811
+#@ ARForms
+msgid "Micronesia"
+msgstr "Микронезия"
+
+#: core/helpers/armainhelper.php:811
+#@ ARForms
+msgid "Moldova"
+msgstr "Молдова"
+
+#: core/helpers/armainhelper.php:814
+#@ ARForms
+msgid "Monaco"
+msgstr "Монако"
+
+#: core/helpers/armainhelper.php:814
+#@ ARForms
+msgid "Mongolia"
+msgstr "Монголия"
+
+#: core/helpers/armainhelper.php:814
+#@ ARForms
+msgid "Montenegro"
+msgstr "Черногория"
+
+#: core/helpers/armainhelper.php:817
+#@ ARForms
+msgid "Montserrat"
+msgstr "Монтсеррат"
+
+#: core/helpers/armainhelper.php:817
+#@ ARForms
+msgid "Morocco"
+msgstr "Марокко"
+
+#: core/helpers/armainhelper.php:817
+#@ ARForms
+msgid "Mozambique"
+msgstr "Мозамбик"
+
+#: core/helpers/armainhelper.php:820
+#@ ARForms
+msgid "Myanmar"
+msgstr "Мьянма"
+
+#: core/helpers/armainhelper.php:820
+#@ ARForms
+msgid "Namibia"
+msgstr "Намибия"
+
+#: core/helpers/armainhelper.php:820
+#@ ARForms
+msgid "Nauru"
+msgstr "Науру"
+
+#: core/helpers/armainhelper.php:823
+#@ ARForms
+msgid "Nepal"
+msgstr "Непал"
+
+#: core/helpers/armainhelper.php:823
+#@ ARForms
+msgid "Netherlands"
+msgstr "Нидерланды"
+
+#: core/helpers/armainhelper.php:823
+#@ ARForms
+msgid "New Zealand"
+msgstr "Новая Зеландия"
+
+#: core/helpers/armainhelper.php:826
+#@ ARForms
+msgid "Nicaragua"
+msgstr "Никарагуа"
+
+#: core/helpers/armainhelper.php:826
+#@ ARForms
+msgid "Niger"
+msgstr "Нигер"
+
+#: core/helpers/armainhelper.php:826
+#@ ARForms
+msgid "Nigeria"
+msgstr "Нигерия"
+
+#: core/helpers/armainhelper.php:829
+#@ ARForms
+msgid "Norway"
+msgstr "Норвегия"
+
+#: core/helpers/armainhelper.php:829
+#@ ARForms
+msgid "Northern Mariana Islands"
+msgstr "Северные Марианские острова"
+
+#: core/helpers/armainhelper.php:829
+#@ ARForms
+msgid "Oman"
+msgstr "Оман"
+
+#: core/helpers/armainhelper.php:832
+#@ ARForms
+msgid "Pakistan"
+msgstr "Пакистан"
+
+#: core/helpers/armainhelper.php:832
+#@ ARForms
+msgid "Palau"
+msgstr "Палау"
+
+#: core/helpers/armainhelper.php:832
+#@ ARForms
+msgid "Palestine"
+msgstr "Палестина"
+
+#: core/helpers/armainhelper.php:835
+#@ ARForms
+msgid "Panama"
+msgstr "Панама"
+
+#: core/helpers/armainhelper.php:835
+#@ ARForms
+msgid "Papua New Guinea"
+msgstr "Папуа-Новая Гвинея"
+
+#: core/helpers/armainhelper.php:835
+#@ ARForms
+msgid "Paraguay"
+msgstr "Парагвай"
+
+#: core/helpers/armainhelper.php:838
+#@ ARForms
+msgid "Peru"
+msgstr "Перу"
+
+#: core/helpers/armainhelper.php:838
+#@ ARForms
+msgid "Philippines"
+msgstr "Филиппины"
+
+#: core/helpers/armainhelper.php:838
+#@ ARForms
+msgid "Poland"
+msgstr "Польша"
+
+#: core/helpers/armainhelper.php:841
+#@ ARForms
+msgid "Portugal"
+msgstr "Португалия"
+
+#: core/helpers/armainhelper.php:841
+#@ ARForms
+msgid "Puerto Rico"
+msgstr "Пуэрто-Рико"
+
+#: core/helpers/armainhelper.php:841
+#@ ARForms
+msgid "Qatar"
+msgstr "Катар"
+
+#: core/helpers/armainhelper.php:844
+#@ ARForms
+msgid "Romania"
+msgstr "Румыния"
+
+#: core/helpers/armainhelper.php:844
+#@ ARForms
+msgid "Russia"
+msgstr "Россия"
+
+#: core/helpers/armainhelper.php:844
+#@ ARForms
+msgid "Rwanda"
+msgstr "Руанда"
+
+#: core/helpers/armainhelper.php:847
+#@ ARForms
+msgid "Saint Kitts and Nevis"
+msgstr "Сент-Китс и Невис"
+
+#: core/helpers/armainhelper.php:847
+#@ ARForms
+msgid "Saint Lucia"
+msgstr "Сент-Люсия"
+
+#: core/helpers/armainhelper.php:850
+#@ ARForms
+msgid "Saint Vincent and the Grenadines"
+msgstr "Сент-Винсент и Гренадины"
+
+#: core/helpers/armainhelper.php:850
+#@ ARForms
+msgid "Samoa"
+msgstr "Самоа"
+
+#: core/helpers/armainhelper.php:853
+#@ ARForms
+msgid "San Marino"
+msgstr "Сан - Марино"
+
+#: core/helpers/armainhelper.php:853
+#@ ARForms
+msgid "Sao Tome and Principe"
+msgstr "Сан-Томе и Принсипи"
+
+#: core/helpers/armainhelper.php:853
+#@ ARForms
+msgid "Saudi Arabia"
+msgstr "Саудовская Аравия"
+
+#: core/helpers/armainhelper.php:856
+#@ ARForms
+msgid "Senegal"
+msgstr "Сенегал"
+
+#: core/helpers/armainhelper.php:856
+#@ ARForms
+msgid "Serbia and Montenegro"
+msgstr "Сербии и Черногории"
+
+#: core/helpers/armainhelper.php:856
+#@ ARForms
+msgid "Seychelles"
+msgstr "Сейшельские острова"
+
+#: core/helpers/armainhelper.php:859
+#@ ARForms
+msgid "Sierra Leone"
+msgstr "Сьерра-Леоне"
+
+#: core/helpers/armainhelper.php:859
+#@ ARForms
+msgid "Singapore"
+msgstr "Сингапур"
+
+#: core/helpers/armainhelper.php:859
+#@ ARForms
+msgid "Slovakia"
+msgstr "Словакия"
+
+#: core/helpers/armainhelper.php:862
+#@ ARForms
+msgid "Slovenia"
+msgstr "Словения"
+
+#: core/helpers/armainhelper.php:862
+#@ ARForms
+msgid "Solomon Islands"
+msgstr "Соломоновы острова"
+
+#: core/helpers/armainhelper.php:862
+#@ ARForms
+msgid "Somalia"
+msgstr "Сомали"
+
+#: core/helpers/armainhelper.php:865
+#@ ARForms
+msgid "South Africa"
+msgstr "ЮАР"
+
+#: core/helpers/armainhelper.php:865
+#@ ARForms
+msgid "Spain"
+msgstr "Испания"
+
+#: core/helpers/armainhelper.php:865
+#@ ARForms
+msgid "Sri Lanka"
+msgstr "Шри Ланка"
+
+#: core/helpers/armainhelper.php:868
+#@ ARForms
+msgid "Sudan"
+msgstr "Судан"
+
+#: core/helpers/armainhelper.php:868
+#@ ARForms
+msgid "Suriname"
+msgstr "Суринам"
+
+#: core/helpers/armainhelper.php:868
+#@ ARForms
+msgid "Swaziland"
+msgstr "Свазиленд"
+
+#: core/helpers/armainhelper.php:871
+#@ ARForms
+msgid "Sweden"
+msgstr "Швеция"
+
+#: core/helpers/armainhelper.php:871
+#@ ARForms
+msgid "Switzerland"
+msgstr "Швейцария"
+
+#: core/helpers/armainhelper.php:871
+#@ ARForms
+msgid "Syria"
+msgstr "Сирия"
+
+#: core/helpers/armainhelper.php:874
+#@ ARForms
+msgid "Taiwan"
+msgstr "Тайвань"
+
+#: core/helpers/armainhelper.php:874
+#@ ARForms
+msgid "Tajikistan"
+msgstr "Таджикистан"
+
+#: core/helpers/armainhelper.php:874
+#@ ARForms
+msgid "Tanzania"
+msgstr "Танзания"
+
+#: core/helpers/armainhelper.php:877
+#@ ARForms
+msgid "Thailand"
+msgstr "Таиланд"
+
+#: core/helpers/armainhelper.php:877
+#@ ARForms
+msgid "Togo"
+msgstr "Того"
+
+#: core/helpers/armainhelper.php:877
+#@ ARForms
+msgid "Tonga"
+msgstr "Тонга"
+
+#: core/helpers/armainhelper.php:880
+#@ ARForms
+msgid "Trinidad and Tobago"
+msgstr "Тринидад и Тобаго"
+
+#: core/helpers/armainhelper.php:880
+#@ ARForms
+msgid "Tunisia"
+msgstr "Тунис"
+
+#: core/helpers/armainhelper.php:880
+#@ ARForms
+msgid "Turkey"
+msgstr "Турция"
+
+#: core/helpers/armainhelper.php:883
+#@ ARForms
+msgid "Turkmenistan"
+msgstr "Туркменистан"
+
+#: core/helpers/armainhelper.php:883
+#@ ARForms
+msgid "Tuvalu"
+msgstr "Тувалу"
+
+#: core/helpers/armainhelper.php:883
+#@ ARForms
+msgid "Uganda"
+msgstr "Уганда"
+
+#: core/helpers/armainhelper.php:886
+#@ ARForms
+msgid "Ukraine"
+msgstr "Украина"
+
+#: core/helpers/armainhelper.php:886
+#@ ARForms
+msgid "United Arab Emirates"
+msgstr "Объединенные Арабские Эмираты"
+
+#: core/helpers/armainhelper.php:886
+#@ ARForms
+msgid "United Kingdom"
+msgstr "Великобритания"
+
+#: core/helpers/armainhelper.php:889
+#@ ARForms
+msgid "United States"
+msgstr "Соединенные Штаты"
+
+#: core/helpers/armainhelper.php:889
+#@ ARForms
+msgid "Uruguay"
+msgstr "Уругвай"
+
+#: core/helpers/armainhelper.php:889
+#@ ARForms
+msgid "Uzbekistan"
+msgstr "Узбекистан"
+
+#: core/helpers/armainhelper.php:892
+#@ ARForms
+msgid "Vanuatu"
+msgstr "Вануату"
+
+#: core/helpers/armainhelper.php:892
+#@ ARForms
+msgid "Vatican City"
+msgstr "Ватикан"
+
+#: core/helpers/armainhelper.php:892
+#@ ARForms
+msgid "Venezuela"
+msgstr "Венесуэла"
+
+#: core/helpers/armainhelper.php:895
+#@ ARForms
+msgid "Vietnam"
+msgstr "Вьетнам"
+
+#: core/helpers/armainhelper.php:895
+#@ ARForms
+msgid "Virgin Islands, British"
+msgstr "Виргинские Острова, Британские"
+
+#: core/helpers/armainhelper.php:898
+#@ ARForms
+msgid "Virgin Islands, U.S."
+msgstr "Виргинские острова, США"
+
+#: core/helpers/armainhelper.php:898
+#@ ARForms
+msgid "Yemen"
+msgstr "Йемен"
+
+#: core/helpers/armainhelper.php:898
+#@ ARForms
+msgid "Zambia"
+msgstr "Замбия"
+
+#: core/helpers/armainhelper.php:901
+#@ ARForms
+msgid "Zimbabwe"
+msgstr "Зимбабве"
+
+#: core/helpers/armainhelper.php:1822
+#@ ARForms
+msgid "at"
+msgstr "на"
+
+#: core/helpers/armainhelper.php:1979
+#@ ARForms
+msgid "year"
+msgstr "год"
+
+#: core/helpers/armainhelper.php:1979
+#@ ARForms
+msgid "years"
+msgstr "лет"
+
+#: core/helpers/armainhelper.php:1982
+#@ ARForms
+msgid "month"
+msgstr "месяц"
+
+#: core/helpers/armainhelper.php:1982
+#@ ARForms
+msgid "months"
+msgstr "месяцев"
+
+#: core/helpers/armainhelper.php:1985
+#@ ARForms
+msgid "week"
+msgstr "неделя"
+
+#: core/helpers/armainhelper.php:1985
+#@ ARForms
+msgid "weeks"
+msgstr "недели"
+
+#: core/helpers/armainhelper.php:1988
+#@ ARForms
+msgid "day"
+msgstr "день"
+
+#: core/helpers/armainhelper.php:1988
+#@ ARForms
+msgid "days"
+msgstr "дней"
+
+#: core/helpers/armainhelper.php:1991
+#@ ARForms
+msgid "hours"
+msgstr "часов"
+
+#: core/helpers/armainhelper.php:1994
+#@ ARForms
+msgid "minutes"
+msgstr "минут"
+
+#: core/helpers/armainhelper.php:1997
+#@ ARForms
+msgid "second"
+msgstr "второй"
+
+#: core/helpers/armainhelper.php:1997
+#: core/helpers/armainhelper.php:2033
+#: core/views/settings_form.php:816
+#@ ARForms
+msgid "seconds"
+msgstr "секунды"
+
+#: core/helpers/armainhelper.php:2199
+#@ ARForms
+msgid "View Forms and Templates"
+msgstr "Посмотреть форм и шаблонов"
+
+#: core/helpers/armainhelper.php:2202
+#@ ARForms
+msgid "Add/Edit Forms and Templates"
+msgstr "Добавить/Изменить формы и шаблоны"
+
+#: core/helpers/armainhelper.php:2205
+#@ ARForms
+msgid "Delete Forms and Templates"
+msgstr "Удалить форм и шаблонов"
+
+#: core/helpers/armainhelper.php:2208
+#: core/helpers/armainhelper.php:2211
+#@ ARForms
+msgid "Access this Settings Page"
+msgstr "Доступ к этой настройки Page"
+
+#: core/helpers/armainhelper.php:2218
+#@ ARForms
+msgid "View Entries from Admin Area"
+msgstr "Просмотр записи в панели админа"
+
+#: core/helpers/armainhelper.php:2221
+#@ ARForms
+msgid "Add Entries from Admin Area"
+msgstr "Добавить записи в панели админа"
+
+#: core/helpers/armainhelper.php:2224
+#@ ARForms
+msgid "Edit Entries from Admin Area"
+msgstr "Редактировать записи в панели админа"
+
+#: core/helpers/armainhelper.php:2227
+#@ ARForms
+msgid "Delete Entries from Admin Area"
+msgstr "Удалить записи в панели админа"
+
+#: core/helpers/armainhelper.php:2230
+#@ ARForms
+msgid "View Reports"
+msgstr "Просмотр отчетов"
+
+#: core/helpers/armainhelper.php:2233
+#@ ARForms
+msgid "Add/Edit Custom Displays"
+msgstr "Добавить / Изменить экраны"
+
+#: core/helpers/arupload_media.php:24
+#@ ARForms
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini."
+msgstr "Загружаемого файла превышает upload_max_filesize директивы в php.ini."
+
+#: core/helpers/arupload_media.php:25
+#@ ARForms
+msgid "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form."
+msgstr "Загруженного файла превышает значение директивы, который был указан в HTML форме."
+
+#: core/helpers/arupload_media.php:26
+#@ ARForms
+msgid "The uploaded file was only partially uploaded."
+msgstr "Файл был загружен только частично."
+
+#: core/helpers/arupload_media.php:27
+#@ ARForms
+msgid "No file was uploaded."
+msgstr "Файл не был загружен."
+
+#: core/helpers/arupload_media.php:29
+#@ ARForms
+msgid "Missing a temporary folder."
+msgstr "Временная папка не найдена."
+
+#: core/helpers/arupload_media.php:30
+#@ ARForms
+msgid "Failed to write file to disk."
+msgstr "Не удалось записать файл на диск."
+
+#: core/helpers/arupload_media.php:31
+#@ ARForms
+msgid "File upload stopped by extension."
+msgstr "Загрузка файла остановлено расширение."
+
+#: core/helpers/arupload_media.php:44
+#@ ARForms
+msgid "Invalid form submission."
+msgstr "Некорректная отправка формы."
+
+#: core/helpers/arupload_media.php:51
+#@ ARForms
+msgid "File is empty. Please upload something more substantial."
+msgstr "Файл пустой. Пожалуйста, загрузите что-то более существенное."
+
+#: core/helpers/arupload_media.php:53
+#@ ARForms
+msgid "File is empty. Please upload something more substantial. This error could also be caused by uploads being disabled in your php.ini or by post_max_size being defined as smaller than upload_max_filesize in php.ini."
+msgstr "Файл пустой. Пожалуйста, загрузите что-то более существенное. Эта ошибка может быть вызвана добавления отключена в вашем php.ini или post_max_size определяется как меньше, чем upload_max_filesize в php.ini."
+
+#: core/helpers/arupload_media.php:58
+#@ ARForms
+msgid "Specified file failed upload test."
+msgstr "Указанного файла Ошибка при загрузке."
+
+#: core/helpers/arupload_media.php:69
+#: core/helpers/arupload_media.php:81
+#: core/helpers/arupload_media.php:84
+#: core/views/common.php:113
+#@ ARForms
+msgid "Sorry, this file type is not permitted for security reasons."
+msgstr "К сожалению, этот тип файлов не допускаются по соображениям безопасности."
+
+#: core/helpers/arupload_media.php:97
+#, php-format
+#@ ARForms
+msgid "The uploaded file could not be moved to %s."
+msgstr "Загруженный файл не может быть перемещен в %s."
+
+#: core/models/arfieldmodel.php:103
+#@ ARForms
+msgid "Phone"
+msgstr "телефон"
+
+#: core/models/arfieldmodel.php:115
+#: core/models/artemplate.php:389
+#: core/views/upgrade_latest_data.php:929
+#@ ARForms
+msgid "Website"
+msgstr "сайт"
+
+#: core/models/arfieldmodel.php:124
+#: core/models/artemplate.php:380
+#: core/models/artemplate.php:1058
+#: core/views/upgrade_latest_data.php:920
+#: core/views/upgrade_latest_data.php:1395
+#@ ARForms
+msgid "Email"
+msgstr "E-mail"
+
+#: core/models/arfieldmodel.php:151
+#@ ARForms
+msgid "Heading"
+msgstr "заголовок"
+
+#: core/models/arfieldmodel.php:180
+#@ ARForms
+msgid "Page"
+msgstr "страница"
+
+#: core/models/arformmodel.php:234
+#@ ARForms
+msgid "User ID"
+msgstr "ID пользователя"
+
+#: core/models/arformmodel.php:253
+#: core/models/arformmodel.php:268
+#@ ARForms
+msgid "Please insert a message for your auto responder."
+msgstr "Пожалуйста, перенесите сообщение для вашего автоответчика."
+
+#: core/models/arformmodel.php:259
+#@ ARForms
+msgid "That is not a valid reply-to email address for your auto responder."
+msgstr "Это не является допустимым для ответа адрес электронной почты для автоответчика."
+
+#: core/models/arnotifymodel.php:68
+#, php-format
+#@ ARForms
+msgid "%1$s form has been submitted on %2$s."
+msgstr "Форма %1$s была отправлена %2$s."
+
+#: core/models/arnotifymodel.php:124
+#: core/models/arnotifymodel.php:1183
+#, php-format
+#@ ARForms
+msgid "%1$s Form submitted on %2$s"
+msgstr "Форма %1$s отправлена %2$s"
+
+#: core/models/arsettingmodel.php:79
+#@ ARForms
+msgid "You have already submitted that form"
+msgstr "Вы уже заявили, что форма"
+
+#: core/models/arsettingmodel.php:100
+#@ ARForms
+msgid "Form is successfully submitted. Thank you!"
+msgstr "Форма успешно отправлена. Спасибо!"
+
+#: core/models/arsettingmodel.php:103
+#: core/views/edit.php:1086
+#: core/views/edit.php:1096
+#: core/views/edit.php:1106
+#: core/views/edit.php:1437
+#: core/views/edit.php:1709
+#: core/views/settings_form.php:297
+#: core/views/settings_form.php:335
+#: core/views/settings_form.php:547
+#: core/views/settings_form.php:570
+#: core/views/settings_form.php:595
+#: core/views/settings_form.php:619
+#: core/views/settings_form.php:640
+#: core/views/settings_form.php:666
+#: core/views/settings_form.php:684
+#: core/views/settings_form.php:868
+#: core/views/settings_form.php:877
+#: core/views/settings_form.php:1020
+#: core/views/settings_form.php:1111
+#: core/views/settings_form.php:1199
+#: core/views/settings_form.php:1209
+#: core/views/settings_form.php:1223
+#: core/views/settings_form.php:1307
+#: core/views/settings_form.php:1322
+#@ ARForms
+msgid "This field cannot be blank."
+msgstr "Поле не может быть пустым."
+
+#: core/models/arsettingmodel.php:106
+#@ ARForms
+msgid "This value must be unique."
+msgstr "Значение поля должно быть уникальным."
+
+#: core/models/arsettingmodel.php:109
+#@ ARForms
+msgid "Problem in submission. Errors are marked below."
+msgstr "Ошибка заполнения формы. Список проблем указан ниже."
+
+#: core/models/arsettingmodel.php:112
+#@ ARForms
+msgid "We're sorry. Form is not submitted successfully."
+msgstr "Приносим свои извинения. Но форма содержит ошибки и не была отправлена​​."
+
+#: core/models/arsettingmodel.php:118
+#@ ARForms
+msgid "You do not have permission to view this form."
+msgstr "У Вас нет разрешения для просмотра этого форме."
+
+#: core/models/arsettingmodel.php:121
+#@ ARForms
+msgid "You do not have permission to perform this action"
+msgstr "Вы не имеете полномочий для выполнения данного действия"
+
+#: core/models/arstylemodel.php:837
+#@ ARForms
+msgid "Your submission was successfully saved."
+msgstr "Ваша форма успешно сохранена."
+
+#: core/models/arstylemodel.php:840
+#@ ARForms
+msgid "Update"
+msgstr "обновление"
+
+#: core/models/artemplate.php:282
+#@ ARForms
+msgid "Contact Us"
+msgstr "Форма для связи"
+
+#: core/models/artemplate.php:283
+#@ ARForms
+msgid "We would like to hear from you. Please send us a message by filling out the form below and we will get back with you shortly."
+msgstr "Мы хотели бы услышать от вас. Пожалуйста, отправьте нам сообщение, заполнив форму ниже и мы свяжемся с вами в ближайшее время."
+
+#: core/models/artemplate.php:382
+#: core/views/upgrade_latest_data.php:922
+#@ ARForms
+msgid "Please enter a valid email address"
+msgstr "Пожалуйста, введите действительный адрес электронной почты"
+
+#: core/models/artemplate.php:390
+#: core/views/upgrade_latest_data.php:930
+#@ ARForms
+msgid "Please enter a valid website"
+msgstr "Пожалуйста, укажите действительный сайта"
+
+#: core/models/artemplate.php:397
+#: core/views/edit.php:1234
+#: core/views/edit.php:1593
+#: core/views/upgrade_latest_data.php:937
+#@ ARForms
+msgid "Subject"
+msgstr "Тема"
+
+#: core/models/artemplate.php:405
+#: core/views/edit.php:1371
+#: core/views/upgrade_latest_data.php:945
+#@ ARForms
+msgid "Message"
+msgstr "Сообщение"
+
+#: core/models/artemplate.php:413
+#: core/views/upgrade_latest_data.php:953
+#@ ARForms
+msgid "Captcha"
+msgstr "Captcha"
+
+#: core/models/artemplate.php:928
+#: core/views/upgrade_latest_data.php:1263
+#@ ARForms
+msgid "Job Application Form"
+msgstr "Форма работы приложений"
+
+#: core/models/artemplate.php:1040
+#: core/views/upgrade_latest_data.php:1377
+#@ ARForms
+msgid "First Name"
+msgstr "Имя"
+
+#: core/models/artemplate.php:1049
+#: core/views/upgrade_latest_data.php:1386
+#@ ARForms
+msgid "Last name"
+msgstr "фамилия"
+
+#: core/models/artemplate.php:1067
+#: core/views/upgrade_latest_data.php:1404
+#@ ARForms
+msgid "Contact No"
+msgstr "Связаться Нет"
+
+#: core/models/artemplate.php:1076
+#: core/views/upgrade_latest_data.php:1413
+#@ ARForms
+msgid "Address"
+msgstr "адрес"
+
+#: core/models/artemplate.php:1085
+#: core/views/upgrade_latest_data.php:1422
+#@ ARForms
+msgid "Position apply for?"
+msgstr "Позиция подавать заявление?"
+
+#: core/models/artemplate.php:1088
+#: core/views/upgrade_latest_data.php:1425
+#@ ARForms
+msgid "Developer"
+msgstr "разработчик"
+
+#: core/models/artemplate.php:1088
+#: core/views/upgrade_latest_data.php:1425
+#@ ARForms
+msgid "Manager"
+msgstr "менеджер"
+
+#: core/models/artemplate.php:1088
+#: core/views/upgrade_latest_data.php:1425
+#@ ARForms
+msgid "Clerk"
+msgstr "клерк"
+
+#: core/models/artemplate.php:1088
+#: core/views/upgrade_latest_data.php:1425
+#@ ARForms
+msgid "Representative"
+msgstr "Представитель"
+
+#: core/models/artemplate.php:1094
+#: core/views/upgrade_latest_data.php:1431
+#@ ARForms
+msgid "Are you applying for?"
+msgstr "Вы подаете заявление на?"
+
+#: core/models/artemplate.php:1097
+#: core/views/upgrade_latest_data.php:1434
+#@ ARForms
+msgid "Full Time"
+msgstr "полное время"
+
+#: core/models/artemplate.php:1097
+#: core/views/upgrade_latest_data.php:1434
+#@ ARForms
+msgid "Part Time"
+msgstr "Неполная"
+
+#: core/models/artemplate.php:1103
+#: core/views/upgrade_latest_data.php:1440
+#@ ARForms
+msgid "Education and Experience Details"
+msgstr "Образование и Опыт Подробнее"
+
+#: core/models/artemplate.php:1114
+#: core/views/upgrade_latest_data.php:1451
+#@ ARForms
+msgid "Diploma / Degree Name"
+msgstr "Диплом / Степень Имя"
+
+#: core/models/artemplate.php:1122
+#: core/views/upgrade_latest_data.php:1459
+#@ ARForms
+msgid "College / University Name"
+msgstr "Колледж / Имя университет"
+
+#: core/models/artemplate.php:1130
+#: core/views/upgrade_latest_data.php:1467
+#@ ARForms
+msgid "Graduation Year"
+msgstr "Год окончания"
+
+#: core/models/artemplate.php:1138
+#: core/views/upgrade_latest_data.php:1475
+#@ ARForms
+msgid "Percentage"
+msgstr "процент"
+
+#: core/models/artemplate.php:1146
+#: core/views/upgrade_latest_data.php:1483
+#@ ARForms
+msgid "Skills & Qualification"
+msgstr "Навыки и квалификация"
+
+#: core/models/artemplate.php:1155
+#: core/views/upgrade_latest_data.php:1492
+#@ ARForms
+msgid "Desired Salary"
+msgstr "Желаемая заработная плата"
+
+#: core/models/artemplate.php:1163
+#: core/views/upgrade_latest_data.php:1500
+#@ ARForms
+msgid "Fresher / Experienced"
+msgstr "Свежее / Опытный"
+
+#: core/models/artemplate.php:1165
+#: core/views/upgrade_latest_data.php:1502
+#@ ARForms
+msgid "Fresher"
+msgstr "Свежее"
+
+#: core/models/artemplate.php:1165
+#: core/models/artemplate.php:1182
+#: core/models/artemplate.php:1206
+#: core/models/artemplate.php:1230
+#: core/views/upgrade_latest_data.php:1502
+#: core/views/upgrade_latest_data.php:1519
+#: core/views/upgrade_latest_data.php:1543
+#: core/views/upgrade_latest_data.php:1567
+#@ ARForms
+msgid "Experienced"
+msgstr "опытный"
+
+#: core/models/artemplate.php:1173
+#: core/views/upgrade_latest_data.php:1510
+#@ ARForms
+msgid "Experience"
+msgstr "опыт"
+
+#: core/models/artemplate.php:1174
+#: core/views/upgrade_latest_data.php:1511
+#@ ARForms
+msgid "(e.g. 3 months, 2 years etc)"
+msgstr "(например 3 месяца, 2 года и т.д.)"
+
+#: core/models/artemplate.php:1198
+#: core/views/upgrade_latest_data.php:1535
+#@ ARForms
+msgid "Current Salary"
+msgstr "Текущий Зарплата"
+
+#: core/models/artemplate.php:1222
+#: core/views/upgrade_latest_data.php:1559
+#@ ARForms
+msgid "Current Company Detail"
+msgstr "Текущий Деталь Компания"
+
+#: core/models/artemplate.php:1246
+#: core/views/upgrade_latest_data.php:1583
+#@ ARForms
+msgid "Upload Resume"
+msgstr "Добавить резюме"
+
+#: core/views/addcontrols.php:92
+#@ ARForms
+msgid "Basic Form Elements"
+msgstr "Основные элементы формы"
+
+#: core/views/addcontrols.php:310
+#@ ARForms
+msgid "Advanced Form Elements"
+msgstr "Дополнительные элементы формы"
+
+#: core/controllers/arformcontroller.php:2827
+#: core/controllers/arformcontroller.php:2854
+#: core/controllers/arformcontroller.php:5611
+#: core/controllers/arformcontroller.php:5633
+#: core/controllers/arformcontroller.php:5652
+#: core/controllers/arformcontroller.php:5674
+#: core/controllers/arsettingcontroller.php:991
+#: core/controllers/arsettingcontroller.php:1035
+#: core/controllers/arsettingcontroller.php:1088
+#: core/views/addcontrols.php:675
+#: core/views/addcontrols.php:702
+#: core/views/addcontrols.php:3457
+#: core/views/addcontrols.php:3479
+#: core/views/addcontrols.php:3498
+#: core/views/addcontrols.php:3520
+#: core/views/import_export_form.php:134
+#@ ARForms
+msgid "Upload"
+msgstr "Загрузить"
+
+#: core/views/addfieldjs.php:27
+#: core/views/addoptionjs.php:17
+#: core/views/addoptionjs.php:26
+#@ ARForms
+msgid "(Blank)"
+msgstr "(Пусто)"
+
+#: core/views/addfieldjs.php:53
+#: core/views/footer.php:54
+#@ ARForms
+msgid "(Blank Section)"
+msgstr "(Бланк секция)"
+
+#: core/views/addfieldjs.php:68
+#@ ARForms
+msgid "Click here to add optional description or instructions"
+msgstr "Нажмите здесь, чтобы добавить описание или инструкции"
+
+#: core/views/common.php:117
+#: core/views/formfields.php:303
+#@ ARForms
+msgid "Strength indicator"
+msgstr "Надёжность"
+
+#: core/views/common.php:119
+#@ ARForms
+msgid "Short"
+msgstr "Короткий"
+
+#: core/views/common.php:121
+#@ ARForms
+msgid "Bad"
+msgstr "Уязвимый"
+
+#: core/views/common.php:123
+#@ ARForms
+msgid "Good"
+msgstr "Нормальный"
+
+#: core/views/common.php:125
+#@ ARForms
+msgid "Strong"
+msgstr "Надёжный"
+
+#: core/views/common.php:1119
+#: core/views/common.php:1603
+#: core/views/formfields.php:469
+#@ ARForms
+msgid "No file selected"
+msgstr "Не выбрано ни одного файла"
+
+#: core/views/displayfield.php:48
+#@ ARForms
+msgid "Note: This field will not show in the form. Enter the value to be hidden."
+msgstr "Примечание: это поле не будет отображаться в форме. Введите значение, которое будет скрыто."
+
+#: core/views/displayfield.php:110
+#@ ARForms
+msgid "Note: Set your custom html content"
+msgstr "Примечание: введите своё HTML наполнение"
+
+#: core/views/edit.php:940
+#: core/views/edit.php:963
+#@ ARForms
+msgid "Add To Site"
+msgstr "Публикация"
+
+#: core/views/edit.php:944
+#: core/views/edit.php:959
+#@ ARForms
+msgid "Styling"
+msgstr "Оформление"
+
+#: core/views/edit.php:946
+#: core/views/edit.php:957
+#@ ARForms
+msgid "Field Editor"
+msgstr "Поля"
+
+#: core/views/edit.php:990
+#: core/views/edit.php:3264
+#@ ARForms
+msgid "Save"
+msgstr "Готово"
+
+#: core/views/edit.php:992
+#: core/views/list.php:662
+#: core/views/list.php:673
+#: core/views/newfield.php:268
+#: core/views/view_records.php:1026
+#: core/views/view_records.php:1037
+#@ ARForms
+msgid "Cancel"
+msgstr "Отмена"
+
+#: core/views/edit.php:1035
+#: core/views/edit.php:1060
+#@ ARForms
+msgid "On Submit"
+msgstr "При отправке формы"
+
+#: core/views/edit.php:1038
+#@ ARForms
+msgid "Auto response email"
+msgstr "Авто-ответ на email"
+
+#: core/views/edit.php:1041
+#@ ARForms
+msgid "Email marketers"
+msgstr "Email рассылки"
+
+#: core/views/edit.php:1044
+#: core/views/edit.php:3040
+#: core/views/newfield.php:853
+#@ ARForms
+msgid "Custom CSS"
+msgstr "Дополнительный CSS-код"
+
+#: core/views/edit.php:1069
+#@ ARForms
+msgid "Display a Message"
+msgstr "Показать сообщение"
+
+#: core/views/edit.php:1071
+#: core/views/edit.php:1092
+#@ ARForms
+msgid "Redirect to URL"
+msgstr "Перенаправить на URL"
+
+#: core/views/edit.php:1073
+#@ ARForms
+msgid "Display content from another page"
+msgstr "Показать содержимое другой страницы"
+
+#: core/views/edit.php:1082
+#@ ARForms
+msgid "Confirmation Message"
+msgstr "Текст подтверждения"
+
+#: core/views/edit.php:1102
+#@ ARForms
+msgid "Use Content from Page"
+msgstr "Использовать содержание страницы"
+
+#: core/views/edit.php:1124
+#@ ARForms
+msgid "Auto Response Email"
+msgstr "Настройки авто-ответа"
+
+#: core/views/edit.php:1136
+#@ ARForms
+msgid "Send an automatic response to users after submitting the form"
+msgstr "Отправлять авто-ответ пользователям после отправки формы"
+
+#: core/views/edit.php:1161
+#@ ARForms
+msgid "Select field to send mail"
+msgstr "Поле формы куда отправлять почту"
+
+#: core/views/edit.php:1202
+#: core/views/edit.php:1215
+#: core/views/edit.php:3000
+#: core/views/edit.php:3013
+#@ ARForms
+msgid "Select Field"
+msgstr "Выберите поле"
+
+#: core/views/edit.php:1223
+#@ ARForms
+msgid "Please map desired email field from the list of fields used in your form. And system will send response email to this address."
+msgstr "Пожалуйста, привяжите соответствующе поле формы к email-у адресата. Система будет отправлять ответ на этот адрес."
+
+#: core/views/edit.php:1226
+#@ ARForms
+msgid "Select <strong>Single Line Text field</strong> or <strong>Email field</strong> to send autoresponse email to that address. First you need to create that field in form itself."
+msgstr "Выберите одной строке текстового поля или E-mail поле для отправки Autoresponse письмо на этот адрес. Прежде всего, необходимо создать это поле в самой форме."
+
+#: core/views/edit.php:1292
+#: core/views/settings_form.php:659
+#@ ARForms
+msgid "From/Replyto Name"
+msgstr "От кого / Ответить кому"
+
+#: core/views/edit.php:1313
+#@ ARForms
+msgid "From/Reply to Email"
+msgstr "С адреса / Ответить на адрес"
+
+#: core/views/edit.php:1446
+#@ ARForms
+msgid "Send an automatic response to admin after submitting the form"
+msgstr "Отправлять авто-ответ администратору при заполнении формы"
+
+#: core/views/edit.php:1463
+#@ ARForms
+msgid "Admin Email"
+msgstr "Email администратора"
+
+#: core/views/edit.php:1523
+#: core/views/settings_form.php:677
+#@ ARForms
+msgid "From/Replyto Email"
+msgstr "С адреса / Ответ на адрес"
+
+#: core/views/edit.php:1645
+#@ ARForms
+msgid "This will be replaced with form name."
+msgstr "этот код будет заменён названием формы"
+
+#: core/views/edit.php:1646
+#@ ARForms
+msgid "This will be replaced with name of site."
+msgstr "этот код будет заменён названием сайта"
+
+#: core/views/edit.php:1808
+#@ ARForms
+msgid "Email Marketers"
+msgstr "Сервисы рассылок"
+
+#: core/views/edit.php:1866
+#: core/views/edit.php:1880
+#@ ARForms
+msgid "Mailchimp"
+msgstr "Mailchimp"
+
+#: core/views/edit.php:1868
+#: core/views/edit.php:1882
+#@ ARForms
+msgid "&nbsp;&nbsp;&nbsp;(Please Activate your license to configure Mailchip with this form.)"
+msgstr "&nbsp;&nbsp;&nbsp;(активируйте лицензию, чтобы настроить Mailchip для работы с формой)"
+
+#: core/views/edit.php:1900
+#: core/views/edit.php:1945
+#: core/views/edit.php:2062
+#: core/views/edit.php:2115
+#: core/views/edit.php:2248
+#: core/views/edit.php:2289
+#: core/views/edit.php:2411
+#: core/views/edit.php:2454
+#@ ARForms
+msgid "LIST NAME"
+msgstr "Имя списка"
+
+#: core/views/edit.php:2022
+#: core/views/edit.php:2036
+#@ ARForms
+msgid "Aweber"
+msgstr "Aweber"
+
+#: core/views/edit.php:2024
+#: core/views/edit.php:2038
+#@ ARForms
+msgid "&nbsp;&nbsp;&nbsp;(Please Activate your license to configure Aweber with this form.)"
+msgstr "&nbsp;&nbsp;&nbsp;(активируйте лицензию, чтобы настроить Aweber для работы с формой)"
+
+#: core/views/edit.php:2213
+#: core/views/edit.php:2227
+#@ ARForms
+msgid "Icontact"
+msgstr "Icontact"
+
+#: core/views/edit.php:2215
+#: core/views/edit.php:2229
+#@ ARForms
+msgid "&nbsp;&nbsp;&nbsp;(Please Activate your license to configure Icontact with this form.)"
+msgstr "&nbsp;&nbsp;&nbsp;(активируйте лицензию, чтобы настроить Icontact для работы с формой)"
+
+#: core/views/edit.php:2376
+#: core/views/edit.php:2390
+#@ ARForms
+msgid "Constant Contact"
+msgstr "Constant Contact"
+
+#: core/views/edit.php:2378
+#: core/views/edit.php:2392
+#@ ARForms
+msgid "&nbsp;&nbsp;&nbsp;(Please Activate your license to configure Constant Contact with this form.)"
+msgstr "&nbsp;&nbsp;&nbsp;(активируйте лицензию, чтобы настроить Constant Contact для работы с формой)"
+
+#: core/views/edit.php:2540
+#: core/views/edit.php:2554
+#@ ARForms
+msgid "Getresponse"
+msgstr "Getresponse"
+
+#: core/views/edit.php:2542
+#: core/views/edit.php:2556
+#@ ARForms
+msgid "&nbsp;&nbsp;&nbsp;(Please Activate your license to configure Getresponse with this form.)"
+msgstr "&nbsp;&nbsp;&nbsp;(активируйте лицензию, чтобы настроить Getresponse для работы с формой)"
+
+#: core/views/edit.php:2699
+#: core/views/edit.php:2717
+#@ ARForms
+msgid "GVO"
+msgstr "GVO"
+
+#: core/views/edit.php:2701
+#: core/views/edit.php:2719
+#@ ARForms
+msgid "&nbsp;&nbsp;&nbsp;(Please Activate your license to configure GVO with this form.)"
+msgstr "&nbsp;&nbsp;&nbsp;(активируйте лицензию, чтобы настроить GVO для работы с формой)"
+
+#: core/views/edit.php:2772
+#: core/views/edit.php:2790
+#@ ARForms
+msgid "eBizac"
+msgstr "eBizac"
+
+#: core/views/edit.php:2774
+#: core/views/edit.php:2792
+#@ ARForms
+msgid "&nbsp;&nbsp;&nbsp;(Please Activate your license to configure eBizac with this form.)"
+msgstr "&nbsp;&nbsp;&nbsp;(активируйте лицензию, чтобы настроить eBizac для работы с формой)"
+
+#: core/views/edit.php:2837
+#@ ARForms
+msgid "First name mapping"
+msgstr "Привязка к имени"
+
+#: core/views/edit.php:2838
+#@ ARForms
+msgid "Last name mapping"
+msgstr "Привязка к фамилии"
+
+#: core/views/edit.php:2876
+#: core/views/edit.php:2889
+#@ ARForms
+msgid "Select First Name"
+msgstr "Поле с именем"
+
+#: core/views/edit.php:2933
+#: core/views/edit.php:2946
+#@ ARForms
+msgid "Select Last Name"
+msgstr "Поле с фамилией"
+
+#: core/views/edit.php:2967
+#@ ARForms
+msgid "Email field mapping"
+msgstr "Привязка к email адресу"
+
+#: core/views/edit.php:3047
+#: core/views/edit.php:3084
+#@ ARForms
+msgid "Form outer wrapper"
+msgstr "Наружное обрамление"
+
+#: core/views/edit.php:3048
+#: core/views/edit.php:3090
+#@ ARForms
+msgid "Form inner wrapper"
+msgstr "Внутреннее обрамление"
+
+#: core/views/edit.php:3049
+#: core/views/edit.php:3096
+#@ ARForms
+msgid "Form title"
+msgstr "Название формы"
+
+#: core/views/edit.php:3050
+#: core/views/edit.php:3102
+#@ ARForms
+msgid "Form description"
+msgstr "Описание формы"
+
+#: core/views/edit.php:3051
+#: core/views/edit.php:3108
+#@ ARForms
+msgid "Field wrapper"
+msgstr "Обрамление поля"
+
+#: core/views/edit.php:3052
+#: core/views/edit.php:3114
+#@ ARForms
+msgid "Field label"
+msgstr "Ярлык поля"
+
+#: core/views/edit.php:3053
+#: core/views/edit.php:3120
+#@ ARForms
+msgid "Input elements"
+msgstr "Элементы ввода"
+
+#: core/views/edit.php:3054
+#: core/views/edit.php:3132
+#@ ARForms
+msgid "Submit wrapper"
+msgstr "Обрамление отправки"
+
+#: core/views/edit.php:3055
+#: core/views/edit.php:3138
+#@ ARForms
+msgid "Submit button"
+msgstr "Кнопка отправки"
+
+#: core/views/edit.php:3056
+#: core/views/edit.php:3144
+#@ ARForms
+msgid "Next button"
+msgstr "Кнопка далее"
+
+#: core/views/edit.php:3057
+#: core/views/edit.php:3150
+#@ ARForms
+msgid "Previous button"
+msgstr "Кнопка назад"
+
+#: core/views/edit.php:3058
+#: core/views/edit.php:3156
+#@ ARForms
+msgid "Success message"
+msgstr "Сообщение об отправке"
+
+#: core/views/edit.php:3059
+#: core/views/edit.php:3162
+#@ ARForms
+msgid "Validation (Error)"
+msgstr "Ошибка при проверке"
+
+#: core/views/edit.php:3060
+#: core/views/edit.php:3126
+#@ ARForms
+msgid "Page break"
+msgstr "Разрыв страницы"
+
+#: core/views/edit.php:3061
+#: core/views/edit.php:3168
+#@ ARForms
+msgid "Fly / Sticky Button"
+msgstr "Летающая / Фиксированная кнопка"
+
+#: core/views/edit.php:3062
+#: core/views/edit.php:3174
+#@ ARForms
+msgid "Modal"
+msgstr "Модальное окно"
+
+#: core/views/edit.php:3077
+#@ ARForms
+msgid "Custom Styling Properties"
+msgstr "Особые настройки оформления"
+
+#: core/views/edit.php:3084
+#: core/views/edit.php:3090
+#: core/views/edit.php:3096
+#: core/views/edit.php:3102
+#: core/views/edit.php:3108
+#: core/views/edit.php:3114
+#: core/views/edit.php:3120
+#: core/views/edit.php:3126
+#: core/views/edit.php:3132
+#: core/views/edit.php:3138
+#: core/views/edit.php:3144
+#: core/views/edit.php:3150
+#: core/views/edit.php:3156
+#: core/views/edit.php:3162
+#: core/views/edit.php:3168
+#: core/views/edit.php:3174
+#: core/views/edit.php:3179
+#: core/views/edit.php:3184
+#: core/views/edit.php:3189
+#: core/views/edit.php:3194
+#: core/views/import_export_form.php:140
+#@ ARForms
+msgid "Remove"
+msgstr "удалять"
+
+#: core/views/edit.php:3228
+#@ ARForms
+msgid "Other CSS"
+msgstr "Другой CSS-код"
+
+#: core/views/edit.php:3233
+#@ ARForms
+msgid "You can enter classes not directly properties."
+msgstr "Здесь можно вводить классы, а не только изменять конкретные свойства."
+
+#: core/views/edit.php:3263
+#@ ARForms
+msgid "Have you saved your form already ?"
+msgstr "Вы уже сохранили форму?"
+
+#: core/views/edit.php:3265
+#@ ARForms
+msgid "You should save your latest changes before publishing form to the page."
+msgstr "Вы должны сохранить последние изменения перед публикацией формы на странице."
+
+#: core/views/edit.php:3270
+#@ ARForms
+msgid "Ways to publish your form"
+msgstr "Варианты публикации формы"
+
+#: core/views/edit.php:3272
+#@ ARForms
+msgid "Follow these steps to add the form into page:"
+msgstr "Слуйте инструкциям, чтобы добавить форму на страницу:"
+
+#: core/views/edit.php:3276
+#@ ARForms
+msgid "Selecting"
+msgstr "Выбирите"
+
+#: core/views/edit.php:3276
+#@ ARForms
+msgid "LINK TYPE"
+msgstr "ТИП ССЫЛКИ"
+
+#: core/views/edit.php:3276
+#@ ARForms
+msgid "in the popup box:"
+msgstr "во всплывающем окне:"
+
+#: core/views/edit.php:3280
+#@ ARForms
+msgid "Insert form into widget:"
+msgstr "Вставьте форму в виджет:"
+
+#: core/views/edit.php:3310
+#@ ARForms
+msgid "SHORTCODES"
+msgstr "КОРОТКИЙ КОД"
+
+#: core/views/edit.php:3311
+#@ ARForms
+msgid "Please use any of the following shortcode to add form into post / page / widget"
+msgstr "Пожалуйста, используйте любой из следующих коротких кодов для добавления формы в запись / на страницу / в виджет"
+
+#: core/views/edit.php:3313
+#: core/views/edit.php:3358
+#@ ARForms
+msgid "Normal View"
+msgstr "Обычный вид"
+
+#: core/views/edit.php:3323
+#: core/views/edit.php:3367
+#@ ARForms
+msgid "Pop-up View"
+msgstr "Всплывающее окно"
+
+#: core/views/edit.php:3331
+#@ ARForms
+msgid "Note : Possible argument for type argument 1.) type=\"link\"  2.) type=\"button\"."
+msgstr "Примечание: возможный аргумент 1) тип = \"ссылка\" 2) тип = \"кнопка\"."
+
+#: core/views/edit.php:3332
+#@ ARForms
+msgid ": You can adjust height and width of modal box"
+msgstr "Можно настроить высоту и ширину модального окна"
+
+#: core/views/edit.php:3334
+#: core/views/edit.php:3376
+#@ ARForms
+msgid "Fly View"
+msgstr "Летающий вид"
+
+#: core/views/edit.php:3342
+#@ ARForms
+msgid "Note : Possible argument for position argument 1.) position=\"left\"  2.) position=\"right\"."
+msgstr "Примечание: возможные аргументы для расположения 1) положение = \"слева\" 2.) положение = \"справа\"."
+
+#: core/views/edit.php:3345
+#: core/views/edit.php:3385
+#@ ARForms
+msgid "Sticky view"
+msgstr "Фиксированый вид"
+
+#: core/views/edit.php:3353
+#@ ARForms
+msgid "Note : Possible argument for position argument 1.) position=\"top\"  2.) position=\"bottom\"."
+msgstr "Примечание: возможные аргументы 1) положение = \"сверху\" 2.) положение 2 = \"дно\"."
+
+#: core/views/edit.php:3356
+#@ ARForms
+msgid "Please use any of the following shortcode to add form into template"
+msgstr "Пожалуйста, используйте любой из следующих коротких кодов, чтобы добавить форму в шаблон"
+
+#: core/views/edit.php:3458
+#: core/views/list.php:681
+#@ ARForms
+msgid "Computer View"
+msgstr "Компьютерная Посмотреть"
+
+#: core/views/edit.php:3459
+#: core/views/list.php:682
+#@ ARForms
+msgid "Tablet View"
+msgstr "Таблетка Посмотреть"
+
+#: core/views/edit.php:3460
+#: core/views/list.php:683
+#@ ARForms
+msgid "Mobile View"
+msgstr "Мобильная Просмотр"
+
+#: core/vc/class_vc_extend.php:569
+#: core/views/edit_form.php:40
+#: core/views/insert_form_popup.php:631
+#: core/views/new-selection-modal.php:28
+#@ ARForms
+msgid "Please enter form name"
+msgstr "Пожалуйста, введите имя формы"
+
+#: core/views/edit_form.php:151
+#@ ARForms
+msgid "Edit Text"
+msgstr "Редактировать текст"
+
+#: core/views/edit_form.php:165
+#@ ARForms
+msgid "Submit Button Options"
+msgstr "Параметры кнопки отправки формы"
+
+#: core/views/edit_form.php:171
+#: core/views/newfield.php:749
+#@ ARForms
+msgid "Conditional Law"
+msgstr "Проверка условий"
+
+#: core/views/edit_form.php:184
+#: core/views/newfield.php:930
+#@ ARForms
+msgid "Enable Conditional Law"
+msgstr "Использовать правило"
+
+#: core/views/edit_form.php:191
+#: core/views/edit_form.php:196
+#: core/views/footer.php:68
+#: core/views/newfield.php:937
+#: core/views/newfield.php:960
+#@ ARForms
+msgid "Please add one or more rules"
+msgstr "Пожалуйста, добавьте одно или несколько условий"
+
+#: core/views/edit_form.php:192
+#@ ARForms
+msgid "Enable"
+msgstr "Включить"
+
+#: core/views/edit_form.php:193
+#@ ARForms
+msgid "Disable"
+msgstr "Отключить"
+
+#: core/views/edit_form.php:195
+#@ ARForms
+msgid "this button if"
+msgstr " эту кнопку, если"
+
+#: core/views/edit_form.php:197
+#: core/views/newfield.php:969
+#: core/views/newfield.php:970
+#: core/views/newfield.php:974
+#@ ARForms
+msgid "All"
+msgstr "Все"
+
+#: core/views/edit_form.php:198
+#: core/views/newfield.php:969
+#: core/views/newfield.php:970
+#: core/views/newfield.php:975
+#@ ARForms
+msgid "Any"
+msgstr "Любое"
+
+#: core/views/edit_form.php:200
+#: core/views/newfield.php:982
+#@ ARForms
+msgid "of the following match:"
+msgstr "условие выполняется:"
+
+#: core/views/edit_form.php:206
+#: core/views/newfield.php:988
+#@ ARForms
+msgid "Add New Law"
+msgstr "Добавить условие"
+
+#: core/views/edit_form.php:247
+#: core/views/newfield.php:512
+#: core/views/newfield.php:629
+#: core/views/newfield.php:1030
+#: core/views/newfield.php:1109
+#@ ARForms
+msgid "Done"
+msgstr "Готово"
+
+#: core/views/export_data.php:98
+#: core/views/export_data.php:230
+#@ ARForms
+msgid "Timestamp"
+msgstr "Отметка времени"
+
+#: core/views/footer.php:50
+#@ ARForms
+msgid "(Click here to add text)"
+msgstr "(Нажмите здесь, чтобы добавить текст)"
+
+#: core/views/footer.php:52
+#@ ARForms
+msgid "(Click here to add description or instructions)"
+msgstr "(Нажмите здесь, чтобы добавить описание или инструкции)"
+
+#: core/views/footer.php:1415
+#@ ARForms
+msgid "Loading..."
+msgstr "Загружаю ..."
+
+#: core/views/form.php:666
+#@ ARForms
+msgid "Powered by"
+msgstr "Создано"
+
+#: core/views/form.php:683
+#@ ARForms
+msgid "&nbsp;&nbsp;"
+msgstr "&nbsp;&nbsp;"
+
+#: core/views/formsubmission.php:102
+#@ ARForms
+msgid "Success"
+msgstr "успех"
+
+#: core/views/graph_ajax.php:230
+#@ ARForms
+msgid "Month"
+msgstr "месяц"
+
+#: core/views/graph_ajax.php:230
+#: core/views/graph_ajax.php:372
+#: core/views/graph_ajax.php:634
+#@ ARForms
+msgid "Views"
+msgstr "Просмотров"
+
+#: core/views/graph_ajax.php:372
+#@ ARForms
+msgid "Day"
+msgstr "день"
+
+#: core/views/graph_ajax.php:634
+#@ ARForms
+msgid "Hour"
+msgstr "час"
+
+#: core/views/import_export_form.php:20
+#@ ARForms
+msgid "Import / Export Forms"
+msgstr "Импорт/Экспорт форм"
+
+#: core/views/import_export_form.php:28
+#@ ARForms
+msgid "Form Imported Successfully."
+msgstr "Форма успешно импортирована."
+
+#: core/views/import_export_form.php:59
+#: core/views/import_export_form.php:74
+#@ ARForms
+msgid "Export Form(s)"
+msgstr "Экспорт форм(ы)"
+
+#: core/views/import_export_form.php:59
+#: core/views/import_export_form.php:80
+#@ ARForms
+msgid "Export Entries"
+msgstr "Экспорт записей"
+
+#: core/views/import_export_form.php:88
+#@ ARForms
+msgid "Please Select Form(s)"
+msgstr "Выберите форму(ы)"
+
+#: core/views/import_export_form.php:94
+#@ ARForms
+msgid "Please Select Form"
+msgstr "Выберите форму"
+
+#: core/views/import_export_form.php:102
+#@ ARForms
+msgid "Export"
+msgstr "Экспорт"
+
+#: core/views/import_export_form.php:115
+#@ ARForms
+msgid "Import Form(s)"
+msgstr "Импорт форм(ы)"
+
+#: core/views/import_export_form.php:124
+#@ ARForms
+msgid "Please upload zip file exported from ARForms plugin."
+msgstr "Пожалуйста, загрузите ZIP-архив созданный плагином ARForms."
+
+#: core/views/import_export_form.php:131
+#@ ARForms
+msgid "Please Select File :"
+msgstr "Выберите файл:"
+
+#: core/views/import_export_form.php:142
+#@ ARForms
+msgid "Please select valid file"
+msgstr "Пожалуйста, выберите правильный файл"
+
+#: core/views/import_export_form.php:143
+#@ ARForms
+msgid "Please select file"
+msgstr "Пожалуйста, выберите файл"
+
+#: core/views/import_export_form.php:170
+#@ ARForms
+msgid "Import"
+msgstr "Импорт"
+
+#: core/views/import_export_form.php:184
+#: core/views/list.php:706
+#: core/views/settings_form.php:1506
+#: core/views/view_records.php:1015
+#@ ARForms
+msgid "Documentation"
+msgstr "Документация"
+
+#: core/views/import_export_form.php:186
+#: core/views/list.php:706
+#: core/views/settings_form.php:1506
+#: core/views/view_records.php:1015
+#@ ARForms
+msgid "Support"
+msgstr "Поддержка"
+
+#: core/views/inputelements.php:246
+#@ ARForms
+msgid "Please select"
+msgstr "Пожалуйста, выберите"
+
+#: core/views/inputelements.php:420
+#@ ARForms
+msgid "Can't read the above security code?"
+msgstr "Не можете прочитать выше код безопасности?"
+
+#: core/views/inputelements.php:420
+#@ ARForms
+msgid "Refresh"
+msgstr "Обновить"
+
+#: core/views/insert_form_popup.php:114
+#@ ARForms
+msgid "Please select a custom display"
+msgstr "Пожалуйста, выберите настройки отображения"
+
+#: core/vc/class_vc_extend.php:559
+#: core/views/insert_form_popup.php:621
+#@ ARForms
+msgid "ADD ARFORMS FORM"
+msgstr "ДОБАВИТЬ ARFORMS ФОРМУ"
+
+#: core/vc/class_vc_extend.php:565
+#: core/views/insert_form_popup.php:627
+#@ ARForms
+msgid "Select a form to insert into page"
+msgstr "Выберите форму для вставки на страницу"
+
+#: core/vc/class_vc_extend.php:578
+#: core/views/insert_form_popup.php:634
+#@ ARForms
+msgid "How you want to include this form into page?"
+msgstr "В каком виде Вы хотите добвать эту форму в страницу?"
+
+#: core/vc/class_vc_extend.php:588
+#: core/views/insert_form_popup.php:635
+#: core/widgets/ARFwidgetForm.php:45
+#@ ARForms
+msgid "Internal"
+msgstr "Внутри содержания"
+
+#: core/vc/class_vc_extend.php:598
+#: core/views/insert_form_popup.php:637
+#: core/widgets/ARFwidgetForm.php:47
+#@ ARForms
+msgid "External popup window"
+msgstr "Внешнее всплывающее окно"
+
+#: core/vc/class_vc_extend.php:606
+#: core/views/insert_form_popup.php:642
+#@ ARForms
+msgid "Link Type?"
+msgstr "Тип Ссылка?"
+
+#: core/vc/class_vc_extend.php:617
+#: core/views/insert_form_popup.php:646
+#: core/widgets/ARFwidgetForm.php:56
+#@ ARForms
+msgid "Link"
+msgstr "ссылка"
+
+#: core/vc/class_vc_extend.php:619
+#: core/views/insert_form_popup.php:648
+#: core/widgets/ARFwidgetForm.php:58
+#@ ARForms
+msgid "Sticky"
+msgstr "Прикрепить"
+
+#: core/vc/class_vc_extend.php:620
+#: core/views/insert_form_popup.php:649
+#: core/widgets/ARFwidgetForm.php:59
+#@ ARForms
+msgid "Fly"
+msgstr "Подвижная"
+
+#: core/vc/class_vc_extend.php:621
+#: core/views/insert_form_popup.php:650
+#: core/widgets/ARFwidgetForm.php:60
+#@ ARForms
+msgid "On Page Load"
+msgstr "При загрузке страницы"
+
+#: core/vc/class_vc_extend.php:635
+#: core/vc/class_vc_extend.php:655
+#: core/views/insert_form_popup.php:664
+#: core/views/insert_form_popup.php:678
+#: core/widgets/ARFwidgetForm.php:64
+#: core/widgets/ARFwidgetForm.php:73
+#@ ARForms
+msgid "Link Position?"
+msgstr "Связать с позицией?"
+
+#: core/widgets/ARFwidgetForm.php:99
+#@ ARForms
+msgid "Height :"
+msgstr "высота:"
+
+#: core/widgets/ARFwidgetForm.php:103
+#@ ARForms
+msgid "Width :"
+msgstr "ширина:"
+
+#: core/views/insert_form_popup.php:746
+#@ ARForms
+msgid "Add to page"
+msgstr "Добавить на страницу"
+
+#: core/views/like_field.php:13
+#@ ARForms
+msgid "Reset default value"
+msgstr "Сброс значения по умолчанию"
+
+#: core/views/list.php:16
+#@ ARForms
+msgid "This form is already deleted."
+msgstr "Эта форма была удалена."
+
+#: core/views/list.php:658
+#: core/views/list.php:669
+#@ ARForms
+msgid "DELETE FORM"
+msgstr "УДАЛЕНИЕ ФОРМУ"
+
+#: core/views/list.php:659
+#@ ARForms
+msgid "Are you sure you want to delete this form?"
+msgstr "Вы уверены, что хотите удалить эту форму?"
+
+#: core/views/list.php:661
+#: core/views/list.php:672
+#: core/views/newfield.php:267
+#: core/views/view_records.php:1025
+#: core/views/view_records.php:1036
+#@ ARForms
+msgid "Okay"
+msgstr "Да"
+
+#: core/views/list.php:670
+#@ ARForms
+msgid "Are you sure you want to delete this form(s)?"
+msgstr "Вы уверены, что хотите удалить эту форму (ы)?"
+
+#: core/views/new-selection-modal.php:23
+#@ ARForms
+msgid "NEW FORM"
+msgstr "НОВАЯ ФОРМА"
+
+#: core/views/new-selection-modal.php:27
+#@ ARForms
+msgid "Form Name"
+msgstr "Название формы"
+
+#: core/views/new-selection-modal.php:30
+#@ ARForms
+msgid "Form Description"
+msgstr "Описание Формы"
+
+#: core/views/new-selection-modal.php:33
+#@ ARForms
+msgid "Template"
+msgstr "Шаблон"
+
+#: core/views/new-selection-modal.php:39
+#@ ARForms
+msgid "Blank Form"
+msgstr "Пустая форма"
+
+#: core/views/new-selection-modal.php:63
+#: core/views/settings_form.php:885
+#@ ARForms
+msgid "Continue"
+msgstr "Далее"
+
+#: core/views/newfield.php:35
+#@ ARForms
+msgid "Countries"
+msgstr "Страны"
+
+#: core/views/newfield.php:40
+#@ ARForms
+msgid "U.S. States"
+msgstr "США"
+
+#: core/views/newfield.php:43
+#@ ARForms
+msgid "U.S. State Abbreviations"
+msgstr "Сокращения штатов США"
+
+#: core/views/newfield.php:49
+#@ ARForms
+msgid "Age Group"
+msgstr "Возрастная группа"
+
+#: core/views/newfield.php:52
+#@ ARForms
+msgid "Under 18"
+msgstr "До 18"
+
+#: core/views/newfield.php:52
+#@ ARForms
+msgid "18-24"
+msgstr "18-24"
+
+#: core/views/newfield.php:52
+#@ ARForms
+msgid "25-34"
+msgstr "25-34"
+
+#: core/views/newfield.php:55
+#@ ARForms
+msgid "35-44"
+msgstr "35-44"
+
+#: core/views/newfield.php:55
+#@ ARForms
+msgid "45-54"
+msgstr "45-54"
+
+#: core/views/newfield.php:55
+#@ ARForms
+msgid "55-64"
+msgstr "55-64"
+
+#: core/views/newfield.php:58
+#@ ARForms
+msgid "65 or Above"
+msgstr "65 и более"
+
+#: core/views/newfield.php:58
+#@ ARForms
+msgid "Prefer Not to Answer"
+msgstr "Предпочитаю не отвечать"
+
+#: core/views/newfield.php:67
+#@ ARForms
+msgid "Satisfaction"
+msgstr "Удовлетворённость"
+
+#: core/views/newfield.php:70
+#@ ARForms
+msgid "Very Satisfied"
+msgstr "Очень доволен"
+
+#: core/views/newfield.php:70
+#@ ARForms
+msgid "Satisfied"
+msgstr "Доволен"
+
+#: core/views/newfield.php:70
+#@ ARForms
+msgid "Neutral"
+msgstr "Нейтрален"
+
+#: core/views/newfield.php:73
+#@ ARForms
+msgid "Unsatisfied"
+msgstr "Недоволен"
+
+#: core/views/newfield.php:73
+#@ ARForms
+msgid "Very Unsatisfied"
+msgstr "Отвратительно"
+
+#: core/views/newfield.php:73
+#@ ARForms
+msgid "N/A"
+msgstr "Н/Д"
+
+#: core/views/newfield.php:79
+#@ ARForms
+msgid "Days"
+msgstr "Дней"
+
+#: core/views/newfield.php:82
+#@ ARForms
+msgid "2"
+msgstr "2"
+
+#: core/views/newfield.php:82
+#@ ARForms
+msgid "3"
+msgstr "3"
+
+#: core/views/newfield.php:82
+#@ ARForms
+msgid "4"
+msgstr "4"
+
+#: core/views/newfield.php:82
+#@ ARForms
+msgid "5"
+msgstr "5"
+
+#: core/views/newfield.php:82
+#@ ARForms
+msgid "6"
+msgstr "6"
+
+#: core/views/newfield.php:84
+#@ ARForms
+msgid "7"
+msgstr "7"
+
+#: core/views/newfield.php:84
+#@ ARForms
+msgid "8"
+msgstr "8"
+
+#: core/views/newfield.php:84
+#@ ARForms
+msgid "9"
+msgstr "9"
+
+#: core/views/newfield.php:84
+#@ ARForms
+msgid "10"
+msgstr "10"
+
+#: core/views/newfield.php:84
+#@ ARForms
+msgid "11"
+msgstr "11"
+
+#: core/views/newfield.php:84
+#@ ARForms
+msgid "12"
+msgstr "12"
+
+#: core/views/newfield.php:86
+#@ ARForms
+msgid "13"
+msgstr "13"
+
+#: core/views/newfield.php:86
+#@ ARForms
+msgid "14"
+msgstr "14"
+
+#: core/views/newfield.php:86
+#@ ARForms
+msgid "15"
+msgstr "15"
+
+#: core/views/newfield.php:86
+#@ ARForms
+msgid "16"
+msgstr "16"
+
+#: core/views/newfield.php:86
+#@ ARForms
+msgid "17"
+msgstr "17"
+
+#: core/views/newfield.php:86
+#@ ARForms
+msgid "18"
+msgstr "18"
+
+#: core/views/newfield.php:88
+#@ ARForms
+msgid "19"
+msgstr "19"
+
+#: core/views/newfield.php:88
+#@ ARForms
+msgid "20"
+msgstr "20"
+
+#: core/views/newfield.php:88
+#@ ARForms
+msgid "21"
+msgstr "21"
+
+#: core/views/newfield.php:88
+#@ ARForms
+msgid "22"
+msgstr "22"
+
+#: core/views/newfield.php:88
+#@ ARForms
+msgid "23"
+msgstr "23"
+
+#: core/views/newfield.php:88
+#@ ARForms
+msgid "24"
+msgstr "24"
+
+#: core/views/newfield.php:90
+#@ ARForms
+msgid "25"
+msgstr "25"
+
+#: core/views/newfield.php:90
+#@ ARForms
+msgid "26"
+msgstr "26"
+
+#: core/views/newfield.php:90
+#@ ARForms
+msgid "27"
+msgstr "27"
+
+#: core/views/newfield.php:90
+#@ ARForms
+msgid "28"
+msgstr "28"
+
+#: core/views/newfield.php:90
+#@ ARForms
+msgid "29"
+msgstr "29"
+
+#: core/views/newfield.php:90
+#@ ARForms
+msgid "30"
+msgstr "30"
+
+#: core/views/newfield.php:92
+#@ ARForms
+msgid "31"
+msgstr "31"
+
+#: core/views/newfield.php:98
+#@ ARForms
+msgid "Week Days"
+msgstr "Дни недели"
+
+#: core/views/newfield.php:101
+#@ ARForms
+msgid "Sunday"
+msgstr "Воскресенье"
+
+#: core/views/newfield.php:101
+#@ ARForms
+msgid "Monday"
+msgstr "Понедельник"
+
+#: core/views/newfield.php:101
+#@ ARForms
+msgid "Tuesday"
+msgstr "Вторник"
+
+#: core/views/newfield.php:104
+#@ ARForms
+msgid "Wednesday"
+msgstr "Среда"
+
+#: core/views/newfield.php:104
+#@ ARForms
+msgid "Thursday"
+msgstr "четверг"
+
+#: core/views/newfield.php:104
+#@ ARForms
+msgid "Friday"
+msgstr "Пятница"
+
+#: core/views/newfield.php:107
+#@ ARForms
+msgid "Saturday"
+msgstr "Суббота"
+
+#: core/views/newfield.php:113
+#@ ARForms
+msgid "Months"
+msgstr "Месяцы"
+
+#: core/views/newfield.php:116
+#@ ARForms
+msgid "January"
+msgstr "Январь"
+
+#: core/views/newfield.php:116
+#@ ARForms
+msgid "February"
+msgstr "Февраль"
+
+#: core/views/newfield.php:116
+#@ ARForms
+msgid "March"
+msgstr "Март"
+
+#: core/views/newfield.php:116
+#@ ARForms
+msgid "April"
+msgstr "Апрель"
+
+#: core/views/newfield.php:118
+#@ ARForms
+msgid "May"
+msgstr "Май"
+
+#: core/views/newfield.php:118
+#@ ARForms
+msgid "June"
+msgstr "Июнь"
+
+#: core/views/newfield.php:118
+#@ ARForms
+msgid "July"
+msgstr "Июль"
+
+#: core/views/newfield.php:118
+#@ ARForms
+msgid "August"
+msgstr "Август"
+
+#: core/views/newfield.php:118
+#@ ARForms
+msgid "September"
+msgstr "Сентябрь"
+
+#: core/views/newfield.php:120
+#@ ARForms
+msgid "October"
+msgstr "Октябрь"
+
+#: core/views/newfield.php:120
+#@ ARForms
+msgid "November"
+msgstr "Ноябрь"
+
+#: core/views/newfield.php:120
+#@ ARForms
+msgid "December"
+msgstr "Декабрь"
+
+#: core/views/newfield.php:135
+#@ ARForms
+msgid "Years"
+msgstr "Годы"
+
+#: core/helpers/arfieldhelper.php:5540
+#: core/views/newfield.php:140
+#: core/views/newfield.php:1046
+#@ ARForms
+msgid "Prefix"
+msgstr "Префикс"
+
+#: core/views/newfield.php:143
+#@ ARForms
+msgid "Mr"
+msgstr "г-н"
+
+#: core/views/newfield.php:143
+#@ ARForms
+msgid "Mrs"
+msgstr "г-жа"
+
+#: core/views/newfield.php:143
+#@ ARForms
+msgid "Ms"
+msgstr "мисиз"
+
+#: core/views/newfield.php:143
+#@ ARForms
+msgid "Miss"
+msgstr "мисиз"
+
+#: core/views/newfield.php:145
+#@ ARForms
+msgid "Sr"
+msgstr "сэр"
+
+#: core/views/newfield.php:155
+#@ ARForms
+msgid "Telephone Country Codes"
+msgstr "Телефонный коды страны"
+
+#: core/views/newfield.php:264
+#@ ARForms
+msgid "DELETE FIELD"
+msgstr "УДАЛИТЬ ПОЛЕ"
+
+#: core/views/newfield.php:265
+#@ ARForms
+msgid "Are you sure you want to delete this field?"
+msgstr "Вы уверены, что хотите удалить это поле?"
+
+#: core/views/newfield.php:282
+#@ ARForms
+msgid "Click to mark as"
+msgstr "Нажмите, чтобы пометить как"
+
+#: core/views/newfield.php:282
+#@ ARForms
+msgid "compulsory field."
+msgstr "обязательное поле."
+
+#: core/views/newfield.php:317
+#@ ARForms
+msgid "Duplicate"
+msgstr "Копировать"
+
+#: core/views/newfield.php:321
+#@ ARForms
+msgid "Move"
+msgstr "Переместить"
+
+#: core/views/newfield.php:325
+#@ ARForms
+msgid "Delete Field"
+msgstr "Удалить поле"
+
+#: core/views/newfield.php:437
+#@ ARForms
+msgid "options shown. Click \"Edit options\" Button to view all"
+msgstr "вариантов показано. Нажмите кнопку \"Изменить настройки \", чтобы просмотреть все варианты."
+
+#: core/views/newfield.php:439
+#: core/views/newfield.php:448
+#: core/views/newfield.php:550
+#: core/views/newfield.php:559
+#@ ARForms
+msgid "Edit Options"
+msgstr "Изменить настройки"
+
+#: core/views/newfield.php:469
+#: core/views/newfield.php:587
+#@ ARForms
+msgid "Add an Option"
+msgstr "Добавить вариант"
+
+#: core/views/newfield.php:474
+#: core/views/newfield.php:594
+#@ ARForms
+msgid "Preset Field Choices"
+msgstr "Диапазон выбора поля"
+
+#: core/views/newfield.php:488
+#: core/views/newfield.php:493
+#: core/views/newfield.php:607
+#: core/views/newfield.php:612
+#@ ARForms
+msgid "Select"
+msgstr "Выбрать"
+
+#: core/views/newfield.php:507
+#: core/views/newfield.php:623
+#@ ARForms
+msgid "Saving"
+msgstr "Схраняю"
+
+#: core/views/newfield.php:664
+#@ ARForms
+msgid "Please setup public and private key in Global Settings otherwise recaptcha will not appear"
+msgstr "Пожалуйста, установите открытый и закрытый ключи в глобальных параметрах иначе ReCaptcha не появится"
+
+#: core/views/newfield.php:312
+#: core/views/newfield.php:739
+#@ ARForms
+msgid "Field Options"
+msgstr "Настройки поля"
+
+#: core/views/newfield.php:739
+#@ ARForms
+msgid "Field ID"
+msgstr "ID поля"
+
+#: core/views/newfield.php:747
+#@ ARForms
+msgid "Basic Options"
+msgstr "Основные параметры"
+
+#: core/views/newfield.php:748
+#@ ARForms
+msgid "CSS Property"
+msgstr "CSS параметры"
+
+#: core/views/newfield.php:860
+#: core/views/newfield.php:864
+#@ ARForms
+msgid "Wrapper"
+msgstr "Подложка"
+
+#: core/views/newfield.php:865
+#: core/widgets/ARFwidgetForm.php:50
+#@ ARForms
+msgid "Label"
+msgstr "Ярлык"
+
+#: core/views/newfield.php:866
+#@ ARForms
+msgid "Input element"
+msgstr "Поле ввода"
+
+#: core/views/newfield.php:867
+#@ ARForms
+msgid "Description"
+msgstr "Описание"
+
+#: core/views/newfield.php:946
+#: core/views/newfield.php:947
+#: core/views/newfield.php:952
+#@ ARForms
+msgid "Hide"
+msgstr "Скрыть"
+
+#: core/views/newfield.php:959
+#@ ARForms
+msgid "this field if"
+msgstr "это поле, если"
+
+#: core/views/settings_form.php:125
+#@ ARForms
+msgid "General Settings"
+msgstr "Общие настройки"
+
+#: core/views/settings_form.php:134
+#@ ARForms
+msgid "Email Marketing Tools"
+msgstr "Email-рассылки"
+
+#: core/views/settings_form.php:237
+#: core/views/settings_form.php:276
+#@ ARForms
+msgid "Product License"
+msgstr "Данные лицензии"
+
+#: core/views/settings_form.php:246
+#@ ARForms
+msgid "License Status"
+msgstr "Состояние лицензии"
+
+#: core/views/settings_form.php:253
+#@ ARForms
+msgid "Deactivate License"
+msgstr "Отключение лицензии"
+
+#: core/views/settings_form.php:259
+#@ ARForms
+msgid "License Deactivated Successfully."
+msgstr "Лицензия успешно деактивирована."
+
+#: core/views/settings_form.php:280
+#@ ARForms
+msgid "A valid license key entitles you to support and enables automatic upgrades. Also you can remove Rebradning link only after activate your license. A license key only be used for one installation of WordPress at a time."
+msgstr "Действующий лицензионный ключ дает Вам доступ к поддержке пользователей и обновлениям продукта. Также после активации лицензии Вы можете удалить ссылку на разработчика. Один лицензионный ключ можно использовать только на одном сайте WordPress единовременно."
+
+#: core/views/settings_form.php:291
+#@ ARForms
+msgid "Customer Name"
+msgstr "Логин клиента"
+
+#: core/views/settings_form.php:311
+#@ ARForms
+msgid "Customer Email"
+msgstr "E-mail"
+
+#: core/views/settings_form.php:328
+#@ ARForms
+msgid "Purchase Code"
+msgstr "Код покупки"
+
+#: core/views/settings_form.php:347
+#@ ARForms
+msgid "Domain Name"
+msgstr "Домен"
+
+#: core/views/settings_form.php:373
+#@ ARForms
+msgid "License Activated Successfully."
+msgstr "Лицензия успешно активирована."
+
+#: core/views/settings_form.php:391
+#@ ARForms
+msgid "RECAPTCHA Configuration"
+msgstr "Настройка RECAPTCHA"
+
+#: core/views/settings_form.php:403
+#@ ARForms
+msgid "reCAPTCHA requires an API key, consisting of a \"public\" and a \"private\" key. You can sign up for a"
+msgstr "Для использования сервиса reCAPTCHA необходимы \"Открытый \" и \"Закрытый \" ключи API. Вы можете получить"
+
+#: core/views/settings_form.php:403
+#@ ARForms
+msgid "free reCAPTCHA key"
+msgstr "бесплатный ключ reCAPTCHA здесь"
+
+#: core/views/settings_form.php:419
+#@ ARForms
+msgid "Public Key"
+msgstr "Открытый ключ"
+
+#: core/views/settings_form.php:437
+#@ ARForms
+msgid "Private Key"
+msgstr "Закрытый ключ"
+
+#: core/views/settings_form.php:461
+#@ ARForms
+msgid "reCAPTCHA Theme"
+msgstr "Тема оформления"
+
+#: core/helpers/arfieldhelper.php:4786
+#: core/views/settings_form.php:472
+#@ ARForms
+msgid "Red"
+msgstr "Красная"
+
+#: core/views/settings_form.php:472
+#@ ARForms
+msgid "White"
+msgstr "Белая"
+
+#: core/views/settings_form.php:472
+#@ ARForms
+msgid "Black Glass"
+msgstr "Чёрное стекло"
+
+#: core/views/settings_form.php:472
+#@ ARForms
+msgid "Clean"
+msgstr "Чистая"
+
+#: core/views/settings_form.php:492
+#@ ARForms
+msgid "reCAPTCHA Language"
+msgstr "Язык reCAPTCHA"
+
+#: core/views/settings_form.php:502
+#@ ARForms
+msgid "English"
+msgstr "Английский"
+
+#: core/views/settings_form.php:502
+#@ ARForms
+msgid "Portuguese"
+msgstr "Португальский"
+
+#: core/views/settings_form.php:535
+#@ ARForms
+msgid "Default Messages On Form"
+msgstr "Стандартное сообщения при отправке формы"
+
+#: core/views/settings_form.php:540
+#@ ARForms
+msgid "Blank Field"
+msgstr "Поле не было заполено"
+
+#: core/views/settings_form.php:545
+#@ ARForms
+msgid "Message will be displayed when required fields is left blank."
+msgstr "Сообщение будет отображаться, когда обязательные поля не были заполнены."
+
+#: core/views/settings_form.php:561
+#@ ARForms
+msgid "Incorrect Field"
+msgstr "Неверный формат ввода"
+
+#: core/views/settings_form.php:568
+#@ ARForms
+msgid "Message will be displayed when incorrect data is inserted of missing."
+msgstr "Сообщение будет отображаться, когда введены неправильные данные или они отсутсвуют."
+
+#: core/views/settings_form.php:586
+#: core/views/settings_form.php:803
+#@ ARForms
+msgid "Success Message"
+msgstr "Сообщение об успешной отправке"
+
+#: core/views/settings_form.php:592
+#@ ARForms
+msgid "Default message displayed after form is submitted."
+msgstr "Стандартное сообщение, которое отображается в случае, когда форма успешно отправлена."
+
+#: core/views/settings_form.php:610
+#@ ARForms
+msgid "Submission Failed Message"
+msgstr "Сообщение о сбое отправки"
+
+#: core/views/settings_form.php:616
+#@ ARForms
+msgid "Message will be displayed when form is submitted but Duplicate entry exists."
+msgstr "Сообщение будет отображаться при попытке отправки формы дубликат уникальных данных которой уже существует в базе."
+
+#: core/views/settings_form.php:634
+#@ ARForms
+msgid "Default Submit Button"
+msgstr "Стандартная кнопка отправки формы"
+
+#: core/views/settings_form.php:653
+#@ ARForms
+msgid "Email Settings"
+msgstr "Настройки электронной почты"
+
+#: core/views/settings_form.php:691
+#@ ARForms
+msgid "Send Email SMTP"
+msgstr "Отправка email через SMTP"
+
+#: core/views/settings_form.php:693
+#@ ARForms
+msgid "Wordpress Server"
+msgstr "Сервер Wordpress"
+
+#: core/views/settings_form.php:694
+#@ ARForms
+msgid "SMTP Server"
+msgstr "SMTP сервер"
+
+#: core/views/settings_form.php:699
+#@ ARForms
+msgid "SMTP Host"
+msgstr "SMTP хост"
+
+#: core/views/settings_form.php:706
+#@ ARForms
+msgid "SMTP Port"
+msgstr "SMTP порт"
+
+#: core/views/settings_form.php:713
+#@ ARForms
+msgid "SMTP Username"
+msgstr "Логин SMTP"
+
+#: core/views/settings_form.php:720
+#@ ARForms
+msgid "SMTP Encription"
+msgstr "SMTP шифрование"
+
+#: core/views/settings_form.php:722
+#@ ARForms
+msgid "None"
+msgstr "Отсутсвует"
+
+#: core/views/settings_form.php:723
+#@ ARForms
+msgid "SSL"
+msgstr "SSL"
+
+#: core/views/settings_form.php:724
+#@ ARForms
+msgid "TLS"
+msgstr "TLS"
+
+#: core/views/settings_form.php:729
+#@ ARForms
+msgid "SMTP Password"
+msgstr "Пароль SMTP"
+
+#: core/views/settings_form.php:742
+#@ ARForms
+msgid "Other Settings"
+msgstr "Другие настройки"
+
+#: core/views/settings_form.php:751
+#@ ARForms
+msgid "Rebranding"
+msgstr "Ребрендинг"
+
+#: core/views/settings_form.php:757
+#@ ARForms
+msgid "Remove rebranding link"
+msgstr "Удалить ссылку брендинга"
+
+#: core/views/settings_form.php:786
+#@ ARForms
+msgid "Form Submission Method"
+msgstr "Метод отправки формы"
+
+#: core/views/settings_form.php:792
+#@ ARForms
+msgid "Ajax based submission"
+msgstr "С использованием Ajax"
+
+#: core/views/settings_form.php:793
+#@ ARForms
+msgid "Normal submission"
+msgstr "Обычный формат"
+
+#: core/views/settings_form.php:827
+#@ ARForms
+msgid "Form Global CSS"
+msgstr "Общий CSS формы"
+
+#: core/views/settings_form.php:856
+#: core/views/settings_form.php:1004
+#: core/views/settings_form.php:1092
+#: core/views/settings_form.php:1188
+#: core/views/settings_form.php:1296
+#@ ARForms
+msgid "Using API"
+msgstr "Использование API"
+
+#: core/views/settings_form.php:857
+#: core/views/settings_form.php:1005
+#: core/views/settings_form.php:1093
+#: core/views/settings_form.php:1189
+#: core/views/settings_form.php:1297
+#: core/views/settings_form.php:1391
+#: core/views/settings_form.php:1426
+#@ ARForms
+msgid "Using Web-form"
+msgstr "Использование Web-формы"
+
+#: core/views/settings_form.php:865
+#@ ARForms
+msgid "Enter consumer key"
+msgstr "Введите открытый ключ пользователя"
+
+#: core/views/settings_form.php:874
+#@ ARForms
+msgid "Enter consumer secret"
+msgstr "Введите закрытый ключ пользователя"
+
+#: core/views/settings_form.php:891
+#@ ARForms
+msgid "Webform code from Aweber"
+msgstr "Код формы из учётной записи Aweber"
+
+#: core/views/settings_form.php:909
+#@ ARForms
+msgid "AWEBER LIST"
+msgstr "Aweber СПИСОК"
+
+#: core/views/settings_form.php:968
+#: core/views/settings_form.php:1049
+#: core/views/settings_form.php:1143
+#: core/views/settings_form.php:1252
+#: core/views/settings_form.php:1351
+#@ ARForms
+msgid "Refresh List"
+msgstr "Обновить список"
+
+#: core/views/settings_form.php:970
+#: core/views/settings_form.php:1051
+#: core/views/settings_form.php:1145
+#: core/views/settings_form.php:1254
+#: core/views/settings_form.php:1353
+#@ ARForms
+msgid "Delete Configuration"
+msgstr "Удалить Конфигурация"
+
+#: core/views/settings_form.php:1012
+#: core/views/settings_form.php:1101
+#: core/views/settings_form.php:1304
+#@ ARForms
+msgid "API Key"
+msgstr "API ключ"
+
+#: core/views/settings_form.php:1015
+#: core/views/settings_form.php:1106
+#: core/views/settings_form.php:1219
+#: core/views/settings_form.php:1317
+#@ ARForms
+msgid "Verify"
+msgstr "проверить"
+
+#: core/views/settings_form.php:1017
+#: core/views/settings_form.php:1108
+#: core/views/settings_form.php:1220
+#: core/views/settings_form.php:1319
+#@ ARForms
+msgid "Verified"
+msgstr "Подтверждён"
+
+#: core/views/settings_form.php:1018
+#: core/views/settings_form.php:1109
+#: core/views/settings_form.php:1221
+#: core/views/settings_form.php:1320
+#@ ARForms
+msgid "Not Verified"
+msgstr "Не подтверждён"
+
+#: core/views/settings_form.php:1027
+#@ ARForms
+msgid "List ID"
+msgstr "ID списка"
+
+#: core/views/settings_form.php:1061
+#@ ARForms
+msgid "Webform code from Mailchimp"
+msgstr "Код формы из учётной записи Mailchimp"
+
+#: core/views/settings_form.php:1120
+#@ ARForms
+msgid "Campaign Name"
+msgstr "Название кампании"
+
+#: core/views/settings_form.php:1156
+#@ ARForms
+msgid "Webform code from Getresponse"
+msgstr "Код формы из учётной записи Getresponse"
+
+#: core/views/settings_form.php:1196
+#@ ARForms
+msgid "APP ID"
+msgstr "ID приложения"
+
+#: core/views/settings_form.php:1206
+#@ ARForms
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: core/views/settings_form.php:1230
+#: core/views/settings_form.php:1328
+#@ ARForms
+msgid "List Name"
+msgstr "Имя списка"
+
+#: core/views/settings_form.php:1265
+#@ ARForms
+msgid "Webform code from Icontact"
+msgstr "Код формы из учётной записи Icontact"
+
+#: core/views/settings_form.php:1313
+#@ ARForms
+msgid "Access Token"
+msgstr "Маркер доступа"
+
+#: core/views/settings_form.php:1363
+#@ ARForms
+msgid "Webform code from Constant Contact"
+msgstr "Код формы из учётной записи Constant Contact"
+
+#: core/views/settings_form.php:1398
+#@ ARForms
+msgid "Webform code from GVO Campaign"
+msgstr "Код формы из учётной записи GVO Campaign"
+
+#: core/views/settings_form.php:1433
+#@ ARForms
+msgid "Webform code from eBizac"
+msgstr "Код формы из учётной записи eBizac"
+
+#: core/views/settings_form.php:1485
+#@ ARForms
+msgid "Save Changes"
+msgstr "Сохранить"
+
+#: core/views/view_records.php:676
+#@ ARForms
+msgid "Entries List"
+msgstr "Список записей"
+
+#: core/views/view_records.php:677
+#@ ARForms
+msgid "Analytics"
+msgstr "Аналитика"
+
+#: core/views/view_records.php:928
+#@ ARForms
+msgid "All Forms"
+msgstr "всех форм"
+
+#: core/views/view_records.php:941
+#: core/views/view_records.php:942
+#@ ARForms
+msgid "Yearly"
+msgstr "Годы"
+
+#: core/views/view_records.php:946
+#: core/views/view_records.php:947
+#@ ARForms
+msgid "Monthly"
+msgstr "Месяцы"
+
+#: core/views/view_records.php:951
+#: core/views/view_records.php:952
+#@ ARForms
+msgid "Daily"
+msgstr "Дни"
+
+#: core/views/view_records.php:1022
+#: core/views/view_records.php:1033
+#@ ARForms
+msgid "DELETE ENTRY"
+msgstr "УДАЛИТЬ ЗАПИСЬ"
+
+#: core/views/view_records.php:1023
+#@ ARForms
+msgid "Are you sure you want to delete this entry?"
+msgstr "Вы уверены, что хотите удалить эту запись?"
+
+#: core/views/view_records.php:1034
+#@ ARForms
+msgid "Are you sure you want to delete this entries?"
+msgstr "Вы уверены, что хотите удалить эти записи?"
+
+#: core/widgets/ARFwidgetForm.php:14
+#@ ARForms
+msgid "Display Form of ARForms"
+msgstr "Форма отображения ARForms"
+
+#: core/widgets/ARFwidgetForm.php:15
+#@ ARForms
+msgid "ARForms Form"
+msgstr "ARForms форма"
+
+#: core/widgets/ARFwidgetForm.php:35
+#@ ARForms
+msgid "Title"
+msgstr "название"
+
+#: core/widgets/ARFwidgetForm.php:38
+#@ ARForms
+msgid "Form"
+msgstr "форма"
+
+#: core/widgets/ARFwidgetForm.php:44
+#@ ARForms
+msgid "Form Type"
+msgstr "Тип формы"
+
+#: core/widgets/ARFwidgetForm.php:54
+#@ ARForms
+msgid "Link Type ?"
+msgstr "Тип Ссылка?"
+
+#: core/helpers/arfieldhelper.php:3707
+#@ ARForms
+msgid "Field Size ( Characters) "
+msgstr "Размер поля (символов)"
+
+#: core/helpers/arfieldhelper.php:3726
+#@ ARForms
+msgid "Maximum"
+msgstr "максимальная"
+
+#: core/helpers/arfieldhelper.php:3729
+#@ ARForms
+msgid "Minimum"
+msgstr "минимум"
+
+#: core/helpers/arfieldhelper.php:4112
+#@ ARForms
+msgid "(Give 0 (Zero) value for unlimited maximum range)"
+msgstr "(Дайте 0 значение (ноль) для неограниченного круга максимальной)"
+
+#: core/helpers/arfieldhelper.php:5364
+#@ ARForms
+msgid "Add File"
+msgstr "Добавить файл"
+
+#: core/helpers/arfieldhelper.php:5495
+#@ ARForms
+msgid "Minimum Length"
+msgstr "Минимальная длина"
+
+#: core/helpers/arfieldhelper.php:5506
+#@ ARForms
+msgid "Message for minimum length"
+msgstr "Сообщение для минимальной длины"
+
+#: core/views/edit_form.php:73
+#@ ARForms
+msgid "Choose File"
+msgstr "Выберите файл"
+
+#: core/vc/class_vc_extend.php:628
+#: core/views/insert_form_popup.php:657
+#@ ARForms
+msgid "Caption :"
+msgstr "Надпись:"
+
+#: core/vc/class_vc_extend.php:699
+#: core/views/insert_form_popup.php:716
+#@ ARForms
+msgid "Size :"
+msgstr "Размер:"
+
+#: core/vc/class_vc_extend.php:708
+#: core/views/insert_form_popup.php:726
+#@ ARForms
+msgid "Button angle :"
+msgstr "Угол Кнопка:"
+
+#: core/widgets/ARFwidgetForm.php:106
+#@ ARForms
+msgid "Button Angle"
+msgstr "Угол Кнопка"
+
+#: core/controllers/arformcontroller.php:3247
+#: core/controllers/arformcontroller.php:3248
+#: core/views/addcontrols.php:1095
+#: core/views/addcontrols.php:1096
+#@ ARForms
+msgid "check_weight_form_title"
+msgstr "check_weight_form_title"
+
+#: core/controllers/arformcontroller.php:3586
+#: core/views/addcontrols.php:1433
+#@ ARForms
+msgid "Window Opacity"
+msgstr "окно Непрозрачность"
+
+#: core/controllers/arformcontroller.php:3899
+#: core/controllers/arformcontroller.php:3900
+#: core/views/addcontrols.php:1744
+#: core/views/addcontrols.php:1745
+#@ ARForms
+msgid "weight"
+msgstr "вес"
+
+#: core/controllers/arformcontroller.php:4274
+#: core/controllers/arformcontroller.php:4275
+#: core/views/addcontrols.php:2119
+#: core/views/addcontrols.php:2120
+#@ ARForms
+msgid "check_weight"
+msgstr "check_weight"
+
+#: core/controllers/arformcontroller.php:5139
+#: core/views/addcontrols.php:2985
+#@ ARForms
+msgid "Prefix & Suffix Style"
+msgstr "Приставка и суффикс Стиль"
+
+#: core/controllers/arformcontroller.php:5157
+#: core/views/addcontrols.php:3003
+#@ ARForms
+msgid "Icon Color"
+msgstr "Иконка Цвет"
+
+#: core/controllers/arformcontroller.php:5330
+#: core/controllers/arformcontroller.php:5331
+#: core/views/addcontrols.php:3176
+#: core/views/addcontrols.php:3177
+#@ ARForms
+msgid "arfsubmitweightsetting"
+msgstr "arfsubmitweightsetting"
+
+#: core/controllers/arformcontroller.php:5649
+#: core/views/addcontrols.php:3495
+#@ ARForms
+msgid "Background Hover Image"
+msgstr "Фон Hover изображения"
+
+#: core/controllers/arsettingcontroller.php:129
+#@ ARForms
+msgid "Addons"
+msgstr "плагины"
+
+#: core/helpers/arfieldhelper.php:1277
+#: core/helpers/arfieldhelper.php:5222
+#: core/helpers/arfieldhelper.php:5229
+#@ ARForms
+msgid "Confirm Email"
+msgstr "Подтвердить Почтовый Ящик"
+
+#: core/helpers/arfieldhelper.php:1277
+#: core/helpers/arfieldhelper.php:5247
+#@ ARForms
+msgid "Confirm Email does not match with email"
+msgstr "Подтвердите E-mail не соответствует с электронной почтой"
+
+#: core/helpers/arfieldhelper.php:1289
+#@ ARForms
+msgid "Number is out of range"
+msgstr "Количество вне диапазона"
+
+#: core/helpers/arfieldhelper.php:4494
+#: core/helpers/arfieldhelper.php:4495
+#@ ARForms
+msgid "arf_divider_font_style"
+msgstr "arf_divider_font_style"
+
+#: core/helpers/arfieldhelper.php:4784
+#@ ARForms
+msgid "Yellow"
+msgstr "желтый"
+
+#: core/helpers/arfieldhelper.php:4787
+#@ ARForms
+msgid "Orange"
+msgstr "оранжевый"
+
+#: core/helpers/arfieldhelper.php:4788
+#@ ARForms
+msgid "Blue"
+msgstr "синий"
+
+#: core/helpers/arfieldhelper.php:4789
+#@ ARForms
+msgid "Green"
+msgstr "зеленый"
+
+#: core/helpers/arfieldhelper.php:4790
+#@ ARForms
+msgid "Black"
+msgstr "черный"
+
+#: core/helpers/arfieldhelper.php:4847
+#@ ARForms
+msgid "Big"
+msgstr "большой"
+
+#: core/helpers/arfieldhelper.php:4849
+#@ ARForms
+msgid "Small"
+msgstr "небольшой"
+
+#: core/helpers/arfieldhelper.php:5232
+#@ ARForms
+msgid "Confirm Email Label"
+msgstr "Подтвердите email этикетки"
+
+#: core/helpers/arfieldhelper.php:5250
+#@ ARForms
+msgid "Message for invalid Email"
+msgstr "Сообщение для Неверное имя"
+
+#: core/helpers/arfieldhelper.php:5266
+#@ ARForms
+msgid "Confirm Email Placeholder"
+msgstr "Подтвердите email Placeholder"
+
+#: core/helpers/arfieldhelper.php:5478
+#@ ARForms
+msgid "Confirm Password Placeholder"
+msgstr "Подтвердите Пароль Placeholder"
+
+#: core/helpers/arfieldhelper.php:5516
+#@ ARForms
+msgid "Add Icon (Bootstrap Style)"
+msgstr "Добавить иконку (Bootstrap Style)"
+
+#: core/helpers/arfieldhelper.php:5528
+#: core/helpers/arfieldhelper.php:5552
+#: core/views/arf_font_awesome.php:1
+#: core/views/arf_font_awesome.php:4
+#@ ARForms
+msgid "No Icon"
+msgstr "Нет иконки"
+
+#: core/helpers/arfieldhelper.php:5533
+#: core/helpers/arfieldhelper.php:5558
+#@ ARForms
+msgid "Change Icon"
+msgstr "Изменить Иконка"
+
+#: core/helpers/arfieldhelper.php:5564
+#: core/views/newfield.php:1047
+#@ ARForms
+msgid "Suffix"
+msgstr "суффикс"
+
+#: core/helpers/arformhelper.php:218
+#: core/helpers/arformhelper.php:547
+#@ ARForms
+msgid "[ARF_form_all_values]"
+msgstr "[ARF_form_all_values]"
+
+#: core/vc/class_vc_extend.php:77
+#@ ARForms
+msgid "ARForms"
+msgstr "ARForms"
+
+#: core/vc/class_vc_extend.php:78
+#@ ARForms
+msgid "Exclusive Wordpress Form Builder Plugin"
+msgstr "Эксклюзивный Wordpress Form Builder Plugin"
+
+#: core/vc/class_vc_extend.php:93
+#: core/vc/class_vc_extend.php:101
+#: core/vc/class_vc_extend.php:109
+#: core/vc/class_vc_extend.php:117
+#: core/vc/class_vc_extend.php:125
+#: core/vc/class_vc_extend.php:133
+#: core/vc/class_vc_extend.php:141
+#: core/vc/class_vc_extend.php:149
+#: core/vc/class_vc_extend.php:157
+#: core/vc/class_vc_extend.php:165
+#@ ARForms
+msgid "&nbsp;"
+msgstr "&nbsp;"
+
+#: core/views/addon_lists.php:87
+#@ ARForms
+msgid "ARForms Add-Ons"
+msgstr "ARForms Дополнения"
+
+#: core/views/arf_font_awesome.php:7
+#@ ARForms
+msgid "File Type Icons"
+msgstr "Типов файлов Значки"
+
+#: core/views/arf_font_awesome.php:26
+#@ ARForms
+msgid "Spinner Icons"
+msgstr "Spinner Иконки"
+
+#: core/views/arf_font_awesome.php:35
+#@ ARForms
+msgid "Form Control Icons"
+msgstr "Форма Символы управления"
+
+#: core/views/arf_font_awesome.php:50
+#@ ARForms
+msgid "Payment Icons"
+msgstr "Иконки оплаты"
+
+#: core/views/arf_font_awesome.php:64
+#@ ARForms
+msgid "Chart Icons"
+msgstr "Иконки дерево"
+
+#: core/views/arf_font_awesome.php:73
+#@ ARForms
+msgid "Currency Icons"
+msgstr "Валюта Иконки"
+
+#: core/views/arf_font_awesome.php:89
+#@ ARForms
+msgid "Text Editor Icons"
+msgstr "Иконки Текстовый редактор"
+
+#: core/views/arf_font_awesome.php:133
+#@ ARForms
+msgid "Directional icons"
+msgstr "Направленные иконки"
+
+#: core/views/arf_font_awesome.php:186
+#@ ARForms
+msgid "Video Player icons"
+msgstr "Видео игрока иконки"
+
+#: core/views/arf_font_awesome.php:206
+#@ ARForms
+msgid "Brand Icons"
+msgstr "Марка Иконки"
+
+#: core/views/arf_font_awesome.php:309
+#@ ARForms
+msgid "Medical icons"
+msgstr "Медицинские иконки"
+
+#: core/views/arf_font_awesome.php:322
+#@ ARForms
+msgid "Transportation Icons"
+msgstr "Транспортные иконки"
+
+#: core/views/arf_font_awesome.php:341
+#@ ARForms
+msgid "Gender Icons"
+msgstr "Пол Иконки"
+
+#: core/views/arf_font_awesome.php:359
+#@ ARForms
+msgid "General icons"
+msgstr "Общие иконки"
+
+#: core/views/edit.php:273
+#: core/views/edit.php:395
+#: core/views/edit.php:715
+#@ ARForms
+msgid "Ajax error while saving form"
+msgstr "Ajax ошибка при сохранении формы"
+
+#: core/views/edit.php:1405
+#: core/views/edit.php:1685
+#@ ARForms
+msgid "This will be replaced with form's all fields & labels."
+msgstr "Это будет заменена формы всех областях и этикеток."
+
+#: core/views/edit.php:1406
+#: core/views/edit.php:1686
+#@ ARForms
+msgid "This will be replaced with entry referer."
+msgstr "Это будет заменена входа реферера."
+
+#: core/views/edit.php:1407
+#: core/views/edit.php:1687
+#@ ARForms
+msgid "This will be replaced with entry added time."
+msgstr "Это будет заменена входа добавленного времени."
+
+#: core/views/edit.php:1408
+#: core/views/edit.php:1688
+#@ ARForms
+msgid "This will be replaced with IP Address."
+msgstr "Это будет заменена IP-адрес."
+
+#: core/views/edit.php:1409
+#: core/views/edit.php:1689
+#@ ARForms
+msgid "This will be replaced with user browser name."
+msgstr "Это будет заменено именем пользователя браузера."
+
+#: core/views/edit.php:1410
+#: core/views/edit.php:1690
+#@ ARForms
+msgid "This will be replaced with Entry ID."
+msgstr "Это будет заменена на вход ID."
+
+#: core/views/edit.php:1660
+#@ ARForms
+msgid "Admin Message"
+msgstr "Админ Сообщение"
+
+#: core/views/edit.php:3040
+#@ ARForms
+msgid "( Click on cloud buttons given below to copy your relevant css properties. Apply properties directly. Do not define class )"
+msgstr "(Нажмите на облачных кнопок, приведенных ниже, чтобы скопировать соответствующие свойства CSS. Непосредственно применять свойства. Не определяйте класс)"
+
+#: core/views/edit.php:3063
+#: core/views/edit.php:3179
+#@ ARForms
+msgid "Link (Popup)"
+msgstr "Ссылка (Popup)"
+
+#: core/views/edit.php:3064
+#: core/views/edit.php:3189
+#@ ARForms
+msgid "Button (Popup)"
+msgstr "Кнопка (Popup)"
+
+#: core/views/edit.php:3065
+#: core/views/edit.php:3184
+#@ ARForms
+msgid "Link Hover (Popup)"
+msgstr "Ссылка Hover (Popup)"
+
+#: core/views/edit.php:3066
+#: core/views/edit.php:3194
+#@ ARForms
+msgid "Button Hover (Popup)"
+msgstr "Кнопка Hover (Popup)"
+
+#: core/views/edit.php:3472
+#@ ARForms
+msgid "Choose Icon"
+msgstr "нажмите на значок"
+
+#: core/views/footer.php:15
+#@ ARForms
+msgid "Page Label"
+msgstr "Page этикетки"
+
+#: core/views/footer.php:16
+#@ ARForms
+msgid "Second Page Label"
+msgstr "Вторая страница этикетки"
+
+#: core/views/footer.php:17
+#@ ARForms
+msgid "First"
+msgstr "первый"
+
+#: core/views/footer.php:17
+#@ ARForms
+msgid "Second"
+msgstr "второй"
+
+#: core/views/footer.php:18
+#@ ARForms
+msgid "Third"
+msgstr "Третья"
+
+#: core/views/footer.php:18
+#@ ARForms
+msgid "Fourth"
+msgstr "четвертый"
+
+#: core/views/footer.php:19
+#@ ARForms
+msgid "Fifth"
+msgstr "пятый"
+
+#: core/views/footer.php:19
+#@ ARForms
+msgid "Sixth"
+msgstr "шестой"
+
+#: core/views/footer.php:20
+#@ ARForms
+msgid "Seventh"
+msgstr "седьмой"
+
+#: core/views/footer.php:20
+#@ ARForms
+msgid "Eighth"
+msgstr "восьмой"
+
+#: core/views/footer.php:21
+#@ ARForms
+msgid "Ninth"
+msgstr "девятый"
+
+#: core/views/footer.php:21
+#@ ARForms
+msgid "Tenth"
+msgstr "десятый"
+
+#: core/views/footer.php:23
+#@ ARForms
+msgid "Eleventh"
+msgstr "одиннадцатый"
+
+#: core/views/footer.php:23
+#@ ARForms
+msgid "Twelfth"
+msgstr "двенадцатый"
+
+#: core/views/footer.php:24
+#@ ARForms
+msgid "Thirteenth"
+msgstr "тринадцатый"
+
+#: core/views/footer.php:24
+#@ ARForms
+msgid "Fourteenth"
+msgstr "четырнадцатый"
+
+#: core/views/footer.php:25
+#@ ARForms
+msgid "Fifteenth"
+msgstr "пятнадцатый"
+
+#: core/views/footer.php:25
+#@ ARForms
+msgid "Sixteenth"
+msgstr "шестнадцатый"
+
+#: core/views/footer.php:26
+#@ ARForms
+msgid "Seventeenth"
+msgstr "семнадцатый"
+
+#: core/views/footer.php:26
+#@ ARForms
+msgid "Eighteenth"
+msgstr "восемнадцатый"
+
+#: core/views/footer.php:27
+#@ ARForms
+msgid "Nineteenth"
+msgstr "девятнадцатый"
+
+#: core/views/footer.php:27
+#@ ARForms
+msgid "Twentieth"
+msgstr "двадцатый"
+
+#: core/views/footer.php:29
+#@ ARForms
+msgid "Twenty First"
+msgstr "Двадцать первый"
+
+#: core/views/footer.php:29
+#@ ARForms
+msgid "Twenty Second"
+msgstr "Двадцать второе"
+
+#: core/views/footer.php:30
+#@ ARForms
+msgid "Twenty Third"
+msgstr "Двадцать третий"
+
+#: core/views/footer.php:30
+#@ ARForms
+msgid "Twenty Fourth"
+msgstr "Двадцать четвертая"
+
+#: core/views/footer.php:31
+#@ ARForms
+msgid "Twenty Fifth"
+msgstr "Двадцать Пятый"
+
+#: core/views/footer.php:31
+#@ ARForms
+msgid "Twenty Sixth"
+msgstr "Двадцать шестая"
+
+#: core/views/footer.php:32
+#@ ARForms
+msgid "Twenty Seventh"
+msgstr "Двадцать седьмого"
+
+#: core/views/footer.php:32
+#@ ARForms
+msgid "Twenty Eighth"
+msgstr "Двадцать восьмая"
+
+#: core/views/footer.php:33
+#@ ARForms
+msgid "Twenty Ninth"
+msgstr "Двадцать девятого"
+
+#: core/views/footer.php:33
+#@ ARForms
+msgid "Thirtieth"
+msgstr "тридцатый"
+
+#: core/views/footer.php:35
+#@ ARForms
+msgid "Thirty First"
+msgstr "Тридцать Первая"
+
+#: core/views/footer.php:35
+#@ ARForms
+msgid "Thirty Second"
+msgstr "Тридцать второй"
+
+#: core/views/footer.php:36
+#@ ARForms
+msgid "Thirty Third"
+msgstr "Тридцать третий"
+
+#: core/views/footer.php:36
+#@ ARForms
+msgid "Thirty Fourth"
+msgstr "Тридцать четвертая"
+
+#: core/views/footer.php:37
+#@ ARForms
+msgid "Thirty Fifth"
+msgstr "Тридцать Пятая"
+
+#: core/views/footer.php:37
+#@ ARForms
+msgid "Thirty Sixth"
+msgstr "Тридцать Шестая"
+
+#: core/views/footer.php:38
+#@ ARForms
+msgid "Thirty Seventh"
+msgstr "Тридцать Седьмой"
+
+#: core/views/footer.php:38
+#@ ARForms
+msgid "Thirty Eighth"
+msgstr "Тридцать восьмая"
+
+#: core/views/footer.php:39
+#@ ARForms
+msgid "Thirty Ninth"
+msgstr "Тридцать девятый"
+
+#: core/views/footer.php:39
+#@ ARForms
+msgid "Fortieth"
+msgstr "сороковой"
+
+#: core/views/footer.php:41
+#@ ARForms
+msgid "Forty First"
+msgstr "Сорок первый"
+
+#: core/views/footer.php:41
+#@ ARForms
+msgid "Forty Second"
+msgstr "Сорок второй"
+
+#: core/views/footer.php:42
+#@ ARForms
+msgid "Forty Third"
+msgstr "Сорок третий"
+
+#: core/views/footer.php:42
+#@ ARForms
+msgid "Forty Fourth"
+msgstr "Сорок четвертая"
+
+#: core/views/footer.php:43
+#@ ARForms
+msgid "Forty Fifth"
+msgstr "Сорок Пятый"
+
+#: core/views/footer.php:43
+#@ ARForms
+msgid "Forty Sixth"
+msgstr "Сорок Шестой"
+
+#: core/views/footer.php:44
+#@ ARForms
+msgid "Forty Seventh"
+msgstr "Сорок Седьмой"
+
+#: core/views/footer.php:44
+#@ ARForms
+msgid "Forty Eighth"
+msgstr "Сорок Восьмой"
+
+#: core/views/footer.php:45
+#@ ARForms
+msgid "Forty Ninth"
+msgstr "Сорок Девятый"
+
+#: core/views/footer.php:45
+#@ ARForms
+msgid "Fiftieth"
+msgstr "пятидесятый"
+
+#: core/views/import_export_form.php:39
+#@ ARForms
+msgid "Please Enable Zip extension on your server."
+msgstr "Пожалуйста Включить почтовый расширение на вашем сервере."
+
+#: core/views/newfield.php:849
+#@ ARForms
+msgid "CSS Custom Property"
+msgstr "CSS свойство пользователя"
+
+#: core/views/newfield.php:875
+#: core/views/newfield.php:876
+#@ ARForms
+msgid "Icon"
+msgstr "значок"
+
+#: core/views/newfield.php:922
+#@ ARForms
+msgid "Set conditional logic to show / hide this field by applying rules which will depend on the user's input. You can add as many conditions as you needed to match your criteria."
+msgstr "Установите условную логику, чтобы показать / скрыть это поле, применяя правила, которые будут зависеть от ввода пользователя. Вы можете добавить столько условий, вам нужно, чтобы соответствовать вашим критериям."
+
+#: core/views/newfield.php:1039
+#@ ARForms
+msgid "Select Prefix / Suffix"
+msgstr "Выберите префикс / суффикс"
+
+#: core/views/settings_form.php:255
+#@ ARForms
+msgid "Remove License"
+msgstr "Удалить лицензии"
+
+#: core/views/settings_form.php:258
+#@ ARForms
+msgid "There is some error while processing your request"
+msgstr "Существует некоторые ошибки при обработке вашего запроса"
+
+#: core/views/settings_form.php:370
+#@ ARForms
+msgid "Activate License"
+msgstr "Активируйте лицензию"
+
+#: core/controllers/arformcontroller.php:3630
+#: core/views/addcontrols.php:1477
+#@ ARForms
+msgid "Section Padding"
+msgstr "Раздел Заполнение"
+
+#: core/controllers/arsettingcontroller.php:367
+#@ ARForms
+msgid "Add-On listing is currently unavailable. Please try again later."
+msgstr "Add-On перечисление в настоящее время недоступен. Пожалуйста, повторите попытку позже."
+
+#: core/helpers/arfieldhelper.php:4548
+#@ ARForms
+msgid "Inherit"
+msgstr "наследовать"
+
+#: core/views/addon_lists.php:88
+#@ ARForms
+msgid "Add more features to ARForms using Add-Ons"
+msgstr "Добавить больше возможностей для ARForms с использованием Дополнения"
+
+#: core/views/newfield.php:850
+#@ ARForms
+msgid "Click on cloud buttons given below to copy your relevant css properties. Apply properties directly. Do not define class."
+msgstr "Нажмите на облачных кнопок, приведенных ниже, чтобы скопировать соответствующие свойства CSS. Применить свойства непосредственно. Не определяйте класс."
+
+#: core/views/settings_form.php:770
+#@ ARForms
+msgid "Affiliate Code"
+msgstr "Партнерская Код"
+
+#: core/vc/class_vc_extend.php:673
+#: core/views/insert_form_popup.php:690
+#@ ARForms
+msgid "Colors :"
+msgstr "Цвета:"
+
+#: core/views/settings_form.php:814
+#@ ARForms
+msgid "Hide success message after"
+msgstr "Скрыть успеха сообщение после"
+
+#: core/views/settings_form.php:817
+#@ ARForms
+msgid "Note : 0 ( zero ) means it will never hide success message"
+msgstr "Примечание: 0 (ноль) означает, что никогда не будет скрывать успеха сообщение"
+

@@ -1,0 +1,6928 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ARForms v2.7.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-05-09 11:11:06+0000\n"
+"Last-Translator: admin <testrepute123@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: core/controllers/arfieldcontroller.php:794
+#@ ARForms
+msgid "Option Label"
+msgstr "オプションラベル"
+
+#: core/controllers/arfieldcontroller.php:797
+#@ ARForms
+msgid "Saved Value"
+msgstr "保存した値"
+
+#: core/controllers/arformcontroller.php:135
+#: core/controllers/arrecordcontroller.php:961
+#: core/controllers/arrecordcontroller.php:2615
+#: core/controllers/arrecordcontroller.php:2726
+#@ ARForms
+msgid "Please select one or more records."
+msgstr "1つまたは複数のレコードを選択してください。"
+
+#: core/controllers/arformcontroller.php:171
+#: core/controllers/arformcontroller.php:2578
+#@ ARForms
+msgid "Record is deleted successfully."
+msgstr "レコードが正常に削除されます。"
+
+#: core/controllers/arformcontroller.php:219
+#@ ARForms
+msgid "Forms"
+msgstr "フォーム"
+
+#: core/controllers/arformcontroller.php:219
+#: core/views/list.php:440
+#@ ARForms
+msgid "Manage Forms"
+msgstr "フォームの管理"
+
+#: core/controllers/arformcontroller.php:221
+#: core/controllers/arformcontroller.php:2354
+#: core/views/list.php:465
+#@ ARForms
+msgid "Add New Form"
+msgstr "フォームを追加"
+
+#: core/controllers/arformcontroller.php:1145
+#@ ARForms
+msgid "Form is successfully updated"
+msgstr "フォームが正常に更新されます"
+
+#: core/controllers/arformcontroller.php:1326
+#@ ARForms
+msgid "There is a problem creating new template."
+msgstr "新しいテンプレートを作成することに問題があります。"
+
+#: core/controllers/arformcontroller.php:1553
+#@ ARForms
+msgid "Form is Successfully Deleted"
+msgstr "フォームが正常に削除されます"
+
+#: core/controllers/arformcontroller.php:1568
+#@ ARForms
+msgid "Add ARForms Form"
+msgstr "ARFormsフォームを追加"
+
+#: core/controllers/arformcontroller.php:1857
+#@ ARForms
+msgid "Form is Successfully Updated"
+msgstr "フォームが正常に更新されます"
+
+#: core/controllers/arformcontroller.php:1876
+#@ ARForms
+msgid "Template is Successfully Updated"
+msgstr "テンプレートが正常に更新されます"
+
+#: core/controllers/arformcontroller.php:1885
+#@ ARForms
+msgid "That template cannot be edited"
+msgstr "そのテンプレートを編集することはできません"
+
+#: core/controllers/arformcontroller.php:2072
+#: core/controllers/arformcontroller.php:2464
+#: core/controllers/arrecordcontroller.php:3015
+#: core/controllers/arrecordcontroller.php:3450
+#: core/controllers/arrecordcontroller.php:3456
+#: core/views/list.php:14
+#: core/views/list.php:576
+#: core/views/view_records.php:107
+#: core/views/view_records.php:854
+#: core/views/view_records.php:858
+#@ ARForms
+msgid "Delete"
+msgstr "削除"
+
+#: core/controllers/arformcontroller.php:2361
+#: core/controllers/arformcontroller.php:2513
+#: core/controllers/arrecordcontroller.php:3362
+#: core/controllers/arrecordcontroller.php:3489
+#: core/views/list.php:472
+#: core/views/list.php:629
+#: core/views/view_records.php:770
+#: core/views/view_records.php:898
+#@ ARForms
+msgid "Bulk Actions"
+msgstr "一括操作"
+
+#: core/controllers/arformcontroller.php:2371
+#: core/controllers/arformcontroller.php:2523
+#: core/controllers/arrecordcontroller.php:3372
+#: core/controllers/arrecordcontroller.php:3499
+#: core/views/list.php:482
+#: core/views/list.php:639
+#: core/views/newfield.php:505
+#: core/views/newfield.php:621
+#: core/views/view_records.php:779
+#: core/views/view_records.php:908
+#@ ARForms
+msgid "Apply"
+msgstr "適用する"
+
+#: core/controllers/arformcontroller.php:2380
+#: core/controllers/arrecordcontroller.php:3382
+#: core/views/list.php:491
+#: core/views/view_records.php:788
+#@ ARForms
+msgid "ID"
+msgstr "ID"
+
+#: core/controllers/arformcontroller.php:2381
+#: core/views/list.php:492
+#@ ARForms
+msgid "Name"
+msgstr "名前"
+
+#: core/controllers/arformcontroller.php:2382
+#: core/views/list.php:493
+#@ ARForms
+msgid "Key"
+msgstr "キー"
+
+#: core/controllers/arformcontroller.php:2383
+#: core/controllers/arformcontroller.php:2414
+#: core/views/graph_ajax.php:230
+#: core/views/graph_ajax.php:372
+#: core/views/graph_ajax.php:634
+#: core/views/list.php:494
+#: core/views/list.php:525
+#@ ARForms
+msgid "Entries"
+msgstr "エントリー"
+
+#: core/controllers/arformcontroller.php:2384
+#: core/views/list.php:495
+#@ ARForms
+msgid "Shortcodes"
+msgstr "ショートコード"
+
+#: core/controllers/arformcontroller.php:2385
+#: core/views/list.php:496
+#@ ARForms
+msgid "Create Date"
+msgstr "作成日"
+
+#: core/controllers/arformcontroller.php:2386
+#: core/controllers/arrecordcontroller.php:3391
+#: core/views/list.php:497
+#: core/views/view_records.php:797
+#@ ARForms
+msgid "Action"
+msgstr "アクション"
+
+#: core/controllers/arformcontroller.php:2439
+#: core/views/list.php:550
+#@ ARForms
+msgid "Edit Form"
+msgstr "編集フォーム"
+
+#: core/controllers/arformcontroller.php:2447
+#: core/views/list.php:558
+#@ ARForms
+msgid "Form Entry"
+msgstr "票"
+
+#: core/controllers/arformcontroller.php:2449
+#: core/views/list.php:560
+#@ ARForms
+msgid "Duplicate Form"
+msgstr "重複フォーム"
+
+#: core/controllers/arformcontroller.php:2451
+#: core/views/list.php:562
+#@ ARForms
+msgid "Export To CSV"
+msgstr "CSVへのエクスポート"
+
+#: core/controllers/arformcontroller.php:2489
+#: core/views/edit.php:994
+#: core/views/list.php:601
+#@ ARForms
+msgid "Preview"
+msgstr "プレビュー"
+
+#: core/controllers/arformcontroller.php:2498
+#: core/controllers/arrecordcontroller.php:3344
+#: core/views/list.php:613
+#: core/views/view_records.php:752
+#@ ARForms
+msgid "Show / Hide columns"
+msgstr "表示/非表示の列"
+
+#: core/controllers/arformcontroller.php:2499
+#: core/controllers/arrecordcontroller.php:3345
+#: core/views/list.php:614
+#: core/views/view_records.php:753
+#@ ARForms
+msgid "Search"
+msgstr "検索"
+
+#: core/controllers/arformcontroller.php:2500
+#: core/controllers/arrecordcontroller.php:3346
+#: core/views/list.php:615
+#: core/views/view_records.php:754
+#@ ARForms
+msgid "entries"
+msgstr "エントリー"
+
+#: core/controllers/arformcontroller.php:2501
+#: core/controllers/arrecordcontroller.php:3347
+#: core/views/list.php:616
+#: core/views/newfield.php:946
+#: core/views/newfield.php:947
+#: core/views/newfield.php:951
+#: core/views/view_records.php:755
+#@ ARForms
+msgid "Show"
+msgstr "ショー"
+
+#: core/controllers/arformcontroller.php:2502
+#: core/controllers/arrecordcontroller.php:3348
+#: core/views/list.php:617
+#: core/views/view_records.php:756
+#@ ARForms
+msgid "Showing"
+msgstr "表示"
+
+#: core/controllers/arformcontroller.php:2503
+#: core/controllers/arrecordcontroller.php:3349
+#: core/views/list.php:618
+#: core/views/view_records.php:757
+#@ ARForms
+msgid "to"
+msgstr "へ"
+
+#: core/controllers/arformcontroller.php:2504
+#: core/controllers/arrecordcontroller.php:3350
+#: core/views/form.php:160
+#: core/views/list.php:619
+#: core/views/newfield.php:437
+#: core/views/view_records.php:758
+#@ ARForms
+msgid "of"
+msgstr "の"
+
+#: core/controllers/arformcontroller.php:2505
+#: core/controllers/arrecordcontroller.php:3351
+#: core/views/list.php:620
+#: core/views/view_records.php:759
+#@ ARForms
+msgid "No matching records found"
+msgstr "一致するレコードが見つかりません"
+
+#: core/controllers/arformcontroller.php:2506
+#: core/controllers/arrecordcontroller.php:3352
+#: core/views/list.php:621
+#: core/views/view_records.php:760
+#@ ARForms
+msgid "No data available in table"
+msgstr "表中のデータなし"
+
+#: core/controllers/arformcontroller.php:2507
+#: core/controllers/arrecordcontroller.php:3353
+#: core/views/list.php:622
+#: core/views/view_records.php:761
+#@ ARForms
+msgid "filtered from"
+msgstr "から濾過"
+
+#: core/controllers/arformcontroller.php:2508
+#: core/controllers/arrecordcontroller.php:3354
+#: core/views/list.php:623
+#: core/views/view_records.php:762
+#@ ARForms
+msgid "total"
+msgstr "合計"
+
+#: core/controllers/arformcontroller.php:2673
+#: core/views/addcontrols.php:521
+#@ ARForms
+msgid "Form Settings"
+msgstr "フォームの設定"
+
+#: core/controllers/arformcontroller.php:2692
+#: core/views/addcontrols.php:540
+#@ ARForms
+msgid "Form Width"
+msgstr "フォームの幅"
+
+#: core/controllers/arformcontroller.php:2721
+#: core/controllers/arformcontroller.php:2919
+#: core/controllers/arformcontroller.php:2942
+#: core/controllers/arformcontroller.php:3066
+#: core/controllers/arformcontroller.php:3288
+#: core/controllers/arformcontroller.php:3323
+#: core/controllers/arformcontroller.php:3637
+#: core/controllers/arformcontroller.php:3757
+#: core/controllers/arformcontroller.php:3957
+#: core/controllers/arformcontroller.php:4040
+#: core/controllers/arformcontroller.php:4134
+#: core/controllers/arformcontroller.php:4339
+#: core/controllers/arformcontroller.php:4608
+#: core/controllers/arformcontroller.php:4631
+#: core/controllers/arformcontroller.php:4719
+#: core/controllers/arformcontroller.php:4750
+#: core/controllers/arformcontroller.php:4771
+#: core/controllers/arformcontroller.php:5387
+#: core/controllers/arformcontroller.php:5422
+#: core/controllers/arformcontroller.php:5441
+#: core/controllers/arformcontroller.php:5718
+#: core/controllers/arformcontroller.php:5742
+#: core/controllers/arformcontroller.php:5863
+#: core/controllers/arformcontroller.php:6063
+#: core/helpers/arfieldhelper.php:4471
+#: core/vc/class_vc_extend.php:702
+#: core/vc/class_vc_extend.php:703
+#: core/views/addcontrols.php:569
+#: core/views/addcontrols.php:767
+#: core/views/addcontrols.php:790
+#: core/views/addcontrols.php:914
+#: core/views/addcontrols.php:1135
+#: core/views/addcontrols.php:1170
+#: core/views/addcontrols.php:1484
+#: core/views/addcontrols.php:1602
+#: core/views/addcontrols.php:1802
+#: core/views/addcontrols.php:1886
+#: core/views/addcontrols.php:1980
+#: core/views/addcontrols.php:2184
+#: core/views/addcontrols.php:2453
+#: core/views/addcontrols.php:2476
+#: core/views/addcontrols.php:2564
+#: core/views/addcontrols.php:2595
+#: core/views/addcontrols.php:2616
+#: core/views/addcontrols.php:3233
+#: core/views/addcontrols.php:3268
+#: core/views/addcontrols.php:3287
+#: core/views/addcontrols.php:3564
+#: core/views/addcontrols.php:3588
+#: core/views/addcontrols.php:3709
+#: core/views/addcontrols.php:3908
+#: core/views/insert_form_popup.php:719
+#: core/views/insert_form_popup.php:720
+#: core/widgets/ARFwidgetForm.php:99
+#: core/widgets/ARFwidgetForm.php:103
+#@ ARForms
+msgid "px"
+msgstr "ピクセル"
+
+#: core/controllers/arformcontroller.php:2722
+#: core/controllers/arformcontroller.php:4135
+#: core/views/addcontrols.php:570
+#: core/views/addcontrols.php:1981
+#@ ARForms
+msgid "%"
+msgstr "%"
+
+#: core/controllers/arformcontroller.php:2748
+#: core/controllers/arformcontroller.php:4057
+#: core/views/addcontrols.php:596
+#: core/views/addcontrols.php:1903
+#@ ARForms
+msgid "Align"
+msgstr "整列する"
+
+#: core/controllers/arformcontroller.php:2762
+#: core/controllers/arformcontroller.php:3065
+#: core/controllers/arformcontroller.php:3177
+#: core/controllers/arformcontroller.php:3322
+#: core/controllers/arformcontroller.php:3636
+#: core/controllers/arformcontroller.php:3712
+#: core/controllers/arformcontroller.php:3729
+#: core/controllers/arformcontroller.php:4061
+#: core/controllers/arformcontroller.php:5862
+#: core/controllers/arformcontroller.php:6227
+#: core/helpers/arfieldhelper.php:5378
+#: core/vc/class_vc_extend.php:647
+#: core/vc/class_vc_extend.php:665
+#: core/vc/class_vc_extend.php:733
+#: core/views/addcontrols.php:610
+#: core/views/addcontrols.php:913
+#: core/views/addcontrols.php:1025
+#: core/views/addcontrols.php:1169
+#: core/views/addcontrols.php:1483
+#: core/views/addcontrols.php:1557
+#: core/views/addcontrols.php:1574
+#: core/views/addcontrols.php:1907
+#: core/views/addcontrols.php:3708
+#: core/views/addcontrols.php:4072
+#: core/views/insert_form_popup.php:670
+#: core/views/insert_form_popup.php:682
+#: core/widgets/ARFwidgetForm.php:68
+#: core/widgets/ARFwidgetForm.php:75
+#@ ARForms
+msgid "Left"
+msgstr "左"
+
+#: core/controllers/arformcontroller.php:2762
+#: core/controllers/arformcontroller.php:3177
+#: core/controllers/arformcontroller.php:4061
+#: core/views/addcontrols.php:610
+#: core/views/addcontrols.php:1025
+#: core/views/addcontrols.php:1907
+#@ ARForms
+msgid "Center"
+msgstr "センター"
+
+#: core/controllers/arformcontroller.php:2762
+#: core/controllers/arformcontroller.php:3063
+#: core/controllers/arformcontroller.php:3177
+#: core/controllers/arformcontroller.php:3320
+#: core/controllers/arformcontroller.php:3634
+#: core/controllers/arformcontroller.php:3712
+#: core/controllers/arformcontroller.php:3729
+#: core/controllers/arformcontroller.php:4061
+#: core/controllers/arformcontroller.php:5860
+#: core/controllers/arformcontroller.php:6228
+#: core/vc/class_vc_extend.php:648
+#: core/vc/class_vc_extend.php:666
+#: core/vc/class_vc_extend.php:734
+#: core/views/addcontrols.php:610
+#: core/views/addcontrols.php:911
+#: core/views/addcontrols.php:1025
+#: core/views/addcontrols.php:1167
+#: core/views/addcontrols.php:1481
+#: core/views/addcontrols.php:1557
+#: core/views/addcontrols.php:1574
+#: core/views/addcontrols.php:1907
+#: core/views/addcontrols.php:3706
+#: core/views/addcontrols.php:4073
+#: core/views/insert_form_popup.php:671
+#: core/views/insert_form_popup.php:683
+#: core/widgets/ARFwidgetForm.php:69
+#: core/widgets/ARFwidgetForm.php:76
+#@ ARForms
+msgid "Right"
+msgstr "権利"
+
+#: core/controllers/arformcontroller.php:2787
+#: core/views/addcontrols.php:635
+#@ ARForms
+msgid "Form Background"
+msgstr "フォームの背景"
+
+#: core/controllers/arformcontroller.php:2794
+#: core/controllers/arformcontroller.php:4451
+#: core/controllers/arformcontroller.php:4527
+#: core/controllers/arformcontroller.php:6178
+#: core/controllers/arformcontroller.php:6261
+#: core/helpers/arfieldhelper.php:4521
+#: core/views/addcontrols.php:642
+#: core/views/addcontrols.php:2296
+#: core/views/addcontrols.php:2372
+#: core/views/addcontrols.php:4023
+#: core/views/addcontrols.php:4106
+#: core/widgets/ARFwidgetForm.php:85
+#@ ARForms
+msgid "Background Color"
+msgstr "背景色"
+
+#: core/controllers/arformcontroller.php:2824
+#: core/controllers/arformcontroller.php:5608
+#: core/views/addcontrols.php:672
+#: core/views/addcontrols.php:3454
+#@ ARForms
+msgid "Background Image"
+msgstr "背景画像"
+
+#: core/controllers/arformcontroller.php:2884
+#: core/views/addcontrols.php:732
+#@ ARForms
+msgid "Form Border"
+msgstr "フォームボーダー"
+
+#: core/controllers/arformcontroller.php:2892
+#: core/controllers/arformcontroller.php:6168
+#: core/views/addcontrols.php:740
+#: core/views/addcontrols.php:4013
+#@ ARForms
+msgid "Type"
+msgstr "タイプ"
+
+#: core/controllers/arformcontroller.php:2895
+#: core/controllers/arformcontroller.php:3027
+#: core/controllers/arformcontroller.php:5817
+#: core/views/addcontrols.php:743
+#: core/views/addcontrols.php:875
+#: core/views/addcontrols.php:3663
+#@ ARForms
+msgid "Shadow"
+msgstr "シャドー"
+
+#: core/controllers/arformcontroller.php:2895
+#: core/views/addcontrols.php:743
+#@ ARForms
+msgid "Flat"
+msgstr "フラット"
+
+#: core/controllers/arformcontroller.php:2915
+#: core/controllers/arformcontroller.php:3264
+#: core/controllers/arformcontroller.php:3932
+#: core/controllers/arformcontroller.php:4013
+#: core/controllers/arformcontroller.php:4307
+#: core/controllers/arformcontroller.php:4604
+#: core/controllers/arformcontroller.php:5362
+#: core/controllers/arformcontroller.php:5714
+#: core/controllers/arformcontroller.php:6036
+#: core/helpers/arfieldhelper.php:4809
+#: core/views/addcontrols.php:763
+#: core/views/addcontrols.php:1112
+#: core/views/addcontrols.php:1777
+#: core/views/addcontrols.php:1858
+#: core/views/addcontrols.php:2152
+#: core/views/addcontrols.php:2449
+#: core/views/addcontrols.php:3208
+#: core/views/addcontrols.php:3560
+#: core/views/addcontrols.php:3882
+#@ ARForms
+msgid "Size"
+msgstr "サイズ"
+
+#: core/controllers/arformcontroller.php:2925
+#: core/controllers/arformcontroller.php:2948
+#: core/controllers/arformcontroller.php:4615
+#: core/controllers/arformcontroller.php:4638
+#: core/controllers/arformcontroller.php:4758
+#: core/controllers/arformcontroller.php:4779
+#: core/controllers/arformcontroller.php:5725
+#: core/controllers/arformcontroller.php:5749
+#: core/views/addcontrols.php:773
+#: core/views/addcontrols.php:796
+#: core/views/addcontrols.php:2460
+#: core/views/addcontrols.php:2483
+#: core/views/addcontrols.php:2603
+#: core/views/addcontrols.php:2624
+#: core/views/addcontrols.php:3571
+#: core/views/addcontrols.php:3595
+#@ ARForms
+msgid "0 px"
+msgstr "0ピクセル"
+
+#: core/controllers/arformcontroller.php:2926
+#: core/controllers/arformcontroller.php:4639
+#: core/controllers/arformcontroller.php:5750
+#: core/views/addcontrols.php:774
+#: core/views/addcontrols.php:2484
+#: core/views/addcontrols.php:3596
+#@ ARForms
+msgid "50 px"
+msgstr "50ピクセル"
+
+#: core/controllers/arformcontroller.php:2938
+#: core/controllers/arformcontroller.php:4627
+#: core/controllers/arformcontroller.php:5738
+#: core/views/addcontrols.php:786
+#: core/views/addcontrols.php:2472
+#: core/views/addcontrols.php:3584
+#@ ARForms
+msgid "Radius"
+msgstr "半径"
+
+#: core/controllers/arformcontroller.php:2949
+#: core/views/addcontrols.php:797
+#@ ARForms
+msgid "100 px"
+msgstr "100ピクセル"
+
+#: core/controllers/arformcontroller.php:2967
+#: core/controllers/arformcontroller.php:4484
+#: core/controllers/arformcontroller.php:4559
+#: core/controllers/arformcontroller.php:5778
+#: core/controllers/arformcontroller.php:6126
+#: core/controllers/arformcontroller.php:6296
+#: core/views/addcontrols.php:815
+#: core/views/addcontrols.php:2329
+#: core/views/addcontrols.php:2404
+#: core/views/addcontrols.php:3624
+#: core/views/addcontrols.php:3971
+#: core/views/addcontrols.php:4141
+#@ ARForms
+msgid "Border Color"
+msgstr "枠線の色"
+
+#: core/controllers/arformcontroller.php:2985
+#: core/controllers/arformcontroller.php:5786
+#: core/views/addcontrols.php:833
+#: core/views/addcontrols.php:3632
+#@ ARForms
+msgid "Line"
+msgstr "ライン"
+
+#: core/controllers/arformcontroller.php:3059
+#: core/views/addcontrols.php:907
+#@ ARForms
+msgid "Padding"
+msgstr "パディング"
+
+#: core/controllers/arformcontroller.php:3062
+#: core/controllers/arformcontroller.php:3319
+#: core/controllers/arformcontroller.php:3633
+#: core/controllers/arformcontroller.php:3712
+#: core/controllers/arformcontroller.php:5859
+#: core/controllers/arformcontroller.php:6225
+#: core/helpers/arfieldhelper.php:5391
+#: core/vc/class_vc_extend.php:645
+#: core/vc/class_vc_extend.php:731
+#: core/views/addcontrols.php:910
+#: core/views/addcontrols.php:1166
+#: core/views/addcontrols.php:1480
+#: core/views/addcontrols.php:1557
+#: core/views/addcontrols.php:3705
+#: core/views/addcontrols.php:4070
+#: core/views/insert_form_popup.php:668
+#: core/widgets/ARFwidgetForm.php:66
+#@ ARForms
+msgid "Top"
+msgstr "トップ"
+
+#: core/controllers/arformcontroller.php:3064
+#: core/controllers/arformcontroller.php:3321
+#: core/controllers/arformcontroller.php:3635
+#: core/controllers/arformcontroller.php:5861
+#: core/controllers/arformcontroller.php:6226
+#: core/vc/class_vc_extend.php:646
+#: core/vc/class_vc_extend.php:732
+#: core/views/addcontrols.php:912
+#: core/views/addcontrols.php:1168
+#: core/views/addcontrols.php:1482
+#: core/views/addcontrols.php:3707
+#: core/views/addcontrols.php:4071
+#: core/views/insert_form_popup.php:669
+#: core/widgets/ARFwidgetForm.php:67
+#@ ARForms
+msgid "Bottom"
+msgstr "ボトム"
+
+#: core/controllers/arformcontroller.php:3113
+#: core/views/addcontrols.php:961
+#@ ARForms
+msgid "Form title & description"
+msgstr "フォームのタイトル＆説明"
+
+#: core/controllers/arformcontroller.php:3139
+#: core/views/addcontrols.php:987
+#@ ARForms
+msgid "Form Title"
+msgstr "フォームタイトル"
+
+#: core/controllers/arformcontroller.php:3145
+#: core/controllers/arformcontroller.php:3549
+#: core/views/addcontrols.php:993
+#: core/views/addcontrols.php:1396
+#@ ARForms
+msgid "Title Color"
+msgstr "タイトルの色"
+
+#: core/controllers/arformcontroller.php:3173
+#: core/controllers/arformcontroller.php:3724
+#: core/views/addcontrols.php:1021
+#: core/views/addcontrols.php:1569
+#@ ARForms
+msgid "Text Align"
+msgstr "テキストの整列"
+
+#: core/controllers/arformcontroller.php:3183
+#: core/controllers/arformcontroller.php:3811
+#: core/controllers/arformcontroller.php:4190
+#: core/controllers/arformcontroller.php:5238
+#: core/controllers/arformcontroller.php:5950
+#: core/views/addcontrols.php:1031
+#: core/views/addcontrols.php:1656
+#: core/views/addcontrols.php:2036
+#: core/views/addcontrols.php:3084
+#: core/views/addcontrols.php:3796
+#@ ARForms
+msgid "Font Settings"
+msgstr "フォントの設定"
+
+#: core/controllers/arformcontroller.php:3202
+#: core/controllers/arformcontroller.php:3838
+#: core/controllers/arformcontroller.php:4217
+#: core/controllers/arformcontroller.php:5266
+#: core/controllers/arformcontroller.php:5976
+#: core/views/addcontrols.php:1050
+#: core/views/addcontrols.php:1683
+#: core/views/addcontrols.php:2063
+#: core/views/addcontrols.php:3112
+#: core/views/addcontrols.php:3822
+#@ ARForms
+msgid "Family"
+msgstr "家族"
+
+#: core/controllers/arformcontroller.php:3242
+#: core/controllers/arformcontroller.php:3894
+#: core/controllers/arformcontroller.php:4269
+#: core/controllers/arformcontroller.php:4678
+#: core/controllers/arformcontroller.php:5068
+#: core/controllers/arformcontroller.php:5324
+#: core/helpers/arfieldhelper.php:4657
+#: core/helpers/arfieldhelper.php:4732
+#: core/views/addcontrols.php:1090
+#: core/views/addcontrols.php:1739
+#: core/views/addcontrols.php:2114
+#: core/views/addcontrols.php:2523
+#: core/views/addcontrols.php:2914
+#: core/views/addcontrols.php:3170
+#@ ARForms
+msgid "Style"
+msgstr "スタイル"
+
+#: core/controllers/arformcontroller.php:3252
+#: core/controllers/arformcontroller.php:3904
+#: core/controllers/arformcontroller.php:4279
+#: core/controllers/arformcontroller.php:5335
+#: core/helpers/arfieldhelper.php:4499
+#: core/views/addcontrols.php:1100
+#: core/views/addcontrols.php:1749
+#: core/views/addcontrols.php:2124
+#: core/views/addcontrols.php:3181
+#@ ARForms
+msgid "normal"
+msgstr "通常の"
+
+#: core/controllers/arformcontroller.php:3253
+#: core/controllers/arformcontroller.php:3905
+#: core/controllers/arformcontroller.php:4280
+#: core/controllers/arformcontroller.php:5336
+#: core/helpers/arfieldhelper.php:4500
+#: core/views/addcontrols.php:1101
+#: core/views/addcontrols.php:1750
+#: core/views/addcontrols.php:2125
+#: core/views/addcontrols.php:3182
+#@ ARForms
+msgid "bold"
+msgstr "大胆な"
+
+#: core/controllers/arformcontroller.php:3254
+#: core/controllers/arformcontroller.php:3906
+#: core/controllers/arformcontroller.php:4281
+#: core/controllers/arformcontroller.php:5337
+#: core/helpers/arfieldhelper.php:4501
+#: core/views/addcontrols.php:1102
+#: core/views/addcontrols.php:1751
+#: core/views/addcontrols.php:2126
+#: core/views/addcontrols.php:3183
+#@ ARForms
+msgid "italic"
+msgstr "イタリック"
+
+#: core/controllers/arformcontroller.php:3316
+#: core/controllers/arformcontroller.php:5856
+#: core/views/addcontrols.php:1163
+#: core/views/addcontrols.php:3702
+#@ ARForms
+msgid "Margin"
+msgstr "マージン"
+
+#: core/controllers/arformcontroller.php:3397
+#: core/views/addcontrols.php:1244
+#@ ARForms
+msgid "Page Break Tab Background Color"
+msgstr "改ページタブの背景色"
+
+#: core/controllers/arformcontroller.php:3403
+#: core/views/addcontrols.php:1250
+#@ ARForms
+msgid "Active"
+msgstr "アクティブ"
+
+#: core/controllers/arformcontroller.php:3419
+#: core/views/addcontrols.php:1266
+#@ ARForms
+msgid "Inactive"
+msgstr "非アクティブな"
+
+#: core/controllers/arformcontroller.php:3450
+#: core/controllers/arformcontroller.php:3778
+#: core/controllers/arformcontroller.php:5498
+#: core/controllers/arformcontroller.php:6107
+#: core/controllers/arformcontroller.php:6328
+#: core/views/addcontrols.php:1297
+#: core/views/addcontrols.php:1623
+#: core/views/addcontrols.php:3344
+#: core/views/addcontrols.php:3952
+#: core/views/addcontrols.php:4173
+#: core/widgets/ARFwidgetForm.php:94
+#@ ARForms
+msgid "Text Color"
+msgstr "テキストの色"
+
+#: core/controllers/arformcontroller.php:3496
+#: core/views/addcontrols.php:1343
+#@ ARForms
+msgid "Survey Bar Colors"
+msgstr "調査バーの色"
+
+#: core/controllers/arformcontroller.php:3502
+#: core/views/addcontrols.php:1349
+#@ ARForms
+msgid "Bar Color"
+msgstr "バーの色"
+
+#: core/controllers/arformcontroller.php:3518
+#: core/controllers/arformcontroller.php:5142
+#: core/controllers/arformcontroller.php:5532
+#: core/vc/class_vc_extend.php:676
+#: core/views/addcontrols.php:1365
+#: core/views/addcontrols.php:2988
+#: core/views/addcontrols.php:3378
+#: core/views/insert_form_popup.php:693
+#@ ARForms
+msgid "Background"
+msgstr "背景"
+
+#: core/controllers/arformcontroller.php:3599
+#: core/views/addcontrols.php:1446
+#@ ARForms
+msgid "0"
+msgstr "0"
+
+#: core/controllers/arformcontroller.php:3600
+#: core/views/addcontrols.php:1447
+#: core/views/newfield.php:82
+#@ ARForms
+msgid "1"
+msgstr "1"
+
+#: core/controllers/arformcontroller.php:3681
+#: core/views/addcontrols.php:1526
+#@ ARForms
+msgid "Label Settings"
+msgstr "ラベル設定"
+
+#: core/controllers/arformcontroller.php:3708
+#: core/views/addcontrols.php:1553
+#@ ARForms
+msgid "Label Position"
+msgstr "ラベルの位置"
+
+#: core/controllers/arformcontroller.php:3751
+#: core/views/addcontrols.php:1596
+#@ ARForms
+msgid "Label Width"
+msgstr "ラベル幅"
+
+#: core/controllers/arformcontroller.php:3979
+#: core/views/addcontrols.php:1824
+#@ ARForms
+msgid "Hide Labels"
+msgstr "隠すラベル"
+
+#: core/controllers/arformcontroller.php:4006
+#: core/views/addcontrols.php:1851
+#@ ARForms
+msgid "Field description settings"
+msgstr "フィールド説明の設定"
+
+#: core/controllers/arformcontroller.php:4089
+#: core/views/addcontrols.php:1935
+#@ ARForms
+msgid "Input Field Settings"
+msgstr "入力フィールドの設定"
+
+#: core/controllers/arformcontroller.php:4118
+#: core/views/addcontrols.php:1964
+#@ ARForms
+msgid "Field Width"
+msgstr "フィールド幅"
+
+#: core/controllers/arformcontroller.php:4162
+#: core/views/addcontrols.php:2008
+#@ ARForms
+msgid "Text Direction"
+msgstr "テキストの方向"
+
+#: core/controllers/arformcontroller.php:4166
+#: core/views/addcontrols.php:2012
+#@ ARForms
+msgid "Left to Right"
+msgstr "左から右"
+
+#: core/controllers/arformcontroller.php:4166
+#: core/views/addcontrols.php:2012
+#@ ARForms
+msgid "Right to Left"
+msgstr "右から左へ"
+
+#: core/controllers/arformcontroller.php:4368
+#: core/views/addcontrols.php:2213
+#@ ARForms
+msgid "Normal State"
+msgstr "標準状態"
+
+#: core/controllers/arformcontroller.php:4375
+#: core/views/addcontrols.php:2220
+#@ ARForms
+msgid "Text color"
+msgstr "テキストの色"
+
+#: core/controllers/arformcontroller.php:4409
+#: core/views/addcontrols.php:2254
+#@ ARForms
+msgid "Background color"
+msgstr "背景色"
+
+#: core/controllers/arformcontroller.php:4444
+#: core/views/addcontrols.php:2289
+#@ ARForms
+msgid "Active State"
+msgstr "アクティブ状態"
+
+#: core/controllers/arformcontroller.php:4520
+#: core/views/addcontrols.php:2365
+#@ ARForms
+msgid "Error State"
+msgstr "エラー状態"
+
+#: core/controllers/arformcontroller.php:4597
+#: core/controllers/arformcontroller.php:5704
+#: core/views/addcontrols.php:2442
+#: core/views/addcontrols.php:3550
+#@ ARForms
+msgid "Border Settings"
+msgstr "ボーダーの設定"
+
+#: core/controllers/arformcontroller.php:4616
+#: core/controllers/arformcontroller.php:5726
+#: core/views/addcontrols.php:2461
+#: core/views/addcontrols.php:3572
+#@ ARForms
+msgid "20 px"
+msgstr "20ピクセル"
+
+#: core/controllers/arformcontroller.php:4650
+#: core/controllers/arformcontroller.php:5092
+#: core/models/arfieldmodel.php:167
+#: core/views/addcontrols.php:2495
+#: core/views/addcontrols.php:2938
+#@ ARForms
+msgid "Color"
+msgstr "カラー"
+
+#: core/controllers/arformcontroller.php:4691
+#: core/views/addcontrols.php:2536
+#@ ARForms
+msgid "Solid"
+msgstr "固体"
+
+#: core/controllers/arformcontroller.php:4693
+#: core/views/addcontrols.php:2538
+#@ ARForms
+msgid "Dotted"
+msgstr "点線"
+
+#: core/controllers/arformcontroller.php:4695
+#: core/views/addcontrols.php:2540
+#@ ARForms
+msgid "Dashed"
+msgstr "破線の"
+
+#: core/controllers/arformcontroller.php:4716
+#: core/views/addcontrols.php:2561
+#@ ARForms
+msgid "Field Spacing"
+msgstr "フィールド間隔"
+
+#: core/controllers/arformcontroller.php:4739
+#: core/views/addcontrols.php:2584
+#@ ARForms
+msgid "Field Inner Spacing"
+msgstr "フィールドインナースペーシング"
+
+#: core/controllers/arformcontroller.php:4746
+#: core/views/addcontrols.php:2591
+#@ ARForms
+msgid "Vertical"
+msgstr "縦の"
+
+#: core/controllers/arformcontroller.php:4759
+#: core/controllers/arformcontroller.php:4780
+#: core/views/addcontrols.php:2604
+#: core/views/addcontrols.php:2625
+#@ ARForms
+msgid "25 px"
+msgstr "25ピクセル"
+
+#: core/controllers/arformcontroller.php:4767
+#: core/views/addcontrols.php:2612
+#@ ARForms
+msgid "Horizontal"
+msgstr "水平の"
+
+#: core/controllers/arformcontroller.php:4798
+#: core/views/addcontrols.php:2643
+#@ ARForms
+msgid "Field Transparency"
+msgstr "フィールド透明性"
+
+#: core/controllers/arformcontroller.php:4820
+#: core/views/addcontrols.php:2665
+#@ ARForms
+msgid "Calendar Style"
+msgstr "カレンダースタイル"
+
+#: core/controllers/arformcontroller.php:4838
+#: core/views/addcontrols.php:2683
+#@ ARForms
+msgid "Theme"
+msgstr "テーマ"
+
+#: core/controllers/arformcontroller.php:4893
+#: core/views/addcontrols.php:2738
+#@ ARForms
+msgid "Date Format"
+msgstr "日付フォーマット"
+
+#: core/controllers/arformcontroller.php:5064
+#: core/views/addcontrols.php:2910
+#@ ARForms
+msgid "Checkbox & Radio Style"
+msgstr "チェックボックス＆ラジオスタイル"
+
+#: core/controllers/arformcontroller.php:5187
+#: core/views/addcontrols.php:3033
+#@ ARForms
+msgid "Submit Button Settings"
+msgstr "ボタン設定を提出"
+
+#: core/controllers/arformcontroller.php:5209
+#: core/views/addcontrols.php:3055
+#@ ARForms
+msgid "Submit align"
+msgstr "整列を提出"
+
+#: core/controllers/arformcontroller.php:5213
+#: core/views/addcontrols.php:3059
+#@ ARForms
+msgid "Fixed"
+msgstr "一定の"
+
+#: core/controllers/arformcontroller.php:5213
+#: core/views/addcontrols.php:3059
+#@ ARForms
+msgid "Auto"
+msgstr "オート"
+
+#: core/controllers/arformcontroller.php:5418
+#: core/views/addcontrols.php:3264
+#@ ARForms
+msgid "Button Width"
+msgstr "ボタンの幅"
+
+#: core/controllers/arformcontroller.php:5418
+#: core/controllers/arformcontroller.php:5437
+#: core/views/addcontrols.php:3264
+#: core/views/addcontrols.php:3283
+#@ ARForms
+msgid "Optional"
+msgstr "オプショナル"
+
+#: core/controllers/arformcontroller.php:5424
+#: core/controllers/arformcontroller.php:5443
+#: core/views/addcontrols.php:3270
+#: core/views/addcontrols.php:3289
+#@ ARForms
+msgid "If not provided anything it will be auto"
+msgstr "何も指定しない場合、それは自動認識される"
+
+#: core/controllers/arformcontroller.php:5437
+#: core/views/addcontrols.php:3283
+#@ ARForms
+msgid " Button Height"
+msgstr "ボタンの高さ"
+
+#: core/controllers/arformcontroller.php:5463
+#: core/vc/class_vc_extend.php:685
+#: core/views/addcontrols.php:3309
+#: core/views/insert_form_popup.php:702
+#@ ARForms
+msgid "Text"
+msgstr "テキスト"
+
+#: core/controllers/arformcontroller.php:5539
+#: core/views/addcontrols.php:3385
+#@ ARForms
+msgid "Default Color"
+msgstr "デフォルト色"
+
+#: core/controllers/arformcontroller.php:5573
+#: core/views/addcontrols.php:3419
+#@ ARForms
+msgid "Hover Color"
+msgstr "ホバー色"
+
+#: core/controllers/arformcontroller.php:5922
+#: core/views/addcontrols.php:3768
+#@ ARForms
+msgid "Validation Style Settings"
+msgstr "検証スタイル設定"
+
+#: core/controllers/arformcontroller.php:6076
+#: core/views/addcontrols.php:3921
+#@ ARForms
+msgid "Error Settings"
+msgstr "エラー設定"
+
+#: core/controllers/arformcontroller.php:6084
+#: core/views/addcontrols.php:3929
+#@ ARForms
+msgid "BG Color"
+msgstr "背景色"
+
+#: core/controllers/arformcontroller.php:6162
+#: core/views/addcontrols.php:4007
+#@ ARForms
+msgid "Validation error settings"
+msgstr "検証エラーの設定"
+
+#: core/controllers/arformcontroller.php:6171
+#: core/views/addcontrols.php:4016
+#@ ARForms
+msgid "Advance"
+msgstr "前進"
+
+#: core/controllers/arformcontroller.php:6171
+#: core/views/addcontrols.php:4016
+#@ ARForms
+msgid "Normal"
+msgstr "ノーマル"
+
+#: core/controllers/arformcontroller.php:6222
+#: core/views/addcontrols.php:4067
+#@ ARForms
+msgid "Position"
+msgstr "ポジション"
+
+#: core/controllers/arformcontroller.php:6252
+#: core/views/addcontrols.php:4097
+#@ ARForms
+msgid "Success Message Settings"
+msgstr "成功メッセージの設定"
+
+#: core/controllers/arformcontroller.php:6366
+#: core/views/addcontrols.php:4211
+#@ ARForms
+msgid "Reset"
+msgstr "リセット"
+
+#: core/controllers/arformcontroller.php:6869
+#@ ARForms
+msgid "There is any error while uncompressing zip."
+msgstr "解凍のzip中にエラーがあります。"
+
+#: core/controllers/arformcontroller.php:6874
+#: core/controllers/arformcontroller.php:6880
+#@ ARForms
+msgid "Please upload only zip files."
+msgstr "唯一のzipファイルをアップロードしてください。"
+
+#: core/controllers/arformcontroller.php:7518
+#@ ARForms
+msgid "Form Imported Successfully"
+msgstr "フォーム正常にインポート"
+
+#: core/controllers/arformcontroller.php:7522
+#@ ARForms
+msgid "File is not proper."
+msgstr "ファイルが正しくない。"
+
+#: core/controllers/arrecordcontroller.php:91
+#: core/controllers/arrecordcontroller.php:99
+#: core/controllers/arrecordcontroller.php:1082
+#: core/controllers/arrecordcontroller.php:1089
+#@ ARForms
+msgid "Please select a valid form"
+msgstr "有効な形式を選択してください"
+
+#: core/controllers/arrecordcontroller.php:104
+#: core/controllers/arrecordcontroller.php:1094
+#@ ARForms
+msgid "This form is currently not active, please try again later."
+msgstr "このフォームは現在アクティブではない、後で再試行してください。"
+
+#: core/controllers/arrecordcontroller.php:457
+#: core/views/view_records.php:666
+#@ ARForms
+msgid "Form Entries"
+msgstr "フォームエントリー"
+
+#: core/controllers/arrecordcontroller.php:797
+#@ ARForms
+msgid "Entry is Successfully Created"
+msgstr "エントリが正常に作成されている"
+
+#: core/controllers/arrecordcontroller.php:844
+#@ ARForms
+msgid "Entry is Successfully Deleted"
+msgstr "エントリが正常に削除されます"
+
+#: core/controllers/arrecordcontroller.php:895
+#@ ARForms
+msgid "Entries were Successfully Destroyed"
+msgstr "エントリーが正常に破壊されました"
+
+#: core/controllers/arrecordcontroller.php:904
+#@ ARForms
+msgid "No entries were specified"
+msgstr "いいえエントリが指定されていません"
+
+#: core/controllers/arrecordcontroller.php:1039
+#: core/controllers/arrecordcontroller.php:2696
+#@ ARForms
+msgid "No form is found"
+msgstr "いいえフォームが見つからない"
+
+#: core/controllers/arrecordcontroller.php:1379
+#: core/views/formsubmission.php:260
+#: core/views/view-modal.php:617
+#@ ARForms
+msgid "Please wait while you are redirected."
+msgstr "あなたがリダイレクトされるまでお待ちください。"
+
+#: core/controllers/arrecordcontroller.php:2428
+#@ ARForms
+msgid "Your entry is successfully deleted"
+msgstr "あなたのエントリが正常に削除されます"
+
+#: core/controllers/arrecordcontroller.php:2389
+#@ ARForms
+msgid "There is an error deleting that entry"
+msgstr "そのエントリの削除中にエラーが発生している"
+
+#: core/controllers/arrecordcontroller.php:2488
+#@ ARForms
+msgid "No one! You do not have permission"
+msgstr "誰ありません！あなたが権限を持っていません"
+
+#: core/controllers/arrecordcontroller.php:2647
+#@ ARForms
+msgid "Entries deleted successfully"
+msgstr "エントリーは正常に削除"
+
+#: core/controllers/arrecordcontroller.php:3017
+#: core/views/view_records.php:109
+#@ ARForms
+msgid "Export to CSV"
+msgstr "CSVファイルへのエクスポート"
+
+#: core/controllers/arrecordcontroller.php:3297
+#: core/views/view_records.php:706
+#: core/views/view_records.php:926
+#@ ARForms
+msgid "Select form"
+msgstr "フォームを選択"
+
+#: core/controllers/arrecordcontroller.php:3298
+#: core/views/graph.php:213
+#: core/views/view_records.php:707
+#@ ARForms
+msgid "Select Form"
+msgstr "フォーム全体の選択"
+
+#: core/controllers/arrecordcontroller.php:3315
+#: core/views/view_records.php:724
+#@ ARForms
+msgid "Select date From"
+msgstr "から日付を選択"
+
+#: core/controllers/arrecordcontroller.php:3315
+#: core/views/view_records.php:724
+#@ ARForms
+msgid "optional"
+msgstr "オプショナル"
+
+#: core/controllers/arrecordcontroller.php:3317
+#: core/views/view_records.php:726
+#@ ARForms
+msgid "To"
+msgstr "へ"
+
+#: core/controllers/arrecordcontroller.php:3323
+#: core/models/arsettingmodel.php:115
+#: core/views/view_records.php:732
+#@ ARForms
+msgid "Submit"
+msgstr "提出する"
+
+#: core/controllers/arrecordcontroller.php:3326
+#: core/vc/class_vc_extend.php:570
+#: core/views/insert_form_popup.php:46
+#: core/views/view_records.php:735
+#@ ARForms
+msgid "Please select a form"
+msgstr "フォームを選択してください"
+
+#: core/controllers/arrecordcontroller.php:3386
+#: core/views/view_records.php:792
+#@ ARForms
+msgid "Entry Key"
+msgstr "エントリキー"
+
+#: core/controllers/arrecordcontroller.php:3387
+#: core/views/view_records.php:793
+#@ ARForms
+msgid "Entry creation date"
+msgstr "エントリ作成日"
+
+#: core/controllers/arrecordcontroller.php:3388
+#: core/views/view_records.php:794
+#@ ARForms
+msgid "Browser Name"
+msgstr "ブラウザの名前"
+
+#: core/controllers/arrecordcontroller.php:3389
+#: core/views/view_records.php:795
+#@ ARForms
+msgid "IP Address"
+msgstr "IPアドレス"
+
+#: core/controllers/arrecordcontroller.php:3390
+#: core/views/view_records.php:796
+#@ ARForms
+msgid "Country"
+msgstr "カントリー"
+
+#: core/controllers/arrecordcontroller.php:3431
+#: core/controllers/arrecordcontroller.php:3435
+#: core/views/view_records.php:835
+#: core/views/view_records.php:839
+#@ ARForms
+msgid "View Entry"
+msgstr "ビューエントリ"
+
+#: core/controllers/arrecordcontroller.php:3465
+#: core/views/view_records.php:867
+#@ ARForms
+msgid "VIEW ENTRY"
+msgstr "ビューエントリ"
+
+#: core/controllers/arrecordcontroller.php:3472
+#: core/views/view_records.php:874
+#@ ARForms
+msgid "Close"
+msgstr "クローズ"
+
+#: core/controllers/arrecordcontroller.php:3663
+#@ ARForms
+msgid "Created at"
+msgstr "で作成された"
+
+#: core/controllers/arrecordcontroller.php:3698
+#@ ARForms
+msgid "Entry deleted successfully"
+msgstr "エントリーは正常に削除"
+
+#: core/controllers/arsettingcontroller.php:125
+#: core/views/settings_form.php:95
+#@ ARForms
+msgid "Global Settings"
+msgstr "グローバル設定"
+
+#: core/controllers/arsettingcontroller.php:127
+#@ ARForms
+msgid "Import Export"
+msgstr "インポートエクスポート"
+
+#: core/controllers/arsettingcontroller.php:127
+#@ ARForms
+msgid "Import / Export"
+msgstr "輸出入"
+
+#: core/controllers/arsettingcontroller.php:559
+#@ ARForms
+msgid "General setting changes saved successfully."
+msgstr "一般的な設定の変更が正常に保存されました。"
+
+#: core/controllers/arsettingcontroller.php:563
+#@ ARForms
+msgid "Email Marketing Tools setting saved successfully."
+msgstr "Eメールマーケティングツールは正常に保存された設定。"
+
+#: core/controllers/arsettingcontroller.php:567
+#@ ARForms
+msgid "Settings Saved."
+msgstr "設定が保存された。"
+
+#: core/controllers/maincontroller.php:188
+#: core/controllers/maincontroller.php:271
+#: core/controllers/maincontroller_07may2015.php:188
+#: core/controllers/maincontroller_07may2015.php:271
+#@ ARForms
+msgid "Contact us"
+msgstr "お問い合わせ"
+
+#: core/controllers/maincontroller.php:189
+#: core/controllers/maincontroller.php:272
+#: core/controllers/maincontroller_07may2015.php:189
+#: core/controllers/maincontroller_07may2015.php:272
+#@ ARForms
+msgid "Subscription Form"
+msgstr "加入申込書"
+
+#: core/controllers/maincontroller.php:190
+#: core/controllers/maincontroller.php:273
+#: core/controllers/maincontroller_07may2015.php:190
+#: core/controllers/maincontroller_07may2015.php:273
+#@ ARForms
+msgid "Feedback Form"
+msgstr "フィードバック形式"
+
+#: core/controllers/maincontroller.php:191
+#: core/controllers/maincontroller.php:274
+#: core/controllers/maincontroller_07may2015.php:191
+#: core/controllers/maincontroller_07may2015.php:274
+#@ ARForms
+msgid "RSVP Form"
+msgstr "RSVPフォーム"
+
+#: core/controllers/maincontroller.php:192
+#: core/controllers/maincontroller.php:275
+#: core/controllers/maincontroller_07may2015.php:192
+#: core/controllers/maincontroller_07may2015.php:275
+#@ ARForms
+msgid "Registration Form"
+msgstr "登録用紙"
+
+#: core/controllers/maincontroller.php:193
+#: core/controllers/maincontroller.php:276
+#: core/controllers/maincontroller_07may2015.php:193
+#: core/controllers/maincontroller_07may2015.php:276
+#@ ARForms
+msgid "Survey Form"
+msgstr "調査票"
+
+#: core/controllers/maincontroller.php:194
+#: core/controllers/maincontroller.php:277
+#: core/controllers/maincontroller_07may2015.php:194
+#: core/controllers/maincontroller_07may2015.php:277
+#@ ARForms
+msgid "Job Application"
+msgstr "求職申請"
+
+#: core/controllers/maincontroller.php:679
+#: core/controllers/maincontroller_07may2015.php:679
+#: core/views/edit.php:942
+#: core/views/edit.php:961
+#: core/views/edit_form.php:152
+#@ ARForms
+msgid "Settings"
+msgstr "設定"
+
+#: core/controllers/maincontroller.php:1218
+#: core/controllers/maincontroller_07may2015.php:1218
+#@ ARForms
+msgid "Type-in or bookmark"
+msgstr "タイプインやブックマーク"
+
+#: core/helpers/arfieldhelper.php:526
+#@ ARForms
+msgid "Single Line Text"
+msgstr "単一行テキスト"
+
+#: core/helpers/arfieldhelper.php:527
+#@ ARForms
+msgid "Multiline Text"
+msgstr "マルチテキスト"
+
+#: core/helpers/arfieldhelper.php:528
+#@ ARForms
+msgid "Checkboxes"
+msgstr "チェックボックス"
+
+#: core/helpers/arfieldhelper.php:529
+#@ ARForms
+msgid "Radio Buttons"
+msgstr "ラジオボタン"
+
+#: core/helpers/arfieldhelper.php:530
+#@ ARForms
+msgid "Dropdown"
+msgstr "ドロップダウン"
+
+#: core/helpers/arfieldhelper.php:531
+#@ ARForms
+msgid "File Upload"
+msgstr "ファイルのアップロード"
+
+#: core/helpers/arfieldhelper.php:561
+#@ ARForms
+msgid "Email Address"
+msgstr "電子メールアドレス"
+
+#: core/helpers/arfieldhelper.php:562
+#@ ARForms
+msgid "CAPTCHA"
+msgstr "キャプチャ"
+
+#: core/helpers/arfieldhelper.php:563
+#: core/models/arfieldmodel.php:57
+#@ ARForms
+msgid "Number"
+msgstr "番号"
+
+#: core/helpers/arfieldhelper.php:564
+#@ ARForms
+msgid "Phone Number"
+msgstr "電話番号"
+
+#: core/helpers/arfieldhelper.php:565
+#: core/models/arfieldmodel.php:79
+#@ ARForms
+msgid "Date"
+msgstr "日付"
+
+#: core/helpers/arfieldhelper.php:566
+#: core/models/arfieldmodel.php:91
+#@ ARForms
+msgid "Time"
+msgstr "時間"
+
+#: core/helpers/arfieldhelper.php:567
+#@ ARForms
+msgid "Website/URL"
+msgstr "ウェブサイト/ URL"
+
+#: core/helpers/arfieldhelper.php:568
+#: core/helpers/arfieldhelper.php:5360
+#@ ARForms
+msgid "Image URL"
+msgstr "画像のURL"
+
+#: core/helpers/arfieldhelper.php:569
+#@ ARForms
+msgid "Hidden Field"
+msgstr "非表示フィールド"
+
+#: core/helpers/arfieldhelper.php:570
+#: core/models/arfieldmodel.php:133
+#: core/views/settings_form.php:1216
+#@ ARForms
+msgid "Password"
+msgstr "パスワード"
+
+#: core/helpers/arfieldhelper.php:571
+#: core/models/arfieldmodel.php:142
+#@ ARForms
+msgid "HTML"
+msgstr "HTML"
+
+#: core/helpers/arfieldhelper.php:572
+#@ ARForms
+msgid "Section"
+msgstr "セクション"
+
+#: core/helpers/arfieldhelper.php:573
+#@ ARForms
+msgid "Page Break"
+msgstr "改ページ"
+
+#: core/helpers/arfieldhelper.php:574
+#@ ARForms
+msgid "Star Rating"
+msgstr "ホテルランク"
+
+#: core/helpers/arfieldhelper.php:575
+#@ ARForms
+msgid "Like button"
+msgstr "ボタンのように"
+
+#: core/helpers/arfieldhelper.php:576
+#@ ARForms
+msgid "Slider"
+msgstr "スライダー"
+
+#: core/helpers/arfieldhelper.php:577
+#@ ARForms
+msgid "Color Picker"
+msgstr "カラーピッカー"
+
+#: core/helpers/arfieldhelper.php:578
+#: core/models/arfieldmodel.php:161
+#@ ARForms
+msgid "Image"
+msgstr "画像"
+
+#: core/helpers/arfieldhelper.php:778
+#@ ARForms
+msgid "Checkbox 1"
+msgstr "チェックボックス1"
+
+#: core/helpers/arfieldhelper.php:778
+#@ ARForms
+msgid "Checkbox 2"
+msgstr "チェックボックス2"
+
+#: core/helpers/arfieldhelper.php:782
+#@ ARForms
+msgid "Radio 1"
+msgstr "ラジオ1"
+
+#: core/helpers/arfieldhelper.php:782
+#@ ARForms
+msgid "Radio 2"
+msgstr "ラジオ2"
+
+#: core/helpers/arfieldhelper.php:786
+#@ ARForms
+msgid "Select 1"
+msgstr "1を選択します"
+
+#: core/helpers/arfieldhelper.php:1268
+#: core/helpers/arfieldhelper.php:4917
+#: core/views/upgrade_latest_data.php:690
+#@ ARForms
+msgid "Like"
+msgstr "ような"
+
+#: core/helpers/arfieldhelper.php:1268
+#: core/helpers/arfieldhelper.php:4928
+#: core/views/upgrade_latest_data.php:691
+#@ ARForms
+msgid "Dislike"
+msgstr "嫌い"
+
+#: core/helpers/arfieldhelper.php:1272
+#: core/helpers/arfieldhelper.php:5290
+#: core/views/upgrade_latest_data.php:703
+#@ ARForms
+msgid "Confirm Password does not match with password"
+msgstr "パスワードの確認パスワードと一致しません"
+
+#: core/helpers/arfieldhelper.php:1273
+#: core/helpers/arfieldhelper.php:5189
+#: core/helpers/arfieldhelper.php:5198
+#: core/views/upgrade_latest_data.php:706
+#@ ARForms
+msgid "Confirm Password"
+msgstr "パスワードの確認"
+
+#: core/helpers/arfieldhelper.php:1283
+#: core/models/arsettingmodel.php:230
+#@ ARForms
+msgid "The reCAPTCHA was not entered correctly"
+msgstr "reCAPTCHAのが正しく入力されませんでした"
+
+#: core/helpers/arfieldhelper.php:1285
+#@ ARForms
+msgid "Email is invalid"
+msgstr "電子メールは無効です"
+
+#: core/helpers/arfieldhelper.php:1287
+#@ ARForms
+msgid "File is invalid"
+msgstr "ファイルが不正です"
+
+#: core/helpers/arfieldhelper.php:1291
+#@ ARForms
+msgid "Phone is invalid"
+msgstr "電話が無効です"
+
+#: core/helpers/arfieldhelper.php:1293
+#@ ARForms
+msgid "Image is invalid"
+msgstr "画像が無効です"
+
+#: core/helpers/arfieldhelper.php:1295
+#@ ARForms
+msgid "Date is invalid"
+msgstr "日付が無効です"
+
+#: core/helpers/arfieldhelper.php:1297
+#@ ARForms
+msgid "Website is invalid"
+msgstr "ウェブサイトが不正です"
+
+#: core/helpers/arfieldhelper.php:1331
+#@ ARForms
+msgid "Untitled"
+msgstr "無題の"
+
+#: core/helpers/arfieldhelper.php:1335
+#@ ARForms
+msgid "This field is invalid"
+msgstr "このフィールドは無効です。"
+
+#: core/helpers/arfieldhelper.php:2109
+#@ ARForms
+msgid "Select a value to insert into the box below"
+msgstr "下のボックスに挿入する値を選択します"
+
+#: core/helpers/arfieldhelper.php:2810
+#: core/views/footer.php:62
+#@ ARForms
+msgid "equals"
+msgstr "等しい"
+
+#: core/helpers/arfieldhelper.php:2811
+#: core/views/footer.php:63
+#@ ARForms
+msgid "not equals"
+msgstr "等しくない"
+
+#: core/helpers/arfieldhelper.php:2812
+#: core/views/footer.php:64
+#@ ARForms
+msgid "greater than"
+msgstr "越える"
+
+#: core/helpers/arfieldhelper.php:2813
+#: core/views/footer.php:65
+#@ ARForms
+msgid "less than"
+msgstr "満たない"
+
+#: core/helpers/arfieldhelper.php:2814
+#: core/views/footer.php:66
+#@ ARForms
+msgid "contains"
+msgstr "含まれています"
+
+#: core/helpers/arfieldhelper.php:2815
+#: core/views/footer.php:67
+#@ ARForms
+msgid "not contains"
+msgstr "含まれていません"
+
+#: core/helpers/arfieldhelper.php:3601
+#@ ARForms
+msgid "English/Western"
+msgstr "英語/西"
+
+#: core/helpers/arfieldhelper.php:3601
+#@ ARForms
+msgid "Afrikaans"
+msgstr "アフリカーンス語"
+
+#: core/helpers/arfieldhelper.php:3602
+#@ ARForms
+msgid "Albanian"
+msgstr "アルバニア語"
+
+#: core/helpers/arfieldhelper.php:3602
+#@ ARForms
+msgid "Arabic"
+msgstr "アラビア語"
+
+#: core/helpers/arfieldhelper.php:3603
+#@ ARForms
+msgid "Armenian"
+msgstr "アルメニア語"
+
+#: core/helpers/arfieldhelper.php:3603
+#@ ARForms
+msgid "Azerbaijani"
+msgstr "アゼルバイジャン語"
+
+#: core/helpers/arfieldhelper.php:3604
+#@ ARForms
+msgid "Basque"
+msgstr "バスク"
+
+#: core/helpers/arfieldhelper.php:3604
+#@ ARForms
+msgid "Bosnian"
+msgstr "ボスニア語"
+
+#: core/helpers/arfieldhelper.php:3605
+#@ ARForms
+msgid "Bulgarian"
+msgstr "ブルガリア語"
+
+#: core/helpers/arfieldhelper.php:3605
+#@ ARForms
+msgid "Catalan"
+msgstr "カタロニア語"
+
+#: core/helpers/arfieldhelper.php:3606
+#@ ARForms
+msgid "Chinese Hong Kong"
+msgstr "中国香港"
+
+#: core/helpers/arfieldhelper.php:3606
+#@ ARForms
+msgid "Chinese Simplified"
+msgstr "中国語簡体字"
+
+#: core/helpers/arfieldhelper.php:3607
+#@ ARForms
+msgid "Chinese Traditional"
+msgstr "繁体字中国語"
+
+#: core/helpers/arfieldhelper.php:3607
+#@ ARForms
+msgid "Croatian"
+msgstr "クロアチア語"
+
+#: core/helpers/arfieldhelper.php:3608
+#@ ARForms
+msgid "Czech"
+msgstr "チェコ語"
+
+#: core/helpers/arfieldhelper.php:3608
+#@ ARForms
+msgid "Danish"
+msgstr "デンマーク語"
+
+#: core/helpers/arfieldhelper.php:3609
+#: core/views/settings_form.php:502
+#@ ARForms
+msgid "Dutch"
+msgstr "オランダ語"
+
+#: core/helpers/arfieldhelper.php:3609
+#@ ARForms
+msgid "English/UK"
+msgstr "英語/イギリス"
+
+#: core/helpers/arfieldhelper.php:3610
+#@ ARForms
+msgid "Esperanto"
+msgstr "エスペラント語"
+
+#: core/helpers/arfieldhelper.php:3610
+#@ ARForms
+msgid "Estonian"
+msgstr "エストニア語"
+
+#: core/helpers/arfieldhelper.php:3611
+#@ ARForms
+msgid "Faroese"
+msgstr "フェロー語"
+
+#: core/helpers/arfieldhelper.php:3611
+#@ ARForms
+msgid "Farsi/Persian"
+msgstr "ペルシア語/ペルシャ"
+
+#: core/helpers/arfieldhelper.php:3612
+#@ ARForms
+msgid "Finnish"
+msgstr "フィンランド語"
+
+#: core/helpers/arfieldhelper.php:3612
+#: core/views/settings_form.php:502
+#@ ARForms
+msgid "French"
+msgstr "フランス語"
+
+#: core/helpers/arfieldhelper.php:3613
+#@ ARForms
+msgid "French/Swiss"
+msgstr "フランス語/スイス"
+
+#: core/helpers/arfieldhelper.php:3613
+#: core/views/settings_form.php:502
+#@ ARForms
+msgid "German"
+msgstr "ドイツ語"
+
+#: core/helpers/arfieldhelper.php:3614
+#@ ARForms
+msgid "Greek"
+msgstr "ギリシャ語"
+
+#: core/helpers/arfieldhelper.php:3614
+#@ ARForms
+msgid "Hebrew"
+msgstr "ヘブライ語の"
+
+#: core/helpers/arfieldhelper.php:3615
+#@ ARForms
+msgid "Hungarian"
+msgstr "ハンガリー語"
+
+#: core/helpers/arfieldhelper.php:3615
+#@ ARForms
+msgid "Icelandic"
+msgstr "アイスランド語"
+
+#: core/helpers/arfieldhelper.php:3616
+#@ ARForms
+msgid "Italian"
+msgstr "イタリア語"
+
+#: core/helpers/arfieldhelper.php:3616
+#@ ARForms
+msgid "Japanese"
+msgstr "日本の"
+
+#: core/helpers/arfieldhelper.php:3617
+#@ ARForms
+msgid "Korean"
+msgstr "韓国人"
+
+#: core/helpers/arfieldhelper.php:3617
+#@ ARForms
+msgid "Latvian"
+msgstr "ラトビアの"
+
+#: core/helpers/arfieldhelper.php:3618
+#@ ARForms
+msgid "Lithuanian"
+msgstr "リトアニア語"
+
+#: core/helpers/arfieldhelper.php:3618
+#@ ARForms
+msgid "Malaysian"
+msgstr "マレーシアの"
+
+#: core/helpers/arfieldhelper.php:3619
+#@ ARForms
+msgid "Norwegian"
+msgstr "ノルウェー語"
+
+#: core/helpers/arfieldhelper.php:3619
+#@ ARForms
+msgid "Polish"
+msgstr "ポーランド語"
+
+#: core/helpers/arfieldhelper.php:3620
+#@ ARForms
+msgid "Portuguese/Brazilian"
+msgstr "ポルトガル語/ブラジル"
+
+#: core/helpers/arfieldhelper.php:3620
+#@ ARForms
+msgid "Romanian"
+msgstr "ルーマニアの"
+
+#: core/helpers/arfieldhelper.php:3621
+#: core/views/settings_form.php:502
+#@ ARForms
+msgid "Russian"
+msgstr "ロシア語"
+
+#: core/helpers/arfieldhelper.php:3621
+#: core/helpers/arfieldhelper.php:3622
+#@ ARForms
+msgid "Serbian"
+msgstr "セルビア語"
+
+#: core/helpers/arfieldhelper.php:3622
+#@ ARForms
+msgid "Slovak"
+msgstr "スロバキア語"
+
+#: core/helpers/arfieldhelper.php:3623
+#@ ARForms
+msgid "Slovenian"
+msgstr "スロベニア語の"
+
+#: core/helpers/arfieldhelper.php:3623
+#: core/views/settings_form.php:502
+#@ ARForms
+msgid "Spanish"
+msgstr "スペイン語"
+
+#: core/helpers/arfieldhelper.php:3624
+#@ ARForms
+msgid "Swedish"
+msgstr "スウェーデン語"
+
+#: core/helpers/arfieldhelper.php:3624
+#@ ARForms
+msgid "Tamil"
+msgstr "タミル語"
+
+#: core/helpers/arfieldhelper.php:3625
+#@ ARForms
+msgid "Thai"
+msgstr "タイの"
+
+#: core/helpers/arfieldhelper.php:3625
+#: core/views/settings_form.php:502
+#@ ARForms
+msgid "Turkish"
+msgstr "トルコ語"
+
+#: core/helpers/arfieldhelper.php:3626
+#@ ARForms
+msgid "Ukrainian"
+msgstr "ウクライナ語"
+
+#: core/helpers/arfieldhelper.php:3626
+#@ ARForms
+msgid "Vietnamese"
+msgstr "ベトナム人"
+
+#: core/helpers/arfieldhelper.php:3681
+#@ ARForms
+msgid "Required field"
+msgstr "必須入力フィールド"
+
+#: core/helpers/arfieldhelper.php:3697
+#@ ARForms
+msgid "Message for blank field"
+msgstr "空欄のメッセージ"
+
+#: core/helpers/arfieldhelper.php:3712
+#@ ARForms
+msgid "automatic width"
+msgstr "自動幅"
+
+#: core/helpers/arfieldhelper.php:3726
+#@ ARForms
+msgid "Number of rows"
+msgstr "行数"
+
+#: core/helpers/arfieldhelper.php:3743
+#@ ARForms
+msgid "Field custom width"
+msgstr "フィールドカスタム幅"
+
+#: core/helpers/arfieldhelper.php:3754
+#@ ARForms
+msgid "Clear Default Text on Focus"
+msgstr "フォーカス時にクリアデフォルトテキスト"
+
+#: core/helpers/arfieldhelper.php:3771
+#@ ARForms
+msgid "Validate default value"
+msgstr "デフォルト値を検証する"
+
+#: core/helpers/arfieldhelper.php:3789
+#@ ARForms
+msgid "Columns"
+msgstr "列"
+
+#: core/helpers/arfieldhelper.php:3805
+#@ ARForms
+msgid "Alignment"
+msgstr "アラインメント"
+
+#: core/helpers/arfieldhelper.php:3827
+#: core/helpers/arfieldhelper.php:3834
+#: core/helpers/arfieldhelper.php:3840
+#@ ARForms
+msgid "Multiple Rows"
+msgstr "複数行"
+
+#: core/helpers/arfieldhelper.php:3825
+#: core/helpers/arfieldhelper.php:3832
+#: core/helpers/arfieldhelper.php:3841
+#@ ARForms
+msgid "Single Row"
+msgstr "単列"
+
+#: core/helpers/arfieldhelper.php:3857
+#: core/views/newfield.php:452
+#: core/views/newfield.php:563
+#@ ARForms
+msgid "Use separate values"
+msgstr "独立した値を使用してください"
+
+#: core/helpers/arfieldhelper.php:3860
+#: core/views/newfield.php:452
+#: core/views/newfield.php:563
+#@ ARForms
+msgid "Add a separate value to use for calculations, email routing, saving to the database, and many other uses. The option values are saved while the option labels are shown in the form."
+msgstr "データベース、および他の多くの用途への保存、計算、電子メールのルーティングに使用するために別の値を追加します。オプションのラベルがフォームに示されているがオプション値が保存されている。"
+
+#: core/helpers/arfieldhelper.php:3873
+#@ ARForms
+msgid "Allowed file types"
+msgstr "許可されているファイルの種類"
+
+#: core/helpers/arfieldhelper.php:3873
+#@ ARForms
+msgid "Here 'All Types' means all the file types supported by your wordpress installation."
+msgstr "ここにすべての種類は、「WordPressのインストールでサポートされているすべてのファイルタイプを意味します。"
+
+#: core/helpers/arfieldhelper.php:3874
+#@ ARForms
+msgid "All types"
+msgstr "すべてのタイプ"
+
+#: core/helpers/arfieldhelper.php:3874
+#@ ARForms
+msgid "Specify types"
+msgstr "タイプを指定"
+
+#: core/helpers/arfieldhelper.php:3965
+#@ ARForms
+msgid "Message for invalid submission"
+msgstr "無効な投稿のメッセージ"
+
+#: core/helpers/arfieldhelper.php:3975
+#@ ARForms
+msgid "Attach file with email"
+msgstr "電子メールでファイルを添付"
+
+#: core/helpers/arfieldhelper.php:3986
+#@ ARForms
+msgid "Upload color"
+msgstr "アップロードの色"
+
+#: core/helpers/arfieldhelper.php:3998
+#: core/vc/class_vc_extend.php:618
+#: core/views/insert_form_popup.php:647
+#: core/widgets/ARFwidgetForm.php:57
+#@ ARForms
+msgid "Button"
+msgstr "ボタン"
+
+#: core/helpers/arfieldhelper.php:4008
+#@ ARForms
+msgid "Font"
+msgstr "フォント"
+
+#: core/helpers/arfieldhelper.php:4020
+#@ ARForms
+msgid "Upload font color"
+msgstr "フォントの色をアップロードする"
+
+#: core/helpers/arfieldhelper.php:4039
+#@ ARForms
+msgid "Upload button text"
+msgstr "アップロードボタンのテキスト"
+
+#: core/helpers/arfieldhelper.php:4050
+#@ ARForms
+msgid "Remove Button text"
+msgstr "ボタンのテキストを削除する"
+
+#: core/helpers/arfieldhelper.php:4062
+#@ ARForms
+msgid "Select captcha"
+msgstr "セレクトキャプチャ"
+
+#: core/helpers/arfieldhelper.php:4110
+#@ ARForms
+msgid "Number Range"
+msgstr "番号の範囲"
+
+#: core/helpers/arfieldhelper.php:4111
+#@ ARForms
+msgid "minimum"
+msgstr "最低限"
+
+#: core/helpers/arfieldhelper.php:4111
+#@ ARForms
+msgid "maximum"
+msgstr "最大"
+
+#: core/helpers/arfieldhelper.php:4120
+#@ ARForms
+msgid "Calendar Localization"
+msgstr "カレンダーローカライゼーション"
+
+#: core/helpers/arfieldhelper.php:4184
+#@ ARForms
+msgid "Year Range"
+msgstr "1年の範囲"
+
+#: core/helpers/arfieldhelper.php:4185
+#@ ARForms
+msgid "Start Year"
+msgstr "開始年"
+
+#: core/helpers/arfieldhelper.php:4185
+#@ ARForms
+msgid "End Year"
+msgstr "終了年"
+
+#: core/helpers/arfieldhelper.php:4193
+#@ ARForms
+msgid "Clock Settings"
+msgstr "クロック設定"
+
+#: core/helpers/arfieldhelper.php:4228
+#: core/helpers/armainhelper.php:1991
+#@ ARForms
+msgid "hour"
+msgstr "1時間"
+
+#: core/helpers/arfieldhelper.php:4296
+#: core/helpers/armainhelper.php:1994
+#@ ARForms
+msgid "minute"
+msgstr "分"
+
+#: core/helpers/arfieldhelper.php:4309
+#: core/vc/class_vc_extend.php:80
+#@ ARForms
+msgid "Content"
+msgstr "コンテンツ"
+
+#: core/helpers/arfieldhelper.php:4311
+#@ ARForms
+msgid "Embedded tags for youtube, map etc are supported."
+msgstr "動画を再生するための組み込みタグは、マップなどがサポートされています。"
+
+#: core/helpers/arfieldhelper.php:4312
+#@ ARForms
+msgid "Enable Running Total"
+msgstr "トータルの実行の有効化"
+
+#: core/helpers/arfieldhelper.php:4318
+#@ ARForms
+msgid "For Running Total you need to add formula inside"
+msgstr "トータルの実行のためには内部の数式を追加する必要があります"
+
+#: core/helpers/arfieldhelper.php:4320
+#: core/views/edit.php:1259
+#: core/views/edit.php:1330
+#: core/views/edit.php:1415
+#: core/views/edit.php:1492
+#: core/views/edit.php:1552
+#: core/views/edit.php:1622
+#: core/views/edit.php:1695
+#@ ARForms
+msgid "Add Field"
+msgstr "フィールドを追加"
+
+#: core/helpers/arfieldhelper.php:4331
+#@ ARForms
+msgid "Validate Formula"
+msgstr "検証式"
+
+#: core/helpers/arfieldhelper.php:4336
+#: core/views/edit.php:1273
+#: core/views/edit.php:1345
+#: core/views/edit.php:1430
+#: core/views/edit.php:1507
+#: core/views/edit.php:1567
+#: core/views/edit.php:1637
+#: core/views/edit.php:1702
+#@ ARForms
+msgid "Fields"
+msgstr "フィールズ"
+
+#: core/helpers/arfieldhelper.php:4357
+#@ ARForms
+msgid "Font Family"
+msgstr "フォントファミリー"
+
+#: core/helpers/arfieldhelper.php:4434
+#@ ARForms
+msgid "Font Size"
+msgstr "フォントサイズ"
+
+#: core/helpers/arfieldhelper.php:4482
+#@ ARForms
+msgid "Font Style"
+msgstr "フォントスタイル"
+
+#: core/helpers/arfieldhelper.php:4565
+#: core/helpers/arfieldhelper.php:4578
+#@ ARForms
+msgid "First Page Label"
+msgstr "最初のページラベル"
+
+#: core/helpers/arfieldhelper.php:4609
+#@ ARForms
+msgid "Previous Button Text"
+msgstr "前ボタンテキスト"
+
+#: core/helpers/arfieldhelper.php:4631
+#@ ARForms
+msgid "Next Button Text"
+msgstr "次のボタンテキスト"
+
+#: core/helpers/arfieldhelper.php:4683
+#: core/helpers/arfieldhelper.php:4690
+#: core/helpers/arfieldhelper.php:4698
+#@ ARForms
+msgid "Wizard"
+msgstr "ウィザード"
+
+#: core/helpers/arfieldhelper.php:4681
+#: core/helpers/arfieldhelper.php:4688
+#: core/helpers/arfieldhelper.php:4699
+#@ ARForms
+msgid "Survey"
+msgstr "調査"
+
+#: core/helpers/arfieldhelper.php:4717
+#@ ARForms
+msgid "Range"
+msgstr "レンジ"
+
+#: core/helpers/arfieldhelper.php:4876
+#@ ARForms
+msgid "Like Title"
+msgstr "タイトルのように"
+
+#: core/helpers/arfieldhelper.php:4892
+#@ ARForms
+msgid "Dislike Title"
+msgstr "嫌いタイトル"
+
+#: core/helpers/arfieldhelper.php:4907
+#@ ARForms
+msgid "Active color"
+msgstr "アクティブカラー"
+
+#: core/helpers/arfieldhelper.php:4939
+#@ ARForms
+msgid "Handle type"
+msgstr "ハンドルタイプ"
+
+#: core/helpers/arfieldhelper.php:4961
+#: core/helpers/arfieldhelper.php:4976
+#@ ARForms
+msgid "Round"
+msgstr "ラウンド"
+
+#: core/helpers/arfieldhelper.php:4959
+#: core/helpers/arfieldhelper.php:4977
+#@ ARForms
+msgid "Square"
+msgstr "広場"
+
+#: core/helpers/arfieldhelper.php:4957
+#: core/helpers/arfieldhelper.php:4978
+#@ ARForms
+msgid "Triangle"
+msgstr "三角形"
+
+#: core/helpers/arfieldhelper.php:4995
+#: core/views/form.php:160
+#@ ARForms
+msgid "Step"
+msgstr "ステップ"
+
+#: core/helpers/arfieldhelper.php:5008
+#@ ARForms
+msgid "Default value"
+msgstr "デフォルト値"
+
+#: core/helpers/arfieldhelper.php:5021
+#@ ARForms
+msgid "Track BG color"
+msgstr "トラックのBG色"
+
+#: core/helpers/arfieldhelper.php:5031
+#@ ARForms
+msgid "Left side"
+msgstr "左側"
+
+#: core/helpers/arfieldhelper.php:5040
+#@ ARForms
+msgid "Right side"
+msgstr "右側"
+
+#: core/helpers/arfieldhelper.php:5051
+#@ ARForms
+msgid "Handle color"
+msgstr "ハンドルの色"
+
+#: core/helpers/arfieldhelper.php:5072
+#@ ARForms
+msgid "Placeholder Text"
+msgstr "プレースホルダテキスト"
+
+#: core/helpers/arfieldhelper.php:5085
+#@ ARForms
+msgid "Field Description"
+msgstr "フィールド記述"
+
+#: core/helpers/arfieldhelper.php:5098
+#@ ARForms
+msgid "Label Name"
+msgstr "ラベル名"
+
+#: core/helpers/arfieldhelper.php:5113
+#@ ARForms
+msgid "Phone Number Format"
+msgstr "電話番号の書式"
+
+#: core/helpers/arfieldhelper.php:5179
+#@ ARForms
+msgid "Password Strength Meter"
+msgstr "パスワード強度メーター"
+
+#: core/helpers/arfieldhelper.php:5179
+#@ ARForms
+msgid "Strength Indicator will be indicate password as a strong, only when password contains alpha numeric value and special characters."
+msgstr "強度インジケータは、パスワードが英数字の値と特殊文字が含まれている場合にのみ、強力な、パスワードを指示します。"
+
+#: core/helpers/arfieldhelper.php:5201
+#@ ARForms
+msgid "Confirm Password Label"
+msgstr "パスワードのラベルを確認してください"
+
+#: core/helpers/arfieldhelper.php:5293
+#@ ARForms
+msgid "Message for invalid Password"
+msgstr "無効なパスワードのメッセージ"
+
+#: core/helpers/arfieldhelper.php:5310
+#@ ARForms
+msgid "Colorpicker Type"
+msgstr "ColorPickerのタイプ"
+
+#: core/helpers/arfieldhelper.php:5330
+#: core/helpers/arfieldhelper.php:5345
+#@ ARForms
+msgid "Advanced"
+msgstr "高度な"
+
+#: core/helpers/arfieldhelper.php:5328
+#: core/helpers/arfieldhelper.php:5346
+#@ ARForms
+msgid "Basic"
+msgstr "基本"
+
+#: core/helpers/arfieldhelper.php:5404
+#: core/vc/class_vc_extend.php:702
+#: core/views/insert_form_popup.php:719
+#@ ARForms
+msgid "Height"
+msgstr "高さ"
+
+#: core/helpers/arfieldhelper.php:5417
+#: core/vc/class_vc_extend.php:703
+#: core/views/insert_form_popup.php:720
+#@ ARForms
+msgid "Width"
+msgstr "幅"
+
+#: core/helpers/arfieldhelper.php:5432
+#@ ARForms
+msgid "Horizontal Center"
+msgstr "水平センター"
+
+#: core/helpers/arfieldhelper.php:5435
+#@ ARForms
+msgid "No"
+msgstr "いいえ"
+
+#: core/helpers/arfieldhelper.php:5435
+#@ ARForms
+msgid "Yes"
+msgstr "はい"
+
+#: core/helpers/arfieldhelper.php:5447
+#@ ARForms
+msgid "Default Value"
+msgstr "デフォルト値"
+
+#: core/helpers/arformhelper.php:206
+#: core/helpers/arformhelper.php:545
+#@ ARForms
+msgid "Thank you for subscription with us. We will contact you soon."
+msgstr "私達と購読していただきありがとうございます。私たちはすぐにご連絡させていただきます。"
+
+#: core/helpers/arformhelper.php:244
+#: core/helpers/arformhelper.php:549
+#: core/models/arnotifymodel.php:676
+#: core/views/upgrade_latest_data.php:459
+#@ ARForms
+msgid "Form submitted on"
+msgstr "フォームが提出さ"
+
+#: core/helpers/arformhelper.php:387
+#@ ARForms
+msgid "Untitled Form"
+msgstr "無題フォーム"
+
+#: core/helpers/armainhelper.php:385
+#@ ARForms
+msgid "is invalid"
+msgstr "無効である"
+
+#: core/helpers/armainhelper.php:688
+#@ ARForms
+msgid "Afghanistan"
+msgstr "アフガニスタン"
+
+#: core/helpers/armainhelper.php:688
+#@ ARForms
+msgid "Albania"
+msgstr "アルバニア"
+
+#: core/helpers/armainhelper.php:688
+#@ ARForms
+msgid "Algeria"
+msgstr "アルジェリア"
+
+#: core/helpers/armainhelper.php:691
+#@ ARForms
+msgid "American Samoa"
+msgstr "米サモア"
+
+#: core/helpers/armainhelper.php:691
+#@ ARForms
+msgid "Andorra"
+msgstr "アンドラ"
+
+#: core/helpers/armainhelper.php:691
+#@ ARForms
+msgid "Angola"
+msgstr "アンゴラ"
+
+#: core/helpers/armainhelper.php:694
+#@ ARForms
+msgid "Anguilla"
+msgstr "アングィラ"
+
+#: core/helpers/armainhelper.php:694
+#@ ARForms
+msgid "Antarctica"
+msgstr "南極大陸"
+
+#: core/helpers/armainhelper.php:694
+#@ ARForms
+msgid "Antigua and Barbuda"
+msgstr "アンチグアバーブーダ"
+
+#: core/helpers/armainhelper.php:697
+#@ ARForms
+msgid "Argentina"
+msgstr "アルゼンチン"
+
+#: core/helpers/armainhelper.php:697
+#@ ARForms
+msgid "Armenia"
+msgstr "アルメニア"
+
+#: core/helpers/armainhelper.php:697
+#@ ARForms
+msgid "Aruba"
+msgstr "アルバ"
+
+#: core/helpers/armainhelper.php:700
+#@ ARForms
+msgid "Australia"
+msgstr "オーストラリア"
+
+#: core/helpers/armainhelper.php:700
+#@ ARForms
+msgid "Austria"
+msgstr "オーストリア"
+
+#: core/helpers/armainhelper.php:700
+#@ ARForms
+msgid "Azerbaijan"
+msgstr "アゼルバイジャン"
+
+#: core/helpers/armainhelper.php:703
+#@ ARForms
+msgid "Bahamas"
+msgstr "バハマ"
+
+#: core/helpers/armainhelper.php:703
+#@ ARForms
+msgid "Bahrain"
+msgstr "バーレーン"
+
+#: core/helpers/armainhelper.php:703
+#@ ARForms
+msgid "Bangladesh"
+msgstr "バングラデシュ"
+
+#: core/helpers/armainhelper.php:706
+#@ ARForms
+msgid "Barbados"
+msgstr "バルバドス"
+
+#: core/helpers/armainhelper.php:706
+#@ ARForms
+msgid "Belarus"
+msgstr "ベラルーシ"
+
+#: core/helpers/armainhelper.php:706
+#@ ARForms
+msgid "Belgium"
+msgstr "ベルギー"
+
+#: core/helpers/armainhelper.php:709
+#@ ARForms
+msgid "Belize"
+msgstr "ベリーズ"
+
+#: core/helpers/armainhelper.php:709
+#@ ARForms
+msgid "Benin"
+msgstr "ベナン"
+
+#: core/helpers/armainhelper.php:709
+#@ ARForms
+msgid "Bermuda"
+msgstr "バミューダ"
+
+#: core/helpers/armainhelper.php:712
+#@ ARForms
+msgid "Bhutan"
+msgstr "ブータン"
+
+#: core/helpers/armainhelper.php:712
+#@ ARForms
+msgid "Bolivia"
+msgstr "ボリビア"
+
+#: core/helpers/armainhelper.php:712
+#@ ARForms
+msgid "Bosnia and Herzegovina"
+msgstr "ボスニア·ヘルツェゴビナ"
+
+#: core/helpers/armainhelper.php:715
+#@ ARForms
+msgid "Botswana"
+msgstr "ボツワナ"
+
+#: core/helpers/armainhelper.php:715
+#@ ARForms
+msgid "Brazil"
+msgstr "ブラジル"
+
+#: core/helpers/armainhelper.php:715
+#@ ARForms
+msgid "Brunei"
+msgstr "ブルネイ"
+
+#: core/helpers/armainhelper.php:718
+#@ ARForms
+msgid "Bulgaria"
+msgstr "ブルガリア"
+
+#: core/helpers/armainhelper.php:718
+#@ ARForms
+msgid "Burkina Faso"
+msgstr "ブルキナファソ"
+
+#: core/helpers/armainhelper.php:718
+#@ ARForms
+msgid "Burundi"
+msgstr "ブルンジ"
+
+#: core/helpers/armainhelper.php:721
+#@ ARForms
+msgid "Cambodia"
+msgstr "カンボジア"
+
+#: core/helpers/armainhelper.php:721
+#@ ARForms
+msgid "Cameroon"
+msgstr "カメルーン"
+
+#: core/helpers/armainhelper.php:721
+#@ ARForms
+msgid "Canada"
+msgstr "カナダ"
+
+#: core/helpers/armainhelper.php:724
+#@ ARForms
+msgid "Cape Verde"
+msgstr "カーボベルデ"
+
+#: core/helpers/armainhelper.php:724
+#@ ARForms
+msgid "Cayman Islands"
+msgstr "ケイマン諸島"
+
+#: core/helpers/armainhelper.php:724
+#@ ARForms
+msgid "Central African Republic"
+msgstr "中央アフリカ共和国"
+
+#: core/helpers/armainhelper.php:727
+#@ ARForms
+msgid "Chad"
+msgstr "チャド"
+
+#: core/helpers/armainhelper.php:727
+#@ ARForms
+msgid "Chile"
+msgstr "チリ"
+
+#: core/helpers/armainhelper.php:727
+#@ ARForms
+msgid "China"
+msgstr "中国"
+
+#: core/helpers/armainhelper.php:730
+#@ ARForms
+msgid "Colombia"
+msgstr "コロンビア"
+
+#: core/helpers/armainhelper.php:730
+#@ ARForms
+msgid "Comoros"
+msgstr "コモロ"
+
+#: core/helpers/armainhelper.php:730
+#@ ARForms
+msgid "Congo"
+msgstr "コンゴ"
+
+#: core/helpers/armainhelper.php:733
+#@ ARForms
+msgid "Costa Rica"
+msgstr "コスタリカ"
+
+#: core/helpers/armainhelper.php:733
+#@ ARForms
+msgid "Croatia"
+msgstr "クロアチア"
+
+#: core/helpers/armainhelper.php:736
+#@ ARForms
+msgid "Cuba"
+msgstr "キューバ"
+
+#: core/helpers/armainhelper.php:736
+#@ ARForms
+msgid "Cyprus"
+msgstr "キプロス"
+
+#: core/helpers/armainhelper.php:736
+#@ ARForms
+msgid "Czech Republic"
+msgstr "チェコ共和国"
+
+#: core/helpers/armainhelper.php:739
+#@ ARForms
+msgid "Denmark"
+msgstr "デンマーク"
+
+#: core/helpers/armainhelper.php:739
+#@ ARForms
+msgid "Djibouti"
+msgstr "ジブチ"
+
+#: core/helpers/armainhelper.php:739
+#@ ARForms
+msgid "Dominica"
+msgstr "ドミニカ"
+
+#: core/helpers/armainhelper.php:742
+#@ ARForms
+msgid "Dominican Republic"
+msgstr "ドミニカ共和国"
+
+#: core/helpers/armainhelper.php:742
+#@ ARForms
+msgid "East Timor"
+msgstr "東ティモール"
+
+#: core/helpers/armainhelper.php:742
+#@ ARForms
+msgid "Ecuador"
+msgstr "エクアドル"
+
+#: core/helpers/armainhelper.php:745
+#@ ARForms
+msgid "Egypt"
+msgstr "エジプト"
+
+#: core/helpers/armainhelper.php:745
+#@ ARForms
+msgid "El Salvador"
+msgstr "エルサルバドル"
+
+#: core/helpers/armainhelper.php:745
+#@ ARForms
+msgid "Equatorial Guinea"
+msgstr "赤道ギニア"
+
+#: core/helpers/armainhelper.php:748
+#@ ARForms
+msgid "Eritrea"
+msgstr "エリトリア"
+
+#: core/helpers/armainhelper.php:748
+#@ ARForms
+msgid "Estonia"
+msgstr "エストニア"
+
+#: core/helpers/armainhelper.php:748
+#@ ARForms
+msgid "Ethiopia"
+msgstr "エチオピア"
+
+#: core/helpers/armainhelper.php:751
+#@ ARForms
+msgid "Fiji"
+msgstr "フィジー"
+
+#: core/helpers/armainhelper.php:751
+#@ ARForms
+msgid "Finland"
+msgstr "フィンランド"
+
+#: core/helpers/armainhelper.php:751
+#@ ARForms
+msgid "France"
+msgstr "フランス"
+
+#: core/helpers/armainhelper.php:754
+#@ ARForms
+msgid "French Guiana"
+msgstr "仏領ギアナ"
+
+#: core/helpers/armainhelper.php:754
+#@ ARForms
+msgid "French Polynesia"
+msgstr "フランス領ポリネシア"
+
+#: core/helpers/armainhelper.php:754
+#@ ARForms
+msgid "Gabon"
+msgstr "ガボン"
+
+#: core/helpers/armainhelper.php:757
+#@ ARForms
+msgid "Gambia"
+msgstr "ガンビア"
+
+#: core/helpers/armainhelper.php:757
+#@ ARForms
+msgid "Georgia"
+msgstr "グルジア"
+
+#: core/helpers/armainhelper.php:757
+#@ ARForms
+msgid "Germany"
+msgstr "ドイツ"
+
+#: core/helpers/armainhelper.php:760
+#@ ARForms
+msgid "Ghana"
+msgstr "ガーナ"
+
+#: core/helpers/armainhelper.php:760
+#@ ARForms
+msgid "Gibraltar"
+msgstr "ジブラルタル"
+
+#: core/helpers/armainhelper.php:760
+#@ ARForms
+msgid "Greece"
+msgstr "ギリシャ"
+
+#: core/helpers/armainhelper.php:763
+#@ ARForms
+msgid "Greenland"
+msgstr "グリーンランド"
+
+#: core/helpers/armainhelper.php:763
+#@ ARForms
+msgid "Grenada"
+msgstr "グレナダ"
+
+#: core/helpers/armainhelper.php:763
+#@ ARForms
+msgid "Guam"
+msgstr "グアム島"
+
+#: core/helpers/armainhelper.php:766
+#@ ARForms
+msgid "Guatemala"
+msgstr "グアテマラ"
+
+#: core/helpers/armainhelper.php:766
+#@ ARForms
+msgid "Guinea"
+msgstr "ギニア"
+
+#: core/helpers/armainhelper.php:766
+#@ ARForms
+msgid "Guinea-Bissau"
+msgstr "ギニアビサウ"
+
+#: core/helpers/armainhelper.php:769
+#@ ARForms
+msgid "Guyana"
+msgstr "ガイアナ"
+
+#: core/helpers/armainhelper.php:769
+#@ ARForms
+msgid "Haiti"
+msgstr "ハイチ"
+
+#: core/helpers/armainhelper.php:769
+#@ ARForms
+msgid "Honduras"
+msgstr "ホンジュラス"
+
+#: core/helpers/armainhelper.php:772
+#@ ARForms
+msgid "Hong Kong"
+msgstr "香港"
+
+#: core/helpers/armainhelper.php:772
+#@ ARForms
+msgid "Hungary"
+msgstr "ハンガリー"
+
+#: core/helpers/armainhelper.php:772
+#@ ARForms
+msgid "Iceland"
+msgstr "アイスランド"
+
+#: core/helpers/armainhelper.php:775
+#@ ARForms
+msgid "India"
+msgstr "インド"
+
+#: core/helpers/armainhelper.php:775
+#@ ARForms
+msgid "Indonesia"
+msgstr "インドネシア"
+
+#: core/helpers/armainhelper.php:775
+#@ ARForms
+msgid "Iran"
+msgstr "イラン"
+
+#: core/helpers/armainhelper.php:778
+#@ ARForms
+msgid "Iraq"
+msgstr "イラク"
+
+#: core/helpers/armainhelper.php:778
+#@ ARForms
+msgid "Ireland"
+msgstr "アイルランド"
+
+#: core/helpers/armainhelper.php:778
+#@ ARForms
+msgid "Israel"
+msgstr "イスラエル"
+
+#: core/helpers/armainhelper.php:781
+#@ ARForms
+msgid "Italy"
+msgstr "イタリア"
+
+#: core/helpers/armainhelper.php:781
+#@ ARForms
+msgid "Jamaica"
+msgstr "ジャマイカ"
+
+#: core/helpers/armainhelper.php:781
+#@ ARForms
+msgid "Japan"
+msgstr "日本"
+
+#: core/helpers/armainhelper.php:784
+#@ ARForms
+msgid "Jordan"
+msgstr "ヨルダン"
+
+#: core/helpers/armainhelper.php:784
+#@ ARForms
+msgid "Kazakhstan"
+msgstr "カザフスタン"
+
+#: core/helpers/armainhelper.php:784
+#@ ARForms
+msgid "Kenya"
+msgstr "ケニア"
+
+#: core/helpers/armainhelper.php:787
+#@ ARForms
+msgid "Kiribati"
+msgstr "キリバス"
+
+#: core/helpers/armainhelper.php:787
+#@ ARForms
+msgid "North Korea"
+msgstr "北朝鮮"
+
+#: core/helpers/armainhelper.php:787
+#@ ARForms
+msgid "South Korea"
+msgstr "韓国"
+
+#: core/helpers/armainhelper.php:790
+#@ ARForms
+msgid "Kuwait"
+msgstr "クウェート"
+
+#: core/helpers/armainhelper.php:790
+#@ ARForms
+msgid "Kyrgyzstan"
+msgstr "キルギスタン"
+
+#: core/helpers/armainhelper.php:790
+#@ ARForms
+msgid "Laos"
+msgstr "ラオス"
+
+#: core/helpers/armainhelper.php:793
+#@ ARForms
+msgid "Latvia"
+msgstr "ラトビア"
+
+#: core/helpers/armainhelper.php:793
+#@ ARForms
+msgid "Lebanon"
+msgstr "レバノン"
+
+#: core/helpers/armainhelper.php:793
+#@ ARForms
+msgid "Lesotho"
+msgstr "レソト"
+
+#: core/helpers/armainhelper.php:796
+#@ ARForms
+msgid "Liberia"
+msgstr "リベリア"
+
+#: core/helpers/armainhelper.php:796
+#@ ARForms
+msgid "Libya"
+msgstr "リビア"
+
+#: core/helpers/armainhelper.php:796
+#@ ARForms
+msgid "Liechtenstein"
+msgstr "リヒテンシュタイン"
+
+#: core/helpers/armainhelper.php:799
+#@ ARForms
+msgid "Lithuania"
+msgstr "リトアニア"
+
+#: core/helpers/armainhelper.php:799
+#@ ARForms
+msgid "Luxembourg"
+msgstr "ルクセンブルグ"
+
+#: core/helpers/armainhelper.php:799
+#@ ARForms
+msgid "Macedonia"
+msgstr "マケドニア"
+
+#: core/helpers/armainhelper.php:802
+#@ ARForms
+msgid "Madagascar"
+msgstr "マダガスカル"
+
+#: core/helpers/armainhelper.php:802
+#@ ARForms
+msgid "Malawi"
+msgstr "マラウイ"
+
+#: core/helpers/armainhelper.php:802
+#@ ARForms
+msgid "Malaysia"
+msgstr "マレーシア"
+
+#: core/helpers/armainhelper.php:805
+#@ ARForms
+msgid "Maldives"
+msgstr "モルディブ"
+
+#: core/helpers/armainhelper.php:805
+#@ ARForms
+msgid "Mali"
+msgstr "マリ"
+
+#: core/helpers/armainhelper.php:805
+#@ ARForms
+msgid "Malta"
+msgstr "マルタ"
+
+#: core/helpers/armainhelper.php:808
+#@ ARForms
+msgid "Marshall Islands"
+msgstr "マーシャル諸島"
+
+#: core/helpers/armainhelper.php:808
+#@ ARForms
+msgid "Mauritania"
+msgstr "モーリタニア"
+
+#: core/helpers/armainhelper.php:808
+#@ ARForms
+msgid "Mauritius"
+msgstr "モーリシャス"
+
+#: core/helpers/armainhelper.php:811
+#@ ARForms
+msgid "Mexico"
+msgstr "メキシコ"
+
+#: core/helpers/armainhelper.php:811
+#@ ARForms
+msgid "Micronesia"
+msgstr "ミクロネシア"
+
+#: core/helpers/armainhelper.php:811
+#@ ARForms
+msgid "Moldova"
+msgstr "モルドバ"
+
+#: core/helpers/armainhelper.php:814
+#@ ARForms
+msgid "Monaco"
+msgstr "モナコ"
+
+#: core/helpers/armainhelper.php:814
+#@ ARForms
+msgid "Mongolia"
+msgstr "モンゴル国"
+
+#: core/helpers/armainhelper.php:814
+#@ ARForms
+msgid "Montenegro"
+msgstr "モンテネグロ"
+
+#: core/helpers/armainhelper.php:817
+#@ ARForms
+msgid "Montserrat"
+msgstr "モントセラト"
+
+#: core/helpers/armainhelper.php:817
+#@ ARForms
+msgid "Morocco"
+msgstr "モロッコ"
+
+#: core/helpers/armainhelper.php:817
+#@ ARForms
+msgid "Mozambique"
+msgstr "モザンビーク"
+
+#: core/helpers/armainhelper.php:820
+#@ ARForms
+msgid "Myanmar"
+msgstr "ミャンマー"
+
+#: core/helpers/armainhelper.php:820
+#@ ARForms
+msgid "Namibia"
+msgstr "ナミビア"
+
+#: core/helpers/armainhelper.php:820
+#@ ARForms
+msgid "Nauru"
+msgstr "ナウル"
+
+#: core/helpers/armainhelper.php:823
+#@ ARForms
+msgid "Nepal"
+msgstr "ネパール"
+
+#: core/helpers/armainhelper.php:823
+#@ ARForms
+msgid "Netherlands"
+msgstr "オランダ"
+
+#: core/helpers/armainhelper.php:823
+#@ ARForms
+msgid "New Zealand"
+msgstr "ニュージーランド"
+
+#: core/helpers/armainhelper.php:826
+#@ ARForms
+msgid "Nicaragua"
+msgstr "ニカラグア"
+
+#: core/helpers/armainhelper.php:826
+#@ ARForms
+msgid "Niger"
+msgstr "ニジェール"
+
+#: core/helpers/armainhelper.php:826
+#@ ARForms
+msgid "Nigeria"
+msgstr "ナイジェリア"
+
+#: core/helpers/armainhelper.php:829
+#@ ARForms
+msgid "Norway"
+msgstr "ノルウェー"
+
+#: core/helpers/armainhelper.php:829
+#@ ARForms
+msgid "Northern Mariana Islands"
+msgstr "北マリアナ諸島連邦"
+
+#: core/helpers/armainhelper.php:829
+#@ ARForms
+msgid "Oman"
+msgstr "オマーン"
+
+#: core/helpers/armainhelper.php:832
+#@ ARForms
+msgid "Pakistan"
+msgstr "パキスタン"
+
+#: core/helpers/armainhelper.php:832
+#@ ARForms
+msgid "Palau"
+msgstr "パラオ"
+
+#: core/helpers/armainhelper.php:832
+#@ ARForms
+msgid "Palestine"
+msgstr "パレスチナ"
+
+#: core/helpers/armainhelper.php:835
+#@ ARForms
+msgid "Panama"
+msgstr "パナマ"
+
+#: core/helpers/armainhelper.php:835
+#@ ARForms
+msgid "Papua New Guinea"
+msgstr "パプアニューギニアの"
+
+#: core/helpers/armainhelper.php:835
+#@ ARForms
+msgid "Paraguay"
+msgstr "パラグアイ"
+
+#: core/helpers/armainhelper.php:838
+#@ ARForms
+msgid "Peru"
+msgstr "ペルー"
+
+#: core/helpers/armainhelper.php:838
+#@ ARForms
+msgid "Philippines"
+msgstr "フィリピン"
+
+#: core/helpers/armainhelper.php:838
+#@ ARForms
+msgid "Poland"
+msgstr "ポーランド"
+
+#: core/helpers/armainhelper.php:841
+#@ ARForms
+msgid "Portugal"
+msgstr "ポルトガル"
+
+#: core/helpers/armainhelper.php:841
+#@ ARForms
+msgid "Puerto Rico"
+msgstr "プエルトリコ"
+
+#: core/helpers/armainhelper.php:841
+#@ ARForms
+msgid "Qatar"
+msgstr "カタール"
+
+#: core/helpers/armainhelper.php:844
+#@ ARForms
+msgid "Romania"
+msgstr "ルーマニア"
+
+#: core/helpers/armainhelper.php:844
+#@ ARForms
+msgid "Russia"
+msgstr "ロシア"
+
+#: core/helpers/armainhelper.php:844
+#@ ARForms
+msgid "Rwanda"
+msgstr "ルワンダ"
+
+#: core/helpers/armainhelper.php:847
+#@ ARForms
+msgid "Saint Kitts and Nevis"
+msgstr "セントクリストファー·ネイビス"
+
+#: core/helpers/armainhelper.php:847
+#@ ARForms
+msgid "Saint Lucia"
+msgstr "セントルシア"
+
+#: core/helpers/armainhelper.php:850
+#@ ARForms
+msgid "Saint Vincent and the Grenadines"
+msgstr "セントビンセントおよびグレナディーン諸島"
+
+#: core/helpers/armainhelper.php:850
+#@ ARForms
+msgid "Samoa"
+msgstr "サモア諸島"
+
+#: core/helpers/armainhelper.php:853
+#@ ARForms
+msgid "San Marino"
+msgstr "サン·マリノ"
+
+#: core/helpers/armainhelper.php:853
+#@ ARForms
+msgid "Sao Tome and Principe"
+msgstr "サントメプリンシペ"
+
+#: core/helpers/armainhelper.php:853
+#@ ARForms
+msgid "Saudi Arabia"
+msgstr "サウジアラビア"
+
+#: core/helpers/armainhelper.php:856
+#@ ARForms
+msgid "Senegal"
+msgstr "セネガル"
+
+#: core/helpers/armainhelper.php:856
+#@ ARForms
+msgid "Serbia and Montenegro"
+msgstr "セルビア·モンテネグロ"
+
+#: core/helpers/armainhelper.php:856
+#@ ARForms
+msgid "Seychelles"
+msgstr "セイシェル"
+
+#: core/helpers/armainhelper.php:859
+#@ ARForms
+msgid "Sierra Leone"
+msgstr "シエラレオネ"
+
+#: core/helpers/armainhelper.php:859
+#@ ARForms
+msgid "Singapore"
+msgstr "シンガポール"
+
+#: core/helpers/armainhelper.php:859
+#@ ARForms
+msgid "Slovakia"
+msgstr "スロバキア"
+
+#: core/helpers/armainhelper.php:862
+#@ ARForms
+msgid "Slovenia"
+msgstr "スロベニア"
+
+#: core/helpers/armainhelper.php:862
+#@ ARForms
+msgid "Solomon Islands"
+msgstr "ソロモン諸島"
+
+#: core/helpers/armainhelper.php:862
+#@ ARForms
+msgid "Somalia"
+msgstr "ソマリア"
+
+#: core/helpers/armainhelper.php:865
+#@ ARForms
+msgid "South Africa"
+msgstr "南アフリカ"
+
+#: core/helpers/armainhelper.php:865
+#@ ARForms
+msgid "Spain"
+msgstr "スペイン"
+
+#: core/helpers/armainhelper.php:865
+#@ ARForms
+msgid "Sri Lanka"
+msgstr "スリ·ランカ"
+
+#: core/helpers/armainhelper.php:868
+#@ ARForms
+msgid "Sudan"
+msgstr "スーダン"
+
+#: core/helpers/armainhelper.php:868
+#@ ARForms
+msgid "Suriname"
+msgstr "スリナム"
+
+#: core/helpers/armainhelper.php:868
+#@ ARForms
+msgid "Swaziland"
+msgstr "スワジランド"
+
+#: core/helpers/armainhelper.php:871
+#@ ARForms
+msgid "Sweden"
+msgstr "スウェーデン"
+
+#: core/helpers/armainhelper.php:871
+#@ ARForms
+msgid "Switzerland"
+msgstr "スイス"
+
+#: core/helpers/armainhelper.php:871
+#@ ARForms
+msgid "Syria"
+msgstr "シリア"
+
+#: core/helpers/armainhelper.php:874
+#@ ARForms
+msgid "Taiwan"
+msgstr "台湾"
+
+#: core/helpers/armainhelper.php:874
+#@ ARForms
+msgid "Tajikistan"
+msgstr "タジキスタン"
+
+#: core/helpers/armainhelper.php:874
+#@ ARForms
+msgid "Tanzania"
+msgstr "タンザニア"
+
+#: core/helpers/armainhelper.php:877
+#@ ARForms
+msgid "Thailand"
+msgstr "タイ"
+
+#: core/helpers/armainhelper.php:877
+#@ ARForms
+msgid "Togo"
+msgstr "トーゴ"
+
+#: core/helpers/armainhelper.php:877
+#@ ARForms
+msgid "Tonga"
+msgstr "トンガ"
+
+#: core/helpers/armainhelper.php:880
+#@ ARForms
+msgid "Trinidad and Tobago"
+msgstr "トリニダード·トバゴ"
+
+#: core/helpers/armainhelper.php:880
+#@ ARForms
+msgid "Tunisia"
+msgstr "チュニジア"
+
+#: core/helpers/armainhelper.php:880
+#@ ARForms
+msgid "Turkey"
+msgstr "トルコ"
+
+#: core/helpers/armainhelper.php:883
+#@ ARForms
+msgid "Turkmenistan"
+msgstr "トルクメニスタン"
+
+#: core/helpers/armainhelper.php:883
+#@ ARForms
+msgid "Tuvalu"
+msgstr "ツバル"
+
+#: core/helpers/armainhelper.php:883
+#@ ARForms
+msgid "Uganda"
+msgstr "ウガンダ"
+
+#: core/helpers/armainhelper.php:886
+#@ ARForms
+msgid "Ukraine"
+msgstr "ウクライナ"
+
+#: core/helpers/armainhelper.php:886
+#@ ARForms
+msgid "United Arab Emirates"
+msgstr "アラブ首長国連邦"
+
+#: core/helpers/armainhelper.php:886
+#@ ARForms
+msgid "United Kingdom"
+msgstr "イギリス"
+
+#: core/helpers/armainhelper.php:889
+#@ ARForms
+msgid "United States"
+msgstr "米国"
+
+#: core/helpers/armainhelper.php:889
+#@ ARForms
+msgid "Uruguay"
+msgstr "ウルグアイ"
+
+#: core/helpers/armainhelper.php:889
+#@ ARForms
+msgid "Uzbekistan"
+msgstr "ウズベキスタン"
+
+#: core/helpers/armainhelper.php:892
+#@ ARForms
+msgid "Vanuatu"
+msgstr "バヌアツ"
+
+#: core/helpers/armainhelper.php:892
+#@ ARForms
+msgid "Vatican City"
+msgstr "バチカン市国"
+
+#: core/helpers/armainhelper.php:892
+#@ ARForms
+msgid "Venezuela"
+msgstr "ベネズエラ"
+
+#: core/helpers/armainhelper.php:895
+#@ ARForms
+msgid "Vietnam"
+msgstr "ベトナム"
+
+#: core/helpers/armainhelper.php:895
+#@ ARForms
+msgid "Virgin Islands, British"
+msgstr "英領バージン諸島"
+
+#: core/helpers/armainhelper.php:898
+#@ ARForms
+msgid "Virgin Islands, U.S."
+msgstr "バージン諸島、米国"
+
+#: core/helpers/armainhelper.php:898
+#@ ARForms
+msgid "Yemen"
+msgstr "イエメン"
+
+#: core/helpers/armainhelper.php:898
+#@ ARForms
+msgid "Zambia"
+msgstr "ザンビア"
+
+#: core/helpers/armainhelper.php:901
+#@ ARForms
+msgid "Zimbabwe"
+msgstr "ジンバブエ"
+
+#: core/helpers/armainhelper.php:1822
+#@ ARForms
+msgid "at"
+msgstr "アット"
+
+#: core/helpers/armainhelper.php:1979
+#@ ARForms
+msgid "year"
+msgstr "年"
+
+#: core/helpers/armainhelper.php:1979
+#@ ARForms
+msgid "years"
+msgstr "年"
+
+#: core/helpers/armainhelper.php:1982
+#@ ARForms
+msgid "month"
+msgstr "月"
+
+#: core/helpers/armainhelper.php:1982
+#@ ARForms
+msgid "months"
+msgstr "ヶ月"
+
+#: core/helpers/armainhelper.php:1985
+#@ ARForms
+msgid "week"
+msgstr "週"
+
+#: core/helpers/armainhelper.php:1985
+#@ ARForms
+msgid "weeks"
+msgstr "週間"
+
+#: core/helpers/armainhelper.php:1988
+#@ ARForms
+msgid "day"
+msgstr "日"
+
+#: core/helpers/armainhelper.php:1988
+#@ ARForms
+msgid "days"
+msgstr "日"
+
+#: core/helpers/armainhelper.php:1991
+#@ ARForms
+msgid "hours"
+msgstr "営業時間"
+
+#: core/helpers/armainhelper.php:1994
+#@ ARForms
+msgid "minutes"
+msgstr "分"
+
+#: core/helpers/armainhelper.php:1997
+#@ ARForms
+msgid "second"
+msgstr "第2"
+
+#: core/helpers/armainhelper.php:1997
+#: core/helpers/armainhelper.php:2033
+#: core/views/settings_form.php:816
+#@ ARForms
+msgid "seconds"
+msgstr "秒"
+
+#: core/helpers/armainhelper.php:2199
+#@ ARForms
+msgid "View Forms and Templates"
+msgstr "ビューフォームとテンプレート"
+
+#: core/helpers/armainhelper.php:2202
+#@ ARForms
+msgid "Add/Edit Forms and Templates"
+msgstr "/編集フォームとテンプレートを追加します。"
+
+#: core/helpers/armainhelper.php:2205
+#@ ARForms
+msgid "Delete Forms and Templates"
+msgstr "フォームとテンプレートの削除"
+
+#: core/helpers/armainhelper.php:2208
+#: core/helpers/armainhelper.php:2211
+#@ ARForms
+msgid "Access this Settings Page"
+msgstr "この設定ページにアクセス"
+
+#: core/helpers/armainhelper.php:2218
+#@ ARForms
+msgid "View Entries from Admin Area"
+msgstr "管理エリアからの眺めのエントリー"
+
+#: core/helpers/armainhelper.php:2221
+#@ ARForms
+msgid "Add Entries from Admin Area"
+msgstr "管理エリアからエントリを追加"
+
+#: core/helpers/armainhelper.php:2224
+#@ ARForms
+msgid "Edit Entries from Admin Area"
+msgstr "管理エリアから編集エントリー"
+
+#: core/helpers/armainhelper.php:2227
+#@ ARForms
+msgid "Delete Entries from Admin Area"
+msgstr "管理エリアからエントリを削除"
+
+#: core/helpers/armainhelper.php:2230
+#@ ARForms
+msgid "View Reports"
+msgstr "ビュー·レポート"
+
+#: core/helpers/armainhelper.php:2233
+#@ ARForms
+msgid "Add/Edit Custom Displays"
+msgstr "/編集カスタム表示を追加します。"
+
+#: core/helpers/arupload_media.php:24
+#@ ARForms
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini."
+msgstr "アップロードされたファイルは、php.iniのupload_max_filesizeディレクティブを超えています。"
+
+#: core/helpers/arupload_media.php:25
+#@ ARForms
+msgid "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form."
+msgstr "アップロードされたファイルは、HTMLフォームで指定されたMAX_FILE_SIZEディレクティブを超えています。"
+
+#: core/helpers/arupload_media.php:26
+#@ ARForms
+msgid "The uploaded file was only partially uploaded."
+msgstr "アップロードされたファイルは、部分的にしかアップロードされました。"
+
+#: core/helpers/arupload_media.php:27
+#@ ARForms
+msgid "No file was uploaded."
+msgstr "いいえファイルがアップロードされていません。"
+
+#: core/helpers/arupload_media.php:29
+#@ ARForms
+msgid "Missing a temporary folder."
+msgstr "一時フォルダが見つかりません。"
+
+#: core/helpers/arupload_media.php:30
+#@ ARForms
+msgid "Failed to write file to disk."
+msgstr "ディスクにファイルの書き込みに失敗しました。"
+
+#: core/helpers/arupload_media.php:31
+#@ ARForms
+msgid "File upload stopped by extension."
+msgstr "ファイルのアップロードは、拡張子によって停止。"
+
+#: core/helpers/arupload_media.php:44
+#@ ARForms
+msgid "Invalid form submission."
+msgstr "無効なフォームの送信。"
+
+#: core/helpers/arupload_media.php:51
+#@ ARForms
+msgid "File is empty. Please upload something more substantial."
+msgstr "ファイルは空です。より実質的なものをアップロードしてください。"
+
+#: core/helpers/arupload_media.php:53
+#@ ARForms
+msgid "File is empty. Please upload something more substantial. This error could also be caused by uploads being disabled in your php.ini or by post_max_size being defined as smaller than upload_max_filesize in php.ini."
+msgstr "ファイルは空です。より実質的なものをアップロードしてください。このエラーはまた、あなたのphp.iniやpost_max_sizeのでは無効にされてアップロードが原因で発生することがは、php.iniのupload_max_filesizeよりも小さいと定義される。"
+
+#: core/helpers/arupload_media.php:58
+#@ ARForms
+msgid "Specified file failed upload test."
+msgstr "指定されたファイルはアップロードのテストに失敗しました。"
+
+#: core/helpers/arupload_media.php:69
+#: core/helpers/arupload_media.php:81
+#: core/helpers/arupload_media.php:84
+#: core/views/common.php:113
+#@ ARForms
+msgid "Sorry, this file type is not permitted for security reasons."
+msgstr "申し訳ありませんが、このファイルの種類は、セキュリティ上の理由で許可されていません。"
+
+#: core/helpers/arupload_media.php:97
+#, php-format
+#@ ARForms
+msgid "The uploaded file could not be moved to %s."
+msgstr "アップロードされたファイルは、％sに移動できませんでした。"
+
+#: core/models/arfieldmodel.php:103
+#@ ARForms
+msgid "Phone"
+msgstr "電話"
+
+#: core/models/arfieldmodel.php:115
+#: core/models/artemplate.php:389
+#: core/views/upgrade_latest_data.php:929
+#@ ARForms
+msgid "Website"
+msgstr "ウェブサイト"
+
+#: core/models/arfieldmodel.php:124
+#: core/models/artemplate.php:380
+#: core/models/artemplate.php:1058
+#: core/views/upgrade_latest_data.php:920
+#: core/views/upgrade_latest_data.php:1395
+#@ ARForms
+msgid "Email"
+msgstr "Eメール"
+
+#: core/models/arfieldmodel.php:151
+#@ ARForms
+msgid "Heading"
+msgstr "ヘディング"
+
+#: core/models/arfieldmodel.php:180
+#@ ARForms
+msgid "Page"
+msgstr "ページ"
+
+#: core/models/arformmodel.php:234
+#@ ARForms
+msgid "User ID"
+msgstr "ユーザーID"
+
+#: core/models/arformmodel.php:253
+#: core/models/arformmodel.php:268
+#@ ARForms
+msgid "Please insert a message for your auto responder."
+msgstr "あなたの自動応答のメッセージを挿入してください。"
+
+#: core/models/arformmodel.php:259
+#@ ARForms
+msgid "That is not a valid reply-to email address for your auto responder."
+msgstr "それはあなたの自動応答のための有効なEメール返信先アドレスではありません。"
+
+#: core/models/arnotifymodel.php:68
+#, php-format
+#@ ARForms
+msgid "%1$s form has been submitted on %2$s."
+msgstr "％1$ sの形式は、％2$ sの上で送信されました。"
+
+#: core/models/arnotifymodel.php:124
+#: core/models/arnotifymodel.php:1183
+#, php-format
+#@ ARForms
+msgid "%1$s Form submitted on %2$s"
+msgstr "％1$ sのフォームは％2$ sの上提出"
+
+#: core/models/arsettingmodel.php:79
+#@ ARForms
+msgid "You have already submitted that form"
+msgstr "あなたは既にそのフォームを提出した"
+
+#: core/models/arsettingmodel.php:100
+#@ ARForms
+msgid "Form is successfully submitted. Thank you!"
+msgstr "フォームが正常に送信されます。ありがとうございます！"
+
+#: core/models/arsettingmodel.php:103
+#: core/views/edit.php:1086
+#: core/views/edit.php:1096
+#: core/views/edit.php:1106
+#: core/views/edit.php:1437
+#: core/views/edit.php:1709
+#: core/views/settings_form.php:297
+#: core/views/settings_form.php:335
+#: core/views/settings_form.php:547
+#: core/views/settings_form.php:570
+#: core/views/settings_form.php:595
+#: core/views/settings_form.php:619
+#: core/views/settings_form.php:640
+#: core/views/settings_form.php:666
+#: core/views/settings_form.php:684
+#: core/views/settings_form.php:868
+#: core/views/settings_form.php:877
+#: core/views/settings_form.php:1020
+#: core/views/settings_form.php:1111
+#: core/views/settings_form.php:1199
+#: core/views/settings_form.php:1209
+#: core/views/settings_form.php:1223
+#: core/views/settings_form.php:1307
+#: core/views/settings_form.php:1322
+#@ ARForms
+msgid "This field cannot be blank."
+msgstr "このフィールドは空白にすることはできません。"
+
+#: core/models/arsettingmodel.php:106
+#@ ARForms
+msgid "This value must be unique."
+msgstr "この値は、一意である必要があります。"
+
+#: core/models/arsettingmodel.php:109
+#@ ARForms
+msgid "Problem in submission. Errors are marked below."
+msgstr "提出する際の問題。エラーは以下にマークされています。"
+
+#: core/models/arsettingmodel.php:112
+#@ ARForms
+msgid "We're sorry. Form is not submitted successfully."
+msgstr "申し訳ございません。フォームが正常に送信されていません。"
+
+#: core/models/arsettingmodel.php:118
+#@ ARForms
+msgid "You do not have permission to view this form."
+msgstr "あなたは、このフォームを表示する権限がありません。"
+
+#: core/models/arsettingmodel.php:121
+#@ ARForms
+msgid "You do not have permission to perform this action"
+msgstr "あなたはこのアクションを実行する権限がありません"
+
+#: core/models/arstylemodel.php:837
+#@ ARForms
+msgid "Your submission was successfully saved."
+msgstr "あなたの提出が正常に保存されました。"
+
+#: core/models/arstylemodel.php:840
+#@ ARForms
+msgid "Update"
+msgstr "アップデート"
+
+#: core/models/artemplate.php:282
+#@ ARForms
+msgid "Contact Us"
+msgstr "お問い合わせ"
+
+#: core/models/artemplate.php:283
+#@ ARForms
+msgid "We would like to hear from you. Please send us a message by filling out the form below and we will get back with you shortly."
+msgstr "私たちはあなたから話を聞くしたいと思います。下記のフォームに必要事項を記入して私達にメッセージを送って、私たちはすぐにあなたと戻ってきます。"
+
+#: core/models/artemplate.php:382
+#: core/views/upgrade_latest_data.php:922
+#@ ARForms
+msgid "Please enter a valid email address"
+msgstr "有効なメールアドレスを入力してください"
+
+#: core/models/artemplate.php:390
+#: core/views/upgrade_latest_data.php:930
+#@ ARForms
+msgid "Please enter a valid website"
+msgstr "有効なウェブサイトを入力してください。"
+
+#: core/models/artemplate.php:397
+#: core/views/edit.php:1234
+#: core/views/edit.php:1593
+#: core/views/upgrade_latest_data.php:937
+#@ ARForms
+msgid "Subject"
+msgstr "テーマ"
+
+#: core/models/artemplate.php:405
+#: core/views/edit.php:1371
+#: core/views/upgrade_latest_data.php:945
+#@ ARForms
+msgid "Message"
+msgstr "メッセージ"
+
+#: core/models/artemplate.php:413
+#: core/views/upgrade_latest_data.php:953
+#@ ARForms
+msgid "Captcha"
+msgstr "キャプチャ"
+
+#: core/models/artemplate.php:928
+#: core/views/upgrade_latest_data.php:1263
+#@ ARForms
+msgid "Job Application Form"
+msgstr "求職申込書"
+
+#: core/models/artemplate.php:1040
+#: core/views/upgrade_latest_data.php:1377
+#@ ARForms
+msgid "First Name"
+msgstr "名前"
+
+#: core/models/artemplate.php:1049
+#: core/views/upgrade_latest_data.php:1386
+#@ ARForms
+msgid "Last name"
+msgstr "姓"
+
+#: core/models/artemplate.php:1067
+#: core/views/upgrade_latest_data.php:1404
+#@ ARForms
+msgid "Contact No"
+msgstr "お問い合わせいいえ"
+
+#: core/models/artemplate.php:1076
+#: core/views/upgrade_latest_data.php:1413
+#@ ARForms
+msgid "Address"
+msgstr "アドレス"
+
+#: core/models/artemplate.php:1085
+#: core/views/upgrade_latest_data.php:1422
+#@ ARForms
+msgid "Position apply for?"
+msgstr "ポジションを申請？"
+
+#: core/models/artemplate.php:1088
+#: core/views/upgrade_latest_data.php:1425
+#@ ARForms
+msgid "Developer"
+msgstr "ディベロッパー"
+
+#: core/models/artemplate.php:1088
+#: core/views/upgrade_latest_data.php:1425
+#@ ARForms
+msgid "Manager"
+msgstr "マネージャー"
+
+#: core/models/artemplate.php:1088
+#: core/views/upgrade_latest_data.php:1425
+#@ ARForms
+msgid "Clerk"
+msgstr "クラーク"
+
+#: core/models/artemplate.php:1088
+#: core/views/upgrade_latest_data.php:1425
+#@ ARForms
+msgid "Representative"
+msgstr "代表"
+
+#: core/models/artemplate.php:1094
+#: core/views/upgrade_latest_data.php:1431
+#@ ARForms
+msgid "Are you applying for?"
+msgstr "あなたが申請していますか？"
+
+#: core/models/artemplate.php:1097
+#: core/views/upgrade_latest_data.php:1434
+#@ ARForms
+msgid "Full Time"
+msgstr "フルタイム"
+
+#: core/models/artemplate.php:1097
+#: core/views/upgrade_latest_data.php:1434
+#@ ARForms
+msgid "Part Time"
+msgstr "パートタイム"
+
+#: core/models/artemplate.php:1103
+#: core/views/upgrade_latest_data.php:1440
+#@ ARForms
+msgid "Education and Experience Details"
+msgstr "教育と経験詳細"
+
+#: core/models/artemplate.php:1114
+#: core/views/upgrade_latest_data.php:1451
+#@ ARForms
+msgid "Diploma / Degree Name"
+msgstr "ディプロマ/学位名"
+
+#: core/models/artemplate.php:1122
+#: core/views/upgrade_latest_data.php:1459
+#@ ARForms
+msgid "College / University Name"
+msgstr "カレッジ/大学名"
+
+#: core/models/artemplate.php:1130
+#: core/views/upgrade_latest_data.php:1467
+#@ ARForms
+msgid "Graduation Year"
+msgstr "卒業年"
+
+#: core/models/artemplate.php:1138
+#: core/views/upgrade_latest_data.php:1475
+#@ ARForms
+msgid "Percentage"
+msgstr "パーセンテージ"
+
+#: core/models/artemplate.php:1146
+#: core/views/upgrade_latest_data.php:1483
+#@ ARForms
+msgid "Skills & Qualification"
+msgstr "スキル＆資格"
+
+#: core/models/artemplate.php:1155
+#: core/views/upgrade_latest_data.php:1492
+#@ ARForms
+msgid "Desired Salary"
+msgstr "希望給与"
+
+#: core/models/artemplate.php:1163
+#: core/views/upgrade_latest_data.php:1500
+#@ ARForms
+msgid "Fresher / Experienced"
+msgstr "新鮮/経験者"
+
+#: core/models/artemplate.php:1165
+#: core/views/upgrade_latest_data.php:1502
+#@ ARForms
+msgid "Fresher"
+msgstr "フレッシャー"
+
+#: core/models/artemplate.php:1165
+#: core/models/artemplate.php:1182
+#: core/models/artemplate.php:1206
+#: core/models/artemplate.php:1230
+#: core/views/upgrade_latest_data.php:1502
+#: core/views/upgrade_latest_data.php:1519
+#: core/views/upgrade_latest_data.php:1543
+#: core/views/upgrade_latest_data.php:1567
+#@ ARForms
+msgid "Experienced"
+msgstr "経験豊富な"
+
+#: core/models/artemplate.php:1173
+#: core/views/upgrade_latest_data.php:1510
+#@ ARForms
+msgid "Experience"
+msgstr "エクスペリエンス"
+
+#: core/models/artemplate.php:1174
+#: core/views/upgrade_latest_data.php:1511
+#@ ARForms
+msgid "(e.g. 3 months, 2 years etc)"
+msgstr "（例えば3ヶ月など2年）"
+
+#: core/models/artemplate.php:1198
+#: core/views/upgrade_latest_data.php:1535
+#@ ARForms
+msgid "Current Salary"
+msgstr "現在の給与"
+
+#: core/models/artemplate.php:1222
+#: core/views/upgrade_latest_data.php:1559
+#@ ARForms
+msgid "Current Company Detail"
+msgstr "現在の会社の詳細"
+
+#: core/models/artemplate.php:1246
+#: core/views/upgrade_latest_data.php:1583
+#@ ARForms
+msgid "Upload Resume"
+msgstr "アップロード再開"
+
+#: core/views/addcontrols.php:92
+#@ ARForms
+msgid "Basic Form Elements"
+msgstr "基本フォーム要素"
+
+#: core/views/addcontrols.php:310
+#@ ARForms
+msgid "Advanced Form Elements"
+msgstr "高度なフォーム要素"
+
+#: core/controllers/arformcontroller.php:2827
+#: core/controllers/arformcontroller.php:2854
+#: core/controllers/arformcontroller.php:5611
+#: core/controllers/arformcontroller.php:5633
+#: core/controllers/arformcontroller.php:5652
+#: core/controllers/arformcontroller.php:5674
+#: core/controllers/arsettingcontroller.php:991
+#: core/controllers/arsettingcontroller.php:1035
+#: core/controllers/arsettingcontroller.php:1088
+#: core/views/addcontrols.php:675
+#: core/views/addcontrols.php:702
+#: core/views/addcontrols.php:3457
+#: core/views/addcontrols.php:3479
+#: core/views/addcontrols.php:3498
+#: core/views/addcontrols.php:3520
+#: core/views/import_export_form.php:134
+#@ ARForms
+msgid "Upload"
+msgstr "アップロード"
+
+#: core/views/addfieldjs.php:27
+#: core/views/addoptionjs.php:17
+#: core/views/addoptionjs.php:26
+#@ ARForms
+msgid "(Blank)"
+msgstr "（ブランク）"
+
+#: core/views/addfieldjs.php:53
+#: core/views/footer.php:54
+#@ ARForms
+msgid "(Blank Section)"
+msgstr "（空白部）"
+
+#: core/views/addfieldjs.php:68
+#@ ARForms
+msgid "Click here to add optional description or instructions"
+msgstr "オプションの説明や指示を追加するには、ここをクリックしてください"
+
+#: core/views/common.php:117
+#: core/views/formfields.php:303
+#@ ARForms
+msgid "Strength indicator"
+msgstr "強度インジケータ"
+
+#: core/views/common.php:119
+#@ ARForms
+msgid "Short"
+msgstr "ショート"
+
+#: core/views/common.php:121
+#@ ARForms
+msgid "Bad"
+msgstr "悪い"
+
+#: core/views/common.php:123
+#@ ARForms
+msgid "Good"
+msgstr "グッド"
+
+#: core/views/common.php:125
+#@ ARForms
+msgid "Strong"
+msgstr "ストロング"
+
+#: core/views/common.php:1119
+#: core/views/common.php:1603
+#: core/views/formfields.php:469
+#@ ARForms
+msgid "No file selected"
+msgstr "選択されていませんファイル"
+
+#: core/views/displayfield.php:48
+#@ ARForms
+msgid "Note: This field will not show in the form. Enter the value to be hidden."
+msgstr "注意：このフィールドは、フォームに表示されません。値を入力し非表示にすることができます。"
+
+#: core/views/displayfield.php:110
+#@ ARForms
+msgid "Note: Set your custom html content"
+msgstr "注：カスタムHTMLコンテンツを設定します"
+
+#: core/views/edit.php:940
+#: core/views/edit.php:963
+#@ ARForms
+msgid "Add To Site"
+msgstr "サイトに追加"
+
+#: core/views/edit.php:944
+#: core/views/edit.php:959
+#@ ARForms
+msgid "Styling"
+msgstr "スタイリング"
+
+#: core/views/edit.php:946
+#: core/views/edit.php:957
+#@ ARForms
+msgid "Field Editor"
+msgstr "フィールドエディタ"
+
+#: core/views/edit.php:990
+#: core/views/edit.php:3264
+#@ ARForms
+msgid "Save"
+msgstr "保存"
+
+#: core/views/edit.php:992
+#: core/views/list.php:662
+#: core/views/list.php:673
+#: core/views/newfield.php:268
+#: core/views/view_records.php:1026
+#: core/views/view_records.php:1037
+#@ ARForms
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: core/views/edit.php:1035
+#: core/views/edit.php:1060
+#@ ARForms
+msgid "On Submit"
+msgstr "提出について"
+
+#: core/views/edit.php:1038
+#@ ARForms
+msgid "Auto response email"
+msgstr "自動応答メール"
+
+#: core/views/edit.php:1041
+#@ ARForms
+msgid "Email marketers"
+msgstr "電子メールのマーケティング担当者"
+
+#: core/views/edit.php:1044
+#: core/views/edit.php:3040
+#: core/views/newfield.php:853
+#@ ARForms
+msgid "Custom CSS"
+msgstr "カスタムCSS"
+
+#: core/views/edit.php:1069
+#@ ARForms
+msgid "Display a Message"
+msgstr "メッセージを表示します"
+
+#: core/views/edit.php:1071
+#: core/views/edit.php:1092
+#@ ARForms
+msgid "Redirect to URL"
+msgstr "URLへリダイレクト"
+
+#: core/views/edit.php:1073
+#@ ARForms
+msgid "Display content from another page"
+msgstr "別のページからの表示内容"
+
+#: core/views/edit.php:1082
+#@ ARForms
+msgid "Confirmation Message"
+msgstr "確認メッセージ"
+
+#: core/views/edit.php:1102
+#@ ARForms
+msgid "Use Content from Page"
+msgstr "ページからのコンテンツを使用してください"
+
+#: core/views/edit.php:1124
+#@ ARForms
+msgid "Auto Response Email"
+msgstr "自動応答メール"
+
+#: core/views/edit.php:1136
+#@ ARForms
+msgid "Send an automatic response to users after submitting the form"
+msgstr "フォームの送信後にユーザーへの自動応答を送信します"
+
+#: core/views/edit.php:1161
+#@ ARForms
+msgid "Select field to send mail"
+msgstr "メールを送信するフィールドを選択します"
+
+#: core/views/edit.php:1202
+#: core/views/edit.php:1215
+#: core/views/edit.php:3000
+#: core/views/edit.php:3013
+#@ ARForms
+msgid "Select Field"
+msgstr "選択フィールド"
+
+#: core/views/edit.php:1223
+#@ ARForms
+msgid "Please map desired email field from the list of fields used in your form. And system will send response email to this address."
+msgstr "あなたの形で使用するフィールドのリストから目的の電子メールのフィールドをマッピングしてください。そして、システムは、このアドレスに応答メールを送信します。"
+
+#: core/views/edit.php:1226
+#@ ARForms
+msgid "Select <strong>Single Line Text field</strong> or <strong>Email field</strong> to send autoresponse email to that address. First you need to create that field in form itself."
+msgstr "選択<強い>1行のテキストフィールド</ strong>のか<強い>[電子メール]フィールド</強い>は、そのアドレスに自動返信メールを送信します。まず、フォーム自体にそのフィールドを作成する必要があります。"
+
+#: core/views/edit.php:1292
+#: core/views/settings_form.php:659
+#@ ARForms
+msgid "From/Replyto Name"
+msgstr "/ REPLYTO名から"
+
+#: core/views/edit.php:1313
+#@ ARForms
+msgid "From/Reply to Email"
+msgstr "メールに返信/から"
+
+#: core/views/edit.php:1446
+#@ ARForms
+msgid "Send an automatic response to admin after submitting the form"
+msgstr "フォームを送信した後に管理者への自動応答を送信します"
+
+#: core/views/edit.php:1463
+#@ ARForms
+msgid "Admin Email"
+msgstr "管理者Eメール"
+
+#: core/views/edit.php:1523
+#: core/views/settings_form.php:677
+#@ ARForms
+msgid "From/Replyto Email"
+msgstr "/ REPLYTOメールから"
+
+#: core/views/edit.php:1645
+#@ ARForms
+msgid "This will be replaced with form name."
+msgstr "これは、フォーム名に置き換えられます。"
+
+#: core/views/edit.php:1646
+#@ ARForms
+msgid "This will be replaced with name of site."
+msgstr "これは、サイトの名前に置き換えられます。"
+
+#: core/views/edit.php:1808
+#@ ARForms
+msgid "Email Marketers"
+msgstr "メールマーケティング担当者"
+
+#: core/views/edit.php:1866
+#: core/views/edit.php:1880
+#@ ARForms
+msgid "Mailchimp"
+msgstr "Mailchimp"
+
+#: core/views/edit.php:1900
+#: core/views/edit.php:1945
+#: core/views/edit.php:2062
+#: core/views/edit.php:2115
+#: core/views/edit.php:2248
+#: core/views/edit.php:2289
+#: core/views/edit.php:2411
+#: core/views/edit.php:2454
+#@ ARForms
+msgid "LIST NAME"
+msgstr "リスト名"
+
+#: core/views/edit.php:2022
+#: core/views/edit.php:2036
+#@ ARForms
+msgid "Aweber"
+msgstr "オートレスポンダ"
+
+#: core/views/edit.php:2213
+#: core/views/edit.php:2227
+#@ ARForms
+msgid "Icontact"
+msgstr "Icontact"
+
+#: core/views/edit.php:2376
+#: core/views/edit.php:2390
+#@ ARForms
+msgid "Constant Contact"
+msgstr "一定の接触"
+
+#: core/views/edit.php:2540
+#: core/views/edit.php:2554
+#@ ARForms
+msgid "Getresponse"
+msgstr "Getresponse"
+
+#: core/views/edit.php:2699
+#: core/views/edit.php:2717
+#@ ARForms
+msgid "GVO"
+msgstr "GVO"
+
+#: core/views/edit.php:2772
+#: core/views/edit.php:2790
+#@ ARForms
+msgid "eBizac"
+msgstr "eBizac"
+
+#: core/views/edit.php:2837
+#@ ARForms
+msgid "First name mapping"
+msgstr "まず名前のマッピング"
+
+#: core/views/edit.php:2838
+#@ ARForms
+msgid "Last name mapping"
+msgstr "姓のマッピング"
+
+#: core/views/edit.php:2876
+#: core/views/edit.php:2889
+#@ ARForms
+msgid "Select First Name"
+msgstr "ファーストネームを選択"
+
+#: core/views/edit.php:2933
+#: core/views/edit.php:2946
+#@ ARForms
+msgid "Select Last Name"
+msgstr "姓を選ぶ"
+
+#: core/views/edit.php:2967
+#@ ARForms
+msgid "Email field mapping"
+msgstr "電子メールのフィールドのマッピング"
+
+#: core/views/edit.php:3047
+#: core/views/edit.php:3084
+#@ ARForms
+msgid "Form outer wrapper"
+msgstr "外側のラッパーフォーム"
+
+#: core/views/edit.php:3048
+#: core/views/edit.php:3090
+#@ ARForms
+msgid "Form inner wrapper"
+msgstr "内側包装フォーム"
+
+#: core/views/edit.php:3049
+#: core/views/edit.php:3096
+#@ ARForms
+msgid "Form title"
+msgstr "フォームのタイトル"
+
+#: core/views/edit.php:3050
+#: core/views/edit.php:3102
+#@ ARForms
+msgid "Form description"
+msgstr "フォーム記述"
+
+#: core/views/edit.php:3051
+#: core/views/edit.php:3108
+#@ ARForms
+msgid "Field wrapper"
+msgstr "フィールドラッパー"
+
+#: core/views/edit.php:3052
+#: core/views/edit.php:3114
+#@ ARForms
+msgid "Field label"
+msgstr "フィールドラベル"
+
+#: core/views/edit.php:3053
+#: core/views/edit.php:3120
+#@ ARForms
+msgid "Input elements"
+msgstr "入力要素"
+
+#: core/views/edit.php:3054
+#: core/views/edit.php:3132
+#@ ARForms
+msgid "Submit wrapper"
+msgstr "ラッパーを提出"
+
+#: core/views/edit.php:3055
+#: core/views/edit.php:3138
+#@ ARForms
+msgid "Submit button"
+msgstr "[送信]ボタンを"
+
+#: core/views/edit.php:3056
+#: core/views/edit.php:3144
+#@ ARForms
+msgid "Next button"
+msgstr "[次へ]ボタン"
+
+#: core/views/edit.php:3057
+#: core/views/edit.php:3150
+#@ ARForms
+msgid "Previous button"
+msgstr "[戻る]ボタン"
+
+#: core/views/edit.php:3058
+#: core/views/edit.php:3156
+#@ ARForms
+msgid "Success message"
+msgstr "成功メッセージ"
+
+#: core/views/edit.php:3059
+#: core/views/edit.php:3162
+#@ ARForms
+msgid "Validation (Error)"
+msgstr "バリデーション（エラー）"
+
+#: core/views/edit.php:3060
+#: core/views/edit.php:3126
+#@ ARForms
+msgid "Page break"
+msgstr "改ページ"
+
+#: core/views/edit.php:3061
+#: core/views/edit.php:3168
+#@ ARForms
+msgid "Fly / Sticky Button"
+msgstr "フライ/スティッキーボタン"
+
+#: core/views/edit.php:3062
+#: core/views/edit.php:3174
+#@ ARForms
+msgid "Modal"
+msgstr "モーダルな"
+
+#: core/views/edit.php:3077
+#@ ARForms
+msgid "Custom Styling Properties"
+msgstr "カスタムスタイルのプロパティ"
+
+#: core/views/edit.php:3084
+#: core/views/edit.php:3090
+#: core/views/edit.php:3096
+#: core/views/edit.php:3102
+#: core/views/edit.php:3108
+#: core/views/edit.php:3114
+#: core/views/edit.php:3120
+#: core/views/edit.php:3126
+#: core/views/edit.php:3132
+#: core/views/edit.php:3138
+#: core/views/edit.php:3144
+#: core/views/edit.php:3150
+#: core/views/edit.php:3156
+#: core/views/edit.php:3162
+#: core/views/edit.php:3168
+#: core/views/edit.php:3174
+#: core/views/edit.php:3179
+#: core/views/edit.php:3184
+#: core/views/edit.php:3189
+#: core/views/edit.php:3194
+#: core/views/import_export_form.php:140
+#@ ARForms
+msgid "Remove"
+msgstr "削除する"
+
+#: core/views/edit.php:3228
+#@ ARForms
+msgid "Other CSS"
+msgstr "その他のCSS"
+
+#: core/views/edit.php:3233
+#@ ARForms
+msgid "You can enter classes not directly properties."
+msgstr "あなたは、クラスではないプロパティを直接入力することもできます。"
+
+#: core/views/edit.php:3263
+#@ ARForms
+msgid "Have you saved your form already ?"
+msgstr "すでに、フォームを保存したことがありますか？"
+
+#: core/views/edit.php:3265
+#@ ARForms
+msgid "You should save your latest changes before publishing form to the page."
+msgstr "あなたは、ページにフォームを公開する前に最新の変更を保存する必要があります。"
+
+#: core/views/edit.php:3270
+#@ ARForms
+msgid "Ways to publish your form"
+msgstr "あなたのフォームを発行する方法"
+
+#: core/views/edit.php:3272
+#@ ARForms
+msgid "Follow these steps to add the form into page:"
+msgstr "ページにフォームを追加するには、次の手順に従います。"
+
+#: core/views/edit.php:3276
+#@ ARForms
+msgid "Selecting"
+msgstr "選択"
+
+#: core/views/edit.php:3276
+#@ ARForms
+msgid "LINK TYPE"
+msgstr "リンク型"
+
+#: core/views/edit.php:3276
+#@ ARForms
+msgid "in the popup box:"
+msgstr "ポップアップボックスで："
+
+#: core/views/edit.php:3280
+#@ ARForms
+msgid "Insert form into widget:"
+msgstr "ウィジェットにフォームを挿入します。"
+
+#: core/views/edit.php:3310
+#@ ARForms
+msgid "SHORTCODES"
+msgstr "ショートコード"
+
+#: core/views/edit.php:3311
+#@ ARForms
+msgid "Please use any of the following shortcode to add form into post / page / widget"
+msgstr "ポスト/ページ/ウィジェットにフォームを追加するには、次のショートコードのいずれかを使用してください"
+
+#: core/views/edit.php:3313
+#: core/views/edit.php:3358
+#@ ARForms
+msgid "Normal View"
+msgstr "標準表示"
+
+#: core/views/edit.php:3323
+#: core/views/edit.php:3367
+#@ ARForms
+msgid "Pop-up View"
+msgstr "ポップアップの表示を"
+
+#: core/views/edit.php:3331
+#@ ARForms
+msgid "Note : Possible argument for type argument 1.) type=\"link\"  2.) type=\"button\"."
+msgstr "注：type引数1。のための可能な引数）2）= \"ボタンを\"と入力= \\ \\\"リンク\"を入力します。"
+
+#: core/views/edit.php:3332
+#@ ARForms
+msgid ": You can adjust height and width of modal box"
+msgstr "：あなたは、モーダルボックスの高さと幅を調整することができます"
+
+#: core/views/edit.php:3334
+#: core/views/edit.php:3376
+#@ ARForms
+msgid "Fly View"
+msgstr "フライビュー"
+
+#: core/views/edit.php:3342
+#@ ARForms
+msgid "Note : Possible argument for position argument 1.) position=\"left\"  2.) position=\"right\"."
+msgstr "注1）位置= \\ \\\"左\"2。）ポジション= \\ \\\"右\" position引数に指定できる引数。"
+
+#: core/views/edit.php:3345
+#: core/views/edit.php:3385
+#@ ARForms
+msgid "Sticky view"
+msgstr "スティッキービュー"
+
+#: core/views/edit.php:3353
+#@ ARForms
+msgid "Note : Possible argument for position argument 1.) position=\"top\"  2.) position=\"bottom\"."
+msgstr "注：position引数1）位置= \\ \\\"トップ\"2。）ポジション= \\ \\\"底\"のための可能な引数。"
+
+#: core/views/edit.php:3356
+#@ ARForms
+msgid "Please use any of the following shortcode to add form into template"
+msgstr "テンプレートにフォームを追加するには、次のショートコードのいずれかを使用してください"
+
+#: core/views/edit.php:3458
+#: core/views/list.php:681
+#@ ARForms
+msgid "Computer View"
+msgstr "コンピュータを見る"
+
+#: core/views/edit.php:3459
+#: core/views/list.php:682
+#@ ARForms
+msgid "Tablet View"
+msgstr "タブレットの表示"
+
+#: core/views/edit.php:3460
+#: core/views/list.php:683
+#@ ARForms
+msgid "Mobile View"
+msgstr "モバイルビュー"
+
+#: core/vc/class_vc_extend.php:569
+#: core/views/edit_form.php:40
+#: core/views/insert_form_popup.php:631
+#: core/views/new-selection-modal.php:28
+#@ ARForms
+msgid "Please enter form name"
+msgstr "フォーム名を入力してください。"
+
+#: core/views/edit_form.php:151
+#@ ARForms
+msgid "Edit Text"
+msgstr "エディットテキスト"
+
+#: core/views/edit_form.php:165
+#@ ARForms
+msgid "Submit Button Options"
+msgstr "ボタンのオプションを提出"
+
+#: core/views/edit_form.php:171
+#: core/views/newfield.php:749
+#@ ARForms
+msgid "Conditional Law"
+msgstr "条件付き法律"
+
+#: core/views/edit_form.php:184
+#: core/views/newfield.php:930
+#@ ARForms
+msgid "Enable Conditional Law"
+msgstr "条件付き法律を有効にする"
+
+#: core/views/edit_form.php:191
+#: core/views/edit_form.php:196
+#: core/views/footer.php:68
+#: core/views/newfield.php:937
+#: core/views/newfield.php:960
+#@ ARForms
+msgid "Please add one or more rules"
+msgstr "つまたは複数のルールを追加してください"
+
+#: core/views/edit_form.php:192
+#@ ARForms
+msgid "Enable"
+msgstr "有効にする"
+
+#: core/views/edit_form.php:193
+#@ ARForms
+msgid "Disable"
+msgstr "無効にする"
+
+#: core/views/edit_form.php:195
+#@ ARForms
+msgid "this button if"
+msgstr "このボタンの場合"
+
+#: core/views/edit_form.php:197
+#: core/views/newfield.php:969
+#: core/views/newfield.php:970
+#: core/views/newfield.php:974
+#@ ARForms
+msgid "All"
+msgstr "すべて"
+
+#: core/views/edit_form.php:198
+#: core/views/newfield.php:969
+#: core/views/newfield.php:970
+#: core/views/newfield.php:975
+#@ ARForms
+msgid "Any"
+msgstr "任意の"
+
+#: core/views/edit_form.php:200
+#: core/views/newfield.php:982
+#@ ARForms
+msgid "of the following match:"
+msgstr "次の試合の："
+
+#: core/views/edit_form.php:206
+#: core/views/newfield.php:988
+#@ ARForms
+msgid "Add New Law"
+msgstr "新しい法律を追加"
+
+#: core/views/edit_form.php:247
+#: core/views/newfield.php:512
+#: core/views/newfield.php:629
+#: core/views/newfield.php:1030
+#: core/views/newfield.php:1109
+#@ ARForms
+msgid "Done"
+msgstr "終わった"
+
+#: core/views/export_data.php:98
+#: core/views/export_data.php:230
+#@ ARForms
+msgid "Timestamp"
+msgstr "タイムスタンプ"
+
+#: core/views/footer.php:50
+#@ ARForms
+msgid "(Click here to add text)"
+msgstr "（テキスト追加するには、ここをクリックします）"
+
+#: core/views/footer.php:52
+#@ ARForms
+msgid "(Click here to add description or instructions)"
+msgstr "（説明や指示を追加するには、ここをクリックしてください）"
+
+#: core/views/footer.php:1415
+#@ ARForms
+msgid "Loading..."
+msgstr "読み込んでいます..."
+
+#: core/views/form.php:666
+#@ ARForms
+msgid "Powered by"
+msgstr "によって供給"
+
+#: core/views/formsubmission.php:102
+#@ ARForms
+msgid "Success"
+msgstr "サクセス"
+
+#: core/views/graph_ajax.php:230
+#@ ARForms
+msgid "Month"
+msgstr "月"
+
+#: core/views/graph_ajax.php:230
+#: core/views/graph_ajax.php:372
+#: core/views/graph_ajax.php:634
+#@ ARForms
+msgid "Views"
+msgstr "閲覧"
+
+#: core/views/graph_ajax.php:372
+#@ ARForms
+msgid "Day"
+msgstr "デイ"
+
+#: core/views/graph_ajax.php:634
+#@ ARForms
+msgid "Hour"
+msgstr "1時間"
+
+#: core/views/import_export_form.php:20
+#@ ARForms
+msgid "Import / Export Forms"
+msgstr "インポート/エクスポートフォーム"
+
+#: core/views/import_export_form.php:28
+#@ ARForms
+msgid "Form Imported Successfully."
+msgstr "フォームが正常にインポート。"
+
+#: core/views/import_export_form.php:59
+#: core/views/import_export_form.php:74
+#@ ARForms
+msgid "Export Form(s)"
+msgstr "輸出フォーム（複数可）"
+
+#: core/views/import_export_form.php:59
+#: core/views/import_export_form.php:80
+#@ ARForms
+msgid "Export Entries"
+msgstr "輸出のエントリー"
+
+#: core/views/import_export_form.php:88
+#@ ARForms
+msgid "Please Select Form(s)"
+msgstr "フォーム（複数可）を選択してください"
+
+#: core/views/import_export_form.php:94
+#@ ARForms
+msgid "Please Select Form"
+msgstr "フォームを選択してください"
+
+#: core/views/import_export_form.php:102
+#@ ARForms
+msgid "Export"
+msgstr "輸出"
+
+#: core/views/import_export_form.php:115
+#@ ARForms
+msgid "Import Form(s)"
+msgstr "インポートフォーム（複数可）"
+
+#: core/views/import_export_form.php:124
+#@ ARForms
+msgid "Please upload zip file exported from ARForms plugin."
+msgstr "ARFormsプラグインからエクスポートzipファイルをアップロードしてください。"
+
+#: core/views/import_export_form.php:131
+#@ ARForms
+msgid "Please Select File :"
+msgstr "ファイルを選択してください："
+
+#: core/views/import_export_form.php:142
+#@ ARForms
+msgid "Please select valid file"
+msgstr "有効なファイルを選択してください"
+
+#: core/views/import_export_form.php:143
+#@ ARForms
+msgid "Please select file"
+msgstr "ファイルを選択してください"
+
+#: core/views/import_export_form.php:170
+#@ ARForms
+msgid "Import"
+msgstr "輸入"
+
+#: core/views/import_export_form.php:184
+#: core/views/list.php:706
+#: core/views/settings_form.php:1506
+#: core/views/view_records.php:1015
+#@ ARForms
+msgid "Documentation"
+msgstr "ドキュメンテーション"
+
+#: core/views/import_export_form.php:186
+#: core/views/list.php:706
+#: core/views/settings_form.php:1506
+#: core/views/view_records.php:1015
+#@ ARForms
+msgid "Support"
+msgstr "サポート"
+
+#: core/views/inputelements.php:246
+#@ ARForms
+msgid "Please select"
+msgstr "選択してください"
+
+#: core/views/inputelements.php:420
+#@ ARForms
+msgid "Can't read the above security code?"
+msgstr "上記のセキュリティコードを読み取ることができませんか？"
+
+#: core/views/inputelements.php:420
+#@ ARForms
+msgid "Refresh"
+msgstr "リフレッシュ"
+
+#: core/views/insert_form_popup.php:114
+#@ ARForms
+msgid "Please select a custom display"
+msgstr "カスタム表示を選択してください"
+
+#: core/vc/class_vc_extend.php:559
+#: core/views/insert_form_popup.php:621
+#@ ARForms
+msgid "ADD ARFORMS FORM"
+msgstr "ARFORMSフォームを追加"
+
+#: core/vc/class_vc_extend.php:565
+#: core/views/insert_form_popup.php:627
+#@ ARForms
+msgid "Select a form to insert into page"
+msgstr "ページに挿入するためのフォームを選択します"
+
+#: core/vc/class_vc_extend.php:578
+#: core/views/insert_form_popup.php:634
+#@ ARForms
+msgid "How you want to include this form into page?"
+msgstr "どのようにページにこのフォームを含めたい？"
+
+#: core/vc/class_vc_extend.php:588
+#: core/views/insert_form_popup.php:635
+#: core/widgets/ARFwidgetForm.php:45
+#@ ARForms
+msgid "Internal"
+msgstr "内部の"
+
+#: core/vc/class_vc_extend.php:598
+#: core/views/insert_form_popup.php:637
+#: core/widgets/ARFwidgetForm.php:47
+#@ ARForms
+msgid "External popup window"
+msgstr "外部ポップアップウィンドウ"
+
+#: core/vc/class_vc_extend.php:606
+#: core/views/insert_form_popup.php:642
+#@ ARForms
+msgid "Link Type?"
+msgstr "リンクタイプ？"
+
+#: core/vc/class_vc_extend.php:617
+#: core/views/insert_form_popup.php:646
+#: core/widgets/ARFwidgetForm.php:56
+#@ ARForms
+msgid "Link"
+msgstr "リンク"
+
+#: core/vc/class_vc_extend.php:619
+#: core/views/insert_form_popup.php:648
+#: core/widgets/ARFwidgetForm.php:58
+#@ ARForms
+msgid "Sticky"
+msgstr "スティッキー"
+
+#: core/vc/class_vc_extend.php:620
+#: core/views/insert_form_popup.php:649
+#: core/widgets/ARFwidgetForm.php:59
+#@ ARForms
+msgid "Fly"
+msgstr "飛ぶ"
+
+#: core/vc/class_vc_extend.php:621
+#: core/views/insert_form_popup.php:650
+#: core/widgets/ARFwidgetForm.php:60
+#@ ARForms
+msgid "On Page Load"
+msgstr "ページのロード"
+
+#: core/vc/class_vc_extend.php:635
+#: core/vc/class_vc_extend.php:655
+#: core/views/insert_form_popup.php:664
+#: core/views/insert_form_popup.php:678
+#: core/widgets/ARFwidgetForm.php:64
+#: core/widgets/ARFwidgetForm.php:73
+#@ ARForms
+msgid "Link Position?"
+msgstr "リンク位置？"
+
+#: core/widgets/ARFwidgetForm.php:99
+#@ ARForms
+msgid "Height :"
+msgstr "身長："
+
+#: core/widgets/ARFwidgetForm.php:103
+#@ ARForms
+msgid "Width :"
+msgstr "幅："
+
+#: core/views/insert_form_popup.php:746
+#@ ARForms
+msgid "Add to page"
+msgstr "ページに追加"
+
+#: core/views/like_field.php:13
+#@ ARForms
+msgid "Reset default value"
+msgstr "リセットデフォルト値"
+
+#: core/views/list.php:16
+#@ ARForms
+msgid "This form is already deleted."
+msgstr "このフォームは、すでに削除されている。"
+
+#: core/views/list.php:658
+#: core/views/list.php:669
+#@ ARForms
+msgid "DELETE FORM"
+msgstr "フォームを削除"
+
+#: core/views/list.php:659
+#@ ARForms
+msgid "Are you sure you want to delete this form?"
+msgstr "あなたがこのフォームを削除してもよろしい？"
+
+#: core/views/list.php:661
+#: core/views/list.php:672
+#: core/views/newfield.php:267
+#: core/views/view_records.php:1025
+#: core/views/view_records.php:1036
+#@ ARForms
+msgid "Okay"
+msgstr "オーケー"
+
+#: core/views/list.php:670
+#@ ARForms
+msgid "Are you sure you want to delete this form(s)?"
+msgstr "あなたはこのフォーム（複数可）を削除してもよろしい？"
+
+#: core/views/new-selection-modal.php:23
+#@ ARForms
+msgid "NEW FORM"
+msgstr "新しいフォーム"
+
+#: core/views/new-selection-modal.php:27
+#@ ARForms
+msgid "Form Name"
+msgstr "フォーム名"
+
+#: core/views/new-selection-modal.php:30
+#@ ARForms
+msgid "Form Description"
+msgstr "フォーム記述"
+
+#: core/views/new-selection-modal.php:33
+#@ ARForms
+msgid "Template"
+msgstr "テンプレート"
+
+#: core/views/new-selection-modal.php:39
+#@ ARForms
+msgid "Blank Form"
+msgstr "空白のフォーム"
+
+#: core/views/new-selection-modal.php:63
+#: core/views/settings_form.php:885
+#@ ARForms
+msgid "Continue"
+msgstr "続ける"
+
+#: core/views/newfield.php:35
+#@ ARForms
+msgid "Countries"
+msgstr "国"
+
+#: core/views/newfield.php:40
+#@ ARForms
+msgid "U.S. States"
+msgstr "米国米国"
+
+#: core/views/newfield.php:43
+#@ ARForms
+msgid "U.S. State Abbreviations"
+msgstr "米国務省略語"
+
+#: core/views/newfield.php:49
+#@ ARForms
+msgid "Age Group"
+msgstr "対象年齢"
+
+#: core/views/newfield.php:52
+#@ ARForms
+msgid "Under 18"
+msgstr "18歳未満"
+
+#: core/views/newfield.php:52
+#@ ARForms
+msgid "18-24"
+msgstr "18-24"
+
+#: core/views/newfield.php:52
+#@ ARForms
+msgid "25-34"
+msgstr "25-34"
+
+#: core/views/newfield.php:55
+#@ ARForms
+msgid "35-44"
+msgstr "35-44"
+
+#: core/views/newfield.php:55
+#@ ARForms
+msgid "45-54"
+msgstr "45-54"
+
+#: core/views/newfield.php:55
+#@ ARForms
+msgid "55-64"
+msgstr "55-64"
+
+#: core/views/newfield.php:58
+#@ ARForms
+msgid "65 or Above"
+msgstr "65以上"
+
+#: core/views/newfield.php:58
+#@ ARForms
+msgid "Prefer Not to Answer"
+msgstr "回答を避ける"
+
+#: core/views/newfield.php:67
+#@ ARForms
+msgid "Satisfaction"
+msgstr "満足"
+
+#: core/views/newfield.php:70
+#@ ARForms
+msgid "Very Satisfied"
+msgstr "とても満足"
+
+#: core/views/newfield.php:70
+#@ ARForms
+msgid "Satisfied"
+msgstr "満足"
+
+#: core/views/newfield.php:70
+#@ ARForms
+msgid "Neutral"
+msgstr "ニュートラル"
+
+#: core/views/newfield.php:73
+#@ ARForms
+msgid "Unsatisfied"
+msgstr "満たされていない"
+
+#: core/views/newfield.php:73
+#@ ARForms
+msgid "Very Unsatisfied"
+msgstr "非常に不満"
+
+#: core/views/newfield.php:73
+#@ ARForms
+msgid "N/A"
+msgstr "N / A"
+
+#: core/views/newfield.php:79
+#@ ARForms
+msgid "Days"
+msgstr "日"
+
+#: core/views/newfield.php:82
+#@ ARForms
+msgid "2"
+msgstr "2"
+
+#: core/views/newfield.php:82
+#@ ARForms
+msgid "3"
+msgstr "3"
+
+#: core/views/newfield.php:82
+#@ ARForms
+msgid "4"
+msgstr "4"
+
+#: core/views/newfield.php:82
+#@ ARForms
+msgid "5"
+msgstr "5"
+
+#: core/views/newfield.php:82
+#@ ARForms
+msgid "6"
+msgstr "6"
+
+#: core/views/newfield.php:84
+#@ ARForms
+msgid "7"
+msgstr "7"
+
+#: core/views/newfield.php:84
+#@ ARForms
+msgid "8"
+msgstr "8"
+
+#: core/views/newfield.php:84
+#@ ARForms
+msgid "9"
+msgstr "9"
+
+#: core/views/newfield.php:84
+#@ ARForms
+msgid "10"
+msgstr "10"
+
+#: core/views/newfield.php:84
+#@ ARForms
+msgid "11"
+msgstr "11"
+
+#: core/views/newfield.php:84
+#@ ARForms
+msgid "12"
+msgstr "12"
+
+#: core/views/newfield.php:86
+#@ ARForms
+msgid "13"
+msgstr "13"
+
+#: core/views/newfield.php:86
+#@ ARForms
+msgid "14"
+msgstr "14"
+
+#: core/views/newfield.php:86
+#@ ARForms
+msgid "15"
+msgstr "15"
+
+#: core/views/newfield.php:86
+#@ ARForms
+msgid "16"
+msgstr "16"
+
+#: core/views/newfield.php:86
+#@ ARForms
+msgid "17"
+msgstr "17"
+
+#: core/views/newfield.php:86
+#@ ARForms
+msgid "18"
+msgstr "18"
+
+#: core/views/newfield.php:88
+#@ ARForms
+msgid "19"
+msgstr "19"
+
+#: core/views/newfield.php:88
+#@ ARForms
+msgid "20"
+msgstr "20"
+
+#: core/views/newfield.php:88
+#@ ARForms
+msgid "21"
+msgstr "21"
+
+#: core/views/newfield.php:88
+#@ ARForms
+msgid "22"
+msgstr "22"
+
+#: core/views/newfield.php:88
+#@ ARForms
+msgid "23"
+msgstr "23"
+
+#: core/views/newfield.php:88
+#@ ARForms
+msgid "24"
+msgstr "24"
+
+#: core/views/newfield.php:90
+#@ ARForms
+msgid "25"
+msgstr "25"
+
+#: core/views/newfield.php:90
+#@ ARForms
+msgid "26"
+msgstr "26"
+
+#: core/views/newfield.php:90
+#@ ARForms
+msgid "27"
+msgstr "27"
+
+#: core/views/newfield.php:90
+#@ ARForms
+msgid "28"
+msgstr "28"
+
+#: core/views/newfield.php:90
+#@ ARForms
+msgid "29"
+msgstr "29"
+
+#: core/views/newfield.php:90
+#@ ARForms
+msgid "30"
+msgstr "30"
+
+#: core/views/newfield.php:92
+#@ ARForms
+msgid "31"
+msgstr "31"
+
+#: core/views/newfield.php:98
+#@ ARForms
+msgid "Week Days"
+msgstr "ウィークデイズ"
+
+#: core/views/newfield.php:101
+#@ ARForms
+msgid "Sunday"
+msgstr "日曜日"
+
+#: core/views/newfield.php:101
+#@ ARForms
+msgid "Monday"
+msgstr "月曜日"
+
+#: core/views/newfield.php:101
+#@ ARForms
+msgid "Tuesday"
+msgstr "火曜日"
+
+#: core/views/newfield.php:104
+#@ ARForms
+msgid "Wednesday"
+msgstr "水曜日"
+
+#: core/views/newfield.php:104
+#@ ARForms
+msgid "Thursday"
+msgstr "木曜日"
+
+#: core/views/newfield.php:104
+#@ ARForms
+msgid "Friday"
+msgstr "金曜日"
+
+#: core/views/newfield.php:107
+#@ ARForms
+msgid "Saturday"
+msgstr "土曜日"
+
+#: core/views/newfield.php:113
+#@ ARForms
+msgid "Months"
+msgstr "月間"
+
+#: core/views/newfield.php:116
+#@ ARForms
+msgid "January"
+msgstr "1月"
+
+#: core/views/newfield.php:116
+#@ ARForms
+msgid "February"
+msgstr "2月"
+
+#: core/views/newfield.php:116
+#@ ARForms
+msgid "March"
+msgstr "3月"
+
+#: core/views/newfield.php:116
+#@ ARForms
+msgid "April"
+msgstr "4月"
+
+#: core/views/newfield.php:118
+#@ ARForms
+msgid "May"
+msgstr "5月"
+
+#: core/views/newfield.php:118
+#@ ARForms
+msgid "June"
+msgstr "6月"
+
+#: core/views/newfield.php:118
+#@ ARForms
+msgid "July"
+msgstr "7月"
+
+#: core/views/newfield.php:118
+#@ ARForms
+msgid "August"
+msgstr "8月"
+
+#: core/views/newfield.php:118
+#@ ARForms
+msgid "September"
+msgstr "9月"
+
+#: core/views/newfield.php:120
+#@ ARForms
+msgid "October"
+msgstr "10月"
+
+#: core/views/newfield.php:120
+#@ ARForms
+msgid "November"
+msgstr "11月"
+
+#: core/views/newfield.php:120
+#@ ARForms
+msgid "December"
+msgstr "12月"
+
+#: core/views/newfield.php:135
+#@ ARForms
+msgid "Years"
+msgstr "年"
+
+#: core/helpers/arfieldhelper.php:5540
+#: core/views/newfield.php:140
+#: core/views/newfield.php:1046
+#@ ARForms
+msgid "Prefix"
+msgstr "接頭辞"
+
+#: core/views/newfield.php:143
+#@ ARForms
+msgid "Mr"
+msgstr "氏"
+
+#: core/views/newfield.php:143
+#@ ARForms
+msgid "Mrs"
+msgstr "夫人"
+
+#: core/views/newfield.php:143
+#@ ARForms
+msgid "Ms"
+msgstr "さん"
+
+#: core/views/newfield.php:143
+#@ ARForms
+msgid "Miss"
+msgstr "ミス"
+
+#: core/views/newfield.php:145
+#@ ARForms
+msgid "Sr"
+msgstr "Sr"
+
+#: core/views/newfield.php:155
+#@ ARForms
+msgid "Telephone Country Codes"
+msgstr "電話国コード"
+
+#: core/views/newfield.php:264
+#@ ARForms
+msgid "DELETE FIELD"
+msgstr "DELETE FIELD"
+
+#: core/views/newfield.php:265
+#@ ARForms
+msgid "Are you sure you want to delete this field?"
+msgstr "このフィールドを削除してもよろしい？"
+
+#: core/views/newfield.php:282
+#@ ARForms
+msgid "Click to mark as"
+msgstr "としてマークする]をクリック"
+
+#: core/views/newfield.php:282
+#@ ARForms
+msgid "compulsory field."
+msgstr "強制フィールド。"
+
+#: core/views/newfield.php:317
+#@ ARForms
+msgid "Duplicate"
+msgstr "複製"
+
+#: core/views/newfield.php:321
+#@ ARForms
+msgid "Move"
+msgstr "移動"
+
+#: core/views/newfield.php:325
+#@ ARForms
+msgid "Delete Field"
+msgstr "フィールドの削除"
+
+#: core/views/newfield.php:437
+#@ ARForms
+msgid "options shown. Click \"Edit options\" Button to view all"
+msgstr "のオプションが示されて。クリック\"編集オプションを\"ボタンをすべて表示する"
+
+#: core/views/newfield.php:439
+#: core/views/newfield.php:448
+#: core/views/newfield.php:550
+#: core/views/newfield.php:559
+#@ ARForms
+msgid "Edit Options"
+msgstr "編集オプション"
+
+#: core/views/newfield.php:469
+#: core/views/newfield.php:587
+#@ ARForms
+msgid "Add an Option"
+msgstr "オプションを追加"
+
+#: core/views/newfield.php:474
+#: core/views/newfield.php:594
+#@ ARForms
+msgid "Preset Field Choices"
+msgstr "プリセットフィールドの選択"
+
+#: core/views/newfield.php:488
+#: core/views/newfield.php:493
+#: core/views/newfield.php:607
+#: core/views/newfield.php:612
+#@ ARForms
+msgid "Select"
+msgstr "選択する"
+
+#: core/views/newfield.php:507
+#: core/views/newfield.php:623
+#@ ARForms
+msgid "Saving"
+msgstr "節約"
+
+#: core/views/newfield.php:664
+#@ ARForms
+msgid "Please setup public and private key in Global Settings otherwise recaptcha will not appear"
+msgstr "セットアップ公共およびグローバル設定内の秘密鍵は、それ以外のフレーズは表示されませんしてください"
+
+#: core/views/newfield.php:312
+#: core/views/newfield.php:739
+#@ ARForms
+msgid "Field Options"
+msgstr "フィールドオプション"
+
+#: core/views/newfield.php:739
+#@ ARForms
+msgid "Field ID"
+msgstr "フィールドID"
+
+#: core/views/newfield.php:747
+#@ ARForms
+msgid "Basic Options"
+msgstr "基本オプション"
+
+#: core/views/newfield.php:748
+#@ ARForms
+msgid "CSS Property"
+msgstr "CSSプロパティ"
+
+#: core/views/newfield.php:860
+#: core/views/newfield.php:864
+#@ ARForms
+msgid "Wrapper"
+msgstr "ラッパー"
+
+#: core/views/newfield.php:865
+#: core/widgets/ARFwidgetForm.php:50
+#@ ARForms
+msgid "Label"
+msgstr "ラベル"
+
+#: core/views/newfield.php:866
+#@ ARForms
+msgid "Input element"
+msgstr "入力素子"
+
+#: core/views/newfield.php:867
+#@ ARForms
+msgid "Description"
+msgstr "説明"
+
+#: core/views/newfield.php:946
+#: core/views/newfield.php:947
+#: core/views/newfield.php:952
+#@ ARForms
+msgid "Hide"
+msgstr "隠す"
+
+#: core/views/newfield.php:959
+#@ ARForms
+msgid "this field if"
+msgstr "このフィールドの場合"
+
+#: core/views/settings_form.php:125
+#@ ARForms
+msgid "General Settings"
+msgstr "一般設定"
+
+#: core/views/settings_form.php:134
+#@ ARForms
+msgid "Email Marketing Tools"
+msgstr "メールマーケティング担当者"
+
+#: core/views/settings_form.php:237
+#: core/views/settings_form.php:276
+#@ ARForms
+msgid "Product License"
+msgstr "製品ライセンス"
+
+#: core/views/settings_form.php:246
+#@ ARForms
+msgid "License Status"
+msgstr "ライセンスの状態"
+
+#: core/views/settings_form.php:253
+#@ ARForms
+msgid "Deactivate License"
+msgstr "ライセンスを無効にする"
+
+#: core/views/settings_form.php:259
+#@ ARForms
+msgid "License Deactivated Successfully."
+msgstr "ライセンスが正常に非アクティブ化。"
+
+#: core/views/settings_form.php:280
+#@ ARForms
+msgid "A valid license key entitles you to support and enables automatic upgrades. Also you can remove Rebradning link only after activate your license. A license key only be used for one installation of WordPress at a time."
+msgstr "有効なライセンスキーを使用すると、サポートする権利が与えられ、自動アップグレードを可能にします。また、あなたは後にのみRebradningリンクを削除してライセンスをアクティブにすることができます。ライセンスキーは、一度にワードプレスのいずれかのインストールに使用する。"
+
+#: core/views/settings_form.php:291
+#@ ARForms
+msgid "Customer Name"
+msgstr "顧客名"
+
+#: core/views/settings_form.php:311
+#@ ARForms
+msgid "Customer Email"
+msgstr "お客様のEメール"
+
+#: core/views/settings_form.php:328
+#@ ARForms
+msgid "Purchase Code"
+msgstr "代金コード"
+
+#: core/views/settings_form.php:347
+#@ ARForms
+msgid "Domain Name"
+msgstr "ドメイン名"
+
+#: core/views/settings_form.php:373
+#@ ARForms
+msgid "License Activated Successfully."
+msgstr "ライセンスが正常に動作します。"
+
+#: core/views/settings_form.php:391
+#@ ARForms
+msgid "RECAPTCHA Configuration"
+msgstr "フレーズの設定"
+
+#: core/views/settings_form.php:403
+#@ ARForms
+msgid "reCAPTCHA requires an API key, consisting of a \"public\" and a \"private\" key. You can sign up for a"
+msgstr "reCAPTCHAのは\\ \\\"公共\"と\"プライベート\"キーで構成される、APIキーが必要です。あなたがサインアップすることができ"
+
+#: core/views/settings_form.php:403
+#@ ARForms
+msgid "free reCAPTCHA key"
+msgstr "自由なフレーズキー"
+
+#: core/views/settings_form.php:419
+#@ ARForms
+msgid "Public Key"
+msgstr "公開鍵"
+
+#: core/views/settings_form.php:437
+#@ ARForms
+msgid "Private Key"
+msgstr "秘密鍵"
+
+#: core/views/settings_form.php:461
+#@ ARForms
+msgid "reCAPTCHA Theme"
+msgstr "reCAPTCHAのテーマ"
+
+#: core/helpers/arfieldhelper.php:4786
+#: core/views/settings_form.php:472
+#@ ARForms
+msgid "Red"
+msgstr "レッド"
+
+#: core/views/settings_form.php:472
+#@ ARForms
+msgid "White"
+msgstr "白"
+
+#: core/views/settings_form.php:472
+#@ ARForms
+msgid "Black Glass"
+msgstr "黒ガラス"
+
+#: core/views/settings_form.php:472
+#@ ARForms
+msgid "Clean"
+msgstr "クリーン"
+
+#: core/views/settings_form.php:492
+#@ ARForms
+msgid "reCAPTCHA Language"
+msgstr "reCAPTCHAの言語"
+
+#: core/views/settings_form.php:502
+#@ ARForms
+msgid "English"
+msgstr "英語"
+
+#: core/views/settings_form.php:502
+#@ ARForms
+msgid "Portuguese"
+msgstr "ポルトガル語の"
+
+#: core/views/settings_form.php:535
+#@ ARForms
+msgid "Default Messages On Form"
+msgstr "フォーム上の既定のメッセージ"
+
+#: core/views/settings_form.php:540
+#@ ARForms
+msgid "Blank Field"
+msgstr "空欄"
+
+#: core/views/settings_form.php:545
+#@ ARForms
+msgid "Message will be displayed when required fields is left blank."
+msgstr "フィールドを必要なときに表示されるメッセージが空白のままです。"
+
+#: core/views/settings_form.php:561
+#@ ARForms
+msgid "Incorrect Field"
+msgstr "誤ったフィールド"
+
+#: core/views/settings_form.php:568
+#@ ARForms
+msgid "Message will be displayed when incorrect data is inserted of missing."
+msgstr "不正なデータが不足しているの挿入されたときに、メッセージが表示されます。"
+
+#: core/views/settings_form.php:586
+#: core/views/settings_form.php:803
+#@ ARForms
+msgid "Success Message"
+msgstr "成功メッセージ"
+
+#: core/views/settings_form.php:592
+#@ ARForms
+msgid "Default message displayed after form is submitted."
+msgstr "フォーム後に表示されるデフォルトのメッセージが送信されます。"
+
+#: core/views/settings_form.php:610
+#@ ARForms
+msgid "Submission Failed Message"
+msgstr "提出失敗したメッセージ"
+
+#: core/views/settings_form.php:616
+#@ ARForms
+msgid "Message will be displayed when form is submitted but Duplicate entry exists."
+msgstr "フォームが送信さが、重複したエントリが存在すると、メッセージが表示されます。"
+
+#: core/views/settings_form.php:634
+#@ ARForms
+msgid "Default Submit Button"
+msgstr "デフォルト送信ボタン"
+
+#: core/views/settings_form.php:653
+#@ ARForms
+msgid "Email Settings"
+msgstr "メール設定"
+
+#: core/views/settings_form.php:691
+#@ ARForms
+msgid "Send Email SMTP"
+msgstr "電子メールのSMTPを送る"
+
+#: core/views/settings_form.php:693
+#@ ARForms
+msgid "Wordpress Server"
+msgstr "Wordpressのサーバー"
+
+#: core/views/settings_form.php:694
+#@ ARForms
+msgid "SMTP Server"
+msgstr "SMTPサーバー"
+
+#: core/views/settings_form.php:699
+#@ ARForms
+msgid "SMTP Host"
+msgstr "SMTPホスト"
+
+#: core/views/settings_form.php:706
+#@ ARForms
+msgid "SMTP Port"
+msgstr "SMTPポート"
+
+#: core/views/settings_form.php:713
+#@ ARForms
+msgid "SMTP Username"
+msgstr "SMTPユーザー名"
+
+#: core/views/settings_form.php:720
+#@ ARForms
+msgid "SMTP Encription"
+msgstr "SMTP Encription"
+
+#: core/views/settings_form.php:722
+#@ ARForms
+msgid "None"
+msgstr "なし"
+
+#: core/views/settings_form.php:723
+#@ ARForms
+msgid "SSL"
+msgstr "SSL"
+
+#: core/views/settings_form.php:724
+#@ ARForms
+msgid "TLS"
+msgstr "TLS"
+
+#: core/views/settings_form.php:729
+#@ ARForms
+msgid "SMTP Password"
+msgstr "SMTPパスワード"
+
+#: core/views/settings_form.php:742
+#@ ARForms
+msgid "Other Settings"
+msgstr "その他の設定"
+
+#: core/views/settings_form.php:751
+#@ ARForms
+msgid "Rebranding"
+msgstr "商標変更"
+
+#: core/views/settings_form.php:757
+#@ ARForms
+msgid "Remove rebranding link"
+msgstr "ブランド変更リンクを削除"
+
+#: core/views/settings_form.php:786
+#@ ARForms
+msgid "Form Submission Method"
+msgstr "フォームのメソッド"
+
+#: core/views/settings_form.php:792
+#@ ARForms
+msgid "Ajax based submission"
+msgstr "Ajaxをベースの送信"
+
+#: core/views/settings_form.php:793
+#@ ARForms
+msgid "Normal submission"
+msgstr "通常のサブミッション"
+
+#: core/views/settings_form.php:827
+#@ ARForms
+msgid "Form Global CSS"
+msgstr "フォームのグローバルCSS"
+
+#: core/views/settings_form.php:856
+#: core/views/settings_form.php:1004
+#: core/views/settings_form.php:1092
+#: core/views/settings_form.php:1188
+#: core/views/settings_form.php:1296
+#@ ARForms
+msgid "Using API"
+msgstr "APIの使用"
+
+#: core/views/settings_form.php:857
+#: core/views/settings_form.php:1005
+#: core/views/settings_form.php:1093
+#: core/views/settings_form.php:1189
+#: core/views/settings_form.php:1297
+#: core/views/settings_form.php:1391
+#: core/views/settings_form.php:1426
+#@ ARForms
+msgid "Using Web-form"
+msgstr "Webベースのフォームを使用した"
+
+#: core/views/settings_form.php:865
+#@ ARForms
+msgid "Enter consumer key"
+msgstr "コンシューマキーを入力してください"
+
+#: core/views/settings_form.php:874
+#@ ARForms
+msgid "Enter consumer secret"
+msgstr "コンシューマシークレットを入力してください"
+
+#: core/views/settings_form.php:891
+#@ ARForms
+msgid "Webform code from Aweber"
+msgstr "オートレスポンダからウェブフォームのコード"
+
+#: core/views/settings_form.php:909
+#@ ARForms
+msgid "AWEBER LIST"
+msgstr "オートレスポンダリスト"
+
+#: core/views/settings_form.php:968
+#: core/views/settings_form.php:1049
+#: core/views/settings_form.php:1143
+#: core/views/settings_form.php:1252
+#: core/views/settings_form.php:1351
+#@ ARForms
+msgid "Refresh List"
+msgstr "最新の情報に更新リスト"
+
+#: core/views/settings_form.php:970
+#: core/views/settings_form.php:1051
+#: core/views/settings_form.php:1145
+#: core/views/settings_form.php:1254
+#: core/views/settings_form.php:1353
+#@ ARForms
+msgid "Delete Configuration"
+msgstr "コンフィギュレーションの削除"
+
+#: core/views/settings_form.php:1012
+#: core/views/settings_form.php:1101
+#: core/views/settings_form.php:1304
+#@ ARForms
+msgid "API Key"
+msgstr "APIキー"
+
+#: core/views/settings_form.php:1015
+#: core/views/settings_form.php:1106
+#: core/views/settings_form.php:1219
+#: core/views/settings_form.php:1317
+#@ ARForms
+msgid "Verify"
+msgstr "確認する"
+
+#: core/views/settings_form.php:1017
+#: core/views/settings_form.php:1108
+#: core/views/settings_form.php:1220
+#: core/views/settings_form.php:1319
+#@ ARForms
+msgid "Verified"
+msgstr "検証された"
+
+#: core/views/settings_form.php:1018
+#: core/views/settings_form.php:1109
+#: core/views/settings_form.php:1221
+#: core/views/settings_form.php:1320
+#@ ARForms
+msgid "Not Verified"
+msgstr "いないことを確認"
+
+#: core/views/settings_form.php:1027
+#@ ARForms
+msgid "List ID"
+msgstr "リストのID"
+
+#: core/views/settings_form.php:1061
+#@ ARForms
+msgid "Webform code from Mailchimp"
+msgstr "Mailchimpからウェブフォームのコード"
+
+#: core/views/settings_form.php:1120
+#@ ARForms
+msgid "Campaign Name"
+msgstr "キャンペーン名"
+
+#: core/views/settings_form.php:1156
+#@ ARForms
+msgid "Webform code from Getresponse"
+msgstr "のGetResponseからウェブフォームのコード"
+
+#: core/views/settings_form.php:1196
+#@ ARForms
+msgid "APP ID"
+msgstr "APP ID"
+
+#: core/views/settings_form.php:1206
+#@ ARForms
+msgid "Username"
+msgstr "ユーザー名"
+
+#: core/views/settings_form.php:1230
+#: core/views/settings_form.php:1328
+#@ ARForms
+msgid "List Name"
+msgstr "リスト名"
+
+#: core/views/settings_form.php:1265
+#@ ARForms
+msgid "Webform code from Icontact"
+msgstr "Icontactからウェブフォームのコード"
+
+#: core/views/settings_form.php:1313
+#@ ARForms
+msgid "Access Token"
+msgstr "アクセストークン"
+
+#: core/views/settings_form.php:1363
+#@ ARForms
+msgid "Webform code from Constant Contact"
+msgstr "一定の接触からWebフォームのコード"
+
+#: core/views/settings_form.php:1398
+#@ ARForms
+msgid "Webform code from GVO Campaign"
+msgstr "GVOキャンペーンからWebフォームのコード"
+
+#: core/views/settings_form.php:1433
+#@ ARForms
+msgid "Webform code from eBizac"
+msgstr "eBizacからウェブフォームのコード"
+
+#: core/views/settings_form.php:1485
+#@ ARForms
+msgid "Save Changes"
+msgstr "[変更の保存]"
+
+#: core/views/view_records.php:676
+#@ ARForms
+msgid "Entries List"
+msgstr "エントリーリスト"
+
+#: core/views/view_records.php:677
+#@ ARForms
+msgid "Analytics"
+msgstr "分析論"
+
+#: core/views/view_records.php:928
+#@ ARForms
+msgid "All Forms"
+msgstr "あらゆる形態"
+
+#: core/views/view_records.php:941
+#: core/views/view_records.php:942
+#@ ARForms
+msgid "Yearly"
+msgstr "毎年の"
+
+#: core/views/view_records.php:946
+#: core/views/view_records.php:947
+#@ ARForms
+msgid "Monthly"
+msgstr "毎月の"
+
+#: core/views/view_records.php:951
+#: core/views/view_records.php:952
+#@ ARForms
+msgid "Daily"
+msgstr "デイリー"
+
+#: core/views/view_records.php:1022
+#: core/views/view_records.php:1033
+#@ ARForms
+msgid "DELETE ENTRY"
+msgstr "エントリの削除"
+
+#: core/views/view_records.php:1023
+#@ ARForms
+msgid "Are you sure you want to delete this entry?"
+msgstr "あなたは、このエントリを削除してもよろしい？"
+
+#: core/views/view_records.php:1034
+#@ ARForms
+msgid "Are you sure you want to delete this entries?"
+msgstr "あなたはこのエントリを削除してもよろしい？"
+
+#: core/widgets/ARFwidgetForm.php:14
+#@ ARForms
+msgid "Display Form of ARForms"
+msgstr "ARFormsの表示フォーム"
+
+#: core/widgets/ARFwidgetForm.php:15
+#@ ARForms
+msgid "ARForms Form"
+msgstr "ARFormsフォーム"
+
+#: core/widgets/ARFwidgetForm.php:35
+#@ ARForms
+msgid "Title"
+msgstr "タイトル"
+
+#: core/widgets/ARFwidgetForm.php:38
+#@ ARForms
+msgid "Form"
+msgstr "フォーム"
+
+#: core/widgets/ARFwidgetForm.php:44
+#@ ARForms
+msgid "Form Type"
+msgstr "用紙タイプ"
+
+#: core/widgets/ARFwidgetForm.php:54
+#@ ARForms
+msgid "Link Type ?"
+msgstr "リンクタイプ？"
+
+#: core/helpers/arfieldhelper.php:5461
+#@ ARForms
+msgid "Show Year/Month Dropdown"
+msgstr "ショー年/月ドロップダウン"
+
+#: core/views/edit.php:1868
+#: core/views/edit.php:1882
+#@ ARForms
+msgid "&nbsp;&nbsp;&nbsp;(Please Activate your license to configure Mailchip with this form.)"
+msgstr "&nbsp;&nbsp;&nbsp;;（このフォームでMailchipを設定するには、ライセンスを有効にしてください。）"
+
+#: core/views/edit.php:2024
+#: core/views/edit.php:2038
+#@ ARForms
+msgid "&nbsp;&nbsp;&nbsp;(Please Activate your license to configure Aweber with this form.)"
+msgstr "&nbsp;&nbsp;&nbsp;（このフォームでオートレスポンダを設定するには、ライセンスを有効にしてください。）"
+
+#: core/views/edit.php:2215
+#: core/views/edit.php:2229
+#@ ARForms
+msgid "&nbsp;&nbsp;&nbsp;(Please Activate your license to configure Icontact with this form.)"
+msgstr "&nbsp;&nbsp;&nbsp;（このフォームでIcontactを設定するには、ライセンスを有効にしてください。）"
+
+#: core/views/edit.php:2378
+#: core/views/edit.php:2392
+#@ ARForms
+msgid "&nbsp;&nbsp;&nbsp;(Please Activate your license to configure Constant Contact with this form.)"
+msgstr "&nbsp;&nbsp;&nbsp;（このフォームと常に接触を構成するには、ライセンスを有効にしてください。）"
+
+#: core/views/edit.php:2542
+#: core/views/edit.php:2556
+#@ ARForms
+msgid "&nbsp;&nbsp;&nbsp;(Please Activate your license to configure Getresponse with this form.)"
+msgstr "&nbsp;&nbsp;&nbsp;（このフォームでのGetResponseを設定するには、ライセンスを有効にしてください。）"
+
+#: core/views/edit.php:2701
+#: core/views/edit.php:2719
+#@ ARForms
+msgid "&nbsp;&nbsp;&nbsp;(Please Activate your license to configure GVO with this form.)"
+msgstr "&nbsp;&nbsp;&nbsp;（このフォームでGVOを設定するには、ライセンスを有効にしてください。）"
+
+#: core/views/edit.php:2774
+#: core/views/edit.php:2792
+#@ ARForms
+msgid "&nbsp;&nbsp;&nbsp;(Please Activate your license to configure eBizac with this form.)"
+msgstr "&nbsp;&nbsp;&nbsp;（このフォームでeBizacを設定するには、ライセンスを有効にしてください。）"
+
+#: core/views/form.php:683
+#@ ARForms
+msgid "&nbsp;&nbsp;"
+msgstr "&nbsp;&nbsp;"
+
+#: core/helpers/arfieldhelper.php:3707
+#@ ARForms
+msgid "Field Size ( Characters) "
+msgstr "フィールドサイズ（文字）"
+
+#: core/helpers/arfieldhelper.php:3726
+#@ ARForms
+msgid "Maximum"
+msgstr "最大"
+
+#: core/helpers/arfieldhelper.php:3729
+#@ ARForms
+msgid "Minimum"
+msgstr "最小"
+
+#: core/helpers/arfieldhelper.php:4112
+#@ ARForms
+msgid "(Give 0 (Zero) value for unlimited maximum range)"
+msgstr "（無制限の最大レンジの0（ゼロ）の値を与える）"
+
+#: core/helpers/arfieldhelper.php:5364
+#@ ARForms
+msgid "Add File"
+msgstr "ファイルを追加する"
+
+#: core/helpers/arfieldhelper.php:5495
+#@ ARForms
+msgid "Minimum Length"
+msgstr "最小長"
+
+#: core/helpers/arfieldhelper.php:5506
+#@ ARForms
+msgid "Message for minimum length"
+msgstr "最小長のメッセージ"
+
+#: core/views/edit_form.php:73
+#@ ARForms
+msgid "Choose File"
+msgstr "ファイルを選択してください"
+
+#: core/vc/class_vc_extend.php:628
+#: core/views/insert_form_popup.php:657
+#@ ARForms
+msgid "Caption :"
+msgstr "キャプション："
+
+#: core/vc/class_vc_extend.php:699
+#: core/views/insert_form_popup.php:716
+#@ ARForms
+msgid "Size :"
+msgstr "サイズ："
+
+#: core/vc/class_vc_extend.php:708
+#: core/views/insert_form_popup.php:726
+#@ ARForms
+msgid "Button angle :"
+msgstr "ボタン角度："
+
+#: core/widgets/ARFwidgetForm.php:106
+#@ ARForms
+msgid "Button Angle"
+msgstr "ボタンの角度"
+
+#: core/controllers/arformcontroller.php:3247
+#: core/controllers/arformcontroller.php:3248
+#: core/views/addcontrols.php:1095
+#: core/views/addcontrols.php:1096
+#@ ARForms
+msgid "check_weight_form_title"
+msgstr "check_weight_form_title"
+
+#: core/controllers/arformcontroller.php:3586
+#: core/views/addcontrols.php:1433
+#@ ARForms
+msgid "Window Opacity"
+msgstr "ウィンドウの不透明度"
+
+#: core/controllers/arformcontroller.php:3899
+#: core/controllers/arformcontroller.php:3900
+#: core/views/addcontrols.php:1744
+#: core/views/addcontrols.php:1745
+#@ ARForms
+msgid "weight"
+msgstr "重量"
+
+#: core/controllers/arformcontroller.php:4274
+#: core/controllers/arformcontroller.php:4275
+#: core/views/addcontrols.php:2119
+#: core/views/addcontrols.php:2120
+#@ ARForms
+msgid "check_weight"
+msgstr "check_weight"
+
+#: core/controllers/arformcontroller.php:5139
+#: core/views/addcontrols.php:2985
+#@ ARForms
+msgid "Prefix & Suffix Style"
+msgstr "プレフィックス＆サフィックススタイル"
+
+#: core/controllers/arformcontroller.php:5157
+#: core/views/addcontrols.php:3003
+#@ ARForms
+msgid "Icon Color"
+msgstr "アイコンの色"
+
+#: core/controllers/arformcontroller.php:5330
+#: core/controllers/arformcontroller.php:5331
+#: core/views/addcontrols.php:3176
+#: core/views/addcontrols.php:3177
+#@ ARForms
+msgid "arfsubmitweightsetting"
+msgstr "アイコンの色"
+
+#: core/controllers/arformcontroller.php:5649
+#: core/views/addcontrols.php:3495
+#@ ARForms
+msgid "Background Hover Image"
+msgstr "背景ホバーイメージ"
+
+#: core/controllers/arsettingcontroller.php:129
+#@ ARForms
+msgid "Addons"
+msgstr "アドオン"
+
+#: core/helpers/arfieldhelper.php:1277
+#: core/helpers/arfieldhelper.php:5222
+#: core/helpers/arfieldhelper.php:5229
+#@ ARForms
+msgid "Confirm Email"
+msgstr "Eメール確認"
+
+#: core/helpers/arfieldhelper.php:1277
+#: core/helpers/arfieldhelper.php:5247
+#@ ARForms
+msgid "Confirm Email does not match with email"
+msgstr "確認してメールは、電子メールと一致しません"
+
+#: core/helpers/arfieldhelper.php:1289
+#@ ARForms
+msgid "Number is out of range"
+msgstr "数が範囲外です"
+
+#: core/helpers/arfieldhelper.php:4494
+#: core/helpers/arfieldhelper.php:4495
+#@ ARForms
+msgid "arf_divider_font_style"
+msgstr "arf_divider_font_style"
+
+#: core/helpers/arfieldhelper.php:4784
+#@ ARForms
+msgid "Yellow"
+msgstr "黄色"
+
+#: core/helpers/arfieldhelper.php:4787
+#@ ARForms
+msgid "Orange"
+msgstr "オレンジ"
+
+#: core/helpers/arfieldhelper.php:4788
+#@ ARForms
+msgid "Blue"
+msgstr "青"
+
+#: core/helpers/arfieldhelper.php:4789
+#@ ARForms
+msgid "Green"
+msgstr "グリーン"
+
+#: core/helpers/arfieldhelper.php:4790
+#@ ARForms
+msgid "Black"
+msgstr "黒"
+
+#: core/helpers/arfieldhelper.php:4847
+#@ ARForms
+msgid "Big"
+msgstr "ビッグ"
+
+#: core/helpers/arfieldhelper.php:4849
+#@ ARForms
+msgid "Small"
+msgstr "スモール"
+
+#: core/helpers/arfieldhelper.php:5232
+#@ ARForms
+msgid "Confirm Email Label"
+msgstr "電子メールのラベルを確認してください"
+
+#: core/helpers/arfieldhelper.php:5250
+#@ ARForms
+msgid "Message for invalid Email"
+msgstr "無効な電子メールのメッセージ"
+
+#: core/helpers/arfieldhelper.php:5266
+#@ ARForms
+msgid "Confirm Email Placeholder"
+msgstr "電子メールのプレースホルダを確認"
+
+#: core/helpers/arfieldhelper.php:5478
+#@ ARForms
+msgid "Confirm Password Placeholder"
+msgstr "パスワードのプレースホルダの確認"
+
+#: core/helpers/arfieldhelper.php:5516
+#@ ARForms
+msgid "Add Icon (Bootstrap Style)"
+msgstr "追加アイコン（ブートストラップスタイル）"
+
+#: core/helpers/arfieldhelper.php:5528
+#: core/helpers/arfieldhelper.php:5552
+#: core/views/arf_font_awesome.php:1
+#: core/views/arf_font_awesome.php:4
+#@ ARForms
+msgid "No Icon"
+msgstr "表示なし"
+
+#: core/helpers/arfieldhelper.php:5533
+#: core/helpers/arfieldhelper.php:5558
+#@ ARForms
+msgid "Change Icon"
+msgstr "アイコンの変更"
+
+#: core/helpers/arfieldhelper.php:5564
+#: core/views/newfield.php:1047
+#@ ARForms
+msgid "Suffix"
+msgstr "サフィックス"
+
+#: core/helpers/arformhelper.php:218
+#: core/helpers/arformhelper.php:547
+#@ ARForms
+msgid "[ARF_form_all_values]"
+msgstr "[ARF_form_all_values]"
+
+#: core/vc/class_vc_extend.php:77
+#@ ARForms
+msgid "ARForms"
+msgstr "ARForms"
+
+#: core/vc/class_vc_extend.php:78
+#@ ARForms
+msgid "Exclusive Wordpress Form Builder Plugin"
+msgstr "独占Wordpressのフォームビルダプラグイン"
+
+#: core/vc/class_vc_extend.php:93
+#: core/vc/class_vc_extend.php:101
+#: core/vc/class_vc_extend.php:109
+#: core/vc/class_vc_extend.php:117
+#: core/vc/class_vc_extend.php:125
+#: core/vc/class_vc_extend.php:133
+#: core/vc/class_vc_extend.php:141
+#: core/vc/class_vc_extend.php:149
+#: core/vc/class_vc_extend.php:157
+#: core/vc/class_vc_extend.php:165
+#@ ARForms
+msgid "&nbsp;"
+msgstr "&nbsp;"
+
+#: core/views/addon_lists.php:87
+#@ ARForms
+msgid "ARForms Add-Ons"
+msgstr "ARFormsはアドオン"
+
+#: core/views/arf_font_awesome.php:7
+#@ ARForms
+msgid "File Type Icons"
+msgstr "タイプのアイコンファイル"
+
+#: core/views/arf_font_awesome.php:26
+#@ ARForms
+msgid "Spinner Icons"
+msgstr "スピナーアイコン"
+
+#: core/views/arf_font_awesome.php:35
+#@ ARForms
+msgid "Form Control Icons"
+msgstr "スピナーアイコン..."
+
+#: core/views/arf_font_awesome.php:50
+#@ ARForms
+msgid "Payment Icons"
+msgstr "お支払い方法のアイコン"
+
+#: core/views/arf_font_awesome.php:64
+#@ ARForms
+msgid "Chart Icons"
+msgstr "チャートのアイコン"
+
+#: core/views/arf_font_awesome.php:73
+#@ ARForms
+msgid "Currency Icons"
+msgstr "通貨のアイコン"
+
+#: core/views/arf_font_awesome.php:89
+#@ ARForms
+msgid "Text Editor Icons"
+msgstr "テキストエディタのアイコン"
+
+#: core/views/arf_font_awesome.php:133
+#@ ARForms
+msgid "Directional icons"
+msgstr "方向性のアイコン"
+
+#: core/views/arf_font_awesome.php:186
+#@ ARForms
+msgid "Video Player icons"
+msgstr "ビデオプレーヤーのアイコン"
+
+#: core/views/arf_font_awesome.php:206
+#@ ARForms
+msgid "Brand Icons"
+msgstr "ブランドのアイコン"
+
+#: core/views/arf_font_awesome.php:309
+#@ ARForms
+msgid "Medical icons"
+msgstr "医療アイコン"
+
+#: core/views/arf_font_awesome.php:322
+#@ ARForms
+msgid "Transportation Icons"
+msgstr "交通アイコン"
+
+#: core/views/arf_font_awesome.php:341
+#@ ARForms
+msgid "Gender Icons"
+msgstr "ジェンダーのアイコン"
+
+#: core/views/arf_font_awesome.php:359
+#@ ARForms
+msgid "General icons"
+msgstr "一般的なアイコン"
+
+#: core/views/edit.php:273
+#: core/views/edit.php:395
+#: core/views/edit.php:715
+#@ ARForms
+msgid "Ajax error while saving form"
+msgstr "Ajaxのエラーフォームを保存しながら、"
+
+#: core/views/edit.php:1405
+#: core/views/edit.php:1685
+#@ ARForms
+msgid "This will be replaced with form's all fields & labels."
+msgstr "これは、フォームのすべてのフィールド＆ラベルに置き換えられます。"
+
+#: core/views/edit.php:1406
+#: core/views/edit.php:1686
+#@ ARForms
+msgid "This will be replaced with entry referer."
+msgstr "これは、エントリーリファラに置き換えられます。"
+
+#: core/views/edit.php:1407
+#: core/views/edit.php:1687
+#@ ARForms
+msgid "This will be replaced with entry added time."
+msgstr "これは、エントリを追加時に置き換えられます。"
+
+#: core/views/edit.php:1408
+#: core/views/edit.php:1688
+#@ ARForms
+msgid "This will be replaced with IP Address."
+msgstr "これは、IPアドレスに置き換えられます。"
+
+#: core/views/edit.php:1409
+#: core/views/edit.php:1689
+#@ ARForms
+msgid "This will be replaced with user browser name."
+msgstr "これは、ユーザのブラウザ名に置換される。"
+
+#: core/views/edit.php:1410
+#: core/views/edit.php:1690
+#@ ARForms
+msgid "This will be replaced with Entry ID."
+msgstr "これはエントリIDに置き換えられます。"
+
+#: core/views/edit.php:1660
+#@ ARForms
+msgid "Admin Message"
+msgstr "管理者メッセージ"
+
+#: core/views/edit.php:3040
+#@ ARForms
+msgid "( Click on cloud buttons given below to copy your relevant css properties. Apply properties directly. Do not define class )"
+msgstr "（あなたの関連するCSSのプロパティをコピーするには、以下のクラウドボタンをクリックします。直接のプロパティを適用します。クラス定義しないでください）"
+
+#: core/views/edit.php:3063
+#: core/views/edit.php:3179
+#@ ARForms
+msgid "Link (Popup)"
+msgstr "リンク（ポップアップ）"
+
+#: core/views/edit.php:3064
+#: core/views/edit.php:3189
+#@ ARForms
+msgid "Button (Popup)"
+msgstr "ボタン（ポップアップ）"
+
+#: core/views/edit.php:3065
+#: core/views/edit.php:3184
+#@ ARForms
+msgid "Link Hover (Popup)"
+msgstr "リンクホバー（ポップアップ）"
+
+#: core/views/edit.php:3066
+#: core/views/edit.php:3194
+#@ ARForms
+msgid "Button Hover (Popup)"
+msgstr "ボタンホバー（ポップアップ）"
+
+#: core/views/edit.php:3472
+#@ ARForms
+msgid "Choose Icon"
+msgstr "アイコンを選択してください"
+
+#: core/views/footer.php:15
+#@ ARForms
+msgid "Page Label"
+msgstr "ページ·ラベル"
+
+#: core/views/footer.php:16
+#@ ARForms
+msgid "Second Page Label"
+msgstr "第2ページのラベル"
+
+#: core/views/footer.php:17
+#@ ARForms
+msgid "First"
+msgstr "最初"
+
+#: core/views/footer.php:17
+#@ ARForms
+msgid "Second"
+msgstr "第2"
+
+#: core/views/footer.php:18
+#@ ARForms
+msgid "Third"
+msgstr "第3"
+
+#: core/views/footer.php:18
+#@ ARForms
+msgid "Fourth"
+msgstr "第4"
+
+#: core/views/footer.php:19
+#@ ARForms
+msgid "Fifth"
+msgstr "第5"
+
+#: core/views/footer.php:19
+#@ ARForms
+msgid "Sixth"
+msgstr "第6"
+
+#: core/views/footer.php:20
+#@ ARForms
+msgid "Seventh"
+msgstr "第7"
+
+#: core/views/footer.php:20
+#@ ARForms
+msgid "Eighth"
+msgstr "第8"
+
+#: core/views/footer.php:21
+#@ ARForms
+msgid "Ninth"
+msgstr "第9"
+
+#: core/views/footer.php:21
+#@ ARForms
+msgid "Tenth"
+msgstr "10分の1"
+
+#: core/views/footer.php:23
+#@ ARForms
+msgid "Eleventh"
+msgstr "第11"
+
+#: core/views/footer.php:23
+#@ ARForms
+msgid "Twelfth"
+msgstr "第12"
+
+#: core/views/footer.php:24
+#@ ARForms
+msgid "Thirteenth"
+msgstr "第13"
+
+#: core/views/footer.php:24
+#@ ARForms
+msgid "Fourteenth"
+msgstr "第14"
+
+#: core/views/footer.php:25
+#@ ARForms
+msgid "Fifteenth"
+msgstr "第15"
+
+#: core/views/footer.php:25
+#@ ARForms
+msgid "Sixteenth"
+msgstr "第十六"
+
+#: core/views/footer.php:26
+#@ ARForms
+msgid "Seventeenth"
+msgstr "第17"
+
+#: core/views/footer.php:26
+#@ ARForms
+msgid "Eighteenth"
+msgstr "18番目の"
+
+#: core/views/footer.php:27
+#@ ARForms
+msgid "Nineteenth"
+msgstr "第十九"
+
+#: core/views/footer.php:27
+#@ ARForms
+msgid "Twentieth"
+msgstr "20番目"
+
+#: core/views/footer.php:29
+#@ ARForms
+msgid "Twenty First"
+msgstr "第21"
+
+#: core/views/footer.php:29
+#@ ARForms
+msgid "Twenty Second"
+msgstr "第22"
+
+#: core/views/footer.php:30
+#@ ARForms
+msgid "Twenty Third"
+msgstr "第23"
+
+#: core/views/footer.php:30
+#@ ARForms
+msgid "Twenty Fourth"
+msgstr "第24"
+
+#: core/views/footer.php:31
+#@ ARForms
+msgid "Twenty Fifth"
+msgstr "第25"
+
+#: core/views/footer.php:31
+#@ ARForms
+msgid "Twenty Sixth"
+msgstr "第26"
+
+#: core/views/footer.php:32
+#@ ARForms
+msgid "Twenty Seventh"
+msgstr "第27"
+
+#: core/views/footer.php:32
+#@ ARForms
+msgid "Twenty Eighth"
+msgstr "第28"
+
+#: core/views/footer.php:33
+#@ ARForms
+msgid "Twenty Ninth"
+msgstr "第29"
+
+#: core/views/footer.php:33
+#@ ARForms
+msgid "Thirtieth"
+msgstr "第30"
+
+#: core/views/footer.php:35
+#@ ARForms
+msgid "Thirty First"
+msgstr "第31"
+
+#: core/views/footer.php:35
+#@ ARForms
+msgid "Thirty Second"
+msgstr "30秒"
+
+#: core/views/footer.php:36
+#@ ARForms
+msgid "Thirty Third"
+msgstr "第33"
+
+#: core/views/footer.php:36
+#@ ARForms
+msgid "Thirty Fourth"
+msgstr "第34"
+
+#: core/views/footer.php:37
+#@ ARForms
+msgid "Thirty Fifth"
+msgstr "第35"
+
+#: core/views/footer.php:37
+#@ ARForms
+msgid "Thirty Sixth"
+msgstr "第36"
+
+#: core/views/footer.php:38
+#@ ARForms
+msgid "Thirty Seventh"
+msgstr "第37"
+
+#: core/views/footer.php:38
+#@ ARForms
+msgid "Thirty Eighth"
+msgstr "第38"
+
+#: core/views/footer.php:39
+#@ ARForms
+msgid "Thirty Ninth"
+msgstr "第39"
+
+#: core/views/footer.php:39
+#@ ARForms
+msgid "Fortieth"
+msgstr "第40"
+
+#: core/views/footer.php:41
+#@ ARForms
+msgid "Forty First"
+msgstr "第41"
+
+#: core/views/footer.php:41
+#@ ARForms
+msgid "Forty Second"
+msgstr "第42"
+
+#: core/views/footer.php:42
+#@ ARForms
+msgid "Forty Third"
+msgstr "第43"
+
+#: core/views/footer.php:42
+#@ ARForms
+msgid "Forty Fourth"
+msgstr "第44"
+
+#: core/views/footer.php:43
+#@ ARForms
+msgid "Forty Fifth"
+msgstr "第45"
+
+#: core/views/footer.php:43
+#@ ARForms
+msgid "Forty Sixth"
+msgstr "第46"
+
+#: core/views/footer.php:44
+#@ ARForms
+msgid "Forty Seventh"
+msgstr "第47"
+
+#: core/views/footer.php:44
+#@ ARForms
+msgid "Forty Eighth"
+msgstr "第48"
+
+#: core/views/footer.php:45
+#@ ARForms
+msgid "Forty Ninth"
+msgstr "第49"
+
+#: core/views/footer.php:45
+#@ ARForms
+msgid "Fiftieth"
+msgstr "第50"
+
+#: core/views/import_export_form.php:39
+#@ ARForms
+msgid "Please Enable Zip extension on your server."
+msgstr "サーバー上のZipエクステンションを有効にしてください。"
+
+#: core/views/newfield.php:849
+#@ ARForms
+msgid "CSS Custom Property"
+msgstr "CSSカスタムプロパティ"
+
+#: core/views/newfield.php:875
+#: core/views/newfield.php:876
+#@ ARForms
+msgid "Icon"
+msgstr "アイコン"
+
+#: core/views/newfield.php:922
+#@ ARForms
+msgid "Set conditional logic to show / hide this field by applying rules which will depend on the user's input. You can add as many conditions as you needed to match your criteria."
+msgstr "表示/ユーザの入力に依存することになるルールを適用することによって、このフィールドを非表示にする条件付きロジックを設定します。あなたの条件に一致するために必要な数の条件を追加することができます。"
+
+#: core/views/newfield.php:1039
+#@ ARForms
+msgid "Select Prefix / Suffix"
+msgstr "プレフィックス/サフィックスを選択"
+
+#: core/views/settings_form.php:255
+#@ ARForms
+msgid "Remove License"
+msgstr "ライセンスを削除する"
+
+#: core/views/settings_form.php:258
+#@ ARForms
+msgid "There is some error while processing your request"
+msgstr "リクエストの処理中にいくつかのエラーがあります"
+
+#: core/views/settings_form.php:370
+#@ ARForms
+msgid "Activate License"
+msgstr "ライセンスのアクティベーション"
+
+#: core/controllers/arformcontroller.php:3630
+#: core/views/addcontrols.php:1477
+#@ ARForms
+msgid "Section Padding"
+msgstr "セクションパディング"
+
+#: core/controllers/arsettingcontroller.php:367
+#@ ARForms
+msgid "Add-On listing is currently unavailable. Please try again later."
+msgstr "アドオンリストは現在使用できません。後ほどおかけ直しください。"
+
+#: core/helpers/arfieldhelper.php:4548
+#@ ARForms
+msgid "Inherit"
+msgstr "継承する"
+
+#: core/views/addon_lists.php:88
+#@ ARForms
+msgid "Add more features to ARForms using Add-Ons"
+msgstr "アドオンを使用してARFormsに多くの機能を追加します。"
+
+#: core/views/newfield.php:850
+#@ ARForms
+msgid "Click on cloud buttons given below to copy your relevant css properties. Apply properties directly. Do not define class."
+msgstr "あなたの関連するCSSのプロパティをコピーするには、以下のクラウドボタンをクリックします。直接のプロパティを適用します。クラスを定義しないでください。"
+
+#: core/views/settings_form.php:770
+#@ ARForms
+msgid "Affiliate Code"
+msgstr "アフィリエイトコード"
+
+#: core/vc/class_vc_extend.php:673
+#: core/views/insert_form_popup.php:690
+#@ ARForms
+msgid "Colors :"
+msgstr "色："
+
+#: core/views/settings_form.php:814
+#@ ARForms
+msgid "Hide success message after"
+msgstr "後に成功のメッセージを非表示にします"
+
+#: core/views/settings_form.php:817
+#@ ARForms
+msgid "Note : 0 ( zero ) means it will never hide success message"
+msgstr "注：0（ゼロ）は、成功メッセージを非表示にすることはありませんことを意味します"
+

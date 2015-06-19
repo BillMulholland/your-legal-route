@@ -1,0 +1,1 @@
+[gravityform id="<?php echo implode(", ", (array)$atts['gft_id']); ?>" title="<?php echo implode(", ", (array)$atts['gft_form_title']); ?>" description="<?php echo implode(", ", (array)$atts['gft_description']); ?>" ajax="<?php echo implode(", ", (array)$atts['gft_ajax']); ?>"]
