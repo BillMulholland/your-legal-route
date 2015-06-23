@@ -5,7 +5,7 @@
 
 // == Colors
 //
-//##
+
 
 
 // Color swatches
@@ -64,21 +64,20 @@
 
 //== Scaffolding
 //
-//## Settings for some of the most global styles.
 
 @body-bg:                   #fff;
 @text-color:                @brand-primary;
 
-//** Global textual link color.
+// Global textual link color.
 @link-color:                @green-sea;
 @link-hover-color:          @turquoise;
-//** Link hover decoration.
+// Link hover decoration.
 @link-hover-decoration:     none;
 
 
 //== Typography
 //
-//## Font, line-height for body text, headings, and more.
+
 
 @font-family-base:              "Lato", Helvetica, Arial, sans-serif;
 @font-family-demo:              "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -116,14 +115,13 @@
 
 
 //== Iconography
-//
-//## Specify custom locations of the include Glyphicons icon font.
+//Specify custom locations of the include Glyphicons icon font.
 
 @icon-font-path:            "../fonts/glyphicons/";
 @icon-font-name:            "flat-ui-pro-icons-regular";
 @icon-font-svg-id:          "flat-ui-pro-icons-regular";
 
-//** Icon sizes for use in components
+// Icon sizes for use in components
 @icon-normal:               16px;
 @icon-medium:               18px;
 @icon-large:                32px;
@@ -131,9 +129,9 @@
 
 //== Components
 //
-//## Define common padding and border radius sizes and more.
+ //Define common padding and border radius sizes and more.
 
-//** Default font-size in components
+// Default font-size in components
 @component-font-size-base:  ceil((@font-size-base * 0.833)); // ~15px
 
 // Border-radius
@@ -141,7 +139,7 @@
 @border-radius-large:       6px;
 @border-radius-small:       3px;
 
-//** Width of the `border` for generating carets that indicator dropdowns.
+// Width of the `border` for generating carets that indicator dropdowns.
 @caret-width-base:          6px;
 @caret-width-base-vertical: (@caret-width-base + 2);
 
@@ -153,26 +151,25 @@
 
 
 //== Tables
-//
-//## Customizes the `.table` component with basic values, each used across all table variations.
+//Customizes the `.table` component with basic values, each used across all table variations.
 
-//** Default background color used for all tables.
+// Default background color used for all tables.
 @table-bg:                      transparent;
 
-//** Background color used for `.table-striped`.
+// Background color used for `.table-striped`.
 @table-bg-accent:           lighten(@brand-primary, 69.4%);
 
-//** Background color used for `.table-hover`.
+// Background color used for `.table-hover`.
 @table-bg-hover:            lighten(@brand-primary, 69.4%);
 
-//** Contextual backgrounds
+// Contextual backgrounds
 @table-bg-active:              @table-bg-hover;
 @table-bg-success:             mix(@brand-success, white, 9%);
 @table-bg-danger:              mix(@brand-danger, white, 9%);
 @table-bg-warning:             mix(@brand-warning, white, 9%);
 @table-bg-info:                mix(@brand-info, white, 9%);
 
-//** Border color for table and cell borders.
+// Border color for table and cell borders.
 @table-border-color:        mix(@gray, white, 16.5%);
 
 
@@ -190,8 +187,7 @@
 
 
 //== Buttons
-//
-//## For each of Flat UI's buttons, define text, background, font size and height.
+//For each of Flat UI's buttons, define text, background, font size and height.
 
 @btn-font-size-base:         @component-font-size-base;
 @btn-font-size-xs:           ceil((@component-font-size-base * 0.8));   // ~12px
@@ -238,7 +234,7 @@
 
 //== Forms
 //
-//##
+
 
 @input-font-size-base:     @component-font-size-base;
 @input-font-size-sm:       floor((@component-font-size-base * 0.867)); // ~13px
@@ -264,14 +260,14 @@
 
 @input-border-radius:      @border-radius-large;
 
-//** Disabled cursor for form controls and buttons.
+// Disabled cursor for form controls and buttons.
 @cursor-disabled:          not-allowed;
 
 @legend-color:             inherit;
 
 //== File input
 //
-//##
+
 
 @fileinput-warning-text:     @state-warning-text;
 @fileinput-warning-border:   @state-warning-border;
@@ -283,7 +279,7 @@
 
 //== Datepicker
 //
-//##
+
 
 @datepicker-color:           @brand-primary;
 @datepicker-nav-color:       @inverse;
@@ -296,7 +292,7 @@
 
 //== Timepicker
 //
-//##
+
 
 @timepicker-nav-color:        mix(@brand-secondary, white, 70%);
 @timepicker-nav-hover-color:  @inverse;
@@ -310,7 +306,7 @@
 
 //== Spinner
 //
-//##
+
 
 @spinner-input-width:        55px;
 @spinner-input-font-size:    ceil((@component-font-size-base * 1.333)); // ~20px
@@ -333,7 +329,7 @@
 
 //== Tags Input
 //
-//##
+
 
 @tagsinput-container-bg:                    @inverse;
 @tagsinput-container-border-color:          mix(@inverse, @brand-primary, 90%);
@@ -356,8 +352,7 @@
 
 
 //== Selects
-//
-//## For each of Flat UI's selects, define text, background, font size and height.
+//For each of Flat UI's selects, define text, background, font size and height.
 
 @select-font-size-base:                     @btn-font-size-base;
 @select-font-size-sm:                       @btn-font-size-sm;
@@ -432,7 +427,7 @@
 
 //== Pagination
 //
-//##
+
 
 @pagination-bg:              mix(@brand-primary, white, 20%);
 @pagination-hover-bg:        @brand-secondary;
@@ -442,7 +437,7 @@
 
 //== Pager
 //
-//##
+
 
 @pager-padding:              9px 15px 10px;
 @pager-bg:                   @brand-primary;
@@ -454,7 +449,7 @@
 
 //== Navs
 //
-//##
+
 
 @nav-tabs-border-width:      2px;
 @nav-tabs-border-color:      mix(@brand-primary, white, 15%);
@@ -476,7 +471,7 @@
 
 //== Navbar
 //
-//##
+
 
 // Basics of a navbar
 @zindex-navbar:              1000;
@@ -565,42 +560,41 @@
 
 //== Breadcrumbs
 //
-//##
+
 
 @breadcrubms-bg:           mix(@brand-primary, white, 6%);
 @breadcrubms-text-color:   @gray-light;
 
 
 //== Dropdowns
-//
-//## Dropdown menu container and contents.
+//Dropdown menu container and contents.
 
 
 @zindex-dropdown:                1000;
 @dropdown-border-radius:         @border-radius-base;
 
-//** Background for the dropdown menu.
+// Background for the dropdown menu.
 @dropdown-bg:                    desaturate(lighten(@brand-primary, 67%), 20%);
 
-//** Dropdown link text color.
+// Dropdown link text color.
 @dropdown-link-color:            mix(darken(@brand-primary, 5%), @inverse, 75%);
-//** Hover color for dropdown links.
+// Hover color for dropdown links.
 @dropdown-link-hover-color:      darken(@dropdown-link-color, 5%);
-//** Hover background for dropdown links.
+// Hover background for dropdown links.
 @dropdown-link-hover-bg:         fade(desaturate(lighten(@brand-primary, 52%), 21%), 50%);
 
-//** Active dropdown menu item text color.
+// Active dropdown menu item text color.
 @dropdown-link-active-color:     @inverse;
-//** Active dropdown menu item background color.
+// Active dropdown menu item background color.
 @dropdown-link-active-bg:        @brand-secondary;
 
-//** Disabled dropdown menu item background color.
+// Disabled dropdown menu item background color.
 @dropdown-link-disabled-color:   @gray-light;
 
-//** Divider color for between dropdown items.
+// Divider color for between dropdown items.
 @dropdown-divider-bg:            fade(@dropdown-link-hover-bg, 50%);
 
-//** Text color for headers within dropdown menus.
+// Text color for headers within dropdown menus.
 @dropdown-header-color:          fade(@brand-primary, 60%);
 
 
@@ -610,31 +604,31 @@
 @dropdown-inverse-bg:                    @brand-primary;
 
 
-//** Dropdown link text color.
+// Dropdown link text color.
 @dropdown-inverse-link-color:            fade(@inverse, 85%);
-//** Hover color for dropdown links.
+// Hover color for dropdown links.
 @dropdown-inverse-link-hover-color:      fade(@inverse, 85%);
-//** Hover background for dropdown links.
+// Hover background for dropdown links.
 @dropdown-inverse-link-hover-bg:         fade(darken(@brand-primary, 5%), 50%);
 
-//** Active dropdown menu item text color.
+// Active dropdown menu item text color.
 @dropdown-inverse-link-active-color:     fade(@inverse, 85%);
-//** Active dropdown menu item background color.
+// Active dropdown menu item background color.
 @dropdown-inverse-link-active-bg:        @brand-secondary;
 
-//** Disabled dropdown menu item background color.
+// Disabled dropdown menu item background color.
 @dropdown-inverse-link-disabled-color:   fade(@dropdown-inverse-link-color, 50%);
 
-//** Divider color for between dropdown items.
+// Divider color for between dropdown items.
 @dropdown-inverse-divider-bg:            @dropdown-inverse-link-hover-bg;
 
-//** Text color for headers within dropdown menus.
+// Text color for headers within dropdown menus.
 @dropdown-inverse-header-color:          fade(@inverse, 40%);
 
 
 //== Iconbar
 //
-//##
+
 
 @iconbar-background:         mix(@brand-primary, black, 85%);
 @iconbar-color:              @inverse;
@@ -643,14 +637,14 @@
 
 //== Progress bars
 //
-//##
+
 
 @progress-height:            12px;
 
 
 //== Slider
 //
-//##
+
 
 @slider-height:              12px;
 @slider-value-font-size:     floor((@component-font-size-base * 0.867)); // ~13px;
@@ -666,7 +660,7 @@
 
 //== Dialog
 //
-//##
+
 
 @dialog-font-size:           floor((@component-font-size-base * 1.067)); // ~16px
 @dialog-padding:             18px 0 20px;
@@ -679,7 +673,7 @@
 
 //== Alerts
 //
-//##
+
 
 @alert-bg:                   mix(@brand-primary, white, 3%);
 @alert-border:               mix(@brand-primary, white, 10%);
@@ -699,7 +693,7 @@
 
 //== Switch
 //
-//##
+
 
 @switch-name:                bootstrap-switch;
 @switch-border-radius:       30px;
@@ -709,37 +703,37 @@
 
 //== Modals
 //
-//##
 
-//** Padding applied to the modal body
+
+// Padding applied to the modal body
 @modal-body-padding:          20px 24px 20px;
 
-//** Padding applied to the modal footer
+// Padding applied to the modal footer
 @modal-footer-padding:        19px 22px 20px;
 
-//** Padding applied to the modal title
+// Padding applied to the modal title
 @modal-title-padding-each:    17px 19px 15px 24px;
-//** Modal title line-height
+// Modal title line-height
 @modal-title-line-height:     30px;
 
-//** Background color of modal content area
+// Background color of modal content area
 @modal-content-bg:            @inverse;
-//** Modal content border color
+// Modal content border color
 @modal-content-border-color:  mix(@brand-primary, white, 10%);
-//** Modal content border radius
+// Modal content border radius
 @modal-content-border-radius: 7px;
 
-//** Modal backdrop background color
+// Modal backdrop background color
 @modal-backdrop-bg:           mix(@brand-primary, black, 70%);
-//** Modal backdrop opacity
+// Modal backdrop opacity
 @modal-backdrop-opacity:      .95;
 
-//** Modal header border color
+// Modal header border color
 @modal-header-border-color:   @modal-content-border-color;
 
-//** Modal footer border color
+// Modal footer border color
 @modal-footer-border-color:   @modal-header-border-color;
-//** Modal footer background color
+// Modal footer background color
 @modal-footer-bg:             fade(spin(desaturate(lighten(@brand-primary, 65%), 14%), -18), 50%);
 
 @modal-lg:                    900px;
@@ -752,7 +746,7 @@
 
 //== Carousel
 //
-//##
+
 
 @carousel-background:           mix(@brand-primary, black, 70%);
 @carousel-controls-background:  @midnight-blue;
@@ -761,7 +755,7 @@
 
 //== Video player
 //
-//##
+
 
 @vplayer-border-radius:               @border-radius-large;
 @vplayer-fullscreen-bg:               #000;
@@ -795,7 +789,7 @@
 
 //== Labels
 //
-//##
+
 
 @label-link-hover-color:      @inverse;
 
@@ -824,7 +818,7 @@
 
 //== Panels
 //
-//##
+
 
 @panel-bg:                    @inverse;
 @panel-border-radius:         @border-radius-large;
@@ -858,7 +852,7 @@
 
 //== Todo list
 //
-//##
+
 
 @todo-bg:               @brand-primary;
 @todo-bg-active:        mix(@brand-primary, black, 85%);
@@ -872,26 +866,26 @@
 
 //== Thumbnails
 //
-//##
 
-//** Padding around the thumbnail image
+
+// Padding around the thumbnail image
 @thumbnail-padding:           4px;
-//** Thumbnail background color
+// Thumbnail background color
 @thumbnail-bg:                @body-bg;
-//** Thumbnail border color
+// Thumbnail border color
 @thumbnail-border:            @gray-light;
-//** Thumbnail border radius
+// Thumbnail border radius
 @thumbnail-border-radius:     @border-radius-large;
 
-//** Custom text color for thumbnail captions
+// Custom text color for thumbnail captions
 @thumbnail-caption-color:     @text-color;
-//** Padding around the thumbnail caption
+// Padding around the thumbnail caption
 @thumbnail-caption-padding:   9px;
 
 
 //== Tiles
 //
-//##
+
 
 @tiles-bg:                   mix(@brand-primary, @inverse, 8%);
 @tiles-border-radius:        @border-radius-large;
@@ -899,7 +893,7 @@
 
 //== Badges
 //
-//##
+
 
 @badge-color:                 @inverse;
 @badge-link-hover-color:      @inverse;
@@ -914,7 +908,7 @@
 
 //== Bottom menu
 //
-//##
+
 
 @bottom-menu-bg:                        mix(@brand-primary, white, 10%);
 @bottom-menu-color:                     mix(@brand-primary, white, 33%);
@@ -928,8 +922,7 @@
 
 
 //== Media queries breakpoints
-//
-//## Define the breakpoints at which your layout will change, adapting to different screen sizes.
+//Define the breakpoints at which your layout will change, adapting to different screen sizes.
 
 // Extra small screen / phone
 @screen-xs-min:               480px;
@@ -950,23 +943,21 @@
 
 
 //== Grid system
-//
-//## Define your custom responsive grid.
+//Define your custom responsive grid.
 
-//** Number of columns in the grid.
+// Number of columns in the grid.
 @grid-columns:                12;
-//** Padding between columns. Gets divided in half for the left and right.
+// Padding between columns. Gets divided in half for the left and right.
 @grid-gutter-width:           30px;
 // Navbar collapse
-//** Point at which the navbar becomes uncollapsed.
+// Point at which the navbar becomes uncollapsed.
 @grid-float-breakpoint:       @screen-sm-min;
-//** Point at which the navbar begins collapsing.
+// Point at which the navbar begins collapsing.
 @grid-float-breakpoint-max:   (@grid-float-breakpoint - 1);
 
 
 //== Form states and alerts
-//
-//## Define colors for form feedback states and, by default, alerts.
+//Define colors for form feedback states and, by default, alerts.
 
 @state-success-text:          @brand-success;
 @state-success-bg:            #dff0d8;
@@ -987,59 +978,59 @@
 
 //== Tooltips
 //
-//##
 
-//** Tooltip max width
+
+// Tooltip max width
 @tooltip-max-width:           183px;
-//** Tooltip text color
+// Tooltip text color
 @tooltip-color:               @inverse;
-//** Tooltip background color
+// Tooltip background color
 @tooltip-bg:                  @brand-primary;
 @tooltip-opacity:             1;
-//** Tooltip zIndex
+// Tooltip zIndex
 @zindex-tooltip:              1070;
 
-//** Tooltip inverse text color
+// Tooltip inverse text color
 @tooltip-inverse-color:       @brand-primary;
-//** Tooltip inverse background color
+// Tooltip inverse background color
 @tooltip-inverse-bg:          mix(@brand-primary, white, 9%);
 
-//** Tooltip arrow width
+// Tooltip arrow width
 @tooltip-arrow-width:         9px;
-//** Tooltip arrow color
+// Tooltip arrow color
 @tooltip-arrow-color:         @tooltip-bg;
-//** Tooltip inverse arrow color
+// Tooltip inverse arrow color
 @tooltip-inverse-arrow-color: @tooltip-inverse-bg;
 
 
 //== Popovers
 //
-//##
 
-//** Popover body background color
+
+// Popover body background color
 @popover-bg:                          mix(@brand-primary, white, 9%);
-//** Popover maximum width
+// Popover maximum width
 @popover-max-width:                   276px;
-//** Popover z-index
+// Popover z-index
 @zindex-popover:                      1060;
 
-//** Popover title background color
+// Popover title background color
 @popover-title-bg:                    mix(@brand-primary, white, 33%);
 
-//** Popover arrow width
+// Popover arrow width
 @popover-arrow-width:                 9px;
-//** Popover arrow color
+// Popover arrow color
 @popover-arrow-color:                 @popover-bg;
 
-//** Popover outer arrow width
+// Popover outer arrow width
 @popover-arrow-outer-width:           (@popover-arrow-width + 1);
-//** Popover outer arrow color
+// Popover outer arrow color
 @popover-arrow-outer-color:           transparent;
 
 
 //== Code
 //
-//##
+
 
 @code-color:                  #c7254e;
 @code-bg:                     #f9f2f4;
@@ -1056,30 +1047,30 @@
 
 //== Form states and alerts
 //
-//##
 
-//** Text muted color
+
+// Text muted color
 @text-muted:                  @gray-light;
-//** Abbreviations and acronyms border color
+// Abbreviations and acronyms border color
 @abbr-border-color:           @gray-light;
-//** Headings small color
+// Headings small color
 @headings-small-color:        mix(@brand-primary, @inverse, 12%);
-//** Blockquote small color
+// Blockquote small color
 @blockquote-small-color:      inherit;
-//** Blockquote border color
+// Blockquote border color
 @blockquote-border-color:     mix(@brand-primary, @inverse, 12%);
-//** Page header border color
+// Page header border color
 @page-header-border-color:    mix(@brand-primary, @inverse, 12%);
-//** Width of horizontal description list titles
+// Width of horizontal description list titles
 @dl-horizontal-offset:        @component-offset-horizontal;
 
 
 //== Miscellaneous
 //
-//##
 
-//** Hr border color
+
+// Hr border color
 @hr-border:                   mix(@brand-primary, @inverse, 63%);
 
-//** Horizontal forms & lists
+// Horizontal forms & lists
 @component-offset-horizontal: 180px;
