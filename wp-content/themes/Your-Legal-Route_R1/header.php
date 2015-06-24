@@ -51,8 +51,8 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="<?php echo home_url(); ?>">
-                <?php bloginfo('name'); ?>
-            </a>
+             <?php /*?>   <?php bloginfo('name'); ?><?php */?>
+            <img src="<?php echo get_template_directory_uri(); ?>/library/images/logo.png" width="300" height="54" alt="" id="logo"/>            </a>
     </div>
 
         <?php

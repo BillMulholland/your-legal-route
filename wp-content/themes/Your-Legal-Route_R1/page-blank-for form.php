@@ -17,13 +17,21 @@
 <div id="content">
   <div class="container">
     <div class="row">
-      <main id="main" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 cf" >
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 "  >
+        <div class="img-responsive img-rounded" style=" background-image: url(<?php echo get_template_directory_uri(); ?>/library/images/sea.jpg);margin-bottom:20px;height:460px">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-5 " >
+            <h3 style="color:white; margin-top:100px!important"> Take your free business Healthcheck today</h3>
+            <p style="color:white;font-size:13px!important;line-height:1.5!important">Keeping ahead of changes to business law can be time consuming and a bit relentless. So why not leave it to the experts and let us do the hard work for you?</p>
+            <p style="color:white;font-size:13px!important;line-height:1.5!important">Just answer a few simple questions and we'll tell you everything you need to know. It really is that easy.</p>
+            <p><a data-scroll class="btn btn-hg btn-primary" href="#anchor"> Just take our health check today </a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <main id="main" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 cf" > <a name="anchor"></a>
         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-        <article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?>
- 		<?php the_content();?>
-        <footer class="article-footer cf"> </footer>
-        <?php comments_template(); ?>
-        </article>
+        <?php the_content();?>
         <?php endwhile; endif; ?>
       </main>
     </div>
