@@ -52,7 +52,7 @@
       </button>
       <a class="navbar-brand" href="<?php echo home_url(); ?>">
              <?php /*?>   <?php bloginfo('name'); ?><?php */?>
-            <img src="<?php echo get_template_directory_uri(); ?>/library/images/logo.png" alt="Your Legal Rote" id="logo"/>            </a>
+            <img src="<?php echo get_template_directory_uri(); ?>/library/images/logo.png" alt="Your Legal Rote" width="250" height="45" id="logo"/>            </a>
     </div>
 
         <?php
