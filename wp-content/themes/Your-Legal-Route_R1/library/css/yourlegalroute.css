@@ -1,4 +1,7 @@
 /* LESS Document */
 #logo {
-  margin-top: -10px;
+  margin-top: -15px;
+}
+#logo_footer {
+  margin-top: -20px;
 }

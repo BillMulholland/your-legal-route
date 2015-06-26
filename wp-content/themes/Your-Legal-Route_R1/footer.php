@@ -1,6 +1,9 @@
 <div class="footer" style="margin-top:20px">
 <div class="bottom-menu">
   <div class="container"> 
+   <a class="navbar-brand" href="<?php echo home_url(); ?>">
+             <?php /*?>   <?php bloginfo('name'); ?><?php */?>
+            <img src="<?php echo get_template_directory_uri(); ?>/library/images/logo.png" alt="Your Legal Rote" width="167" height="30" id="logo_footer"/>            </a>
  
       <?php wp_nav_menu(array(
     					'container' => 'div',                           // enter '' to remove nav container (just make sure .footer-links in _base.scss isn't wrapping)
