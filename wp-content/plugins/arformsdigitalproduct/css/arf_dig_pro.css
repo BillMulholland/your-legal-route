@@ -1,0 +1,79 @@
+.delete_box{
+    float:left;
+}
+
+#frm_add_form_id{
+    height:150px !important;
+}
+.page_title {
+    color:#353942;
+    font-weight:normal;
+    font-family:'open_sansregular', Arial, Helvetica, Verdana, sans-serif;
+    line-height:normal;
+    font-size:30px;
+    padding-bottom:10px;
+    float:left;
+    clear:both;
+}
+
+.wrap_content { 
+    clear:both;
+    margin-top:0px !important;
+    margin-left:0px;
+    margin-right:0px; 
+    padding:25px; 
+    background-color:#FFFFFF;
+    border:none; 
+    -moz-border-radius:0px; 
+    -webkit-border-radius:0px; 
+    border-radius:0px; 
+}
+#arf_dig_pro_forms #example_wrapper a {
+    text-decoration:none;
+    color: #113E71;
+    outline:none;
+}
+
+.form-table td.tdclass_1 {
+    padding-left: 20px;
+}
+.bulk_add {
+    border:none;
+}
+.arf_dig_pro_download_sec {
+    float: left;
+    width: 100%;
+}
+.arf_dig_pro_download_sec .txtstandardnew {
+    float: left;
+    width: 400px;
+}
+.arf_dig_pro_download_sec .bulk_add_remove_download_file {
+    float: left;
+    display: inline;
+    line-height: 50px;
+    margin: 0 0 0 10px; 
+}
+
+.arf_dig_pro_shortcode_sec {
+    float: left;
+    width: 100%;
+}
+.arf_dig_pro_shortcode_sec span{
+    background:#f1f1f1;
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -o-border-radius: 5px 5px 5px 5px;
+    border: 0px solid #f1f1f1;
+
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+    padding: 5px 15px;
+}
+.arf_dig_pro_shortcode_sec p.howto{
+    margin: 0;
+    font-size: 11px;
+}    

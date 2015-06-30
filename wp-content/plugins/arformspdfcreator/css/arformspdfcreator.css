@@ -1,0 +1,126 @@
+.form-table{
+	border-collapse: collapse;
+	clear: both;
+	margin-bottom: -8px;
+	margin-top: 0.5em;
+	width: 100%;
+}
+.arf_pdf_viewentry_row {
+	display:inline-block;
+	background:#F0F1F5;
+	display:table-row;
+	border-color: -moz-use-text-color #FFFFFF #FFFFFF;
+	border-image: none;
+	border-style: none solid solid;
+	border-width: medium 0px 2px;
+	width:100%;
+}
+/* Default Template */
+.arf_pdf_viewentry_row .arf_pdf_viewentry_left {
+
+    /*background: #E4E7F0;*/
+    color: #000000;
+    font-family: 'opensansregularbold';
+    font-size: 14px;
+    text-align: right;
+    width: 25%;
+	border-color: -moz-use-text-color #FFFFFF #FFFFFF;
+	border-image: none;
+    border-style: none solid solid;
+    border-width: medium 2px 2px;
+	padding:10px;
+	display:inline-block;
+}
+
+.arf_pdf_viewentry_row .arf_pdf_viewentry_right {
+    /*background: #F0F1F5;*/
+    color: #000000;
+    font-family: 'opensansregular';
+    font-size: 14px;
+	border-color: -moz-use-text-color #FFFFFF #FFFFFF;
+	border-image: none;
+    border-style: none solid solid;
+    border-width: medium 2px 2px;
+	padding:10px;
+	display:inline-block;
+}
+
+#like_active {
+    background:#087EE2;
+}
+
+#dislike_active {
+    background:#FF1F1F;
+}
+
+.arf_like_btn {
+    border-radius: 8px 8px 8px 8px;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+	border-bottom-left-radius:8px;
+	border-bottom-left-radius:8px;	
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    float: left;
+    height: 40px;
+    margin-right: 8px;
+    padding: 6px 0 0;
+    text-align: center;
+    width: 40px;
+	display:table-cell;
+	text-align:center;
+}
+
+.arf_dislike_btn {
+    border-radius: 8px 8px 8px 8px;
+	border-top-left-radius:8px;
+	border-top-right-radius:8px;
+	border-bottom-left-radius:8px;
+	border-bottom-left-radius:8px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    float: left;
+    height: 40px;
+    margin-right: 8px;
+    padding: 6px 0 0;
+    text-align: center;
+    width: 40px;
+	display:table-cell;
+	text-align:center;
+}
+
+/* Two Row */
+
+.two_row_form_table{
+	border-collapse: collapse;
+	clear: both;
+	margin-bottom: -8px;
+	margin-top: 0.5em;
+	width: 100%;
+}
+
+.two_row_arfviewentry_row{
+	width:100%;
+	height:auto;
+}
+.two_row_odd{
+	background: #E4E7F0;
+    color: #000000;
+	
+}
+.two_row_even{
+	background: #F0F1F5;
+    color: #000000;
+}
+
+.two_row_arfviewentry_left {
+    font-family: 'opensansregularbold';
+    font-size: 14px;
+	padding:5px;
+}
+
+.two_row_arfviewentry_right {
+	font-family: 'opensansregular';
+	font-size: 14px;
+	padding:5px;
+}

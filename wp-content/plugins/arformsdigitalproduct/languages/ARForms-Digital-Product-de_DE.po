@@ -1,0 +1,632 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Digital Download With ARForms v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-05-27 12:25:50+0000\n"
+"Last-Translator: admin <testrepute@yahoo.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: arformsdigitalproduct.php:86
+#: arformsdigitalproduct.php:1050
+#: core/views/edit_product.php:103
+#: core/views/edit_product_19may2015.php:99
+#: core/views/list_products.php:338
+#@ ARForms-Digital-Product
+msgid "Download"
+msgstr "Herunterladen"
+
+#: arformsdigitalproduct.php:290
+#@ ARForms-Digital-Product
+msgid "Configure Digital Product Download"
+msgstr "Konfigurieren Digital Artikel herunterladen"
+
+#: arformsdigitalproduct.php:291
+#@ ARForms-Digital-Product
+msgid "View Digital Product Download Log"
+msgstr "Digital Artikel anzeigen Herunterladen Login"
+
+#: arformsdigitalproduct.php:308
+#: core/views/list_products.php:26
+#@ ARForms-Digital-Product
+msgid "Manage Products"
+msgstr "Produktverwaltung"
+
+#: arformsdigitalproduct.php:310
+#: core/views/arf_dig_pro_download_product.php:27
+#@ ARForms-Digital-Product
+msgid "Download History"
+msgstr "Download History"
+
+#: arformsdigitalproduct.php:423
+#@ ARForms-Digital-Product
+msgid "Please select valid file"
+msgstr "Bitte wählen Sie gültige Datei"
+
+#: arformsdigitalproduct.php:528
+#@ ARForms-Digital-Product
+msgid "Product has been successfully updated."
+msgstr "Produkt wurde erfolgreich aktualisiert."
+
+#: arformsdigitalproduct.php:611
+#@ ARForms-Digital-Product
+msgid "Product has been successfully added"
+msgstr "Produkt wurde erfolgreich hinzugefügt"
+
+#: arformsdigitalproduct.php:691
+#: arformsdigitalproduct.php:1207
+#: core/classes/class.arf_dig_pro_user_product.php:170
+#: core/classes/class.arf_dig_pro_user_product.php:193
+#@ ARForms-Digital-Product
+msgid "Record is deleted successfully."
+msgstr "Datensatz erfolgreich gelöscht."
+
+#: arformsdigitalproduct.php:735
+#: arformsdigitalproduct.php:1083
+#: core/classes/class.arf_dig_pro_user_product.php:184
+#: core/views/arf_dig_pro_download_product.php:3
+#: core/views/arf_dig_pro_download_product_listing.php:364
+#: core/views/list_products.php:3
+#: core/views/list_products.php:375
+#@ ARForms-Digital-Product
+msgid "Delete"
+msgstr "löschen"
+
+#: arformsdigitalproduct.php:1018
+#: core/views/edit_product.php:8
+#: core/views/edit_product_19may2015.php:8
+#: core/views/list_products.php:303
+#@ ARForms-Digital-Product
+msgid "Add New Product"
+msgstr "Neues Produkt hinzufügen"
+
+#: arformsdigitalproduct.php:1025
+#: arformsdigitalproduct.php:1111
+#: core/views/arf_dig_pro_download_product_listing.php:281
+#: core/views/arf_dig_pro_download_product_listing.php:402
+#: core/views/list_products.php:311
+#: core/views/list_products.php:402
+#@ ARForms-Digital-Product
+msgid "Bulk Actions"
+msgstr "Bulk-Aktionen"
+
+#: arformsdigitalproduct.php:1035
+#: arformsdigitalproduct.php:1121
+#: core/views/arf_dig_pro_download_product_listing.php:291
+#: core/views/arf_dig_pro_download_product_listing.php:412
+#: core/views/list_products.php:321
+#: core/views/list_products.php:411
+#@ ARForms-Digital-Product
+msgid "Apply"
+msgstr "anwenden"
+
+#: arformsdigitalproduct.php:1046
+#: core/classes/class.arf_dig_pro_user_product.php:232
+#: core/views/arf_dig_pro_download_product_listing.php:303
+#: core/views/list_products.php:333
+#@ ARForms-Digital-Product
+msgid "Product ID"
+msgstr "Product ID"
+
+#: arformsdigitalproduct.php:1047
+#: core/classes/class.arf_dig_pro_user_product.php:264
+#: core/views/arf_dig_pro_download_product_listing.php:313
+#: core/views/edit_product.php:58
+#: core/views/edit_product_19may2015.php:54
+#: core/views/list_products.php:335
+#@ ARForms-Digital-Product
+msgid "Product Name"
+msgstr "Produktname"
+
+#: arformsdigitalproduct.php:1052
+#: core/views/list_products.php:339
+#@ ARForms-Digital-Product
+msgid "Status"
+msgstr "Status"
+
+#: arformsdigitalproduct.php:1053
+#: core/classes/class.arf_dig_pro_user_product.php:304
+#: core/views/arf_dig_pro_download_product_listing.php:321
+#: core/views/list_products.php:340
+#@ ARForms-Digital-Product
+msgid "Created Date"
+msgstr "Erstellungs-Datum"
+
+#: arformsdigitalproduct.php:1054
+#: core/views/arf_dig_pro_download_product_listing.php:322
+#: core/views/list_products.php:342
+#@ ARForms-Digital-Product
+msgid "Action"
+msgstr "Aktion"
+
+#: arformsdigitalproduct.php:1076
+#: core/views/edit_product.php:88
+#: core/views/edit_product_19may2015.php:84
+#: core/views/list_products.php:368
+#@ ARForms-Digital-Product
+msgid "Enable "
+msgstr "ermöglichen"
+
+#: arformsdigitalproduct.php:1076
+#: core/views/edit_product.php:93
+#: core/views/edit_product_19may2015.php:89
+#: core/views/list_products.php:368
+#@ ARForms-Digital-Product
+msgid "Disable"
+msgstr "deaktivieren"
+
+#: arformsdigitalproduct.php:1081
+#@ ARForms-Digital-Product
+msgid "Edit Configuration"
+msgstr "Konfiguration bearbeiten"
+
+#: arformsdigitalproduct.php:1095
+#: core/views/arf_dig_pro_download_product_listing.php:386
+#: core/views/list_products.php:386
+#@ ARForms-Digital-Product
+msgid "Show / Hide columns"
+msgstr "Spalten anzeigen / ausblenden"
+
+#: arformsdigitalproduct.php:1096
+#: core/views/arf_dig_pro_download_product_listing.php:387
+#: core/views/list_products.php:387
+#@ ARForms-Digital-Product
+msgid "Search"
+msgstr "Suche"
+
+#: arformsdigitalproduct.php:1097
+#: core/views/arf_dig_pro_download_product_listing.php:388
+#: core/views/list_products.php:388
+#@ ARForms-Digital-Product
+msgid "entries"
+msgstr "Einträge"
+
+#: arformsdigitalproduct.php:1098
+#: core/views/arf_dig_pro_download_product_listing.php:389
+#: core/views/list_products.php:389
+#@ ARForms-Digital-Product
+msgid "Show"
+msgstr "Show"
+
+#: arformsdigitalproduct.php:1099
+#: core/views/arf_dig_pro_download_product_listing.php:390
+#: core/views/list_products.php:390
+#@ ARForms-Digital-Product
+msgid "Showing"
+msgstr "Zeige"
+
+#: arformsdigitalproduct.php:1100
+#: core/views/arf_dig_pro_download_product_listing.php:391
+#: core/views/list_products.php:391
+#@ ARForms-Digital-Product
+msgid "to"
+msgstr "bis"
+
+#: arformsdigitalproduct.php:1101
+#: core/views/arf_dig_pro_download_product_listing.php:392
+#: core/views/list_products.php:392
+#@ ARForms-Digital-Product
+msgid "of"
+msgstr "von"
+
+#: arformsdigitalproduct.php:1102
+#: core/views/arf_dig_pro_download_product_listing.php:393
+#: core/views/list_products.php:393
+#@ ARForms-Digital-Product
+msgid "No matching records found"
+msgstr "Keine Notiz gefunden!"
+
+#: arformsdigitalproduct.php:1103
+#: core/views/arf_dig_pro_download_product_listing.php:394
+#: core/views/list_products.php:394
+#@ ARForms-Digital-Product
+msgid "No data available in table"
+msgstr "Keine Daten vorhanden in der Tabelle"
+
+#: arformsdigitalproduct.php:1104
+#: core/views/arf_dig_pro_download_product_listing.php:395
+#: core/views/list_products.php:395
+#@ ARForms-Digital-Product
+msgid "filtered from"
+msgstr "von gefiltert"
+
+#: arformsdigitalproduct.php:1105
+#: core/views/arf_dig_pro_download_product_listing.php:396
+#: core/views/list_products.php:396
+#@ ARForms-Digital-Product
+msgid "total"
+msgstr "total"
+
+#: arformsdigitalproduct.php:1195
+#: core/classes/class.arf_dig_pro_user_product.php:159
+#: core/classes/class.arf_dig_pro_user_product.php:173
+#@ ARForms-Digital-Product
+msgid "Please select one or more records."
+msgstr "Bitte wählen Sie einen oder mehrere Datensätze."
+
+#: arformsdigitalproduct.php:1262
+#@ ARForms-Digital-Product
+msgid "Download add-on for ARForms requires ARForms plugin installed and active."
+msgstr "Laden Sie Add-on für ARForms erfordert ARForms Plugin installiert und aktiv ist."
+
+#: arformsdigitalproduct.php:1265
+#@ ARForms-Digital-Product
+msgid "Download add-on for ARForms requires ARForms installed with version 2.7.2 or higher."
+msgstr "Laden Sie Add-on für ARForms erfordert ARForms mit Version 2.7.2 oder höher installiert."
+
+#: core/classes/class.arf_dig_pro_editor_product.php:73
+#: core/classes/class.arf_dig_pro_editor_product_19may2015.php:71
+#@ ARForms-Digital-Product
+msgid "Products"
+msgstr "Produkte"
+
+#: core/classes/class.arf_dig_pro_editor_product.php:113
+#: core/classes/class.arf_dig_pro_editor_product_19may2015.php:111
+#@ ARForms-Digital-Product
+msgid "Download Link Expiration"
+msgstr "Download Link Expiration"
+
+#: core/classes/class.arf_dig_pro_editor_product.php:119
+#: core/classes/class.arf_dig_pro_editor_product_19may2015.php:117
+#@ ARForms-Digital-Product
+msgid "How long should download links be valid for? Enter a time in hours"
+msgstr "Wie lange sollte downloaden Links gültig sein? Geben Sie eine Zeit in Stunden"
+
+#: core/classes/class.arf_dig_pro_editor_product.php:133
+#: core/classes/class.arf_dig_pro_editor_product_19may2015.php:131
+#@ ARForms-Digital-Product
+msgid "Download Link Content"
+msgstr "Download Link Inhalt"
+
+#: core/classes/class.arf_dig_pro_editor_product.php:138
+#: core/classes/class.arf_dig_pro_editor_product_19may2015.php:136
+#@ ARForms-Digital-Product
+msgid "Donwload Link:  [ARF_download_link product_id='0' desc='download me' type='link']  "
+msgstr "Donwload-Link: [ARF_download_link product_id = \\\"0\\\" desc = 'downloaden mich \\\"type =\\\" link \\\"]"
+
+#: core/classes/class.arf_dig_pro_editor_product.php:139
+#: core/classes/class.arf_dig_pro_editor_product_19may2015.php:137
+#: core/views/edit_product.php:194
+#@ ARForms-Digital-Product
+msgid "Note: Possible argument for type argument 1.)type='link' 2.)type='button'."
+msgstr "Hinweis: Mögliche Argument für Argument Typ 1) Typ = \\\"link\\\" 2.) geben Sie \\\"Taste\\\" =."
+
+#: core/classes/class.arf_dig_pro_editor_product.php:151
+#@ ARForms
+msgid "Show download link after form submitted "
+msgstr ""
+
+#: core/classes/class.arf_dig_pro_editor_product.php:190
+#: core/classes/class.arf_dig_pro_editor_product_19may2015.php:168
+#@ ARForms-Digital-Product
+msgid " Please download your product by clicking below link  [ARF_download_link  product_id='0' desc='Download'  type='link' ]"
+msgstr "Bitte laden Sie Ihr Produkt, indem Sie auf folgenden Link: [ARF_download_link product_id = \\\"0\\\" desc = \\\"Download\\\" type = \\\"link\\\"]"
+
+#: core/classes/class.arf_dig_pro_process_download.php:153
+#: core/classes/class.arf_dig_pro_process_download_19may2015.php:131
+#@ ARForms-Digital-Product
+msgid "Your download link has been expired"
+msgstr "Ihre Download-Link ist abgelaufen"
+
+#: core/classes/class.arf_dig_pro_process_download.php:161
+#: core/classes/class.arf_dig_pro_process_download.php:869
+#: core/classes/class.arf_dig_pro_process_download_19may2015.php:139
+#: core/classes/class.arf_dig_pro_process_download_19may2015.php:842
+#@ ARForms-Digital-Product
+msgid "Download url are not found. Please contact to administrator"
+msgstr "Download-URL werden nicht gefunden. Bitte beachten Sie Administrator kontaktieren"
+
+#: core/classes/class.arf_dig_pro_process_download.php:166
+#: core/classes/class.arf_dig_pro_process_download_19may2015.php:144
+#@ ARForms-Digital-Product
+msgid "You do not have permission to download this file"
+msgstr "Sie haben keine Berechtigung, diese Datei herunterladen"
+
+#: core/classes/class.arf_dig_pro_product.php:430
+#: core/classes/class.arf_dig_pro_product.php:439
+#: core/classes/class.arf_dig_pro_product_19may2015.php:422
+#: core/classes/class.arf_dig_pro_product_19may2015.php:431
+#@ ARForms-Digital-Product
+msgid "Download Products"
+msgstr "Download Produkte"
+
+#: core/classes/class.arf_dig_pro_product.php:431
+#: core/classes/class.arf_dig_pro_product.php:440
+#@ ARForms-Digital-Product
+msgid "This will be replaced with download product name. XX will be replaced with product_id."
+msgstr "Dies wird mit Download Produktnamen ersetzt werden. XX mit product_id ersetzt werden."
+
+#: core/classes/class.arf_dig_pro_product.php:432
+#: core/classes/class.arf_dig_pro_product.php:441
+#@ ARForms-Digital-Product
+msgid "This will be replaced with product download link. XX will be replaced with product_id."
+msgstr "Dies wird mit der Produkt Download-Link ersetzt werden. XX mit product_id ersetzt werden."
+
+#: core/classes/class.arf_dig_pro_product.php:433
+#: core/classes/class.arf_dig_pro_product.php:442
+#@ ARForms-Digital-Product
+msgid "This will be replaced with download product note. XX will be replaced with product_id."
+msgstr "Dies wird mit Download-Produkt Hinweis ersetzt werden. XX mit product_id ersetzt werden."
+
+#: core/classes/class.arf_dig_pro_product_19may2015.php:423
+#: core/classes/class.arf_dig_pro_product_19may2015.php:432
+#@ ARForms-Digital-Product
+msgid "This will be replaced with download product name."
+msgstr "Dies wird mit Download Produktnamen ersetzt werden."
+
+#: core/classes/class.arf_dig_pro_product_19may2015.php:424
+#: core/classes/class.arf_dig_pro_product_19may2015.php:433
+#@ ARForms-Digital-Product
+msgid "This will be replaced with product download link."
+msgstr "Dies wird mit der Produkt Download-Link ersetzt werden."
+
+#: core/classes/class.arf_dig_pro_product_19may2015.php:425
+#: core/classes/class.arf_dig_pro_product_19may2015.php:434
+#@ ARForms-Digital-Product
+msgid "This will be replaced with download product note."
+msgstr "Dies wird mit Download-Produkt Hinweis ersetzt werden."
+
+#: core/classes/class.arf_dig_pro_user_product.php:28
+#@ ARForms-Digital-Product
+msgid "Paypal"
+msgstr "Paypal"
+
+#: core/classes/class.arf_dig_pro_user_product.php:35
+#: core/classes/class.arf_dig_pro_user_product.php:57
+#: core/classes/class.arf_dig_pro_user_product.php:79
+#@ ARForms-Digital-Product
+msgid "Donations"
+msgstr "Spenden"
+
+#: core/classes/class.arf_dig_pro_user_product.php:37
+#: core/classes/class.arf_dig_pro_user_product.php:59
+#: core/classes/class.arf_dig_pro_user_product.php:81
+#: core/classes/class.arf_dig_pro_user_product.php:101
+#@ ARForms-Digital-Product
+msgid "Subscription"
+msgstr "Abonnement"
+
+#: core/classes/class.arf_dig_pro_user_product.php:39
+#: core/classes/class.arf_dig_pro_user_product.php:61
+#: core/classes/class.arf_dig_pro_user_product.php:83
+#: core/classes/class.arf_dig_pro_user_product.php:103
+#@ ARForms-Digital-Product
+msgid "Product / Service"
+msgstr "Produkt / Dienstleistung"
+
+#: core/classes/class.arf_dig_pro_user_product.php:52
+#@ ARForms-Digital-Product
+msgid "Paypal Pro"
+msgstr "Paypal Pro"
+
+#: core/classes/class.arf_dig_pro_user_product.php:74
+#@ ARForms-Digital-Product
+msgid "Authorize Net"
+msgstr "autorisieren Net"
+
+#: core/classes/class.arf_dig_pro_user_product.php:96
+#@ ARForms-Digital-Product
+msgid "Stripe"
+msgstr "Streifen"
+
+#: core/classes/class.arf_dig_pro_user_product.php:227
+#: core/views/arf_dig_pro_download_product_listing.php:302
+#@ ARForms-Digital-Product
+msgid "Download ID"
+msgstr "Download-ID"
+
+#: core/classes/class.arf_dig_pro_user_product.php:237
+#: core/views/arf_dig_pro_download_product_listing.php:304
+#@ ARForms-Digital-Product
+msgid "Form ID"
+msgstr "Form ID"
+
+#: core/classes/class.arf_dig_pro_user_product.php:242
+#: core/views/arf_dig_pro_download_product_listing.php:305
+#@ ARForms-Digital-Product
+msgid "Entry ID"
+msgstr "Beitrags-ID"
+
+#: core/classes/class.arf_dig_pro_user_product.php:253
+#: core/views/arf_dig_pro_download_product_listing.php:309
+#@ ARForms-Digital-Product
+msgid "Transaction ID / Subscription ID"
+msgstr "Transaktions-ID / Subscription ID"
+
+#: core/classes/class.arf_dig_pro_user_product.php:281
+#: core/views/arf_dig_pro_download_product_listing.php:316
+#@ ARForms-Digital-Product
+msgid "Payment Type"
+msgstr "Zahlungsart"
+
+#: core/classes/class.arf_dig_pro_user_product.php:287
+#: core/views/arf_dig_pro_download_product_listing.php:317
+#@ ARForms-Digital-Product
+msgid "Payment Method"
+msgstr "Zahlungsmethode"
+
+#: core/classes/class.arf_dig_pro_user_product.php:293
+#: core/views/arf_dig_pro_download_product_listing.php:319
+#@ ARForms-Digital-Product
+msgid "Amount"
+msgstr "Höhe"
+
+#: core/classes/class.arf_dig_pro_user_product.php:299
+#: core/views/arf_dig_pro_download_product_listing.php:320
+#@ ARForms-Digital-Product
+msgid "Payment Status"
+msgstr "Payment Status"
+
+#: core/views/arf_dig_pro_download_product.php:6
+#: core/views/list_products.php:6
+#@ ARForms-Digital-Product
+msgid "This form is already deleted."
+msgstr "Diese Form ist bereits gelöscht."
+
+#: core/views/arf_dig_pro_download_product.php:39
+#: core/views/list_products.php:425
+#@ ARForms-Digital-Product
+msgid "DELETE"
+msgstr "DELETE"
+
+#: core/views/arf_dig_pro_download_product.php:40
+#: core/views/arf_dig_pro_download_product.php:51
+#@ ARForms-Digital-Product
+msgid "Are you sure you want to delete this user product?"
+msgstr "Sind Sie sicher, Sie wollen diesen Benutzer Produkt löschen?"
+
+#: core/views/arf_dig_pro_download_product.php:42
+#: core/views/arf_dig_pro_download_product.php:53
+#: core/views/list_products.php:428
+#@ ARForms-Digital-Product
+msgid "Okay"
+msgstr "Okay"
+
+#: core/views/arf_dig_pro_download_product.php:43
+#: core/views/arf_dig_pro_download_product.php:54
+#: core/views/edit_product.php:225
+#: core/views/edit_product_19may2015.php:204
+#: core/views/list_products.php:429
+#@ ARForms-Digital-Product
+msgid "Cancel"
+msgstr "stornieren"
+
+#: core/views/arf_dig_pro_download_product.php:50
+#@ ARForms-Digital-Product
+msgid "DELETE ENTRY"
+msgstr "DELETE ENTRY"
+
+#: core/views/arf_dig_pro_download_product_listing.php:360
+#: core/views/arf_dig_pro_download_product_listing.php:362
+#@ ARForms-Digital-Product
+msgid "View Entry"
+msgstr "Eintrag ansehen"
+
+#: core/views/arf_dig_pro_download_product_listing.php:369
+#@ ARForms-Digital-Product
+msgid "VIEW ENTRY"
+msgstr "Eintrag ansehen"
+
+#: core/views/arf_dig_pro_download_product_listing.php:373
+#@ ARForms-Digital-Product
+msgid "Close"
+msgstr "schließen"
+
+#: core/views/displayfield_in_editor.php:5
+#@ ARForms-Digital-Product
+msgid "Please Select Product"
+msgstr "Bitte wählen Produkt"
+
+#: core/views/edit_product.php:62
+#: core/views/edit_product_19may2015.php:58
+#@ ARForms-Digital-Product
+msgid "This field cannot be blank."
+msgstr "Dieses Feld darf nicht leer sein."
+
+#: core/views/edit_product.php:72
+#: core/views/edit_product_19may2015.php:68
+#@ ARForms-Digital-Product
+msgid "Description"
+msgstr "Beschreibung"
+
+#: core/views/edit_product.php:84
+#: core/views/edit_product_19may2015.php:80
+#@ ARForms-Digital-Product
+msgid "Product Status"
+msgstr "Gerätestatus"
+
+#: core/views/edit_product.php:107
+#: core/views/edit_product_19may2015.php:103
+#@ ARForms-Digital-Product
+msgid "Download Type"
+msgstr "Download Typ"
+
+#: core/views/edit_product.php:110
+#: core/views/edit_product_19may2015.php:106
+#@ ARForms-Digital-Product
+msgid "Internal"
+msgstr "intern"
+
+#: core/views/edit_product.php:113
+#: core/views/edit_product_19may2015.php:109
+#@ ARForms-Digital-Product
+msgid "External"
+msgstr "äußere"
+
+#: core/views/edit_product.php:118
+#: core/views/edit_product_19may2015.php:114
+#@ ARForms-Digital-Product
+msgid "Download Url"
+msgstr "Download-URL"
+
+#: core/views/edit_product.php:123
+#: core/views/edit_product_19may2015.php:119
+#@ ARForms-Digital-Product
+msgid "Download File"
+msgstr "Datei Herunterladen"
+
+#: core/views/edit_product.php:149
+#: core/views/edit_product.php:151
+#: core/views/edit_product_19may2015.php:145
+#: core/views/edit_product_19may2015.php:147
+#@ ARForms-Digital-Product
+msgid "No file Selected"
+msgstr "Keine Datei ausgewählt"
+
+#: core/views/edit_product.php:158
+#: core/views/edit_product_19may2015.php:154
+#@ ARForms-Digital-Product
+msgid "Add File"
+msgstr "Datei hinzufügen"
+
+#: core/views/edit_product.php:165
+#: core/views/edit_product_19may2015.php:161
+#@ ARForms-Digital-Product
+msgid "View Download"
+msgstr "Ansicht Download"
+
+#: core/views/edit_product.php:176
+#: core/views/edit_product_19may2015.php:174
+#@ ARForms-Digital-Product
+msgid "Download Notes"
+msgstr "Download Anmerkungen"
+
+#: core/views/edit_product.php:187
+#@ ARForms-Digital-Product
+msgid "Download Link Shortcode"
+msgstr "Download Link Short"
+
+#: core/views/edit_product.php:190
+#@ ARForms-Digital-Product
+msgid "Shortcode"
+msgstr "Short"
+
+#: core/views/edit_product.php:222
+#: core/views/edit_product_19may2015.php:201
+#@ ARForms-Digital-Product
+msgid "Save"
+msgstr "Speichern"
+
+#: core/views/list_products.php:373
+#@ ARForms-Digital-Product
+msgid "Edit Product"
+msgstr "Produkt bearbeiten"
+
+#: core/views/list_products.php:426
+#@ ARForms-Digital-Product
+msgid "Are you sure you want to delete this product?"
+msgstr "Sind Sie sicher, dass Sie möchten, um dieses Produkt zu löschen?"
+

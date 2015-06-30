@@ -1,0 +1,632 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Digital Download With ARForms v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-05-27 12:31:31+0000\n"
+"Last-Translator: admin <testrepute@yahoo.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: PEOPLE'S REPUBLIC OF CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: arformsdigitalproduct.php:86
+#: arformsdigitalproduct.php:1050
+#: core/views/edit_product.php:103
+#: core/views/edit_product_19may2015.php:99
+#: core/views/list_products.php:338
+#@ ARForms-Digital-Product
+msgid "Download"
+msgstr "下载"
+
+#: arformsdigitalproduct.php:290
+#@ ARForms-Digital-Product
+msgid "Configure Digital Product Download"
+msgstr "配置数码产品下载"
+
+#: arformsdigitalproduct.php:291
+#@ ARForms-Digital-Product
+msgid "View Digital Product Download Log"
+msgstr "查看数码产品下载日志"
+
+#: arformsdigitalproduct.php:308
+#: core/views/list_products.php:26
+#@ ARForms-Digital-Product
+msgid "Manage Products"
+msgstr "管理产品"
+
+#: arformsdigitalproduct.php:310
+#: core/views/arf_dig_pro_download_product.php:27
+#@ ARForms-Digital-Product
+msgid "Download History"
+msgstr "下载历史"
+
+#: arformsdigitalproduct.php:423
+#@ ARForms-Digital-Product
+msgid "Please select valid file"
+msgstr "请选择有效的文件"
+
+#: arformsdigitalproduct.php:528
+#@ ARForms-Digital-Product
+msgid "Product has been successfully updated."
+msgstr "产品已成功更新。"
+
+#: arformsdigitalproduct.php:611
+#@ ARForms-Digital-Product
+msgid "Product has been successfully added"
+msgstr "产品已成功添加"
+
+#: arformsdigitalproduct.php:691
+#: arformsdigitalproduct.php:1207
+#: core/classes/class.arf_dig_pro_user_product.php:170
+#: core/classes/class.arf_dig_pro_user_product.php:193
+#@ ARForms-Digital-Product
+msgid "Record is deleted successfully."
+msgstr "记录被成功删除。"
+
+#: arformsdigitalproduct.php:735
+#: arformsdigitalproduct.php:1083
+#: core/classes/class.arf_dig_pro_user_product.php:184
+#: core/views/arf_dig_pro_download_product.php:3
+#: core/views/arf_dig_pro_download_product_listing.php:364
+#: core/views/list_products.php:3
+#: core/views/list_products.php:375
+#@ ARForms-Digital-Product
+msgid "Delete"
+msgstr "删除"
+
+#: arformsdigitalproduct.php:1018
+#: core/views/edit_product.php:8
+#: core/views/edit_product_19may2015.php:8
+#: core/views/list_products.php:303
+#@ ARForms-Digital-Product
+msgid "Add New Product"
+msgstr "添加新产品"
+
+#: arformsdigitalproduct.php:1025
+#: arformsdigitalproduct.php:1111
+#: core/views/arf_dig_pro_download_product_listing.php:281
+#: core/views/arf_dig_pro_download_product_listing.php:402
+#: core/views/list_products.php:311
+#: core/views/list_products.php:402
+#@ ARForms-Digital-Product
+msgid "Bulk Actions"
+msgstr "批量操作"
+
+#: arformsdigitalproduct.php:1035
+#: arformsdigitalproduct.php:1121
+#: core/views/arf_dig_pro_download_product_listing.php:291
+#: core/views/arf_dig_pro_download_product_listing.php:412
+#: core/views/list_products.php:321
+#: core/views/list_products.php:411
+#@ ARForms-Digital-Product
+msgid "Apply"
+msgstr "申请"
+
+#: arformsdigitalproduct.php:1046
+#: core/classes/class.arf_dig_pro_user_product.php:232
+#: core/views/arf_dig_pro_download_product_listing.php:303
+#: core/views/list_products.php:333
+#@ ARForms-Digital-Product
+msgid "Product ID"
+msgstr "产品编号"
+
+#: arformsdigitalproduct.php:1047
+#: core/classes/class.arf_dig_pro_user_product.php:264
+#: core/views/arf_dig_pro_download_product_listing.php:313
+#: core/views/edit_product.php:58
+#: core/views/edit_product_19may2015.php:54
+#: core/views/list_products.php:335
+#@ ARForms-Digital-Product
+msgid "Product Name"
+msgstr "产品名称"
+
+#: arformsdigitalproduct.php:1052
+#: core/views/list_products.php:339
+#@ ARForms-Digital-Product
+msgid "Status"
+msgstr "状态"
+
+#: arformsdigitalproduct.php:1053
+#: core/classes/class.arf_dig_pro_user_product.php:304
+#: core/views/arf_dig_pro_download_product_listing.php:321
+#: core/views/list_products.php:340
+#@ ARForms-Digital-Product
+msgid "Created Date"
+msgstr "创建日期"
+
+#: arformsdigitalproduct.php:1054
+#: core/views/arf_dig_pro_download_product_listing.php:322
+#: core/views/list_products.php:342
+#@ ARForms-Digital-Product
+msgid "Action"
+msgstr "行动"
+
+#: arformsdigitalproduct.php:1076
+#: core/views/edit_product.php:88
+#: core/views/edit_product_19may2015.php:84
+#: core/views/list_products.php:368
+#@ ARForms-Digital-Product
+msgid "Enable "
+msgstr "启用"
+
+#: arformsdigitalproduct.php:1076
+#: core/views/edit_product.php:93
+#: core/views/edit_product_19may2015.php:89
+#: core/views/list_products.php:368
+#@ ARForms-Digital-Product
+msgid "Disable"
+msgstr "关闭"
+
+#: arformsdigitalproduct.php:1081
+#@ ARForms-Digital-Product
+msgid "Edit Configuration"
+msgstr "编辑配置"
+
+#: arformsdigitalproduct.php:1095
+#: core/views/arf_dig_pro_download_product_listing.php:386
+#: core/views/list_products.php:386
+#@ ARForms-Digital-Product
+msgid "Show / Hide columns"
+msgstr "显示/隐藏列"
+
+#: arformsdigitalproduct.php:1096
+#: core/views/arf_dig_pro_download_product_listing.php:387
+#: core/views/list_products.php:387
+#@ ARForms-Digital-Product
+msgid "Search"
+msgstr "搜索"
+
+#: arformsdigitalproduct.php:1097
+#: core/views/arf_dig_pro_download_product_listing.php:388
+#: core/views/list_products.php:388
+#@ ARForms-Digital-Product
+msgid "entries"
+msgstr "项"
+
+#: arformsdigitalproduct.php:1098
+#: core/views/arf_dig_pro_download_product_listing.php:389
+#: core/views/list_products.php:389
+#@ ARForms-Digital-Product
+msgid "Show"
+msgstr "演出"
+
+#: arformsdigitalproduct.php:1099
+#: core/views/arf_dig_pro_download_product_listing.php:390
+#: core/views/list_products.php:390
+#@ ARForms-Digital-Product
+msgid "Showing"
+msgstr "显示"
+
+#: arformsdigitalproduct.php:1100
+#: core/views/arf_dig_pro_download_product_listing.php:391
+#: core/views/list_products.php:391
+#@ ARForms-Digital-Product
+msgid "to"
+msgstr "至"
+
+#: arformsdigitalproduct.php:1101
+#: core/views/arf_dig_pro_download_product_listing.php:392
+#: core/views/list_products.php:392
+#@ ARForms-Digital-Product
+msgid "of"
+msgstr "的"
+
+#: arformsdigitalproduct.php:1102
+#: core/views/arf_dig_pro_download_product_listing.php:393
+#: core/views/list_products.php:393
+#@ ARForms-Digital-Product
+msgid "No matching records found"
+msgstr "未找到匹配的记录"
+
+#: arformsdigitalproduct.php:1103
+#: core/views/arf_dig_pro_download_product_listing.php:394
+#: core/views/list_products.php:394
+#@ ARForms-Digital-Product
+msgid "No data available in table"
+msgstr "无表可用数据"
+
+#: arformsdigitalproduct.php:1104
+#: core/views/arf_dig_pro_download_product_listing.php:395
+#: core/views/list_products.php:395
+#@ ARForms-Digital-Product
+msgid "filtered from"
+msgstr "从过滤"
+
+#: arformsdigitalproduct.php:1105
+#: core/views/arf_dig_pro_download_product_listing.php:396
+#: core/views/list_products.php:396
+#@ ARForms-Digital-Product
+msgid "total"
+msgstr "总"
+
+#: arformsdigitalproduct.php:1195
+#: core/classes/class.arf_dig_pro_user_product.php:159
+#: core/classes/class.arf_dig_pro_user_product.php:173
+#@ ARForms-Digital-Product
+msgid "Please select one or more records."
+msgstr "请选择一个或多个记录。"
+
+#: arformsdigitalproduct.php:1262
+#@ ARForms-Digital-Product
+msgid "Download add-on for ARForms requires ARForms plugin installed and active."
+msgstr "下载附加的ARForms要求ARForms插件安装和激活。"
+
+#: arformsdigitalproduct.php:1265
+#@ ARForms-Digital-Product
+msgid "Download add-on for ARForms requires ARForms installed with version 2.7.2 or higher."
+msgstr "下载附加的ARForms需要与2.7.2或更高版本安装ARForms。"
+
+#: core/classes/class.arf_dig_pro_editor_product.php:73
+#: core/classes/class.arf_dig_pro_editor_product_19may2015.php:71
+#@ ARForms-Digital-Product
+msgid "Products"
+msgstr "制品"
+
+#: core/classes/class.arf_dig_pro_editor_product.php:113
+#: core/classes/class.arf_dig_pro_editor_product_19may2015.php:111
+#@ ARForms-Digital-Product
+msgid "Download Link Expiration"
+msgstr "下载链接到期"
+
+#: core/classes/class.arf_dig_pro_editor_product.php:119
+#: core/classes/class.arf_dig_pro_editor_product_19may2015.php:117
+#@ ARForms-Digital-Product
+msgid "How long should download links be valid for? Enter a time in hours"
+msgstr "应该多长时间下载的链接是有效的？输入小时的时间"
+
+#: core/classes/class.arf_dig_pro_editor_product.php:133
+#: core/classes/class.arf_dig_pro_editor_product_19may2015.php:131
+#@ ARForms-Digital-Product
+msgid "Download Link Content"
+msgstr "下载链接内容"
+
+#: core/classes/class.arf_dig_pro_editor_product.php:138
+#: core/classes/class.arf_dig_pro_editor_product_19may2015.php:136
+#@ ARForms-Digital-Product
+msgid "Donwload Link:  [ARF_download_link product_id='0' desc='download me' type='link']  "
+msgstr "Donwload链接：[ARF_download_link的product_id='0'DESC='我的下载“类型='链接']"
+
+#: core/classes/class.arf_dig_pro_editor_product.php:139
+#: core/classes/class.arf_dig_pro_editor_product_19may2015.php:137
+#: core/views/edit_product.php:194
+#@ ARForms-Digital-Product
+msgid "Note: Possible argument for type argument 1.)type='link' 2.)type='button'."
+msgstr "注：为类型参数1.可能的参数）型='链接'2）型=“按钮”。"
+
+#: core/classes/class.arf_dig_pro_editor_product.php:151
+#@ ARForms
+msgid "Show download link after form submitted "
+msgstr ""
+
+#: core/classes/class.arf_dig_pro_editor_product.php:190
+#: core/classes/class.arf_dig_pro_editor_product_19may2015.php:168
+#@ ARForms-Digital-Product
+msgid " Please download your product by clicking below link  [ARF_download_link  product_id='0' desc='Download'  type='link' ]"
+msgstr "通过点击下面的链接下载，请你的产品[ARF_download_link的product_id='0'DESC='下载'类型='链接']"
+
+#: core/classes/class.arf_dig_pro_process_download.php:153
+#: core/classes/class.arf_dig_pro_process_download_19may2015.php:131
+#@ ARForms-Digital-Product
+msgid "Your download link has been expired"
+msgstr "您的下载链接已失效"
+
+#: core/classes/class.arf_dig_pro_process_download.php:161
+#: core/classes/class.arf_dig_pro_process_download.php:869
+#: core/classes/class.arf_dig_pro_process_download_19may2015.php:139
+#: core/classes/class.arf_dig_pro_process_download_19may2015.php:842
+#@ ARForms-Digital-Product
+msgid "Download url are not found. Please contact to administrator"
+msgstr "下载地址找不到。请联系管理员来"
+
+#: core/classes/class.arf_dig_pro_process_download.php:166
+#: core/classes/class.arf_dig_pro_process_download_19may2015.php:144
+#@ ARForms-Digital-Product
+msgid "You do not have permission to download this file"
+msgstr "你没有权限下载此文件"
+
+#: core/classes/class.arf_dig_pro_product.php:430
+#: core/classes/class.arf_dig_pro_product.php:439
+#: core/classes/class.arf_dig_pro_product_19may2015.php:422
+#: core/classes/class.arf_dig_pro_product_19may2015.php:431
+#@ ARForms-Digital-Product
+msgid "Download Products"
+msgstr "下载产品"
+
+#: core/classes/class.arf_dig_pro_product.php:431
+#: core/classes/class.arf_dig_pro_product.php:440
+#@ ARForms-Digital-Product
+msgid "This will be replaced with download product name. XX will be replaced with product_id."
+msgstr "这将被替换为下载的产品名称。 XX将被替换的product_id。"
+
+#: core/classes/class.arf_dig_pro_product.php:432
+#: core/classes/class.arf_dig_pro_product.php:441
+#@ ARForms-Digital-Product
+msgid "This will be replaced with product download link. XX will be replaced with product_id."
+msgstr "这将被替换的产品的下载链接。 XX将被替换的product_id。"
+
+#: core/classes/class.arf_dig_pro_product.php:433
+#: core/classes/class.arf_dig_pro_product.php:442
+#@ ARForms-Digital-Product
+msgid "This will be replaced with download product note. XX will be replaced with product_id."
+msgstr "这将替换下载产品音符。 XX将被替换的product_id。"
+
+#: core/classes/class.arf_dig_pro_product_19may2015.php:423
+#: core/classes/class.arf_dig_pro_product_19may2015.php:432
+#@ ARForms-Digital-Product
+msgid "This will be replaced with download product name."
+msgstr "这将被替换为下载的产品名称。"
+
+#: core/classes/class.arf_dig_pro_product_19may2015.php:424
+#: core/classes/class.arf_dig_pro_product_19may2015.php:433
+#@ ARForms-Digital-Product
+msgid "This will be replaced with product download link."
+msgstr "这将被替换的产品的下载链接。"
+
+#: core/classes/class.arf_dig_pro_product_19may2015.php:425
+#: core/classes/class.arf_dig_pro_product_19may2015.php:434
+#@ ARForms-Digital-Product
+msgid "This will be replaced with download product note."
+msgstr "这将替换下载产品音符。"
+
+#: core/classes/class.arf_dig_pro_user_product.php:28
+#@ ARForms-Digital-Product
+msgid "Paypal"
+msgstr "支付宝"
+
+#: core/classes/class.arf_dig_pro_user_product.php:35
+#: core/classes/class.arf_dig_pro_user_product.php:57
+#: core/classes/class.arf_dig_pro_user_product.php:79
+#@ ARForms-Digital-Product
+msgid "Donations"
+msgstr "捐赠"
+
+#: core/classes/class.arf_dig_pro_user_product.php:37
+#: core/classes/class.arf_dig_pro_user_product.php:59
+#: core/classes/class.arf_dig_pro_user_product.php:81
+#: core/classes/class.arf_dig_pro_user_product.php:101
+#@ ARForms-Digital-Product
+msgid "Subscription"
+msgstr "订阅"
+
+#: core/classes/class.arf_dig_pro_user_product.php:39
+#: core/classes/class.arf_dig_pro_user_product.php:61
+#: core/classes/class.arf_dig_pro_user_product.php:83
+#: core/classes/class.arf_dig_pro_user_product.php:103
+#@ ARForms-Digital-Product
+msgid "Product / Service"
+msgstr "产品/服务"
+
+#: core/classes/class.arf_dig_pro_user_product.php:52
+#@ ARForms-Digital-Product
+msgid "Paypal Pro"
+msgstr "贝宝临"
+
+#: core/classes/class.arf_dig_pro_user_product.php:74
+#@ ARForms-Digital-Product
+msgid "Authorize Net"
+msgstr "授权网"
+
+#: core/classes/class.arf_dig_pro_user_product.php:96
+#@ ARForms-Digital-Product
+msgid "Stripe"
+msgstr "条纹"
+
+#: core/classes/class.arf_dig_pro_user_product.php:227
+#: core/views/arf_dig_pro_download_product_listing.php:302
+#@ ARForms-Digital-Product
+msgid "Download ID"
+msgstr "下载ID"
+
+#: core/classes/class.arf_dig_pro_user_product.php:237
+#: core/views/arf_dig_pro_download_product_listing.php:304
+#@ ARForms-Digital-Product
+msgid "Form ID"
+msgstr "表格ID"
+
+#: core/classes/class.arf_dig_pro_user_product.php:242
+#: core/views/arf_dig_pro_download_product_listing.php:305
+#@ ARForms-Digital-Product
+msgid "Entry ID"
+msgstr "条目号"
+
+#: core/classes/class.arf_dig_pro_user_product.php:253
+#: core/views/arf_dig_pro_download_product_listing.php:309
+#@ ARForms-Digital-Product
+msgid "Transaction ID / Subscription ID"
+msgstr "交易ID/订阅ID"
+
+#: core/classes/class.arf_dig_pro_user_product.php:281
+#: core/views/arf_dig_pro_download_product_listing.php:316
+#@ ARForms-Digital-Product
+msgid "Payment Type"
+msgstr "付款类型"
+
+#: core/classes/class.arf_dig_pro_user_product.php:287
+#: core/views/arf_dig_pro_download_product_listing.php:317
+#@ ARForms-Digital-Product
+msgid "Payment Method"
+msgstr "付款方式"
+
+#: core/classes/class.arf_dig_pro_user_product.php:293
+#: core/views/arf_dig_pro_download_product_listing.php:319
+#@ ARForms-Digital-Product
+msgid "Amount"
+msgstr "量"
+
+#: core/classes/class.arf_dig_pro_user_product.php:299
+#: core/views/arf_dig_pro_download_product_listing.php:320
+#@ ARForms-Digital-Product
+msgid "Payment Status"
+msgstr "付款状态"
+
+#: core/views/arf_dig_pro_download_product.php:6
+#: core/views/list_products.php:6
+#@ ARForms-Digital-Product
+msgid "This form is already deleted."
+msgstr "这种形式已经被删除。"
+
+#: core/views/arf_dig_pro_download_product.php:39
+#: core/views/list_products.php:425
+#@ ARForms-Digital-Product
+msgid "DELETE"
+msgstr "DELETE"
+
+#: core/views/arf_dig_pro_download_product.php:40
+#: core/views/arf_dig_pro_download_product.php:51
+#@ ARForms-Digital-Product
+msgid "Are you sure you want to delete this user product?"
+msgstr "你确定要删除这个用户的产品？"
+
+#: core/views/arf_dig_pro_download_product.php:42
+#: core/views/arf_dig_pro_download_product.php:53
+#: core/views/list_products.php:428
+#@ ARForms-Digital-Product
+msgid "Okay"
+msgstr "好"
+
+#: core/views/arf_dig_pro_download_product.php:43
+#: core/views/arf_dig_pro_download_product.php:54
+#: core/views/edit_product.php:225
+#: core/views/edit_product_19may2015.php:204
+#: core/views/list_products.php:429
+#@ ARForms-Digital-Product
+msgid "Cancel"
+msgstr "取消"
+
+#: core/views/arf_dig_pro_download_product.php:50
+#@ ARForms-Digital-Product
+msgid "DELETE ENTRY"
+msgstr "删除条目"
+
+#: core/views/arf_dig_pro_download_product_listing.php:360
+#: core/views/arf_dig_pro_download_product_listing.php:362
+#@ ARForms-Digital-Product
+msgid "View Entry"
+msgstr "视图项"
+
+#: core/views/arf_dig_pro_download_product_listing.php:369
+#@ ARForms-Digital-Product
+msgid "VIEW ENTRY"
+msgstr "视图项"
+
+#: core/views/arf_dig_pro_download_product_listing.php:373
+#@ ARForms-Digital-Product
+msgid "Close"
+msgstr "关闭"
+
+#: core/views/displayfield_in_editor.php:5
+#@ ARForms-Digital-Product
+msgid "Please Select Product"
+msgstr "请选择产品"
+
+#: core/views/edit_product.php:62
+#: core/views/edit_product_19may2015.php:58
+#@ ARForms-Digital-Product
+msgid "This field cannot be blank."
+msgstr "此字段不能为空。"
+
+#: core/views/edit_product.php:72
+#: core/views/edit_product_19may2015.php:68
+#@ ARForms-Digital-Product
+msgid "Description"
+msgstr "描述"
+
+#: core/views/edit_product.php:84
+#: core/views/edit_product_19may2015.php:80
+#@ ARForms-Digital-Product
+msgid "Product Status"
+msgstr "产品状态"
+
+#: core/views/edit_product.php:107
+#: core/views/edit_product_19may2015.php:103
+#@ ARForms-Digital-Product
+msgid "Download Type"
+msgstr "下载类型"
+
+#: core/views/edit_product.php:110
+#: core/views/edit_product_19may2015.php:106
+#@ ARForms-Digital-Product
+msgid "Internal"
+msgstr "内部"
+
+#: core/views/edit_product.php:113
+#: core/views/edit_product_19may2015.php:109
+#@ ARForms-Digital-Product
+msgid "External"
+msgstr "外部"
+
+#: core/views/edit_product.php:118
+#: core/views/edit_product_19may2015.php:114
+#@ ARForms-Digital-Product
+msgid "Download Url"
+msgstr "下载地址"
+
+#: core/views/edit_product.php:123
+#: core/views/edit_product_19may2015.php:119
+#@ ARForms-Digital-Product
+msgid "Download File"
+msgstr "下载文件"
+
+#: core/views/edit_product.php:149
+#: core/views/edit_product.php:151
+#: core/views/edit_product_19may2015.php:145
+#: core/views/edit_product_19may2015.php:147
+#@ ARForms-Digital-Product
+msgid "No file Selected"
+msgstr "没有文件选择"
+
+#: core/views/edit_product.php:158
+#: core/views/edit_product_19may2015.php:154
+#@ ARForms-Digital-Product
+msgid "Add File"
+msgstr "添加文件"
+
+#: core/views/edit_product.php:165
+#: core/views/edit_product_19may2015.php:161
+#@ ARForms-Digital-Product
+msgid "View Download"
+msgstr "查看下载"
+
+#: core/views/edit_product.php:176
+#: core/views/edit_product_19may2015.php:174
+#@ ARForms-Digital-Product
+msgid "Download Notes"
+msgstr "下载说明"
+
+#: core/views/edit_product.php:187
+#@ ARForms-Digital-Product
+msgid "Download Link Shortcode"
+msgstr "下载链接简"
+
+#: core/views/edit_product.php:190
+#@ ARForms-Digital-Product
+msgid "Shortcode"
+msgstr "简"
+
+#: core/views/edit_product.php:222
+#: core/views/edit_product_19may2015.php:201
+#@ ARForms-Digital-Product
+msgid "Save"
+msgstr "保存"
+
+#: core/views/list_products.php:373
+#@ ARForms-Digital-Product
+msgid "Edit Product"
+msgstr "编辑产品"
+
+#: core/views/list_products.php:426
+#@ ARForms-Digital-Product
+msgid "Are you sure you want to delete this product?"
+msgstr "你确定要删除这个产品吗？"
+
