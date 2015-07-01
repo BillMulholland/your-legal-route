@@ -177,7 +177,7 @@ function bones_scripts_and_styles() {
 		and your site will load faster.
 		*/
 		wp_enqueue_script( 'jquery' );
-		//wp_enqueue_script( 'flatui-js' );
+		wp_enqueue_script( 'flatui-js' );
 		
 		//wp_enqueue_script( 'ga-js' );
 		wp_enqueue_script( 'mouseflow-js' );

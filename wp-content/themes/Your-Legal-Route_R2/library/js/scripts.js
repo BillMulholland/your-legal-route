@@ -126,15 +126,8 @@ $(function() {
   });
 });
 
-//track form
 
-
-  /*
-   * Let's fire off the gravatar function
-   * You can remove this if you don't need it
-  */
-  loadGravatars();
-
+$('.carousel').carousel();
 
 }); /* end of as page load scripts */
 
