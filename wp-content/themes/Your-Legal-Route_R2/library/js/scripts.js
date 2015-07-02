@@ -93,7 +93,7 @@ var timeToWaitForLast = 100;
  * images on mobile to save bandwidth. Once we hit an acceptable viewport
  * then we can swap out those images since they are located in a data attribute.
 */
-function loadGravatars() {
+function loadGravatars() {;
   // set the viewport using the function above
   viewport = updateViewportDimensions();
   // if the viewport is tablet or larger, we load in the gravatars
@@ -111,23 +111,23 @@ function loadGravatars() {
 jQuery(document).ready(function($) {
 	
 
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
-
+//$(function() {;
+//  $('a[href*=#]:not([href=#])').click(function() {
+//    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {;
+//      var target = $(this.hash);
+//      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+//      if (target.length) {
+//        $('html,body').animate({
+//          scrollTop: target.offset().top
+//        }, 1000);
+//        return false;
+//      }
+//    }
+//  });
+//});
 
 $('.carousel').carousel();
+
 
 }); /* end of as page load scripts */
 

@@ -181,8 +181,7 @@ function bones_scripts_and_styles() {
 		
 		//wp_enqueue_script( 'ga-js' );
 		wp_enqueue_script( 'mouseflow-js' );
-		wp_enqueue_script( 'bones-js' );	
-	
+		wp_enqueue_script( 'bones-js' );
 
 	}
 }

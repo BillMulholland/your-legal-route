@@ -38,13 +38,11 @@
 
 <body <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage">
 <header class="header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
-
-  
   <nav class="navbar navbar-default" role="navigation">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -52,7 +50,7 @@
       </button>
       <a class="navbar-brand" href="<?php echo home_url(); ?>">
              <?php /*?>   <?php bloginfo('name'); ?><?php */?>
-            <img src="<?php echo get_template_directory_uri(); ?>/library/images/logo.png" alt="Your Legal Rote" width="250" height="45" id="logo"/>            </a>
+            <img src="<?php echo get_template_directory_uri(); ?>/library/images/logo.png" alt="Your Legal Route" width="250" height="45" id="logo"/>            </a>
     </div>
 
         <?php
