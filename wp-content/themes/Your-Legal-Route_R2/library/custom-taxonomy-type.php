@@ -31,35 +31,35 @@
 		add_action('init', 'register_topic_tax');
 
 		// registration code for industry taxonomy
-		function register_industry_tax() {
-			$labels = array(
-				'name' 					=> _x( 'Industries', 'taxonomy general name' ),
-				'singular_name' 		=> _x( 'Industry', 'taxonomy singular name' ),
-				'add_new' 				=> _x( 'Add New Industry', 'Industry'),
-				'add_new_item' 			=> __( 'Add New Industry' ),
-				'edit_item' 			=> __( 'Edit Industry' ),
-				'new_item' 				=> __( 'New Industry' ),
-				'view_item' 			=> __( 'View Industry' ),
-				'search_items' 			=> __( 'Search Industries' ),
-				'not_found' 			=> __( 'No Industry found' ),
-				'not_found_in_trash' 	=> __( 'No Industry found in Trash' ),
-			);
-			
-			$pages = array('post','document');
-			
-			$args = array(
-				'labels' 			=> $labels,
-				'singular_label' 	=> __('Industry'),
-				'public' 			=> true,
-				'show_ui' 			=> true,
-				'hierarchical' 		=> true,
-				'show_tagcloud' 	=> true,
-				'show_in_nav_menus' => true,
-				'rewrite' 			=> array('slug' => 'industry', 'with_front' => false ),
-			 );
-			register_taxonomy('industry', $pages, $args);
-		}
-		add_action('init', 'register_industry_tax');
+		//function register_industry_tax() {
+//			$labels = array(
+//				'name' 					=> _x( 'Industries', 'taxonomy general name' ),
+//				'singular_name' 		=> _x( 'Industry', 'taxonomy singular name' ),
+//				'add_new' 				=> _x( 'Add New Industry', 'Industry'),
+//				'add_new_item' 			=> __( 'Add New Industry' ),
+//				'edit_item' 			=> __( 'Edit Industry' ),
+//				'new_item' 				=> __( 'New Industry' ),
+//				'view_item' 			=> __( 'View Industry' ),
+//				'search_items' 			=> __( 'Search Industries' ),
+//				'not_found' 			=> __( 'No Industry found' ),
+//				'not_found_in_trash' 	=> __( 'No Industry found in Trash' ),
+//			);
+//			
+//			$pages = array('post','document');
+//			
+//			$args = array(
+//				'labels' 			=> $labels,
+//				'singular_label' 	=> __('Industry'),
+//				'public' 			=> true,
+//				'show_ui' 			=> true,
+//				'hierarchical' 		=> true,
+//				'show_tagcloud' 	=> true,
+//				'show_in_nav_menus' => true,
+//				'rewrite' 			=> array('slug' => 'industry', 'with_front' => false ),
+//			 );
+//			register_taxonomy('industry', $pages, $args);
+//		}
+//		add_action('init', 'register_industry_tax');
 
 		// registration code for resource taxonomy
 		function register_resource_tax() {
