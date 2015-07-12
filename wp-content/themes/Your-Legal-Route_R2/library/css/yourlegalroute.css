@@ -8,3 +8,9 @@
 .lead {
   font-size: 15px;
 }
+h2.pagetitle {
+  color: #ffffff !important;
+}
+hr.spacer {
+  margin: 40px 0px;
+}

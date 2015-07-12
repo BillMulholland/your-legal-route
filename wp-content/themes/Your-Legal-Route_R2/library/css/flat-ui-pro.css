@@ -355,13 +355,13 @@ body {
   background-color: #ffffff;
 }
 a {
-  color: #16a085;
+  color: #2c3e50;
   text-decoration: none;
   transition: .25s;
 }
 a:hover,
 a:focus {
-  color: #1abc9c;
+  color: #2c3e50;
   text-decoration: none;
 }
 a:focus {
@@ -400,7 +400,7 @@ h6,
 .h5,
 .h6 {
   font-family: inherit;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 1.1;
   color: inherit;
 }
@@ -443,7 +443,7 @@ h2,
 }
 h3,
 .h3 {
-  font-size: 36px;
+  font-size: 22px;
 }
 h4,
 .h4 {
@@ -668,7 +668,7 @@ pre {
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #16a085;
+  border-color: #2c3e50;
 }
 .thumbnail .caption {
   padding: 9px;
@@ -1047,11 +1047,11 @@ fieldset[disabled] .btn-inverse.active {
   padding-right: 30px;
 }
 .btn-link {
-  color: #16a085;
+  color: #2c3e50;
 }
 .btn-link:hover,
 .btn-link:focus {
-  color: #1abc9c;
+  color: #2c3e50;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -4906,7 +4906,7 @@ a.list-group-item > .badge,
   border-color: #e1eae7;
 }
 .alert-success .alert-link {
-  color: #16a085;
+  color: #2c3e50;
 }
 .alert-info {
   background-color: #f7f8f9;
@@ -5548,7 +5548,7 @@ a.list-group-item > .badge,
   line-height: 53px;
 }
 .navbar-toggle:before {
-  color: #16a085;
+  color: #2c3e50;
   content: "\e61a";
   font-family: "Flat-UI-Pro-Icons";
   font-size: 20px;
@@ -5564,7 +5564,7 @@ a.list-group-item > .badge,
 }
 .navbar-toggle:hover:before,
 .navbar-toggle:focus:before {
-  color: #1abc9c;
+  color: #2c3e50;
 }
 .navbar-toggle .icon-bar {
   display: none;
@@ -7734,7 +7734,7 @@ fieldset[disabled] .navbar-inverse .navbar-btn.active {
   border-color: #e1eae7;
 }
 .panel-success > .panel-heading {
-  color: #16a085;
+  color: #2c3e50;
   background-color: #eff7f3;
   border-color: #e1eae7;
 }
@@ -7743,10 +7743,10 @@ fieldset[disabled] .navbar-inverse .navbar-btn.active {
 }
 .panel-success > .panel-heading .badge {
   color: #eff7f3;
-  background-color: #16a085;
+  background-color: #2c3e50;
 }
 .panel-success > .panel-footer {
-  color: #16a085;
+  color: #2c3e50;
 }
 .panel-success > .panel-footer + .panel-collapse > .panel-body {
   border-bottom-color: #e1eae7;
