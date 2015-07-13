@@ -68,10 +68,12 @@
     </div>
   </nav>
 </header>
-<div class="container">
-<div class="row">
-  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"  style="background-color:#FFFEFE">
-    <?php if(function_exists(simple_breadcrumb)) {simple_breadcrumb();} ?>
-  </div>
-  </div>
-</div>
+<div class="container"> 
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+    
+     <?php  
+     if ( function_exists( 'yoast_breadcrumb' ) ) {
+	yoast_breadcrumb();
+}?>
+    </div></div>
+

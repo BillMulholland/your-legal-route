@@ -6,7 +6,14 @@
 <?php /*?><?php var_dump($content);
 ?><?php */?>
 
-<h6 style="margin-bottom:20px"><?php /*?><span style="text-transform: uppercase"><?php echo $content[0]->taxonomy;?> </span>/ <?php */?><?php echo $content[0]->name;?></h6>
+
+
+<h6 style="margin-bottom:20px">
+<?php /*?><span style="text-transform: uppercase"><?php echo $content[0]->taxonomy;?> </span>/ <?php */?>
+<a href="/topic/<?php echo $content[0]->name;?>">
+<?php echo $content[0]->name;?></a></h6>
+
+
 <?php $i = 1;
 $query = new WP_Query(array(
 'taxonomy' => $tax_taxonomy,
@@ -45,5 +52,5 @@ if ( $query->have_posts() ) {
 };?>
 <div style="clear:both"> 
 
-<hr/><sub style="text-transform: uppercase">Show all from <?php echo $content[0]->name;?></sub></div>
+<hr/><sub style="text-transform: uppercase"><a href="/topic/<?php echo $content[0]->name;?>">Show all from <?php echo $content[0]->name;?></a></sub></div>
 <?php wp_reset_postdata();?>
