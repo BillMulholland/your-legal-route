@@ -28,7 +28,7 @@ if ( $category->parent > 0 ) {
     continue;   
 }
 
-echo '<h1>' . $category->name . '</h1>';
+echo '<h2>' . $category->name . '</h2>';
 
     $querystr = "SELECT $wpdb->posts.*
                   FROM $wpdb->posts, $wpdb->term_relationships, $wpdb->terms
@@ -44,7 +44,7 @@ echo '<h1>' . $category->name . '</h1>';
         foreach ( $posts as $post ) {
             setup_postdata($post);  
 
-                echo '<li style="color:red">'; the_title();   echo '</li>';
+                echo '<li style="color:red; border:1px solid blue">'; the_title();   echo '</li>';
 
                 }
     echo '</ul>';
@@ -53,7 +53,7 @@ $categories2 = get_terms('topic',array('parent' => $category->term_id , 'hide_em
 
 foreach ( $categories2 as $category ) {
 
-echo '<h2>' . $category->name . '</h2>';
+echo '<h3>' . $category->name . '</h3>';
 
 $posts = get_posts( array( 'topic' => $category->name, 'post_type' => 'post' ) );  
 
