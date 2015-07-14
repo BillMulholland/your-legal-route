@@ -7,63 +7,87 @@
 ?>
 <?php get_header(); ?>
 
-<div id="content">
-  <div class="container">
-  
-    <div class="row">
-      <main id="main" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 cf" >
-      <a name="anchor"></a>
-        <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-       <h2 id="authors">Authors</h2>
-<ul>
-<?php
-wp_list_authors(
-  array(
-    'exclude_admin' => false,
-  )
-);
-?>
-</ul>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 " >
+      <?php
 
-<h2 id="pages">Pages</h2>
-<ul>
-<?php
-// Add pages you'd like to exclude in the exclude here
-wp_list_pages(
-  array(
-    'exclude' => '',
-    'title_li' => '',
-  )
+$args=array(
+'post_type'                => 'post',
+'child_of'                 => 0,
+'parent'                   => '',
+'orderby'                  => 'name',
+'order'                    => 'ASC',
+'hide_empty'               => 0,
+'hierarchical'             => 1,
+'exclude'                  => '',
+'include'                  => '',
+'number'                   => '',
+'taxonomy'                 => 'topic',
+'pad_counts'               => false
 );
-?>
-</ul>
 
-<h2 id="posts">Posts</h2>
-<ul>
-<?php
-// Add categories you'd like to exclude in the exclude here
-$cats = get_categories('exclude=');
-foreach ($cats as $cat) {
-  echo "<li><h3>".$cat->cat_name."</h3>";
-  echo "<ul>";
-  query_posts('posts_per_page=-1&cat='.$cat->cat_ID);
-  while(have_posts()) {
-    the_post();
-    $category = get_the_category();
-    // Only display a post link once, even if it's in multiple categories
-    if ($category[0]->cat_ID == $cat->cat_ID) {
-      echo '<li><a href="'.get_permalink().'">'.get_the_title().'</a></li>';
-    }
-  }
-  echo "</ul>";
-  echo "</li>";
+$categories=get_categories($args);
+
+foreach ( $categories as $category ) {
+
+if ( $category->parent > 0 ) {
+    continue;   
 }
-?>
-</ul>
 
-        <?php endwhile; endif; ?>
-      </main>
+echo '<hr style="clear:both"/><h2>' . $category->name . '</h2>';
+
+    $querystr = "SELECT $wpdb->posts.*
+                  FROM $wpdb->posts, $wpdb->term_relationships, $wpdb->terms
+                  WHERE term_id = (" . $category->cat_ID . ")
+                  AND term_taxonomy_id = (" . $category->term_taxonomy_id . ")
+                  AND ID = object_id
+                  AND post_type = 'post'
+                  AND post_status = 'publish'
+                  ORDER BY post_date DESC";
+    $posts = $wpdb->get_results($querystr, OBJECT);
+
+  //  echo '<ul>';
+//        foreach ( $posts as $post ) {
+//            setup_postdata($post);  
+//
+//                echo '<li style="color:red">'; the_title();   echo '</li>';
+//
+//                }
+//    echo '</ul>';
+
+$categories2 = get_terms('topic',array('parent' => $category->term_id , 'hide_empty'=> '0' ));
+
+foreach ( $categories2 as $category ) {
+
+echo '<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 " ><h3>' . $category->name . '</h3>';
+
+$posts = get_posts( array( 'topic' => $category->name, 'post_type' => 'post' ) );  
+
+    echo '<ul>';
+        foreach($posts as $post) { 
+            setup_postdata($post);  
+		
+
+                echo '<li> '?>
+				<a href="<?php echo get_permalink();?>">
+				<?php  the_title();   echo '</a></li>';
+
+                }
+    echo '</ul></div>';
+
+}
+}
+
+?>
     </div>
   </div>
+  <?php /*?>  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 " >
+      <?php the_archive_title( '<h1 class="page-title">', '</h1>' );
+			the_archive_description( '<div class="taxonomy-description">', '</div>' );
+							?>
+    </div>
+  </div><?php */?>
 </div>
 <?php get_footer(); ?>

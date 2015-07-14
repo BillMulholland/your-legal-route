@@ -1,10 +1,8 @@
 <?php get_header(); ?>
 
-			<div id="content">
-
-				<div id="inner-content" class="wrap cf">
-
-						<main id="main" class="m-all t-2of3 d-5of7 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
+			<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 " >
 
 							<?php
 							the_archive_title( '<h1 class="page-title">', '</h1>' );
@@ -17,21 +15,13 @@
 
 								<header class="entry-header article-header">
 
-									<h3 class="h2 entry-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
-									<p class="byline entry-meta vcard">
-										<?php printf( __( 'Posted', 'bonestheme' ).' %1$s %2$s',
-                  							     /* the time the post was published */
-                  							     '<time class="updated entry-time" datetime="' . get_the_time('Y-m-d') . '" itemprop="datePublished">' . get_the_time(get_option('date_format')) . '</time>',
-                       								/* the author of the post */
-                       								'<span class="by">'.__('by', 'bonestheme').'</span> <span class="entry-author author" itemprop="author" itemscope itemptype="http://schema.org/Person">' . get_the_author_link( get_the_author_meta( 'ID' ) ) . '</span>'
-                    							); ?>
-									</p>
-
+									<h3 ><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
+									
 								</header>
 
 								<section class="entry-content cf">
 
-									<?php the_post_thumbnail( 'bones-thumb-300' ); ?>
+									<?php /*?><?php the_post_thumbnail( 'bones-thumb-300' ); ?><?php */?>
 
 									<?php the_excerpt(); ?>
 
@@ -65,10 +55,10 @@
 
 						</main>
 
-					<?php get_sidebar(); ?>
+					
 
 				</div>
-
+</div>
 			</div>
 
 <?php get_footer(); ?>
