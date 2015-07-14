@@ -70,10 +70,13 @@
 </header>
 <div class="container"> 
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+
+<? if (!is_front_page()) 
     
-     <?php  
-     if ( function_exists( 'yoast_breadcrumb' ) ) {
 	yoast_breadcrumb();
-}?>
+?>
+
+    
+     
     </div></div>
 
