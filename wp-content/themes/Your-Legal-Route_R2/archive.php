@@ -1,64 +1,55 @@
 <?php get_header(); ?>
+<?php $tax_id = get_queried_object_id();?>
+<?php // get value from a taxonomy (taxonomy = "events", id = 76)
+	
+$value = 'topic_'.$tax_id ;
+$image = get_field('tax_image',$value); ?>
 
-			<div class="container">
+<div class="container">
   <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 " >
-
-							<?php
-							the_archive_title( '<h1 class="page-title">', '</h1>' );
+      <div class=" img-rounded" style=" background-image:url(<?php echo $image['url']; ?>);height:460px; margin-bottom:50px">
+        <div id="cta" class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-md-offset-5 col-lg-offset-6 img-rounded" >
+          <p class="lead">
+            <?php
+							the_archive_title( '<h2 class="pagetitle">', '</h2>' );
 							the_archive_description( '<div class="taxonomy-description">', '</div>' );
 							?>
-							
-							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3" >
+      <article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article">
+        <header class="entry-header article-header">
+          <h3 ><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
+            <?php the_title(); ?>
+            </a></h3>
+        </header>
+        <section class="entry-content cf">
+          <?php /*?><?php the_post_thumbnail( 'bones-thumb-300' ); ?><?php */?>
+          <?php the_excerpt(); ?>
+          <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>" class="btn btn-primary btn-xs">Visit</a>
+          
+       
+        </section>
+        <hr/>
+       
+<?php wp_reset_postdata(); ?>
 
-							<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article">
 
-								<header class="entry-header article-header">
-
-									<h3 ><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
-									
-								</header>
-
-								<section class="entry-content cf">
-
-									<?php /*?><?php the_post_thumbnail( 'bones-thumb-300' ); ?><?php */?>
-
-									<?php the_excerpt(); ?>
-
-								</section>
-
-								<footer class="article-footer">
-
-								</footer>
-
-							</article>
-
-							<?php endwhile; ?>
-
-									<?php bones_page_navi(); ?>
-
-							<?php else : ?>
-
-									<article id="post-not-found" class="hentry cf">
-										<header class="article-header">
-											<h1><?php _e( 'Oops, Post Not Found!', 'bonestheme' ); ?></h1>
-										</header>
-										<section class="entry-content">
-											<p><?php _e( 'Uh Oh. Something is missing. Try double checking things.', 'bonestheme' ); ?></p>
-										</section>
-										<footer class="article-footer">
-												<p><?php _e( 'This is the error message in the archive.php template.', 'bonestheme' ); ?></p>
-										</footer>
-									</article>
-
-							<?php endif; ?>
-
-						</main>
-
-					
-
-				</div>
+      </article>
+    </div>
+    <?php endwhile; ?>
+    <?php bones_page_navi(); ?>
+    <?php else : ?>
+   
+    <?php endif; ?>
+    </main>
+  </div>
 </div>
-			</div>
-
+</div>
 <?php get_footer(); ?>

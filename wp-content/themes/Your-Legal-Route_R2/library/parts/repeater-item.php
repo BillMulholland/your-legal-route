@@ -22,7 +22,7 @@ if( !empty($image) ): ?>
   <?php /*?><span style="text-transform: uppercase"><?php echo $content[0]->taxonomy;?> </span>/ <?php */?>
   <a href="/topic/<?php echo $tax_slug?>"> <?php echo $tax_name?></a></h6>
 <?php echo $tax_description?>
-<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+
 <div style="clear:both"> <sub style="text-transform: uppercase; color:#919191"><a href="/topic/<?php echo $tax_slug ?>">Show all from <?php echo $content[0]->name;?></a></sub></div>
 <hr/>
 <?php wp_reset_postdata();?>

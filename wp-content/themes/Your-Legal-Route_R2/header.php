@@ -68,15 +68,13 @@
     </div>
   </nav>
 </header>
-<div class="container"> 
-<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
-
-<? if (!is_front_page()) 
+<div class="container">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+    <div id="header_crumbs" class="row">
+      <? if (!is_front_page()) 
     
 	yoast_breadcrumb();
 ?>
-
-    
-     
-    </div></div>
-
+    </div>
+  </div>
+</div>

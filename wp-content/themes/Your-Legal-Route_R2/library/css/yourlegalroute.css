@@ -19,3 +19,31 @@ hr.spacer {
   padding: 30px;
   margin-top: 50px;
 }
+#disclaimer {
+  background-color: rgba(250, 174, 11, 0.45);
+  padding: 10px;
+  margin-top: 50px;
+}
+#disclaimer p {
+  font-size: 12px;
+  line-height: normal !important;
+}
+#bottom_download {
+  margin: 30px 0px;
+}
+#footer_crumbs {
+  font-size: 12px;
+  background: #dddede;
+  padding: 10px 0px;
+}
+#header_crumbs {
+  font-size: 12px;
+  padding: 10px 0px;
+  color: #bdc3c7;
+}
+#header_crumbs a:link {
+  color: #bdc3c7;
+}
+#header_crumbs a:hover {
+  color: rgba(250, 174, 11, 0.85);
+}
