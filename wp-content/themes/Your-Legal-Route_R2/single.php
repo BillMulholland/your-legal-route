@@ -6,7 +6,7 @@
   <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 " >
       <div class=" img-rounded" style=" background-image:url(<?php echo $image[0]; ?>);height:460px; margin-bottom:50px">
-        <div id="cta" class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-md-offset-5 col-lg-offset-6 img-rounded" >
+        <div id="cta" class="col-xs-12 col-sm-12 col-md-6 col-lg-5 col-md-offset-1 col-lg-offset-1 img-rounded" >
           <p class="lead">
           <h2 class="pagetitle">
             <?php the_title(); ?>
@@ -29,6 +29,9 @@ endif;?>
   <div class="row">
     <main id="main" class="col-xs-12 col-sm-9 col-md-9 col-lg-9 ">
       <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+       <div id="post_header" >
+        <?php the_field('post_header', 'option'); ?>
+      </div>
       <?php  the_content(); ?>
       <div id="disclaimer" class="img-rounded">
         <?php the_field('post_disclaimer', 'option'); ?>
