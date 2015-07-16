@@ -19,6 +19,9 @@ hr.spacer {
   padding: 30px;
   margin-top: 50px;
 }
+.article_archive {
+  min-height: 450px;
+}
 #disclaimer {
   background-color: rgba(250, 174, 11, 0.45);
   padding: 10px;
