@@ -24,7 +24,7 @@
 				'hierarchical' 		=> true,
 				'show_tagcloud' 	=> true,
 				'show_in_nav_menus' => true,
-				'rewrite' 			=> array('slug' => 'topic', 'with_front' => false ),
+				'rewrite' 			=> array('slug' => 'topic', 'with_front' => true ),
 			 );
 			register_taxonomy('topic', $pages, $args);
 		}
