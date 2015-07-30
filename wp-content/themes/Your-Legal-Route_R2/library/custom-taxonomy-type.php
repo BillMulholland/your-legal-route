@@ -14,7 +14,7 @@
 				'not_found_in_trash' 	=> __( 'No Topic found in Trash' ),
 			);
 			
-			$pages = array('post','document');
+			$pages = array('post','document','guidance');
 			
 			$args = array(
 				'labels' 			=> $labels,
@@ -62,33 +62,33 @@
 //		add_action('init', 'register_industry_tax');
 
 		// registration code for resource taxonomy
-		function register_resource_tax() {
-			$labels = array(
-				'name' 					=> _x( 'Resources', 'taxonomy general name' ),
-				'singular_name' 		=> _x( 'Resource', 'taxonomy singular name' ),
-				'add_new' 				=> _x( 'Add New Resource', 'Resource'),
-				'add_new_item' 			=> __( 'Add New Resource' ),
-				'edit_item' 			=> __( 'Edit Resource' ),
-				'new_item' 				=> __( 'New Resource' ),
-				'view_item' 			=> __( 'View Resource' ),
-				'search_items' 			=> __( 'Search Resources' ),
-				'not_found' 			=> __( 'No Resource found' ),
-				'not_found_in_trash' 	=> __( 'No Resource found in Trash' ),
-			);
-			
-			$pages = array('post','document');
-			
-			$args = array(
-				'labels' 			=> $labels,
-				'singular_label' 	=> __('Resource'),
-				'public' 			=> true,
-				'show_ui' 			=> true,
-				'hierarchical' 		=> false,
-				'show_tagcloud' 	=> true,
-				'show_in_nav_menus' => true,
-				'rewrite' 			=> array('slug' => 'resources', 'with_front' => false ),
-			 );
-			register_taxonomy('resource', $pages, $args);
-		}
-		add_action('init', 'register_resource_tax');
+		//function register_resource_tax() {
+//			$labels = array(
+//				'name' 					=> _x( 'Resources', 'taxonomy general name' ),
+//				'singular_name' 		=> _x( 'Resource', 'taxonomy singular name' ),
+//				'add_new' 				=> _x( 'Add New Resource', 'Resource'),
+//				'add_new_item' 			=> __( 'Add New Resource' ),
+//				'edit_item' 			=> __( 'Edit Resource' ),
+//				'new_item' 				=> __( 'New Resource' ),
+//				'view_item' 			=> __( 'View Resource' ),
+//				'search_items' 			=> __( 'Search Resources' ),
+//				'not_found' 			=> __( 'No Resource found' ),
+//				'not_found_in_trash' 	=> __( 'No Resource found in Trash' ),
+//			);
+//			
+//			$pages = array('post','document','guidance');
+//			
+//			$args = array(
+//				'labels' 			=> $labels,
+//				'singular_label' 	=> __('Resource'),
+//				'public' 			=> true,
+//				'show_ui' 			=> true,
+//				'hierarchical' 		=> false,
+//				'show_tagcloud' 	=> true,
+//				'show_in_nav_menus' => true,
+//				'rewrite' 			=> array('slug' => 'resources', 'with_front' => false ),
+//			 );
+//			register_taxonomy('resource', $pages, $args);
+//		}
+//		add_action('init', 'register_resource_tax');
 ?>
