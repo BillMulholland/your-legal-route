@@ -6,6 +6,7 @@
     <?php $c = 1;
 $query = new WP_Query(array(
 'post__in'		=> $ids,
+'post_type' => 'guidance',
 	
 	'post_status'		=> 'any',
 	'orderby'			=>'post__in'
@@ -35,7 +36,7 @@ wp_reset_postdata();?>
 // The Query
 $query = new WP_Query(array(
 'post__in'		=> $ids,
-	
+	'post_type' => 'guidance',
 	'post_status'		=> 'any',
 	'orderby'			=>'post__in'
 ));

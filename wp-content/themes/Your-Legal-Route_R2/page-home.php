@@ -9,7 +9,30 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 " >
-        <?php include "library/parts/carousel.php" ?>
+      <?php 
+
+
+
+
+if(get_field('slider_or_single_image') == "single")
+{
+   include "library/parts/single.php" ;
+}
+
+if(get_field('slider_or_single_image') == "slider")
+{
+    include "library/parts/carousel.php" ;
+}
+
+
+
+?>
+      
+      
+      
+      
+      
+       
       </div>
     </div>
     <div class="row">

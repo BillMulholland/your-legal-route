@@ -1,4 +1,6 @@
 <?php get_header(); ?>
+
+
 <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>
 
 <div id="content">
@@ -10,15 +12,25 @@
           <p class="lead">
           <h2 class="pagetitle">
             <?php the_title(); ?>
+            
           </h2>
           </p>
           <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-          <?php     
+          
+        
+          
+           <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Download Now 
+</button>
+          
+          <?php /*?><?php     
 if( get_field('post_pdf_document') ):
     ?>
+    
+   
           <a href="<?php the_field('post_pdf_document'); ?>" class="btn btn-default"  target="_blank" > Download this as PDF </a>
           <?php
-endif;?>
+endif;?><?php */?>
           <?php endwhile; ?>
           <?php else : ?>
           <?php endif; ?>
@@ -42,14 +54,14 @@ if( get_field('post_disclaimer') ):
       
        <?php
 endif;?>
-      <?php     
+      <?php /*?><?php     
 if( get_field('post_pdf_document') ):
     ?>
       <div id="bottom_download">
-      <a href="<?php the_field('post_pdf_document'); ?>" class="btn btn-default"  target="_blank" > Download this as word document </a>
+      <a href="<?php the_field('post_pdf_document'); ?>" class="btn btn-default"  target="_blank" > Download this as PDF </a>
        </div>
       <?php
-endif;?>
+endif;?><?php */?>
       <?php endwhile; ?>
       <?php else : ?>
       <article id="post-not-found" class="hentry cf">
@@ -73,5 +85,8 @@ endif;?>
     </main>
     <?php get_sidebar(); ?>
  </div>
-</div>
+</div><!--  Modal call-->
+         <?php include "library/parts/modal.php" ;?>
+         
+          <!--  Modal call-->
 <?php get_footer(); ?>

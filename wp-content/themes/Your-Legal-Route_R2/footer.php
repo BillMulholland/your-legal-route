@@ -43,4 +43,8 @@
       })();
     </script>
 <?php wp_footer(); ?>
-</body></html>
+<a href="#0" class="cd-top img-rounded">Top</a>
+</body>
+
+
+</html>

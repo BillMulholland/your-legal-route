@@ -27,7 +27,7 @@ $image = get_field('tax_image',$value); ?>
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 article_archive" >
       <article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article">
         <header class="entry-header article-header">
-        <img class=" img-responsive img-rounded" src="<?php echo $image[0]; ?>"/>
+       <?php /*?> <img class=" img-responsive img-rounded" src="<?php echo $image[0]; ?>"/><?php */?>
         
       
           <h3 ><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
@@ -36,8 +36,8 @@ $image = get_field('tax_image',$value); ?>
         </header>
         <section class="entry-content cf">
           <?php /*?><?php the_post_thumbnail( 'bones-thumb-300' ); ?><?php */?>
-          <?php the_excerpt(); ?>
-          <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>" class="btn btn-primary btn-xs">Visit</a> </section>
+         <?php /*?> <?php the_excerpt(); ?><?php */?>
+          <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>" class="btn btn-primary btn-xs">More</a> </section>
         <hr/>
         <?php wp_reset_postdata(); ?>
       </article>

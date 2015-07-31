@@ -351,4 +351,16 @@ if( function_exists('acf_add_options_page') ) {
 	));
 	
 }
+
+add_filter( 'get_the_archive_title', function ( $title ) {
+
+    
+
+        $title = single_cat_title( '', false );
+
+  
+
+    return $title;
+
+});
 ?>
