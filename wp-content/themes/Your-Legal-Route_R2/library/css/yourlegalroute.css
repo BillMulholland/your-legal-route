@@ -52,7 +52,6 @@ hr.spacer {
   font-size: 12px;
   background: #dddede;
   padding: 10px 0px;
-  text-transform: uppercase;
   margin-top: 50px;
 }
 #header_crumbs {
@@ -73,12 +72,11 @@ hr.spacer {
   font-size: 10px;
   color: #999797;
   text-transform: uppercase;
-  float: right;
   padding-top: 10px;
-  margin-right: 10px;
+  margin-left: 10px;
 }
 .document_type .fui-info-circle {
-  font-size: 18px;
+  font-size: 16px;
 }
 .wide {
   padding-right: 30px;

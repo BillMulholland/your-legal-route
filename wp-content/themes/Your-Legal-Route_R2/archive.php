@@ -44,7 +44,10 @@ $image = get_field('tax_image',$value); ?>
          <?php the_excerpt(); ?>
           <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>" class="btn btn-primary btn-xs">More</a> 
           
-           <?php include "library/parts/document_icons.php" ?>
+           <span style="font-size:10px;text-transform:uppercase">
+<?php echo get_post_type( $post ) ?>
+
+
          
 
 

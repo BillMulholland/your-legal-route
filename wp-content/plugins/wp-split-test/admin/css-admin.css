@@ -1,0 +1,125 @@
+
+.bhittani-framework 
+.bf-wrap {
+	width: auto;
+}
+
+.bhittani-framework 
+._hidden {
+	display: none;
+}
+
+.bhittani-framework 
+.button-primary {
+	color: #FFF;
+}
+
+.bhittani-framework 
+.bf_container 
+.bf_box 
+.bf_aside {
+	width: 400px;
+    background-color: #F4F4F4;
+    color: #333;
+}
+
+.bhittani-framework 
+.bf-wrap-small {
+	display: none;
+}
+
+.bhittani-framework 
+.bf_head 
+.bf_logo h3 {
+	font-size: 22px;
+	line-height: 30px;
+}
+
+.bhittani-framework 
+.bf_head 
+ul.bf_navs 
+li {
+	margin-top: 0px;
+}
+
+.bf_box input, 
+.bf_box select, 
+.bf_box textarea {
+	width: 280px;
+}
+
+.bf_box input.chkbox, 
+.bf_box input.rad {
+	width: 48px;
+}
+
+.bf_box input.color {
+	width: 80px;
+}
+
+.bf-image {
+	width: 240px;
+	max-width: 240px !important;
+}
+
+.bf_box input.button {
+	width: auto;
+}
+
+.bf_box h5 {
+	color: #CCC;
+	font-size: 18px;
+	line-height: 27px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}
+
+.bf_box table.widefat tr th {
+	background-color: #F4F4F4;
+        background-image: -ms-linear-gradient(top,#F9F9F9,#F4F4F4);
+        background-image: -moz-linear-gradient(top,#F9F9F9,#F4F4F4);
+        background-image: -o-linear-gradient(top,#F9F9F9,#F4F4F4);
+        background-image: -webkit-gradient(linear,left top,left bottom,from(#F9F9F9),to(#F4F4F4));
+        background-image: -webkit-linear-gradient(top,#F9F9F9,#F4F4F4);
+        background-image: linear-gradient(top,#F9F9F9,#F4F4F4);
+}
+.bf_box table.widefat tr {
+	background-color: #FAFAFA;
+}
+.bf_box table.widefat tr:nth-child(odd) {
+	background-color: #FFF;
+}
+.bf_box table.widefat tr:hover {
+	background-color: #FFFFEA;
+}
+.bf_box table.widefat tr td {
+	padding: 10px;
+}
+	
+.bf-red {
+	padding: 10px;
+	background-color: #F00;
+	font-size: 16px;
+	font-weight: bold;
+}
+.bf-orange {
+	padding: 10px;
+	background-color: #F90;
+	font-size: 16px;
+	font-weight: bold;
+}
+.bf-green {
+	padding: 10px;
+	background-color: #3C3;
+	font-size: 16px;
+	font-weight: bold;
+}
+	
+	
+	
+	
+	
+	
+	

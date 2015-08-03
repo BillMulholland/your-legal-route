@@ -1,5 +1,4 @@
 <!doctype html>
-
 <!--[if lt IE 7]><html <?php language_attributes(); ?> class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
 <!--[if (IE 7)&!(IEMobile)]><html <?php language_attributes(); ?> class="no-js lt-ie9 lt-ie8"><![endif]-->
 <!--[if (IE 8)&!(IEMobile)]><html <?php language_attributes(); ?> class="no-js lt-ie9"><![endif]-->
@@ -73,7 +72,6 @@
   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
     <div id="header_crumbs" class="row">
       <? if (!is_front_page()) 
-    
 	yoast_breadcrumb();
 ?>
     </div>

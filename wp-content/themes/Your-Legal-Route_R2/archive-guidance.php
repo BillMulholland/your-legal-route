@@ -65,7 +65,18 @@ echo category_description( $category->term_taxonomy_id );
                   ORDER BY post_date DESC";
     $posts = $wpdb->get_results($querystr, OBJECT);
 
-  echo '<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 " ><ul >';
+
+
+
+	
+
+
+
+
+
+
+
+  echo '<ul >';
        foreach ( $posts as $post ) {
            setup_postdata($post);  
 
@@ -76,7 +87,7 @@ echo category_description( $category->term_taxonomy_id );
                 <?php include "library/parts/document_icons.php";  echo '</li>';
 
                 }
-   echo '</ul></div>';
+   echo '</ul>';
 
 $categories2 = get_terms('topic',array('parent' => $category->term_id ));
 
@@ -92,7 +103,7 @@ echo '<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 article_archive_root" ><
 
 $posts = get_posts( array( 'topic' => $category->name, 'post_type' => 'guidance' ) );  
 
-    echo '<ul>';
+    echo '<ul><li>';
         foreach($posts as $post) { 
             setup_postdata($post);  
 		
@@ -104,7 +115,7 @@ $posts = get_posts( array( 'topic' => $category->name, 'post_type' => 'guidance'
 	   echo '</a></li>';
 
                 }
-    echo '</ul></div>';
+    echo '</li></ul></div>';
 
 }
 }

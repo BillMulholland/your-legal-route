@@ -45,9 +45,9 @@ endif;?>
       <?php     
 if( get_field('post_pdf_document') ):
     ?>
-      <div id="bottom_download">
+      <?php /*?><div id="bottom_download">
       <a href="<?php the_field('post_pdf_document'); ?>" class="btn btn-default"  target="_blank" > Download this as word document </a>
-       </div>
+       </div><?php */?>
       <?php
 endif;?>
       <?php endwhile; ?>

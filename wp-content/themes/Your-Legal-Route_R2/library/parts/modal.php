@@ -16,6 +16,14 @@ if( get_field('post_pdf_document') ):
     
    
           <a href="<?php the_field('post_pdf_document'); ?>" class="btn btn-default"  target="_blank" > Clkick here to download this as a word document. </a>
+          
+          <?php else: // field_name returned false ?>
+          
+          
+   
+   Thank you for requesting this document. We are really sorry: it isn't quite ready for downloading. Enter your email address below and we will let you know as soon as it is.
+   <?php echo do_shortcode('[ARForms id=107]'); ?>
+   
           <?php
 endif;?>
       </div>

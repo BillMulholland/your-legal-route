@@ -19,9 +19,16 @@
           
         
           
-           <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+<?php /*?>   <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
   Download Now 
 </button>
+ <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#Modalbuy">
+ Download NOW for £12.99
+</button><?php */?>
+
+<?php echo do_shortcode('[mo_cta id=790]'); ?>
+
+
           
           <?php /*?><?php     
 if( get_field('post_pdf_document') ):
@@ -87,6 +94,7 @@ endif;?><?php */?>
  </div>
 </div><!--  Modal call-->
          <?php include "library/parts/modal.php" ;?>
+          <?php include "library/parts/modalbuy.php" ;?>
          
           <!--  Modal call-->
 <?php get_footer(); ?>

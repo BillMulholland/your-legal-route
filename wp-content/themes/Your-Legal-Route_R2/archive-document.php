@@ -21,6 +21,7 @@ $image = get_field('documents_image', 'option');
   </div>
   <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 " >
+    <div class="row">
       <?php
 
 $args=array(
@@ -60,16 +61,16 @@ echo category_description(  );
                   ORDER BY post_date DESC";
     $posts = $wpdb->get_results($querystr, OBJECT);
 
-  echo '<ul>';
+  echo '<ul><ul>';
        foreach ( $posts as $post ) {
            setup_postdata($post);  
 
                echo '<li>'; the_title(); include "library/parts/document_icons.php";  echo '</li>';
 
                 }
-   echo '</ul>';
+   echo '</ul></ul>';
 
-$categories2 = get_terms('topic',array('parent' => $category->term_id , 'hide_empty'=> '1' ));
+$categories2 = get_terms('topic',array('parent' => $category->term_id , 'hide_empty'=> '0' ));
 
 foreach ( $categories2 as $category ) {
 	
@@ -79,7 +80,7 @@ foreach ( $categories2 as $category ) {
 
 	
 
-echo '<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 " ><h3> <a href="/topic/'. $new_url.'">' . $category->name . '</a></h3>';
+echo '<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" ><h3> <a href="/topic/'. $new_url.'">' . $category->name . '</a></h3>';
 
 $posts = get_posts( array( 'topic' => $category->name, 'post_type' => 'document' ) );  
 
@@ -102,32 +103,8 @@ $posts = get_posts( array( 'topic' => $category->name, 'post_type' => 'document'
 
 ?>
     </div>
-  </div>
-  <?php /*?>
-  <div class="row">
-    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-    <?php $image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' ); ?>
-    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 article_archive" >
-      <article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article">
-        <header class="entry-header article-header"> <img class=" img-responsive img-rounded" src="<?php echo $image[0]; ?>"/>
-          <h3 ><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">
-            <?php the_title(); ?>
-            </a></h3>
-        </header>
-        <section class="entry-content cf">
-          <?php /*?><?php the_post_thumbnail( 'bones-thumb-300' ); ?>
-          <?php the_excerpt(); ?>
-          <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>" class="btn btn-primary btn-xs">Visit</a> </section>
-        <hr/>
-        <?php wp_reset_postdata(); ?>
-      </article>
-    </div>
-    <?php endwhile; ?>
-    <?php bones_page_navi(); ?>
-    <?php else : ?>
-    <?php endif; ?>
-    </main>
-  </div><?php */?>
+  </div></div>
+ 
 </div>
 </div>
 <?php get_footer(); ?>
