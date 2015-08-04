@@ -35,7 +35,7 @@ $args=array(
 'orderby'                  => 'name',
 'order'                    => 'ASC',
 'hide_empty'               => 0,
-'hierarchical'             => 1,
+'hierarchical'             => 0,
 'exclude'                  => '',
 'include'                  => '',
 'number'                   => '',
@@ -103,7 +103,7 @@ echo '<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 article_archive_root" ><
 
 $posts = get_posts( array( 'topic' => $category->name, 'post_type' => 'guidance' ) );  
 
-    echo '<ul><li>';
+    echo '<ul>';
         foreach($posts as $post) { 
             setup_postdata($post);  
 		
@@ -115,7 +115,7 @@ $posts = get_posts( array( 'topic' => $category->name, 'post_type' => 'guidance'
 	   echo '</a></li>';
 
                 }
-    echo '</li></ul></div>';
+    echo '</ul></div>';
 
 }
 }
