@@ -19,14 +19,25 @@
           
         
           
-<?php /*?>   <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+ <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
   Download Now 
 </button>
- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#Modalbuy">
- Download NOW for £12.99
-</button><?php */?>
 
-<?php echo do_shortcode('[mo_cta id=790]'); ?>
+
+
+
+
+
+
+
+
+
+
+ <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#Modalbuy" onclick="_mktz.push(['_Goal','click-to-pay','VALUE']);">
+ Download NOW for £12.99
+</button>
+
+
 
 
           

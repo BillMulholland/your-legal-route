@@ -21,8 +21,8 @@ $image = get_field('documents_image', 'option');
   </div>
   <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 " >
-    <div class="row">
-      <?php
+      <div class="row">
+        <?php
 
 $args=array(
 'post_type'                => 'document',
@@ -30,8 +30,8 @@ $args=array(
 'parent'                   => '',
 'orderby'                  => 'name',
 'order'                    => 'ASC',
-'hide_empty'               => 1,
-'hierarchical'             => 1,
+'hide_empty'               => 0,
+'hierarchical'             => 0,
 'exclude'                  => '',
 'include'                  => '',
 'number'                   => '',
@@ -46,9 +46,11 @@ foreach ( $categories as $category ) {
 if ( $category->parent > 0 ) {
     continue;   
 }
+
  $new_urlh2 = sanitize_title($category->name);
 //echo '<hr style="clear:both"/><h2>' . $category->name . '</h2>';
-echo '<hr style="clear:both"><h2> <a href="/topic/'. $new_urlh2.'">' . $category->name . '</a></h2>';
+echo '<hr style="clear:both"><h2 > <a href="/topic/'. $new_urlh2.'">' . $category->name. '</a></h2>'; $cat = $category->term_id;
+	echo $cat;
 echo category_description(  ); 
 
     $querystr = "SELECT $wpdb->posts.*
@@ -60,29 +62,37 @@ echo category_description(  );
                   AND post_status = 'publish'
                   ORDER BY post_date DESC";
     $posts = $wpdb->get_results($querystr, OBJECT);
+	
+	
 
-  echo '<ul><ul>';
+  echo '<ul >';
        foreach ( $posts as $post ) {
            setup_postdata($post);  
 
-               echo '<li>'; the_title(); include "library/parts/document_icons.php";  echo '</li>';
+               echo '<li>';?>
+        <a href="<?php echo get_permalink();?>">
+        <?php the_title();?>
+        </a>
+        <?php include "library/parts/document_icons.php";  echo '</li>';
 
                 }
-   echo '</ul></ul>';
-
-$categories2 = get_terms('topic',array('parent' => $category->term_id , 'hide_empty'=> '0' ));
-
-foreach ( $categories2 as $category ) {
+   echo '</ul>';
+   
+  
+   ?>
+        <?php  $categories2 = get_terms_per_post_type( 'topic', array('parent' => $cat, 'post_type' => 'document',  ) );
+print_r($categories2)
+  
+?>
+        <?php foreach ( $categories2 as $term ) {
 	
-	
-  $new_url = sanitize_title($category->name);
- 
+	echo '<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" ><h3> 
+<a href="/topic/'.$term->slug .'">' ?>
+        <?php echo "$term->name ( $term->count_type ) </br>"; ?> </a>
+        </h3>
+        <?php
 
-	
-
-echo '<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" ><h3> <a href="/topic/'. $new_url.'">' . $category->name . '</a></h3>';
-
-$posts = get_posts( array( 'topic' => $category->name, 'post_type' => 'document' ) );  
+$posts = get_posts( array( 'topic' => $term->slug, 'post_type' => 'document',  ) );  
 
      echo '<ul>';
         foreach($posts as $post) { 
@@ -90,21 +100,22 @@ $posts = get_posts( array( 'topic' => $category->name, 'post_type' => 'document'
 		
 
                 echo '<li> '?>
-      <a  title="<?php the_title() ?>" href="<?php echo get_permalink();?>">
-      <?php  the_title(); 
+        <a  title="<?php the_title() ?>" href="<?php echo get_permalink();?>">
+        <?php  the_title(); 
 	  include "library/parts/document_icons.php";
 	   echo '</a></li>';
 
                 }
     echo '</ul></div>';
 
+	
+	
 }
-}
-
-?>
+	
+}?>
+      </div>
     </div>
-  </div></div>
- 
+  </div>
 </div>
 </div>
 <?php get_footer(); ?>

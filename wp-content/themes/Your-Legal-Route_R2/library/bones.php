@@ -363,4 +363,41 @@ add_filter( 'get_the_archive_title', function ( $title ) {
     return $title;
 
 });
+
+
+
+
+function get_terms_per_post_type( $taxonomies, $args=array() ) {
+    //Parse $args in case its a query string.
+    $args = wp_parse_args($args);
+
+    if( !empty( $args['post_type'] ) ){
+
+        $args['post_type'] = (array)$args['post_type'];
+
+        add_filter( 'terms_clauses', function ( $pieces, $tax, $args){
+            global $wpdb;
+
+            //Don't use db count
+            $pieces['fields'] .= ", COUNT(*) AS count_type" ;
+
+            //Join extra tables to restrict by post type.
+            $pieces['join'] .= " INNER JOIN $wpdb->term_relationships AS r ON r.term_taxonomy_id = tt.term_taxonomy_id 
+                                 INNER JOIN $wpdb->posts AS p ON p.ID = r.object_id ";
+
+            //Restrict by post type and Group by term_id for COUNTing.
+            $post_type = implode( ',', $args['post_type'] );
+            $pieces['where'] .= $wpdb->prepare( " AND p.post_type IN(%s) GROUP BY t.term_id", $post_type );
+
+            remove_filter( current_filter(), __FUNCTION__ );
+
+            return $pieces;
+
+        }, 10, 3 );
+
+    }
+
+    return get_terms($taxonomies, $args);           
+}
+
 ?>
