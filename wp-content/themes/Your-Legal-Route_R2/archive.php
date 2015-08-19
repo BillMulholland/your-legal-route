@@ -44,8 +44,8 @@ $image = get_field('tax_image',$value); ?>
          <?php the_excerpt(); ?>
           <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>" class="btn btn-primary btn-xs">More</a> 
           
-           <span style="font-size:10px;text-transform:uppercase">
-<?php echo get_post_type( $post ) ?>
+           <div style="font-size:10px;text-transform:uppercase; float:right">
+<?php echo get_post_type( $post ) ?></div>
 
 
          
@@ -57,7 +57,10 @@ $image = get_field('tax_image',$value); ?>
       </article>
     </div>
     <?php endwhile; ?>
+    
+   <div style="clear:both">
     <?php bones_page_navi(); ?>
+    </div>
     <?php else : ?>
     <?php endif; ?>
     </main>

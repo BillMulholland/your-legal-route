@@ -12,7 +12,10 @@
  * not required. It's your world baby, you can do whatever you want.
 */
 
-
+function submitDetailsForm() {
+      jQuery("#mega_main_menu_searchform").submit();
+    }
+	
 /*
  * Get Viewport Dimensions
  * returns object with viewport dimensions to match css in width and height properties
@@ -140,25 +143,21 @@ jQuery(document).ready(function($) {
 		);
 	});
 
-	
+//(function(){
+//        minigrid('.grid', '.grid-item');
+//   
+//        window.addEventListener('resize', function(){
+//          minigrid('.grid', '.grid-item');
+//        });
+//      })();
 
-//$(function() {;
-//  $('a[href*=#]:not([href=#])').click(function() {
-//    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {;
-//      var target = $(this.hash);
-//      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-//      if (target.length) {
-//        $('html,body').animate({
-//          scrollTop: target.offset().top
-//        }, 1000);
-//        return false;
-//      }
-//    }
-//  });
-//});
+
+
+
 
 $('.carousel').carousel();
 
 
 }); /* end of as page load scripts */
 
+ 

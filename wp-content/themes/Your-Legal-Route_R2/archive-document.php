@@ -12,20 +12,22 @@ $image = get_field('documents_image', 'option');
         <div id="cta" class="col-xs-10 col-sm-10 col-md-6 col-lg-7 col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1 img-rounded" >
           <p class="lead">
           <h2  class="pagetitle">
-            <?php post_type_archive_title(); ?>
+            Create Legal Documents
             
              <?php
 							the_archive_title( '<h2 class="pagetitle">', '</h2>' );
 							the_archive_description( '<div class="taxonomy-description">', '</div>' );
 							?>
           </h2>
+          
+          <span style="color:white">Trustworthy documents for you to download, edit and complete.</span>
           </p>
         </div>
       </div>
     </div>
   </div>
   <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 " >
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 grid" >
       <?php
 
 $args=array(
@@ -99,7 +101,7 @@ foreach ( $categories2 as $category ) {
 
 	
 
-echo '<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 article_archive_root" id=term'. $category->term_id.'><h3 class="'.$category->term_id.'"> <a href="/topic/'. $new_url.'">' . $category->name . '</a></h3>';
+echo '<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 article_archive_root grid-item" id=term'. $category->term_id.'><h3 class="'.$category->term_id.'"> <a href="/topic/'. $new_url.'">' . $category->name . '</a></h3>';
 
 $posts = get_posts( array( 'topic' => $category->slug, 'post_type' => 'document' ) );  
 //var_dump($posts);

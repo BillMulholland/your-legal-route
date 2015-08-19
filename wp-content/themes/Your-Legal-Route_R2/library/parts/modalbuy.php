@@ -19,7 +19,7 @@ if( get_field('post_pdf_document') ):
     ?>
     
    Thank you for requesting this document. Our service is still being designed so we are delighted to be able to give this information for free today. <br/>
-          <a href="<?php the_field('post_pdf_document'); ?>" class="btn btn-default"  target="_blank" > Click here to download this as a word document. </a>
+          <a href="<?php the_field('post_pdf_document'); ?>" class="btn btn-default"  target="_blank" > Click HERE to download </a>
           
    <?php else: // field_name returned false ?>
    

@@ -7,6 +7,11 @@
 <!--<![endif]-->
 
 <head>
+
+<!-- start marketizator.com code -->
+<link rel="dns-prefetch" href="//app.marketizator.com"/>    
+<script type="text/javascript" src="//d2tgfbvjf3q6hn.cloudfront.net/js/45c418.js"></script>
+<!-- end marketizator.com code -->
 <meta charset="utf-8">
 <?php // force Internet Explorer to use the latest rendering engine available ?>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -38,10 +43,10 @@
 <body <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage">
 <header class="header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
   <nav class="navbar navbar-default" role="navigation">
-    <div class="container"> 
-     <div class="row">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <?php /*?>  <div class="navbar-header">
+    <div class="container">
+      <div class="row"> 
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <?php /*?>  <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
@@ -52,7 +57,7 @@
              <?php /*?>   <?php bloginfo('name'); ?>
             <img src="<?php echo get_template_directory_uri(); ?>/library/images/logo.png" alt="Your Legal Route" width="250" height="45" id="logo"/>            </a
 <?php */?>
-      <?php
+        <?php
             wp_nav_menu( array(
                 'menu' => __( 'The Main Menu', 'bonestheme' ),  // nav name
                  'theme_location' => 'main-nav',  
@@ -65,20 +70,34 @@
                 'walker'            => new wp_bootstrap_navwalker())
             );
         ?>
-    </div></div>
-  </nav>
+      </div>
+    </div>
+ 
+ </nav>
 </header>
-<div class="container">
-  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >   <? if (is_front_page()) 
-	echo ' <h4> The only place to go for reliable legal support for your business</h4>'
-?>
-  
-   
-    <div id="header_crumbs" class="row">
-      <? if (!is_front_page()) 
+ <div class="strapline" >
+  <div class="container">
+    <div class="row" >
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+        <h4 class="strap"> The only place to go for reliable legal support for your business</h4>
+      </div>
+    </div>
+    </div>
+    </div> 
+    <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" >
+        <div id="header_crumbs">
+          <? if (!is_front_page()) 
 	yoast_breadcrumb();
 ?>
+        </div>
+      </div>
     </div>
   </div>
+  
+<div id="slideout">
+ <?php echo maincontroller::get_form_shortcode_popup(array('id' => '108', 'desc'=>'Feedback', 'type'=>'link', 'height'=>'650', 'width'=>'800')); ?>
 
 </div>
+

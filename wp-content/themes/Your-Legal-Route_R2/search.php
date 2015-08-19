@@ -27,8 +27,8 @@
 <hr>
 <?php endwhile; ?>
 <?php bones_page_navi(); ?>
-<?php else : ?>
-s the error message in the search.php template.', 'bonestheme' ); ?>
+<?php else : ?><br/><br/><p>
+Sorry there where no results found.
 </p>
 </footer>
 </article>
