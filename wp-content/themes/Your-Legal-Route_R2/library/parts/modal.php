@@ -15,7 +15,7 @@ if( get_field('post_pdf_document') ):
     ?>
     
    
-          <a href="<?php the_field('post_pdf_document'); ?>" class="btn btn-default"  target="_blank" > Clkick here to download this as a word document. </a>
+          <a href="<?php the_field('post_pdf_document'); ?>" class="btn btn-default"  target="_blank" > Click here to download this as a word document. </a>
           
           <?php else: // field_name returned false ?>
           

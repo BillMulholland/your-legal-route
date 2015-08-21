@@ -97,7 +97,7 @@
   </div>
   
 <div id="slideout">
- <?php echo maincontroller::get_form_shortcode_popup(array('id' => '108', 'desc'=>'Feedback', 'type'=>'link', 'height'=>'650', 'width'=>'800')); ?>
+ <?php echo maincontroller::get_form_shortcode_popup(array('id' => '108', 'desc'=>'Feedback', 'type'=>'link', 'height'=>'640', 'width'=>'800')); ?>
 
 </div>
 

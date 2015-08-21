@@ -192,7 +192,12 @@ Main components
 
 .navbar {margin-bottom:0px!important}
 
+#slideout {display:none}
+
+
+@media only screen and (min-width: 768px) {
 #slideout {
+	display:inline-block;
   position: fixed;
   top: 50%;
   left: 0;
@@ -210,3 +215,5 @@ Main components
   border-bottom-right-radius: 5px;
   color: white !important;
 }
+}
+

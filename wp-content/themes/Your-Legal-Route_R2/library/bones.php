@@ -147,7 +147,8 @@ function bones_scripts_and_styles() {
 //adding scripts file in the footer
 		wp_register_script( 'flatui-js', get_stylesheet_directory_uri() . '/library/js/libs/flat-ui-pro.min.js', array( 'jquery' ), '', true );
 		
-		wp_register_script( 'grid-js', get_stylesheet_directory_uri() . '/library/js/minigrid.min.js', array( 'jquery' ), '', true );
+		//wp_register_script( 'tracking', get_stylesheet_directory_uri() . '/library/js/tracking.js', array( 'jquery' ), '', true );
+		//wp_register_script( 'grid-js', get_stylesheet_directory_uri() . '/library/js/minigrid.min.js', array( 'jquery' ), '', true );
 		
 		//adding scripts file in the footer
 		
@@ -159,7 +160,7 @@ function bones_scripts_and_styles() {
 		//wp_register_script( 'form-js', get_stylesheet_directory_uri() . '/library/js/jquery.form-abandonment.js', array( 'jquery' ), '', true );
 		
 		//adding scripts file in the footer
-	wp_register_script( 'mouseflow-js', get_stylesheet_directory_uri() . '/library/js/mouseflow.js', array( 'jquery' ), '', true );
+	//wp_register_script( 'mouseflow-js', get_stylesheet_directory_uri() . '/library/js/mouseflow.js', array( 'jquery' ), '', true );
 		
 		
 		// enqueue styles and scripts
@@ -181,11 +182,12 @@ function bones_scripts_and_styles() {
 		*/
 		wp_enqueue_script( 'jquery' );
 		wp_enqueue_script( 'flatui-js' );
+	//	wp_enqueue_script( 'tracking' );
 		
 		//wp_enqueue_script( 'ga-js' );
-		wp_enqueue_script( 'mouseflow-js' );
+		//wp_enqueue_script( 'mouseflow-js' );
 		wp_enqueue_script( 'bones-js' );
-wp_enqueue_script( 'grid-js' );
+//wp_enqueue_script( 'grid-js' );
 	}
 }
 

@@ -37,5 +37,5 @@
     </div>
   </div>
 </div>
-<script src="//cdn-static.formisimo.com/tracking/js/tracking.js"></script>
+
 <?php get_footer(); ?>
