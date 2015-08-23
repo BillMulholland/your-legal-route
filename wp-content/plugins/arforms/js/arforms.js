@@ -1634,9 +1634,15 @@ function go_next(id, object)
         //---------- for conditional logic ----------//
         jQuery(object).find('.page_break').css('display', 'none');
         if (jQuery.isFunction(jQuery().effect)) {
+            
+            jQuery(object).find('#page_' + id).css('display', 'block');
+            jQuery(object).find('#page_' + id + ' .arfformfield').css('display', 'block');
+	    jQuery(object).find('#page_' + id + ' .arf_heading_div').css('display', 'block');
             jQuery(object).find('#page_' + id).effect("slide", {"direction": "left"}, 500);
         } else {
             jQuery(object).find('#page_' + id).css('display', 'block');
+            jQuery(object).find('#page_' + id + ' .arfformfield').css('display', 'block');
+	    jQuery(object).find('#page_' + id + ' .arf_heading_div').css('display', 'block');
         }
         if (jQuery(object).find('#arf_wizard_table, #arf_progress_bar').first().is(':visible'))
         {
