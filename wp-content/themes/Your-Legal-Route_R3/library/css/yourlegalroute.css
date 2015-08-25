@@ -222,6 +222,10 @@ a.cd-top {
     -moz-border-radius-bottomright: 5px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+  }
+  #slideout a {
     color: white !important;
+    transform: rotate(90deg);
+    transform-origin: left top 0;
   }
 }
